@@ -1,6 +1,6 @@
 # D3sign Dao Studio
 
-### ⭐ vision
+### ⭐ VISION
 
 Accessibility:
 Allows you around the world to experience contemporary and pop art collections without geographical limitations.
@@ -20,8 +20,6 @@ We are offering financial rewards to each other's art community activists. For e
 
 
 ### ⭐ ABOUT
-
-About D3sign DAO Studio
 
 D3sign DAO Studio is a forward-thinking digital art platform that brings together a global community of artists, showcasing their unique digital artwork to the world. We are dedicated to creating a decentralized and inclusive environment where artists and art enthusiasts alike can connect, collaborate, and grow together.
 
@@ -44,7 +42,7 @@ Global Governance Structure:
 D3sign DAO Studio's governance structure is designed to include individuals from various backgrounds, without the need for corporate authorization. This approach enables us to operate in the global market, promoting diversity and inclusivity in the art world.
 
 
-### ⭐ Artist
+### ⭐ ARTIST
 
 V1VI – Collage Art:
 The collage art of V1VI transports visitors to a realm of fantastical beauty with its visual symphony of forms, hues, and textures. V1VI painstakingly fuses antique and modern elements to produce thought-provoking works that push the limits of conventional art genres.

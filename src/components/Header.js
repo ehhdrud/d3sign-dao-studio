@@ -1,6 +1,7 @@
 import React from "react";
-import Category from "./Category";
-import Logo from "./Logo";
+import Category from "./headerComponents/Category";
+import Logo from "./headerComponents/Logo";
+import Sns from "./headerComponents/Sns";
 import "../styles/Header.css";
 
 export default function Header(props) {
@@ -8,6 +9,7 @@ export default function Header(props) {
     <div className="header">
       <Logo />
       <Category />
+      <Sns />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../images/logo.jpg";
-import "../styles/Logo.css";
+import logo from "../../images/d3-logo.jpg";
+import "../../styles/Logo.css";
 
 export default function Logo() {
   return (

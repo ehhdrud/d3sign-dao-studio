@@ -1,0 +1,12 @@
+.category {
+  display: flex;
+  justify-content: space-around;
+}
+
+.category a {
+  margin-right: 150px;
+  text-decoration: none; /* 밑줄 제거 */
+  color: #000; /* 링크 색상 */
+  font-size: 16px; /* 폰트 크기 */
+  font-weight: bold; /* 폰트 굵기 */
+}

@@ -1,14 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/Category.css";
 
-export default function Category(props) {
+export default function Category() {
   return (
-    <div className="category">
-      <a href="#">⭐Vision</a>
-      <a href="#">⭐About</a>
-      <a href="#">⭐Artist</a>
-      <a href="#">⭐Marketplace</a>
-      <a href="#">⭐FAQ</a>
-    </div>
+    <nav className="category">
+      <Link className="link" to="/vision">
+        ⭐Vision
+      </Link>
+      <Link className="link" to="/about">
+        ⭐About
+      </Link>
+      <Link className="link" to="/artist">
+        ⭐Artist
+      </Link>
+      <Link className="link" to="/marketplace">
+        ⭐Marketplace
+      </Link>
+      <Link className="link" to="/faq">
+        ⭐FAQ
+      </Link>
+    </nav>
   );
 }

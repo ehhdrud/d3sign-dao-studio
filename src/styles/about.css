@@ -1,0 +1,22 @@
+.about {
+  font-family: Consolas;
+}
+
+.about .about-head {
+  margin: 10px 200px;
+}
+.about .about-head h1 {
+  font-size: 40px;
+}
+
+.about .about-head p {
+  font-size: 20px;
+}
+
+.about .about-body {
+  margin: 10px 225px;
+}
+
+.about .about-body h2 {
+  font-size: 20px;
+}

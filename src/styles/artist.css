@@ -1,0 +1,17 @@
+.artist {
+  margin: 10px 200px;
+  font-family: Consolas;
+}
+
+.artist h1 {
+  font-size: 40px;
+}
+
+.artist .name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.artist .genre {
+  font-style: italic;
+}

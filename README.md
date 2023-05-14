@@ -68,5 +68,5 @@ Watercolor paintings by MIRR0R are serene and graceful, with delicate colors ble
 Paul0 - Expressionism:
 Through vivid colors and strong brushstrokes, Paul's expressionist artwork delves deeply into the human psyche, revealing raw emotions and untold stories. Paul's art challenges viewers to examine their own perceptions and experiences using a style that is both seductive and intriguing.
 
-R1N - Future-Oriented:
+R1N - Future Oriented:
 A visionary artist who brings life to future cities and mecca girls. Their fascinating work mixes the beauty of science fiction with complex mechanical and robotic elements. Experience the art of R1N's endless possibilities and imaginative creations.

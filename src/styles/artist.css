@@ -14,9 +14,12 @@
 
 .artist .genre {
   font-style: italic;
+  font-weight: bold;
   margin-left: 35px;
 }
 
 .artist p {
   margin-left: 40px;
+  font-style: italic;
+  font-weight: bold;
 }

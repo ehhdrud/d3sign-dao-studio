@@ -5,13 +5,18 @@
 
 .artist h1 {
   font-size: 40px;
+  margin-bottom: 50px;
 }
 
-.artist .name {
+.artist span {
   font-size: 18px;
-  font-weight: bold;
 }
 
 .artist .genre {
   font-style: italic;
+  margin-left: 35px;
+}
+
+.artist p {
+  margin-left: 40px;
 }

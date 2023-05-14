@@ -4,11 +4,12 @@ import Header from "./components/Header";
 import Vision from "./components/headerComponents/categoryPage/Vision";
 import About from "./components/headerComponents/categoryPage/About";
 import Artist from "./components/headerComponents/categoryPage/Artist";
+import Body from "./components/Body";
 import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
         <Header />
         <Routes>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/artist" element={<Artist />} />
         </Routes>
+        <Body />
       </BrowserRouter>
     </div>
   );

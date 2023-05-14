@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../styles/Category.css";
+import "../../styles/category.css";
 
 export default function Category() {
   return (

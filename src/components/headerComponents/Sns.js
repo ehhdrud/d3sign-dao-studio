@@ -2,7 +2,7 @@ import discordIcon from "../../images/discord.svg";
 import twitterIcon from "../../images/twitter.svg";
 import instagramIcon from "../../images/instagram.svg";
 import mediumIcon from "../../images/medium.svg";
-import "../../styles/Sns.css";
+import "../../styles/sns.css";
 
 export default function Sns() {
   return (

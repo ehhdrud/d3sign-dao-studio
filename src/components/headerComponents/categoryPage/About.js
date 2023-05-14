@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="about">
       <div className="about-head">
-        <h1>🤷‍♂️ About</h1>
+        <h1>🚩 About</h1>
         <p>
           D3sign DAO Studio is a forward-thinking digital art platform that
           brings together a global community of artists, showcasing their unique

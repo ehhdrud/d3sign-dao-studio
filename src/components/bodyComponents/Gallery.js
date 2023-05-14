@@ -51,7 +51,7 @@ const arts = [
   {
     path: require("../../images/arts/image-R1N-1.png"),
     artist: "R1N",
-    genre: "Future-Oriented",
+    genre: "Future Oriented",
   },
 ];
 
@@ -59,7 +59,7 @@ export default function Gallery() {
   return (
     <div className="gallery-container">
       {arts.map((art, index) => (
-        <Link key={index} to={`/art/${index}`}>
+        <Link className="link" key={index} to={`/artist/${art.artist}`}>
           <div className="art-card">
             <img
               className="art-img"

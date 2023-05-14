@@ -79,7 +79,7 @@ export default function Artist() {
         intriguing.
       </p>
       <h2 className="name">👨‍🦲 R1N</h2>
-      <span className="genre">"Future-Oriented"</span>
+      <span className="genre">"Future Oriented"</span>
       <p>
         A visionary artist who brings life to future cities and mecca girls.
         Their fascinating work mixes the beauty of science fiction with complex

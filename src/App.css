@@ -1,7 +1,8 @@
 .App {
-  height: max-content;
+  height: 1500px;
   margin: 0;
   padding: 0;
+  background-size: contain;
   /* background-color: black; */
   /* color: white; */
 }

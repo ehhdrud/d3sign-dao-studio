@@ -1,0 +1,20 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.intro .line-1 {
+  font-size: 50px;
+}
+
+.intro .line-2 {
+  font-size: 50px;
+}
+
+.intro .line-3 {
+  font-size: 50px;
+}

@@ -3,7 +3,7 @@ import "../../../styles/artist.css";
 
 export default function Artist() {
   return (
-    <div className="artist">
+    <div className="artist-page">
       <h1>🎨 Artist</h1>
       <h2 className="name">👨‍🦲 V1VI</h2>
       <span className="genre">"Collage Art"</span>

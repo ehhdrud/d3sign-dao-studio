@@ -1,8 +1,11 @@
 .gallery-container {
-  display: flex;
+  top: 10px;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 100px auto auto auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  margin: 100px 50px;
 }
 
 .gallery-container .link {
@@ -14,10 +17,8 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
   border: 5px outset black;
-  border-radius: 20px;
-  margin: 10px;
+  border-radius: 10px;
 }
 
 .art-card .art-img {
@@ -38,18 +39,14 @@
 }
 
 .art-card .artist {
-  text-decoration: none;
   margin-top: 0px;
   margin-bottom: 5px;
-  font-family: Consolas;
   font-size: 18px;
   font-weight: bold;
   color: black;
 }
 
 .art-card .genre {
-  text-decoration: none;
-  font-family: Consolas;
   font-style: italic;
   font-size: 12px;
 }

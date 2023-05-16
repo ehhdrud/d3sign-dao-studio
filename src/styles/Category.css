@@ -1,13 +1,7 @@
 .category {
   display: flex;
   justify-content: space-between;
-  width: 1000px;
-  font-family: Consolas;
-  font-size: 20px;
-  /* border: 1px solid red; */
-}
-
-.category .link {
-  text-decoration: none;
-  color: white;
+  align-items: center;
+  width: 60%;
+  font-size: 22px;
 }

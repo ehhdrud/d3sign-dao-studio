@@ -1,12 +1,11 @@
 .about {
-  font-family: Consolas;
-  margin: 10px 200px;
+  width: 75%;
   color: white;
 }
 
 .about .about-head h1 {
   font-size: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .about .about-head p {
@@ -15,5 +14,5 @@
 
 .about .about-body p {
   font-style: italic;
-  margin-left: 50px;
+  padding-left: 45px;
 }

@@ -1,24 +1,23 @@
-.artist {
-  margin: 10px 200px;
-  font-family: Consolas;
+.artist-page {
+  width: 75%;
   color: white;
 }
 
-.artist h1 {
-  font-size: 40px;
+.artist-page h1 {
   margin-bottom: 50px;
+  font-size: 40px;
 }
 
-.artist span {
+.artist-page span {
   font-size: 18px;
 }
 
-.artist .genre {
+.artist-page .genre {
+  padding-left: 40px;
   font-style: italic;
-  margin-left: 35px;
 }
 
-.artist p {
-  margin-left: 40px;
+.artist-page p {
+  padding-left: 45px;
   font-style: italic;
 }

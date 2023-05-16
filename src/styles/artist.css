@@ -1,6 +1,7 @@
 .artist {
   margin: 10px 200px;
   font-family: Consolas;
+  color: white;
 }
 
 .artist h1 {
@@ -14,12 +15,10 @@
 
 .artist .genre {
   font-style: italic;
-  font-weight: bold;
   margin-left: 35px;
 }
 
 .artist p {
   margin-left: 40px;
   font-style: italic;
-  font-weight: bold;
 }

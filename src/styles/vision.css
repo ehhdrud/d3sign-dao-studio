@@ -1,6 +1,7 @@
 .vision {
   margin: 10px 200px;
   font-family: Consolas;
+  color: white;
 }
 
 .vision h1 {
@@ -11,5 +12,4 @@
 .vision p {
   margin-left: 45px;
   font-style: italic;
-  font-weight: bold;
 }

@@ -5,6 +5,8 @@ import Vision from "./components/headerComponents/categoryPage/Vision";
 import About from "./components/headerComponents/categoryPage/About";
 import Artist from "./components/headerComponents/categoryPage/Artist";
 import Body from "./components/Body";
+import { HoveredIndexProvider } from "./HoveredIndexContext.js";
+
 import "./App.css";
 
 function App() {
@@ -12,12 +14,14 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Routes>
-          <Route path="/" element={<Body />} />
-          <Route path="/vision" element={<Vision />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/artist" element={<Artist />} />
-        </Routes>
+        <HoveredIndexProvider>
+          <Routes>
+            <Route path="/" element={<Body />} />
+            <Route path="/vision" element={<Vision />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/artist" element={<Artist />} />
+          </Routes>
+        </HoveredIndexProvider>
       </BrowserRouter>
     </div>
   );

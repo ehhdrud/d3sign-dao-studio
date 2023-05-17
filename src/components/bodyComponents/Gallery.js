@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/gallery.css";
+import { useHoveredIndex } from "../../HoveredIndexContext.js";
 
 const arts = [
   {
@@ -56,7 +57,7 @@ const arts = [
 ];
 
 export default function Gallery() {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const { hoveredIndex, setHoveredIndex } = useHoveredIndex();
 
   const handleMouseEnter = (index) => {
     setHoveredIndex(index);

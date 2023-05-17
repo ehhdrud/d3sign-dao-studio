@@ -21,7 +21,8 @@
 }
 
 .art-card.hovered {
-  box-shadow: 0px 0px 30px 1px rgba(100, 100, 100, 0.5); /* 마우스 오버 시 box-shadow를 적용합니다. */
+  box-shadow: 0px 0px 50px 1px rgba(100, 100, 100, 0.5); /* 마우스 오버 시 box-shadow를 적용합니다. */
+  border: 5px inset black;
 }
 
 .art-card .art-img {

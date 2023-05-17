@@ -1,11 +1,10 @@
 import React from "react";
+import "../../styles/intro.css";
 
 export default function intro() {
   return (
     <div className="intro">
-      <p className="line-1">Community</p>
-      <p className="line-2">of</p>
-      <p className="line-3">10 passionate graphic design artists</p>
+      <p>👪👨‍👧 A Community of 10 Passionate Graphic Design Artists 👨‍👧👪</p>
     </div>
   );
 }

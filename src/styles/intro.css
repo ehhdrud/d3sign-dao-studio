@@ -2,19 +2,24 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 100%;
-  font-weight: bold;
 }
 
-.intro .line-1 {
-  font-size: 50px;
+.intro p {
+  font-family: "wishshore";
+  text-align: center;
+  font-size: 38px;
+  color: #fff8dc;
 }
 
-.intro .line-2 {
-  font-size: 50px;
+@font-face {
+  font-family: "wishshore"; /* 폰트 이름 */
+  src: url("../fonts/WishShore.ttf") format("truetype"); /* 폰트 파일 경로와 형식 지정 */
+  /* 추가로 font-weight, font-style 등을 설정할 수 있습니다. */
 }
 
-.intro .line-3 {
-  font-size: 50px;
+@font-face {
+  font-family: "soka"; /* 폰트 이름 */
+  src: url("../fonts/soka-Regular.ttf") format("truetype"); /* 폰트 파일 경로와 형식 지정 */
+  /* 추가로 font-weight, font-style 등을 설정할 수 있습니다. */
 }

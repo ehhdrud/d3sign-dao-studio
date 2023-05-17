@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../styles/gallery.css";
 
@@ -56,11 +56,29 @@ const arts = [
 ];
 
 export default function Gallery() {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const handleMouseEnter = (index) => {
+    setHoveredIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredIndex(null);
+  };
+
   return (
     <div className="gallery-container">
       {arts.map((art, index) => (
-        <Link className="link" key={index} to={`/artist/${art.artist}`}>
-          <div className="art-card">
+        <Link
+          className="link"
+          key={index}
+          to={`/artist/${art.artist}`}
+          onMouseEnter={() => handleMouseEnter(index)}
+          onMouseLeave={handleMouseLeave}
+        >
+          <div
+            className={`art-card ${hoveredIndex === index ? "hovered" : ""}`}
+          >
             <img
               className="art-img"
               src={art.path}

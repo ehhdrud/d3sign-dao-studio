@@ -1,13 +1,21 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: Consolas;
 }
 
 .App {
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to bottom right, #000000, #aa0000);
+  /* background: linear-gradient(to bottom right, #101010, #505050); */
+  background: linear-gradient(
+    to bottom right,
+    #555555 0%,
+    #111111 35%,
+    #111111 65%,
+    #555555 100%
+  );
 }
 
 h1,

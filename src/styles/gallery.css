@@ -1,18 +1,21 @@
 .gallery-container {
-  flex-wrap: wrap;
+  border: 1px solid blue;
+  width: max-content;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 50px;
+  grid-gap: 40px;
 }
 
 .gallery-container .link {
+  width: max-content;
   text-decoration: none;
   color: black;
 }
 
 .art-card {
   /* box-shadow: 0px 0px 50px 1px rgba(100, 100, 100, 1); */
+  width: max-content;
   overflow: hidden;
   display: flex;
   flex-direction: column;

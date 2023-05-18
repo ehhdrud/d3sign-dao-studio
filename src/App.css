@@ -8,7 +8,6 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  /* background: linear-gradient(to bottom right, #101010, #505050); */
   background: linear-gradient(
     to bottom right,
     #555555 0%,

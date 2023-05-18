@@ -5,16 +5,11 @@ import Vision from "./components/headerComponents/categoryPage/Vision";
 import About from "./components/headerComponents/categoryPage/About";
 import Artist from "./components/headerComponents/categoryPage/Artist";
 import Body from "./components/Body";
-import {
-  useHoveredIndex,
-  HoveredIndexProvider,
-} from "./HoveredIndexContext.js";
+import { HoveredIndexProvider } from "./HoveredIndexContext.js";
 
 import "./App.css";
 
 function App() {
-  // const { hoveredIndex } = useHoveredIndex();
-
   return (
     <div className="App">
       <BrowserRouter>

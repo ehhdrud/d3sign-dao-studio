@@ -1,10 +1,9 @@
 .gallery-container {
-  border: 1px solid blue;
   width: max-content;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 40px;
+  grid-gap: 1px;
 }
 
 .gallery-container .link {
@@ -14,43 +13,49 @@
 }
 
 .art-card {
-  /* box-shadow: 0px 0px 50px 1px rgba(100, 100, 100, 1); */
+  position: relative;
   width: max-content;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  border: 5px outset black;
-  border-radius: 10px;
+  background-color: #333;
+  border: 1px solid #444;
+  z-index: 1;
 }
 
 .art-card.hovered {
-  box-shadow: 0px 0px 50px 1px rgba(100, 100, 100, 0.5); /* 마우스 오버 시 box-shadow를 적용합니다. */
-  border: 5px inset black;
+  border: 1px solid #666;
+  box-shadow: 0px 0px 50px 1px rgb(0, 0, 0);
+  z-index: 2;
 }
 
 .art-card .art-img {
-  width: 130px;
-  height: 130px;
+  width: 300px;
+  height: 300px;
 }
 
 .art-card .art-desc {
-  width: 130px;
+  width: 297px;
   height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 248, 220, 1);
+  padding-left: 3px;
 }
 
 .art-card .artist {
   margin-top: 0px;
   margin-bottom: 5px;
+  text-align: left;
   font-size: 18px;
+  color: rgba(255, 248, 220, 1);
+  font-family: Helvetica;
   font-weight: bold;
 }
 
 .art-card .genre {
-  font-style: italic;
+  text-align: left;
   font-size: 12px;
+  color: rgba(255, 248, 220, 1);
+  font-family: Helvetica;
 }

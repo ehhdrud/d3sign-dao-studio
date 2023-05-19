@@ -1,6 +1,6 @@
 * {
-  border: 1px solid red;
   font-family: Consolas;
+  /* border: 1px solid red; */
 }
 
 .App {
@@ -32,4 +32,30 @@ h2 {
 .link {
   color: white;
   text-decoration: none;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-3px);
+  }
+  75% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+    border: 1px dotted rgba(128, 128, 128, 0);
+  }
+  100% {
+    transform: translateX(15px);
+    border: 1px dotted rgba(128, 128, 128, 0.5);
+  }
 }

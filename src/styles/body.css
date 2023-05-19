@@ -3,10 +3,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: calc(100vh * 0.85);
-  border: 1px solid greenyellow;
-}
-
-.body.hovered {
-  background-image: url(/src/images/discord.svg);
+  height: 100%;
+  /* height: calc(100vh * 0.85); */
 }

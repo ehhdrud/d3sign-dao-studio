@@ -13,13 +13,11 @@
 }
 
 @font-face {
-  font-family: "wishshore"; /* 폰트 이름 */
-  src: url("../fonts/WishShore.ttf") format("truetype"); /* 폰트 파일 경로와 형식 지정 */
-  /* 추가로 font-weight, font-style 등을 설정할 수 있습니다. */
+  font-family: "wishshore";
+  src: url("../fonts/WishShore.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "soka"; /* 폰트 이름 */
-  src: url("../fonts/soka-Regular.ttf") format("truetype"); /* 폰트 파일 경로와 형식 지정 */
-  /* 추가로 font-weight, font-style 등을 설정할 수 있습니다. */
+  font-family: "soka";
+  src: url("../fonts/soka-Regular.ttf") format("truetype");
 }

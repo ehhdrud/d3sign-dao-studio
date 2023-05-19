@@ -52,7 +52,7 @@ const arts = [
   {
     path: require("../../images/arts/image-R1N-1.png"),
     artist: "R1N",
-    genre: "Future Oriented",
+    genre: "Cyberpunk",
   },
 ];
 

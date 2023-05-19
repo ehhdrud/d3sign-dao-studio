@@ -21,3 +21,13 @@
   padding-left: 45px;
   font-style: italic;
 }
+
+.artist-page .artist-card {
+  border-top: 1px solid rgba(128, 128, 128, 0);
+  border-left: 2px solid rgba(128, 128, 128, 0);
+  border-bottom: 1px solid rgba(128, 128, 128, 0);
+}
+
+.artist-page .artist-card:hover {
+  animation: slide 1s forwards;
+}

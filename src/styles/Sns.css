@@ -16,3 +16,8 @@
   height: 40px;
   margin: 0px 15px 0px 15px;
 }
+
+.sns img:hover {
+  animation: shake 0.3s;
+  animation-iteration-count: 1;
+}

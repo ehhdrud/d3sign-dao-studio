@@ -9,3 +9,8 @@
 .category .link {
   color: #fff8dc;
 }
+
+.category .link:hover {
+  animation: shake 0.3s;
+  animation-iteration-count: 1;
+}

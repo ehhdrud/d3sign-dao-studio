@@ -6,7 +6,6 @@ import About from "./components/headerComponents/categoryPage/About";
 import Artist from "./components/headerComponents/categoryPage/Artist";
 import Body from "./components/Body";
 import { HoveredIndexProvider } from "./HoveredIndexContext.js";
-
 import "./App.css";
 
 function App() {

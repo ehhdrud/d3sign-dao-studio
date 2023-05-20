@@ -3,20 +3,13 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
   width: 100%;
-  max-width: 100%;
   animation: blurAnimation 2s forwards;
-}
-
-.gallery-container .link {
-  text-decoration: none;
-  color: black;
 }
 
 .art-card {
   position: relative;
   width: stretch;
   max-width: 100%;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   background-color: #333;
@@ -30,33 +23,45 @@
   z-index: 2;
 }
 
+.art-card.hovered .art-img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.art-card .art-img-container {
+  position: relative;
+  overflow: hidden;
+}
 .art-card .art-img {
-  max-width: 100%;
+  width: 100%;
   aspect-ratio: 1/1;
+  vertical-align: middle;
+}
+
+.genre-on-img {
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .art-card .art-desc {
-  width: 325px;
-  height: 60px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 3px;
+  padding: 3px 3px;
 }
 
 .art-card .artist {
   margin-top: 0px;
-  margin-bottom: 5px;
-  text-align: left;
   font-size: 18px;
   color: rgba(255, 248, 220, 1);
   font-family: Helvetica;
   font-weight: bold;
 }
 
-.art-card .genre {
-  text-align: left;
-  font-size: 12px;
+.art-card .text {
+  font-size: 18px;
   color: rgba(255, 248, 220, 1);
   font-family: Helvetica;
 }

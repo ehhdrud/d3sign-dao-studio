@@ -1,9 +1,8 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: calc(100vh * 0.15);
   overflow: hidden;
   background-color: black;
   border-bottom: 3px dotted #555555;

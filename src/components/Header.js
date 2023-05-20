@@ -6,10 +6,10 @@ import "../styles/header.css";
 
 export default function Header(props) {
   return (
-    <div className="header">
+    <nav className="header">
       <Logo />
       <Category />
       <Sns />
-    </div>
+    </nav>
   );
 }

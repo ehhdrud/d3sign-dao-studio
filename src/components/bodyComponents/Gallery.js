@@ -80,14 +80,17 @@ export default function Gallery() {
           <div
             className={`art-card ${hoveredIndex === index ? "hovered" : ""}`}
           >
-            <img
-              className="art-img"
-              src={art.path}
-              alt={`${art.artist}'s artwork`}
-            />
+            <div className="art-img-container">
+              <img
+                className="art-img"
+                src={art.path}
+                alt={`${art.artist}'s artwork`}
+              />
+              <div className="genre-on-img">{art.genre}</div>
+            </div>
             <div className="art-desc">
-              <div className="artist">{art.artist}</div>
-              <div className="genre">{art.genre}</div>
+              <span className="artist">{art.artist}</span>
+              <span className="text">&nbsp;'s Artwork</span>
             </div>
           </div>
         </Link>

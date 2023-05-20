@@ -29,5 +29,5 @@
 }
 
 .artist-page .artist-card:hover {
-  animation: slide 1s forwards;
+  animation: slideAndBorderAnimation 1s forwards;
 }

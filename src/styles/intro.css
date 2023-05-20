@@ -6,18 +6,11 @@
 }
 
 .intro p {
-  font-family: "wishshore";
-  text-align: center;
-  font-size: 38px;
+  font-family: Helvetica;
+  font-size: 2.4em;
   color: white;
-}
-
-@font-face {
-  font-family: "wishshore";
-  src: url("../fonts/WishShore.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "soka";
-  src: url("../fonts/soka-Regular.ttf") format("truetype");
+  position: relative;
+  margin: 0.1em 0em 0.3em 0em;
+  position: relative;
+  animation: blurAnimation 1s forwards;
 }

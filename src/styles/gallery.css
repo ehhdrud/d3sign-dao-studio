@@ -1,20 +1,21 @@
 .gallery-container {
-  width: max-content;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1px;
+  width: 100%;
+  max-width: 100%;
+  animation: blurAnimation 2s forwards;
 }
 
 .gallery-container .link {
-  width: max-content;
   text-decoration: none;
   color: black;
 }
 
 .art-card {
   position: relative;
-  width: max-content;
+  width: stretch;
+  max-width: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -30,8 +31,8 @@
 }
 
 .art-card .art-img {
-  width: calc(100vw * 0.2);
-  height: calc(100vw * 0.2);
+  max-width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .art-card .art-desc {

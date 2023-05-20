@@ -17,18 +17,6 @@
   );
 }
 
-h1,
-h2 {
-  white-space: nowrap;
-}
-
-@media (max-width: 600px) {
-  p {
-    white-space: nowrap;
-    overflow: hidden;
-  }
-}
-
 .link {
   color: white;
   text-decoration: none;
@@ -49,13 +37,22 @@ h2 {
   }
 }
 
-@keyframes slide {
+@keyframes slideAndBorderAnimation {
   0% {
     transform: translateX(0);
     border: 1px dotted rgba(128, 128, 128, 0);
   }
   100% {
-    transform: translateX(15px);
+    transform: translateX(1%);
     border: 1px dotted rgba(128, 128, 128, 0.5);
+  }
+}
+
+@keyframes blurAnimation {
+  0% {
+    filter: blur(10px);
+  }
+  100% {
+    filter: blur(0);
   }
 }

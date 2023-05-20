@@ -6,11 +6,12 @@
   font-size: 22px;
 }
 
-.category .link {
-  color: #fff8dc;
-}
-
 .category .link:hover {
   animation: shake 0.3s;
   animation-iteration-count: 1;
+  border-bottom: 1px solid white;
+}
+
+.category .link.visited {
+  border-bottom: 3px solid white;
 }

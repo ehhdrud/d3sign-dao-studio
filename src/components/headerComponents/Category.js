@@ -8,33 +8,41 @@ export default function Category() {
   return (
     <nav className="category">
       <Link
-        className={`link ${location.pathname === "/vision" ? "visited" : ""}`}
+        className={`link ${
+          location.pathname.startsWith("/vision") ? "visited" : ""
+        }`}
         to="/vision"
       >
         ⭐Vision
       </Link>
       <Link
-        className={`link ${location.pathname === "/about" ? "visited" : ""}`}
+        className={`link ${
+          location.pathname.startsWith("/about") ? "visited" : ""
+        }`}
         to="/about"
       >
         ⭐About
       </Link>
       <Link
-        className={`link ${location.pathname === "/artist" ? "visited" : ""}`}
+        className={`link ${
+          location.pathname.startsWith("/artist") ? "visited" : ""
+        }`}
         to="/artist"
       >
         ⭐Artist
       </Link>
       <Link
         className={`link ${
-          location.pathname === "/marketplace" ? "visited" : ""
+          location.pathname.startsWith("/marketplace") ? "visited" : ""
         }`}
         to="/marketplace"
       >
         ⭐Marketplace
       </Link>
       <Link
-        className={`link ${location.pathname === "/faq" ? "visited" : ""}`}
+        className={`link ${
+          location.pathname.startsWith("/faq") ? "visited" : ""
+        }`}
         to="/faq"
       >
         ⭐FAQ

@@ -1,33 +1,33 @@
-.artist-page {
+.artists {
   width: 75%;
   color: white;
 }
 
-.artist-page h1 {
+.artists h1 {
   margin-bottom: 50px;
   font-size: 40px;
 }
 
-.artist-page span {
+.artists span {
   font-size: 18px;
 }
 
-.artist-page .genre {
+.artists .genre {
   padding-left: 40px;
   font-style: italic;
 }
 
-.artist-page p {
+.artists p {
   padding-left: 45px;
   font-style: italic;
 }
 
-.artist-page .artist-card {
+.artists .artist-card {
   border-top: 1px solid rgba(128, 128, 128, 0);
   border-left: 2px solid rgba(128, 128, 128, 0);
   border-bottom: 1px solid rgba(128, 128, 128, 0);
 }
 
-.artist-page .artist-card:hover {
+.artists .artist-card:hover {
   animation: slideAndBorderAnimation 1s forwards;
 }

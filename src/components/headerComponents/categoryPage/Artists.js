@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../../styles/artist.css";
+import "../../../styles/artists.css";
 
-export default function Artist() {
+export default function Artists() {
   return (
-    <div className="artist-page">
-      <h1>🎨 Artist</h1>
-      <Link to={`/artist/V1VI`} className="link">
+    <div className="artists">
+      <h1>🎨 Artists</h1>
+      <Link to={`/artists/V1VI`} className="link">
         <div className="artist-card">
           <h2 className="name">👨‍🦲 V1VI</h2>
           <span className="genre">"Collage Art"</span>
@@ -19,7 +19,7 @@ export default function Artist() {
           </p>
         </div>
       </Link>
-      <Link to={`/artist/P0LA`} className="link">
+      <Link to={`/artists/P0LA`} className="link">
         <div className="artist-card">
           <h2 className="name">👨‍🦲 P0LA</h2>
           <span className="genre">"Pop Art"</span>
@@ -31,7 +31,7 @@ export default function Artist() {
           </p>
         </div>
       </Link>
-      <Link to={`/artist/R0RO`} className="link">
+      <Link to={`/artists/R0RO`} className="link">
         <div className="artist-card">
           <h2 className="name">👨‍🦲 R0RO</h2>
           <span className="genre">"Pattern Fabric Art"</span>
@@ -43,7 +43,7 @@ export default function Artist() {
           </p>
         </div>
       </Link>
-      <Link to={`/artist/T0RI`} className="link">
+      <Link to={`/artists/T0RI`} className="link">
         <div className="artist-card">
           <h2 className="name">👨‍🦲 T0RI</h2>
           <span className="genre">"Anime Art"</span>
@@ -55,7 +55,7 @@ export default function Artist() {
           </p>
         </div>
       </Link>
-      <Link to={`/artist/CHR1S`} className="link">
+      <Link to={`/artists/CHR1S`} className="link">
         <div className="artist-card">
           <h2 className="name">👨‍🦲 CHR1S</h2>
           <span className="genre">"Cubism"</span>
@@ -68,7 +68,7 @@ export default function Artist() {
           </p>
         </div>
       </Link>
-      <Link to={`/artist/ZER1`} className="link">
+      <Link to={`/artists/ZER1`} className="link">
         <div className="artist-card">
           <h2 className="name">👨‍🦲 ZER1</h2>
           <span className="genre">"Pixel Art"</span>
@@ -80,7 +80,7 @@ export default function Artist() {
           </p>
         </div>
       </Link>
-      <Link to={`/artist/J1N`} className="link">
+      <Link to={`/artists/J1N`} className="link">
         <div className="artist-card">
           <h2 className="name">👨‍🦲 J1N</h2>
           <span className="genre">"Abstractism"</span>
@@ -92,7 +92,7 @@ export default function Artist() {
           </p>
         </div>
       </Link>
-      <Link to={`/artist/MIRR0R`} className="link">
+      <Link to={`/artists/MIRR0R`} className="link">
         <div className="artist-card">
           <h2 className="name">👨‍🦲 MIRR0R</h2>
           <span className="genre">"Watercolor"</span>
@@ -104,7 +104,7 @@ export default function Artist() {
           </p>
         </div>
       </Link>
-      <Link to={`/artist/Paul0`} className="link">
+      <Link to={`/artists/Paul0`} className="link">
         <div className="artist-card">
           <h2 className="name">👨‍🦲 Paul0</h2>
           <span className="genre">"Expressionism"</span>

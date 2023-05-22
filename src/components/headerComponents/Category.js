@@ -25,11 +25,11 @@ export default function Category() {
       </Link>
       <Link
         className={`link ${
-          location.pathname.startsWith("/artist") ? "visited" : ""
+          location.pathname.startsWith("/artists") ? "visited" : ""
         }`}
-        to="/artist"
+        to="/artists"
       >
-        ⭐Artist
+        ⭐Artists
       </Link>
       <Link
         className={`link ${

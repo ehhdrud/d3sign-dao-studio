@@ -73,7 +73,7 @@ export default function Gallery() {
         <Link
           className="link"
           key={index}
-          to={`/artist/${art.artist}`}
+          to={`/artists/${art.artist}`}
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}
         >

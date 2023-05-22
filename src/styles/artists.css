@@ -10,9 +10,6 @@
 
 .artists .main-img {
   width: 20%;
-}
-
-.artists .main-img:nth-child(1) {
   aspect-ratio: 1/1;
 }
 

@@ -19,36 +19,36 @@ const arts = [
     artist: "R0RO",
     genre: "Pattern Fabric Art",
   },
-  // {
-  //   path: require("../../images/arts/T0RI-1.png"),
-  //   artist: "T0RI",
-  //   genre: "Anime Art",
-  // },
-  // {
-  //   path: require("../../images/arts/CHR1S-1.png"),
-  //   artist: "CHR1S",
-  //   genre: "Cubism",
-  // },
+  {
+    path: require("../../images/arts/T0RI/T0RI-00.png"),
+    artist: "T0RI",
+    genre: "Anime Art",
+  },
+  {
+    path: require("../../images/arts/CHR1S/CHR1S-00.png"),
+    artist: "CHR1S",
+    genre: "Cubism",
+  },
   {
     path: require("../../images/arts/ZER1/ZER1-00.png"),
     artist: "ZER1",
     genre: "Pixel Art",
   },
-  // {
-  //   path: require("../../images/arts/J1N-1.png"),
-  //   artist: "J1N",
-  //   genre: "Abstractism",
-  // },
-  // {
-  //   path: require("../../images/arts/MIRR0R-1.png"),
-  //   artist: "MIRR0R",
-  //   genre: "Watercolor",
-  // },
-  // {
-  //   path: require("../../images/arts/Paul0-1.png"),
-  //   artist: "Paul0",
-  //   genre: "Expressionism",
-  // },
+  {
+    path: require("../../images/arts/J1N/J1N-00.png"),
+    artist: "J1N",
+    genre: "Abstractism",
+  },
+  {
+    path: require("../../images/arts/MIRR0R/MIRR0R-00.png"),
+    artist: "MIRR0R",
+    genre: "Watercolor",
+  },
+  {
+    path: require("../../images/arts/Paul0/Paul0-00.png"),
+    artist: "Paul0",
+    genre: "Expressionism",
+  },
   {
     path: require("../../images/arts/R1N/R1N-00.png"),
     artist: "R1N",

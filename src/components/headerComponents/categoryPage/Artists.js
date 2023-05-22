@@ -1,11 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../../styles/artists.css";
-import V1VI from "../../../images/arts/V1VI/V1VI-00.png";
-import P0LA from "../../../images/arts/P0LA/P0LA-00.png";
-import R0RO from "../../../images/arts/R0RO/R0RO-00.png";
-import ZER1 from "../../../images/arts/ZER1/ZER1-00.png";
-import R1N from "../../../images/arts/R1N/R1N-00.png";
+
+import V1VI from "../../../images/arts/V1VI/V1VI-01.png";
+import P0LA from "../../../images/arts/P0LA/P0LA-01.png";
+import R0RO from "../../../images/arts/R0RO/R0RO-01.png";
+import T0RI from "../../../images/arts/T0RI/T0RI-01.png";
+import CHR1S from "../../../images/arts/CHR1S/CHR1S-01.png";
+import ZER1 from "../../../images/arts/ZER1/ZER1-01.png";
+import J1N from "../../../images/arts/J1N/J1N-01.png";
+import MIRR0R from "../../../images/arts/MIRR0R/MIRR0R-01.png";
+import Paul0 from "../../../images/arts/Paul0/Paul0-01.png";
+import R1N from "../../../images/arts/R1N/R1N-01.png";
 
 export default function Artists() {
   return (
@@ -52,6 +58,7 @@ export default function Artists() {
         </div>
       </Link>
       <Link to={`/artists/T0RI`} className="link">
+        <img className="main-img" src={T0RI} alt="T0RI" />
         <div className="artist-card">
           <h2 className="name">T0RI</h2>
           <p className="genre">"Anime Art"</p>
@@ -64,6 +71,7 @@ export default function Artists() {
         </div>
       </Link>
       <Link to={`/artists/CHR1S`} className="link">
+        <img className="main-img" src={CHR1S} alt="CHR1S" />
         <div className="artist-card">
           <h2 className="name">CHR1S</h2>
           <p className="genre">"Cubism"</p>
@@ -90,6 +98,7 @@ export default function Artists() {
         </div>
       </Link>
       <Link to={`/artists/J1N`} className="link">
+        <img className="main-img" src={J1N} alt="J1N" />
         <div className="artist-card">
           <h2 className="name">J1N</h2>
           <p className="genre">"Abstractism"</p>
@@ -102,6 +111,7 @@ export default function Artists() {
         </div>
       </Link>
       <Link to={`/artists/MIRR0R`} className="link">
+        <img className="main-img" src={MIRR0R} alt="MIRR0R" />
         <div className="artist-card">
           <h2 className="name">MIRR0R</h2>
           <p className="genre">"Watercolor"</p>
@@ -114,6 +124,7 @@ export default function Artists() {
         </div>
       </Link>
       <Link to={`/artists/Paul0`} className="link">
+        <img className="main-img" src={Paul0} alt="Paul0" />
         <div className="artist-card">
           <h2 className="name">Paul0</h2>
           <p className="genre">"Expressionism"</p>

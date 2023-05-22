@@ -8,26 +8,37 @@
   font-size: 40px;
 }
 
-.artists span {
-  font-size: 18px;
+.artists .main-img {
+  width: 20%;
+}
+
+.artists .main-img:nth-child(1) {
+  aspect-ratio: 1/1;
+}
+
+.artists h2 {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 30px;
 }
 
 .artists .genre {
-  padding-left: 40px;
-  font-style: italic;
+  font-size: 25px;
 }
 
 .artists p {
-  padding-left: 45px;
   font-style: italic;
+  font-size: 20px;
 }
 
-.artists .artist-card {
+.artists .link {
+  display: flex;
+  gap: 30px;
   border-top: 1px solid rgba(128, 128, 128, 0);
   border-left: 2px solid rgba(128, 128, 128, 0);
   border-bottom: 1px solid rgba(128, 128, 128, 0);
 }
 
-.artists .artist-card:hover {
+.artists .link:hover {
   animation: slideAndBorderAnimation 1s forwards;
 }

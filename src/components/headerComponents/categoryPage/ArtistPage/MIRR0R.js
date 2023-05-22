@@ -1,5 +1,6 @@
 import React from "react";
+import "../../../../styles/artistPage/MIRR0R.css";
 
-export default function FunctionName() {
-  return <div className="className"></div>;
+export default function MIRR0R() {
+  return <div className="MIRR0R">MIRR0R</div>;
 }

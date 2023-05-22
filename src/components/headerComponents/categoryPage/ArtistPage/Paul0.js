@@ -1,5 +1,6 @@
 import React from "react";
+import "../../../../styles/artistPage/Paul0.css";
 
-export default function FunctionName() {
-  return <div className="className"></div>;
+export default function Paul0() {
+  return <div className="Paul0">Paul0</div>;
 }

@@ -1,5 +1,6 @@
 import React from "react";
+import "../../../../styles/artistPage/CHR1S.css";
 
-export default function FunctionName() {
-  return <div className="className"></div>;
+export default function CHR1S() {
+  return <div className="CHR1S">CHR1S</div>;
 }

@@ -1,5 +1,6 @@
 import React from "react";
+import "../../../../styles/artistPage/V1VI.css";
 
-export default function FunctionName() {
-  return <div className="className"></div>;
+export default function V1VI() {
+  return <div className="V1VI">V1VI</div>;
 }

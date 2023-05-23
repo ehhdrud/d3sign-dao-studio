@@ -1,28 +1,20 @@
 import React from "react";
-import Slider from "react-slick";
 import "../../../../styles/Carousel.css";
 
 export default function Carousel({ imagePaths }) {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
   return (
-    <Slider {...settings}>
-      {imagePaths.map((imagePath, index) => (
-        <div className="carousel-img-container" key={index}>
+    <div className="carousel">
+      <div className="carousel-container">
+        {imagePaths.map((imagePath, index) => (
           <img
-            className="carousel-img"
+            className={`carousel-item carousel-item-${index + 1}`}
             src={imagePath}
-            alt={`Image ${index}`}
-            style={{ width: "300px", height: "300px" }}
+            data-index={`${index + 1}`}
+            alt={`${index + 1}`}
           />
-        </div>
-      ))}
-    </Slider>
+        ))}
+      </div>
+      <div className="carousel-controls"></div>
+    </div>
   );
 }

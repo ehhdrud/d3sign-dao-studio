@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "./Carousel.js";
+import Carousel from "./Carousel";
 import "../../../../styles/artistPage.css";
 
 const imagePaths = [

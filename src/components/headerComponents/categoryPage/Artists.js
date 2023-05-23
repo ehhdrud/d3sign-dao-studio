@@ -137,7 +137,7 @@ export default function Artists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artist/R1N`} className="link">
+      <Link to={`/artists/R1N`} className="link">
         <img className="main-img" src={R1N} alt="R1N" />
         <div className="artist-card">
           <h2 className="name">R1N</h2>

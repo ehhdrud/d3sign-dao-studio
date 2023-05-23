@@ -1,6 +1,19 @@
 import React from "react";
-import "../../../../styles/artistPage/R0RO.css";
+import Carousel from "./Carousel.js";
+import "../../../../styles/artistPage.css";
+
+const imagePaths = [
+  require("../../../../images/arts/R0RO/R0RO-00.png"),
+  require("../../../../images/arts/R0RO/R0RO-01.png"),
+  require("../../../../images/arts/R0RO/R0RO-02.png"),
+  require("../../../../images/arts/R0RO/R0RO-03.png"),
+  require("../../../../images/arts/R0RO/R0RO-04.png"),
+];
 
 export default function R0RO() {
-  return <div className="R0RO">R0RO</div>;
+  return (
+    <div className="artist-page-container">
+      <Carousel imagePaths={imagePaths} />
+    </div>
+  );
 }

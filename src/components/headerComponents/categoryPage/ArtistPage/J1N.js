@@ -1,6 +1,20 @@
 import React from "react";
-import "../../../../styles/artistPage/J1N.css";
+import Carousel from "./Carousel.js";
+import "../../../../styles/artistPage.css";
+
+const imagePaths = [
+  require("../../../../images/arts/J1N/J1N-00.png"),
+  require("../../../../images/arts/J1N/J1N-01.png"),
+  require("../../../../images/arts/J1N/J1N-02.png"),
+  require("../../../../images/arts/J1N/J1N-03.png"),
+  require("../../../../images/arts/J1N/J1N-04.png"),
+  require("../../../../images/arts/J1N/J1N-05.png"),
+];
 
 export default function J1N() {
-  return <div className="J1N">J1N</div>;
+  return (
+    <div className="artist-page-container">
+      <Carousel imagePaths={imagePaths} />
+    </div>
+  );
 }

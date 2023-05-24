@@ -1,2 +1,8 @@
 .artist-page-container {
+  border: 1px solid white;
+}
+
+.artist-page-title {
+  border: 1px solid burlywood;
+  color: white;
 }

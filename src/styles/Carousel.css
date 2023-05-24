@@ -1,3 +1,4 @@
+/* 1. carousel */
 .carousel {
   border: 1px solid red;
 
@@ -68,6 +69,7 @@
   transform: translateX(-50%);
 }
 
+/* 2. carousel-controls*/
 .carousel-controls {
   border: 1px dashed deeppink;
 
@@ -85,25 +87,75 @@
   padding: 0 12px;
 }
 
-.gallery-controls-button:focus {
+.carousel-controls-button:focus {
   outline: none;
 }
 
-.gallery-controls-previous {
+.carousel-controls-previous {
   position: relative;
 }
 
-.gallery-controls-previous::before {
+.carousel-controls-previous::before {
   display: inline-block;
   position: absolute;
   top: 25%;
   left: -30px;
-  border-width: 0px 5px 5px 0;
-  border: solid #000;
   width: 5px;
   height: 5px;
   padding: 10px;
+  border: solid #000;
+  border-width: 0px 5px 5px 0;
   transform: rotate(135deg) translateY(-50%);
   transition: left 0.15s ease-in-out;
   content: "";
+}
+
+.carousel-controls-previous:hover::before {
+  left: -40px;
+}
+
+.carousel-controls-next {
+  position: relative;
+}
+
+.carousel-controls-next::before {
+  display: inline-block;
+  position: absolute;
+  top: 45; /* ??? */
+  left: -30px;
+  width: 5px;
+  height: 5px;
+  padding: 10px;
+  border: solid #000;
+  border-width: 0px 5px 5px 0;
+  transform: rotate(-45deg) translateY(-50%);
+  transition: right 0.15s ease-in-out;
+  content: "";
+}
+
+.carousel-controls-next:hover::before {
+  right: -40px;
+}
+
+/* carousel-nav */
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -15px;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.carousel nav li {
+  background: #ccc;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 16px;
+}
+
+.carousel-nav li.carousel-item-selected {
+  background: #555;
 }

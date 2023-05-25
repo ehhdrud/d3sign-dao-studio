@@ -1,8 +1,13 @@
 .artist-page-container {
-  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .artist-page-title {
-  border: 1px solid burlywood;
+  width: 75%;
   color: white;
+  font-size: 40px;
 }

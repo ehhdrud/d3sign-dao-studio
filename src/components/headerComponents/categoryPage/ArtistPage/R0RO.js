@@ -13,6 +13,7 @@ const imagePaths = [
 export default function R0RO() {
   return (
     <div className="artist-page-container">
+      <h1 className="artist-page-title">🎨 R0RO's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

@@ -14,6 +14,7 @@ const imagePaths = [
 export default function MIRR0R() {
   return (
     <div className="artist-page-container">
+      <h1 className="artist-page-title">🎨 MIRR0R's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

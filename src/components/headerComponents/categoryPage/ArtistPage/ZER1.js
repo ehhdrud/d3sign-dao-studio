@@ -13,6 +13,7 @@ const imagePaths = [
 export default function ZER1() {
   return (
     <div className="artist-page-container">
+      <h1 className="artist-page-title">🎨 ZER1's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

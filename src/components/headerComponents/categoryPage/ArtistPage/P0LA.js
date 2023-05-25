@@ -13,6 +13,7 @@ const imagePaths = [
 export default function P0LA() {
   return (
     <div className="artist-page-container">
+      <h1 className="artist-page-title">🎨 P0LA's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

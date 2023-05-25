@@ -15,6 +15,7 @@ const imagePaths = [
 export default function Paul0() {
   return (
     <div className="artist-page-container">
+      <h1 className="artist-page-title">🎨 Paul0's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

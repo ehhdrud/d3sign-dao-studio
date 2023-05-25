@@ -14,6 +14,7 @@ const imagePaths = [
 export default function T0RI() {
   return (
     <div className="artist-page-container">
+      <h1 className="artist-page-title">🎨 T0RI's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

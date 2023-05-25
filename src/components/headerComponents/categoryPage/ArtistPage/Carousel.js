@@ -159,10 +159,10 @@ export default function Carousel({ imagePaths }) {
         ))}
       </div>
       <div className="carousel-controls">
-        <button className="carousel-controls-button carousel-controls-previous">
+        <button className="carousel-controls-previous">
           <div className="left-arrow"></div>
         </button>
-        <button className="carousel-controls-button carousel-controls-next">
+        <button className="carousel-controls-next">
           <div className="right-arrow"></div>
         </button>
       </div>

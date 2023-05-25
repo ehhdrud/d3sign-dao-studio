@@ -1,6 +1,7 @@
 /* 1. carousel */
 .carousel {
-  width: 100%;
+  width: 75%;
+  overflow: hidden;
 }
 
 .carousel-container {
@@ -17,25 +18,26 @@
   position: absolute;
   z-index: 0;
   opacity: 0;
-  width: 330px;
-  height: 330px;
+  width: 200px;
+  height: 200px;
   background-size: contain;
-  box-shadow: 0px 0px 15px 5px rgba(225, 225, 225, 0.3);
+  border: 3px solid black;
+  /* box-shadow: 0px 0px 5px 3px rgba(225, 225, 225, 0.3); */
   transition: all 0.3s ease-in-out;
 }
 
 .carousel-item-1 {
   opacity: 0.2;
-  left: 11%;
+  left: 9%;
   transform: translateX(-50%);
 }
 
 .carousel-item-2 {
   z-index: 1;
   opacity: 0.4;
-  width: 380px;
-  height: 380px;
-  left: 18%;
+  width: 250px;
+  height: 250px;
+  left: 19%;
   transform: translateX(-50%);
 }
 
@@ -46,16 +48,14 @@
   width: 480px;
   height: 480px;
   transform: translateX(-50%);
-  border: 5px outset black;
-  box-shadow: 0px 1px 30px rgba(225, 225, 225, 0.5);
 }
 
 .carousel-item-4 {
   z-index: 1;
   opacity: 0.4;
-  width: 380px;
-  height: 380px;
-  left: 82%;
+  width: 250px;
+  height: 250px;
+  left: 81%;
   transform: translateX(-50%);
 }
 
@@ -63,7 +63,7 @@
   left: 100%;
   opacity: 0.2;
   transform: translateX(-50%);
-  left: 89%;
+  left: 91%;
 }
 
 /* 2. carousel-controls*/

@@ -9,25 +9,17 @@ export default function Category() {
     <nav className="category">
       <Link
         className={`link ${
-          location.pathname.startsWith("/vision") ? "visited" : ""
+          location.pathname.startsWith("/whatson") ? "visited" : ""
         }`}
-        to="/vision"
+        to="/whatson"
       >
-        Vision
-      </Link>
-      <Link
-        className={`link ${
-          location.pathname.startsWith("/about") ? "visited" : ""
-        }`}
-        to="/about"
-      >
-        About
+        What's on
       </Link>
       <Link
         className={`link ${
           location.pathname.startsWith("/artists") ? "visited" : ""
         }`}
-        to="/artists"
+        to="/artsandartists"
       >
         Arts and artists
       </Link>

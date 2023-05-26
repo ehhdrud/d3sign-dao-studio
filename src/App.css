@@ -1,6 +1,5 @@
 * {
-  font-family: Helvetica;
-  border: 1px solid red;
+  font-family: MoMA-Sans;
 }
 
 .App {
@@ -20,6 +19,11 @@
 .link {
   color: white;
   text-decoration: none;
+}
+
+@font-face {
+  font-family: MoMA-Sans;
+  src: url("fonts/MoMA-Sans.ttf") format("truetype");
 }
 
 @keyframes shake {

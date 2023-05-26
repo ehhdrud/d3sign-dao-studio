@@ -4,15 +4,17 @@
 }
 
 .about .about-head h1 {
-  font-size: 40px;
-  margin-bottom: 30px;
+  font-size: 5rem;
 }
 
-.about .about-head p {
-  font-style: italic;
+.about .about-head h1 ~ p {
+  font-size: 1.5rem;
 }
 
-.about .about-body p {
-  font-style: italic;
-  padding-left: 45px;
+.about .about-body h2 {
+  margin-top: 5rem;
+}
+
+.about .about-body h2:nth-child(1) {
+  margin-top: 3rem;
 }

@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="about">
       <div className="about-head">
-        <h1>🚩 About</h1>
+        <h1>About</h1>
         <p>
           D3sign DAO Studio is a forward-thinking digital art platform that
           brings together a global community of artists, showcasing their unique
@@ -16,7 +16,7 @@ export default function About() {
       </div>
       <br />
       <div className="about-body">
-        <h2>📌 Globalized Art</h2>
+        <h2>Globalized Art</h2>
         <p>
           At D3sign DAO Studio, we aim to transcend geographical barriers by
           exhibiting the remarkable work of our artists on a global scale. Our
@@ -25,7 +25,7 @@ export default function About() {
           of art from various cultures.
         </p>
 
-        <h2>📌 DAO Governance and Customized Art</h2>
+        <h2>DAO Governance and Customized Art</h2>
         <p>
           Our platform operates through DAO governance, empowering our community
           to actively participate in decision-making processes. This approach
@@ -33,7 +33,7 @@ export default function About() {
           caters to the unique needs and preferences of our customers.
         </p>
 
-        <h2>📌 High-Quality Digital Artwork</h2>
+        <h2>High-Quality Digital Artwork</h2>
         <p>
           D3sign DAO Studio is committed to delivering exceptional digital art
           that meets the highest standards of quality. Our artists work
@@ -41,7 +41,7 @@ export default function About() {
           that captivate and inspire audiences.
         </p>
 
-        <h2>📌 Versatile Offerings and Solutions</h2>
+        <h2>Versatile Offerings and Solutions</h2>
         <p>
           We offer a diverse range of design art configurations, ensuring that
           our customers can find the perfect solution to meet their needs. By
@@ -49,7 +49,7 @@ export default function About() {
           can cater to a wide variety of preferences and requirements.
         </p>
 
-        <h2>📌 Community and Belonging</h2>
+        <h2>Community and Belonging</h2>
         <p>
           Our centralized community platform fosters a sense of belonging among
           consumers, as they engage with our artists and their work. By creating
@@ -57,7 +57,7 @@ export default function About() {
           and interconnected art community.
         </p>
 
-        <h2>📌 Global Governance Structure</h2>
+        <h2>Global Governance Structure</h2>
         <p>
           D3sign DAO Studio's governance structure is designed to include
           individuals from various backgrounds, without the need for corporate

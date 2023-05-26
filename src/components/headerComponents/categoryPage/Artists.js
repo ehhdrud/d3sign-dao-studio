@@ -16,13 +16,13 @@ import R1N from "../../../images/arts/R1N/R1N-01.png";
 export default function Artists() {
   return (
     <div className="artists">
-      <h1>🎨 Artists</h1>
+      <h1>Arts and artists</h1>
       <Link to={`/artists/V1VI`} className="link">
         <img className="main-img" src={V1VI} alt="V1VI" />
         <div className="artist-card">
           <h2 className="name">V1VI</h2>
           <p className="genre">"Collage Art"</p>
-          <p>
+          <p className="description">
             The collage art of V1VI transports visitors to a realm of
             fantastical beauty with its visual symphony of forms, hues, and
             textures. V1VI painstakingly fuses antique and modern elements to

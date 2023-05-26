@@ -2,7 +2,6 @@
 .carousel {
   width: 100%;
   overflow: hidden;
-  border: 1px solid blue;
   display: flex;
 }
 
@@ -14,7 +13,6 @@
   height: 400px;
   min-width: 1000px;
   margin: 50px auto;
-  border: 1px solid blue;
 }
 
 .carousel-item {
@@ -25,19 +23,18 @@
   height: 200px;
   background-size: contain;
   border: 3px solid black;
-  /* box-shadow: 0px 0px 5px 3px rgba(225, 225, 225, 0.3); */
   transition: all 0.3s ease-in-out;
 }
 
 .carousel-item-1 {
-  opacity: 0.2;
+  opacity: 0.4;
   left: 9%;
   transform: translateX(-50%);
 }
 
 .carousel-item-2 {
   z-index: 1;
-  opacity: 0.4;
+  opacity: 0.5;
   width: 250px;
   height: 250px;
   left: 19%;
@@ -48,14 +45,14 @@
   left: 50%;
   z-index: 2;
   opacity: 1;
-  width: 480px;
-  height: 480px;
+  width: 530px;
+  height: 530px;
   transform: translateX(-50%);
 }
 
 .carousel-item-4 {
   z-index: 1;
-  opacity: 0.4;
+  opacity: 0.5;
   width: 250px;
   height: 250px;
   left: 81%;
@@ -64,7 +61,7 @@
 
 .carousel-item-5 {
   left: 100%;
-  opacity: 0.2;
+  opacity: 0.4;
   transform: translateX(-50%);
   left: 91%;
 }
@@ -80,29 +77,32 @@
 .carousel-controls button {
   cursor: pointer;
   border: none;
-  background: transparent;
+  background: black;
   outline: none;
   box-shadow: none;
-  width: 100px;
-  height: 100px;
-  border: 1px solid red;
+  padding: 0;
+  border: 2px outset gray;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.carousel-controls button:hover {
+  background: transparent;
+  border: none;
 }
 
 .carousel-controls-previous {
   position: relative;
-  left: 20%;
+  left: 30%;
 }
 
 .left-arrow {
   position: relative;
-  left: 40%;
   width: 50px;
   height: 50px;
   cursor: pointer;
   transition: 0.5s;
   overflow: hidden;
-  border: 2px outset black;
-  border-radius: 25%;
 }
 
 .left-arrow:hover {
@@ -120,7 +120,7 @@
   border-top: 2px solid;
   border-left: 2px solid;
   top: 50%;
-  left: 3px;
+  left: 13%;
   transform-origin: 0% 0%;
   transform: rotateZ(-45deg);
 }
@@ -132,8 +132,8 @@
   color: gray;
   width: 35px;
   height: 15px;
-  top: 9.5px;
-  right: 13.5px;
+  top: 19%;
+  right: 19%;
   border-bottom: 2px solid;
   transform: translateX(4px);
 }
@@ -168,7 +168,7 @@
 
 .carousel-controls-next {
   position: relative;
-  right: 20%;
+  right: 30%;
 }
 
 .right-arrow {
@@ -178,7 +178,6 @@
   cursor: pointer;
   transition: 0.5s;
   overflow: hidden;
-  border: 2px outset black;
   border-radius: 25%;
 }
 
@@ -197,7 +196,7 @@
   border-top: 2px solid;
   border-right: 2px solid;
   top: 28%;
-  right: 0px;
+  right: 2%;
   transform-origin: 0% 0%;
   transform: rotateZ(45deg);
 }
@@ -209,8 +208,8 @@
   color: gray;
   width: 35px;
   height: 15px;
-  top: 9.5px;
-  left: 13px;
+  top: 19%;
+  left: 21%;
   border-bottom: 2px solid;
   transform: translateX(-4px);
 }

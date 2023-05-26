@@ -4,7 +4,8 @@ import "../../styles/intro.css";
 export default function Intro() {
   return (
     <div className="intro">
-      <p>👪👨‍👧 A Community of 10 Passionate Graphic Design Artists 👨‍👧👪</p>
+      <p>D3sign Dao Studio</p>
+      <p>A Community of 10 Passionate Graphic Design Artists</p>
     </div>
   );
 }

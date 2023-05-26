@@ -13,7 +13,7 @@ export default function Category() {
         }`}
         to="/vision"
       >
-        ⭐Vision
+        Vision
       </Link>
       <Link
         className={`link ${
@@ -21,7 +21,7 @@ export default function Category() {
         }`}
         to="/about"
       >
-        ⭐About
+        About
       </Link>
       <Link
         className={`link ${
@@ -29,7 +29,7 @@ export default function Category() {
         }`}
         to="/artists"
       >
-        ⭐Artists
+        Arts and artists
       </Link>
       <Link
         className={`link ${
@@ -37,7 +37,7 @@ export default function Category() {
         }`}
         to="/marketplace"
       >
-        ⭐Marketplace
+        Marketplace
       </Link>
       <Link
         className={`link ${
@@ -45,7 +45,7 @@ export default function Category() {
         }`}
         to="/faq"
       >
-        ⭐FAQ
+        FAQ
       </Link>
     </nav>
   );

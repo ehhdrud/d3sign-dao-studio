@@ -7,9 +7,11 @@ import "../styles/header.css";
 export default function Header(props) {
   return (
     <nav className="header">
-      <Logo />
+      <div className="top">
+        <Logo />
+        <Sns />
+      </div>
       <Category />
-      <Sns />
     </nav>
   );
 }

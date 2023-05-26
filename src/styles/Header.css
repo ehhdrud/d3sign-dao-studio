@@ -1,10 +1,15 @@
 .header {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 10%;
+  flex-direction: column;
   width: 100%;
-  overflow: hidden;
   background-color: black;
   border-bottom: 2px dashed rgb(190, 190, 190);
+}
+
+.header .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
 }

@@ -19,19 +19,20 @@
 
 .art-card.hovered {
   border: 1px solid #666;
-  box-shadow: 0px 0px 50px 1px rgb(0, 0, 0);
+  box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
   z-index: 2;
 }
 
 .art-card.hovered .art-img {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
+  transform: scale(1.05);
+  transition: transform 1s ease;
 }
 
 .art-card .art-img-container {
   position: relative;
   overflow: hidden;
 }
+
 .art-card .art-img {
   width: 100%;
   aspect-ratio: 1/1;
@@ -43,7 +44,7 @@
   top: 85%;
   left: 5%;
   font-family: Helvetica;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -54,14 +55,14 @@
 
 .art-card .artist {
   margin-top: 0px;
-  font-size: 18px;
+  font-size: 1rem;
   color: rgba(255, 248, 220, 1);
   font-family: Helvetica;
   font-weight: bold;
 }
 
 .art-card .text {
-  font-size: 18px;
+  font-size: 1rem;
   color: rgba(255, 248, 220, 1);
   font-family: Helvetica;
 }

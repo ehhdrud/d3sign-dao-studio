@@ -10,7 +10,7 @@ import CHR1S from "../../../images/arts/CHR1S/CHR1S-01.png";
 import ZER1 from "../../../images/arts/ZER1/ZER1-01.png";
 import J1N from "../../../images/arts/J1N/J1N-01.png";
 import MIRR0R from "../../../images/arts/MIRR0R/MIRR0R-01.png";
-import Paul0 from "../../../images/arts/Paul0/Paul0-01.png";
+import PAUL0 from "../../../images/arts/PAUL0/PAUL0-01.png";
 import R1N from "../../../images/arts/R1N/R1N-01.png";
 
 export default function ArtAndArtists() {
@@ -123,10 +123,10 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/Paul0`} className="link">
-        <img className="main-img" src={Paul0} alt="Paul0" />
+      <Link to={`/artsandartists/PAUL0`} className="link">
+        <img className="main-img" src={PAUL0} alt="PAUL0" />
         <div className="artist-card">
-          <h2 className="name">Paul0</h2>
+          <h2 className="name">PAUL0</h2>
           <p className="genre">"Expressionism"</p>
           <p>
             Through vivid colors and strong brushstrokes, Paul's expressionist

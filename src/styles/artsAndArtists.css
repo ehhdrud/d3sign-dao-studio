@@ -4,7 +4,6 @@
 }
 
 .artists h1 {
-  margin-bottom: 3rem;
   font-size: 5rem;
 }
 
@@ -14,7 +13,6 @@
 }
 
 .artists h2 {
-  margin: 0;
   margin-top: 1.2rem;
   font-size: 2rem;
 }
@@ -31,7 +29,7 @@
 
 .artists .link {
   display: flex;
-  gap: 30px;
+  gap: 2%;
   border-top: 1px solid rgba(128, 128, 128, 0);
   border-left: 2px solid rgba(128, 128, 128, 0);
   border-bottom: 1px solid rgba(128, 128, 128, 0);

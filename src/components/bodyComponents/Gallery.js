@@ -45,8 +45,8 @@ const arts = [
     genre: "Watercolor",
   },
   {
-    path: require("../../images/arts/Paul0/Paul0-00.png"),
-    artist: "Paul0",
+    path: require("../../images/arts/PAUL0/PAUL0-00.png"),
+    artist: "PAUL0",
     genre: "Expressionism",
   },
   {
@@ -73,7 +73,7 @@ export default function Gallery() {
         <Link
           className="link"
           key={index}
-          to={`/artists/${art.artist}`}
+          to={`/artsandartists/${art.artist}`}
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}
         >

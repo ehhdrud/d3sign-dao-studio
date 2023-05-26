@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 66.6%;
-  font-size: 22px;
+  width: 50%;
+  font-size: 1.8rem;
+  white-space: nowrap;
 }
 
 .category .link:hover {

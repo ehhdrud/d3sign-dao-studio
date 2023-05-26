@@ -1,20 +1,19 @@
 .sns {
   background-color: white;
   display: flex;
-  border: 3px solid black;
   border-radius: 15px;
 }
 
 .sns a {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .sns img {
+  /* svg 사진의 크기는 px로 설정하였음 ! */
   width: 40px;
   height: 40px;
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
 }
 
 .sns img:hover {

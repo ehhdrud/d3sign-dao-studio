@@ -1,19 +1,10 @@
-.vision {
+.whatson {
   width: 75%;
-  color: white;
 }
 
-.vision h1 {
-  font-size: 5rem;
-}
-
-.vision h2 {
-  margin-top: 3rem;
-}
-
-.about {
-  width: 75%;
-  color: white;
+.whatson p {
+  font-family: Helvetica;
+  padding-left: 1%;
 }
 
 .about .about-head h1 {
@@ -22,12 +13,17 @@
 
 .about .about-head h1 ~ p {
   font-size: 1.5rem;
+  margin: 0;
 }
 
 .about .about-body h2 {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
-.about .about-body h2:nth-child(1) {
-  margin-top: 3rem;
+.vision h1 {
+  font-size: 5rem;
+}
+
+.vision h2 {
+  margin-top: 2rem;
 }

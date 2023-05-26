@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 10%;
   width: 100%;
   overflow: hidden;
   background-color: black;
-  border-bottom: 3px dotted #555555;
+  border-bottom: 2px dashed rgb(190, 190, 190);
 }

@@ -1,5 +1,7 @@
 * {
   font-family: MoMA-Sans;
+  border: 1px solid red;
+  color: white;
 }
 
 .App {
@@ -17,7 +19,6 @@
 }
 
 .link {
-  color: white;
   text-decoration: none;
 }
 

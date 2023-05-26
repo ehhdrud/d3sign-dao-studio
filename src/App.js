@@ -11,7 +11,7 @@ import CHR1S from "./components/headerComponents/categoryPage/ArtistPage/CHR1S";
 import ZER1 from "./components/headerComponents/categoryPage/ArtistPage/ZER1";
 import J1N from "./components/headerComponents/categoryPage/ArtistPage/J1N";
 import MIRR0R from "./components/headerComponents/categoryPage/ArtistPage/MIRR0R";
-import Paul0 from "./components/headerComponents/categoryPage/ArtistPage/Paul0";
+import PAUL0 from "./components/headerComponents/categoryPage/ArtistPage/PAUL0";
 import R1N from "./components/headerComponents/categoryPage/ArtistPage/R1N";
 import Body from "./components/Body";
 import { HoveredIndexProvider } from "./HoveredIndexContext.js";
@@ -35,7 +35,7 @@ function App() {
             <Route path="/artsandartists/ZER1" element={<ZER1 />} />
             <Route path="/artsandartists/J1N" element={<J1N />} />
             <Route path="/artsandartists/MIRR0R" element={<MIRR0R />} />
-            <Route path="/artsandartists/Paul0" element={<Paul0 />} />
+            <Route path="/artsandartists/PAUL0" element={<PAUL0 />} />
             <Route path="/artsandartists/R1N" element={<R1N />} />
           </Routes>
         </HoveredIndexProvider>

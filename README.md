@@ -65,7 +65,7 @@ Abstract paintings by J1N explore emotion and motion via vivid colors, organic f
 MIRR0R - Watercolor:
 Watercolor paintings by MIRR0R are serene and graceful, with delicate colors blending and dancing over the surface. MIRR0R captures the transient beauty of nature and the complexities of human emotion by expertly managing the fluidity of the medium.
 
-Paul0 - Expressionism:
+PAUL0 - Expressionism:
 Through vivid colors and strong brushstrokes, Paul's expressionist artwork delves deeply into the human psyche, revealing raw emotions and untold stories. Paul's art challenges viewers to examine their own perceptions and experiences using a style that is both seductive and intriguing.
 
 R1N - Cyberpunk Art:

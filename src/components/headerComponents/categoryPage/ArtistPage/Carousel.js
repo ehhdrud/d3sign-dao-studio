@@ -6,14 +6,13 @@ export default function Carousel({ imagePaths }) {
     const carouselContainer = document.querySelector(".carousel");
     const carouselItems = document.querySelectorAll(".carousel-item");
     const carouselControlsContainer =
-      document.querySelector(".carousel-controls");
-    const carouselControls = ["previous", "next"];
+      document.querySelectorAll(".carousel-controls");
+    const carouselControlsArray = [...carouselControlsContainer];
 
     class SetCarousel {
-      constructor(container, items, controls) {
+      constructor(container, items) {
         this.carouselContainer = container;
         this.carouselItems = [...items];
-        this.carouselControls = controls;
       }
 
       updateCarousel() {
@@ -40,7 +39,10 @@ export default function Carousel({ imagePaths }) {
       }
 
       useControls() {
-        const triggers = [...carouselControlsContainer.childNodes];
+        const triggers = Array.from(carouselControlsArray[0].childNodes).concat(
+          Array.from(carouselControlsArray[1].childNodes)
+        );
+        console.log(triggers);
         triggers.forEach((control) => {
           control.addEventListener("click", (e) => {
             e.preventDefault();
@@ -50,11 +52,7 @@ export default function Carousel({ imagePaths }) {
       }
     }
 
-    const newSetCarousel = new SetCarousel(
-      carouselContainer,
-      carouselItems,
-      carouselControls
-    );
+    const newSetCarousel = new SetCarousel(carouselContainer, carouselItems);
 
     newSetCarousel.useControls();
 
@@ -73,6 +71,11 @@ export default function Carousel({ imagePaths }) {
 
   return (
     <div className="carousel">
+      <div className="carousel-controls">
+        <button className="carousel-controls-previous">
+          <div className="left-arrow"></div>
+        </button>
+      </div>
       <div className="carousel-container">
         {imagePaths.map((imagePath, index) => (
           <img
@@ -84,9 +87,6 @@ export default function Carousel({ imagePaths }) {
         ))}
       </div>
       <div className="carousel-controls">
-        <button className="carousel-controls-previous">
-          <div className="left-arrow"></div>
-        </button>
         <button className="carousel-controls-next">
           <div className="right-arrow"></div>
         </button>

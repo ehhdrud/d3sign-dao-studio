@@ -56,13 +56,11 @@
 .art-card .artist {
   margin-top: 0px;
   font-size: 1rem;
-  color: rgba(255, 248, 220, 1);
   font-family: Helvetica;
   font-weight: bold;
 }
 
 .art-card .text {
   font-size: 1rem;
-  color: rgba(255, 248, 220, 1);
   font-family: Helvetica;
 }

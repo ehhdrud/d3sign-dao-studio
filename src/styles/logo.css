@@ -15,7 +15,7 @@
   margin-top: 20px;
 }
 
-.logo span {
+.logo .logo-text {
   position: relative;
   color: rgb(255, 255, 215);
 }

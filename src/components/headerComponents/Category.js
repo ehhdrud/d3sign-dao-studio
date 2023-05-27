@@ -9,7 +9,7 @@ export default function Category() {
   return (
     <nav className="category">
       <div className="category-item">
-        {/* <box-icon name="globe" color="#FFFFD7"></box-icon> */}
+        {/* <box-icon name="globe" color="#ffffff"></box-icon> */}
         <box-icon name="rocket" color="#ffffff"></box-icon>
         <Link
           className={`link ${

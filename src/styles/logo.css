@@ -17,9 +17,12 @@
 
 .logo .logo-text {
   position: relative;
-  color: rgb(255, 255, 215);
+  /* color: rgb(255, 255, 215); */
 }
 
+.logo {
+  color: rgb(255, 255, 185);
+}
 .logo span::before,
 .logo span::after {
   content: "";
@@ -28,6 +31,7 @@
   height: 76%;
   width: 5px;
   background-color: white;
+  background-color: rgb(255, 255, 185);
   transform: translateY(-40%);
 }
 

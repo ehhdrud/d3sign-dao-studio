@@ -77,12 +77,10 @@
 .carousel-controls button {
   cursor: pointer;
   border: none;
-  background: rgb(25, 25, 25);
+  background: transparent;
   outline: none;
   box-shadow: none;
   padding: 0;
-  border: 2px outset gray;
-  border-radius: 50%;
   overflow: hidden;
 }
 

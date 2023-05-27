@@ -19,12 +19,28 @@
 
 .about .about-body h2 {
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
 }
 
+.about .about-body h2 box-icon {
+  /* width, height를 %로 설정하면 하단에 약간의 여백이 생겨서 rem으로 설정 ! */
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1%;
+}
 .vision h1 {
   font-size: 5rem;
 }
 
 .vision h2 {
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.vision h2 box-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1%;
 }

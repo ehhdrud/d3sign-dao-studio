@@ -2,10 +2,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10%;
   width: 50%;
   margin: 10px 0 10px 30px;
   font-size: 1.8rem;
   white-space: nowrap;
+}
+
+.category .category-item {
+  display: flex;
+  align-items: center;
+}
+
+.category .category-item box-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  /* margin-right을 %로 설정하면 아이콘의 크기가 작아져서 px로 설정 ! */
+  margin-right: 5px;
 }
 
 .category .link {

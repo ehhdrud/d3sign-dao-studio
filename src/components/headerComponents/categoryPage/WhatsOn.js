@@ -1,11 +1,13 @@
 import React from "react";
 import "../../../styles/whatsOn.css";
+import "boxicons";
 
 export default function WhatsOn() {
   return (
     <div className="whatson">
       <div className="about">
         <div className="about-head">
+          <i class="bx bx-pin"></i>
           <h1>About</h1>
           <p>
             D3sign DAO Studio is a forward-thinking digital art platform that
@@ -17,7 +19,10 @@ export default function WhatsOn() {
         </div>
         <br />
         <div className="about-body">
-          <h2>Globalized Art</h2>
+          <h2>
+            <box-icon name="world" color="#ffffff"></box-icon>
+            Globalized Art
+          </h2>
           <p>
             At D3sign DAO Studio, we aim to transcend geographical barriers by
             exhibiting the remarkable work of our artists on a global scale. Our
@@ -26,7 +31,10 @@ export default function WhatsOn() {
             richness of art from various cultures.
           </p>
 
-          <h2>DAO Governance and Customized Art</h2>
+          <h2>
+            <box-icon name="group" type="solid" color="#ffffff"></box-icon>
+            DAO Governance and Customized Art
+          </h2>
           <p>
             Our platform operates through DAO governance, empowering our
             community to actively participate in decision-making processes. This
@@ -35,7 +43,11 @@ export default function WhatsOn() {
             customers.
           </p>
 
-          <h2>High-Quality Digital Artwork</h2>
+          <h2>
+            {" "}
+            <box-icon name="diamond" color="#ffffff"></box-icon>
+            High-Quality Digital Artwork
+          </h2>
           <p>
             D3sign DAO Studio is committed to delivering exceptional digital art
             that meets the highest standards of quality. Our artists work
@@ -43,7 +55,10 @@ export default function WhatsOn() {
             that captivate and inspire audiences.
           </p>
 
-          <h2>Versatile Offerings and Solutions</h2>
+          <h2>
+            <box-icon name="layer" color="#ffffff"></box-icon>
+            Versatile Offerings and Solutions
+          </h2>
           <p>
             We offer a diverse range of design art configurations, ensuring that
             our customers can find the perfect solution to meet their needs. By
@@ -51,7 +66,10 @@ export default function WhatsOn() {
             can cater to a wide variety of preferences and requirements.
           </p>
 
-          <h2>Community and Belonging</h2>
+          <h2>
+            <box-icon name="chat" color="#ffffff"></box-icon>
+            Community and Belonging
+          </h2>
           <p>
             Our centralized community platform fosters a sense of belonging
             among consumers, as they engage with our artists and their work. By
@@ -59,7 +77,10 @@ export default function WhatsOn() {
             a thriving and interconnected art community.
           </p>
 
-          <h2>Global Governance Structure</h2>
+          <h2>
+            <box-icon name="network-chart" color="#ffffff"></box-icon>
+            Global Governance Structure
+          </h2>
           <p>
             D3sign DAO Studio's governance structure is designed to include
             individuals from various backgrounds, without the need for corporate
@@ -70,24 +91,34 @@ export default function WhatsOn() {
       </div>
       <div className="vision">
         <h1>Vision</h1>
-        <h2>Accessibility</h2>
+        <h2>
+          <box-icon name="compass" color="#ffffff"></box-icon>Accessibility
+        </h2>
         <p>
           Allows you around the world to experience contemporary and pop art
           collections without geographical limitations.
         </p>
-        <h2>Convenience</h2>
+        <h2>
+          <box-icon name="alarm" color="#ffffff"></box-icon>Convenience
+        </h2>
         <p>
           With 24/7 availability, you can explore and appreciate the art at
           their own pace and convenience, making it easier to fit into their
           busy schedules.
         </p>
-        <h2>Inspiration</h2>
+        <h2>
+          <box-icon name="bulb" type="solid" color="#ffffff"></box-icon>
+          Inspiration
+        </h2>
         <p>
           By showing a variety of artistic expressions, D3sign DAO Studio can
           inspire you to be creative and explore new ideas, skills, or styles in
           our artistic pursuits.
         </p>
-        <h2>Education</h2>
+        <h2>
+          <box-icon name="book" color="#ffffff"></box-icon>
+          Education
+        </h2>
         <p>
           Our art community serves as a valuable educational resource that
           provides insight into various art styles, techniques, and creative
@@ -95,7 +126,9 @@ export default function WhatsOn() {
           knowledge of art and promotes a deeper understanding and appreciation
           of these art forms.
         </p>
-        <h2>Community rewards</h2>
+        <h2>
+          <box-icon name="gift" color="#ffffff"></box-icon>Community rewards
+        </h2>
         <p>
           We are offering financial rewards to each other's art community
           activists. For example, buying D3sign DAO Studio's art at an

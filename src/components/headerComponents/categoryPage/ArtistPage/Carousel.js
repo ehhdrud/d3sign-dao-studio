@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../../../../styles/Carousel.css";
+import "../../../../styles/carousel.css";
 
 export default function Carousel({ imagePaths }) {
   useEffect(() => {

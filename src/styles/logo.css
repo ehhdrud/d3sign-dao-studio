@@ -12,5 +12,29 @@
   font-size: 3rem;
   vertical-align: center;
   white-space: nowrap;
-  border-bottom: 5px solid white;
+  margin-top: 20px;
+}
+
+.logo span {
+  position: relative;
+  color: rgb(255, 255, 215);
+}
+
+.logo span::before,
+.logo span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 76%;
+  width: 5px;
+  background-color: white;
+  transform: translateY(-40%);
+}
+
+.logo span::before {
+  left: -3px;
+}
+
+.logo span::after {
+  right: -3px;
 }

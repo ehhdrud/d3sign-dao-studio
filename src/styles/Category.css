@@ -3,8 +3,13 @@
   justify-content: space-between;
   align-items: center;
   width: 50%;
+  margin: 10px 0 10px 30px;
   font-size: 1.8rem;
   white-space: nowrap;
+}
+
+.category .link {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .category .link:hover {

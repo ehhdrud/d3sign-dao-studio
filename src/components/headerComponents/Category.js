@@ -17,7 +17,7 @@ export default function Category() {
       </Link>
       <Link
         className={`link ${
-          location.pathname.startsWith("/artists") ? "visited" : ""
+          location.pathname.startsWith("/artsandartists") ? "visited" : ""
         }`}
         to="/artsandartists"
       >

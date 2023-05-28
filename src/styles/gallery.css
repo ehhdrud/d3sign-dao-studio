@@ -3,7 +3,7 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
   width: 100%;
-  animation: blurAnimation 2s forwards;
+  animation: fade-in 3s ease-in-out forwards;
 }
 
 .art-card {

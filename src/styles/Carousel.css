@@ -13,6 +13,7 @@
   height: 400px;
   min-width: 1000px;
   margin: 50px auto;
+  animation: fade-in 1.5s ease-in-out forwards;
 }
 
 .carousel-item {

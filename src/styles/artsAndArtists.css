@@ -10,6 +10,7 @@
 .artists .main-img {
   width: 20%;
   aspect-ratio: 1/1;
+  animation: fade-in 3s ease-in-out forwards;
 }
 
 .artists h2 {
@@ -20,11 +21,13 @@
 .artists .genre {
   font-size: 1.6rem;
   font-style: italic;
+  animation: fade-in 0.5s ease-in-out forwards;
 }
 
 .artists p {
   font-size: 1.2rem;
   font-family: Helvetica;
+  animation: fade-in 1.5s ease-in-out forwards;
 }
 
 .artists .link {

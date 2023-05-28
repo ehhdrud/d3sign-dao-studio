@@ -8,16 +8,12 @@
   margin: 1% 2%;
 }
 
-.logo span {
+.logo .logo-text {
+  position: relative;
   font-size: 3rem;
   vertical-align: center;
   white-space: nowrap;
-  margin-top: 20px;
-}
-
-.logo .logo-text {
-  position: relative;
-  /* color: rgb(255, 255, 215); */
+  margin-top: 25px;
 }
 
 .logo {

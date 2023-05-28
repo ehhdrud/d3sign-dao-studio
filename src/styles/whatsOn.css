@@ -6,6 +6,11 @@
   font-family: Helvetica;
   font-size: 1.2rem;
   padding-left: 1%;
+  animation: fade-in 1.5s ease-in-out forwards;
+}
+
+.whatson h2 {
+  animation: fade-in 0.5s ease-in-out forwards;
 }
 
 .about .about-head h1 {

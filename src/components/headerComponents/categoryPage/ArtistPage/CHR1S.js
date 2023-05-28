@@ -14,7 +14,9 @@ const imagePaths = [image1, image2, image3, image4, image5, image6, image7];
 export default function CHR1S() {
   return (
     <div className="artist-page-container">
-      <h1 className="artist-page-title">🎨 CHR1S's Artwork</h1>
+      <h1 className="artist-page-title">
+        <box-icon name="edit" color="#ffffff"></box-icon>CHR1S's Artwork
+      </h1>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

@@ -9,5 +9,5 @@
   position: relative;
   font-size: 2.4rem;
   margin: 0.5%;
-  animation: blurAnimation 1s forwards;
+  animation: fade-in 1s ease-in-out forwards;
 }

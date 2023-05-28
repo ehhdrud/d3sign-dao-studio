@@ -1,13 +1,28 @@
 .intro {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
-.intro p {
+.intro span {
   position: relative;
-  font-size: 2.4rem;
-  margin: 0.5%;
+  /* background-color: #ffffd7; */
+  width: max-content;
+  font-size: 3.9rem;
+  margin: 0px;
   animation: fade-in 1s ease-in-out forwards;
+  /* color: #ffffd7; */
+  /* border: 1px solid red; */
+}
+
+.intro .intro-item-1 {
+  animation: fade-in 2s ease-in-out forwards;
+}
+
+.intro .intro-item-2 {
+  animation: fade-in-2 2s ease-in-out forwards;
+}
+
+.intro .intro-item-3 {
+  animation: fade-in-3 2s ease-in-out forwards;
 }

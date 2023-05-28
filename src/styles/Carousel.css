@@ -17,6 +17,7 @@
 }
 
 .carousel-item {
+  display: none;
   position: absolute;
   z-index: 0;
   opacity: 0;
@@ -28,12 +29,14 @@
 }
 
 .carousel-item-1 {
+  display: visible;
   opacity: 0.4;
   left: 9%;
   transform: translateX(-50%);
 }
 
 .carousel-item-2 {
+  display: visible;
   z-index: 1;
   opacity: 0.5;
   width: 250px;
@@ -43,6 +46,7 @@
 }
 
 .carousel-item-3 {
+  display: visible;
   left: 50%;
   z-index: 2;
   opacity: 1;
@@ -52,6 +56,7 @@
 }
 
 .carousel-item-4 {
+  display: visible;
   z-index: 1;
   opacity: 0.5;
   width: 250px;
@@ -61,6 +66,7 @@
 }
 
 .carousel-item-5 {
+  display: visible;
   left: 100%;
   opacity: 0.4;
   transform: translateX(-50%);

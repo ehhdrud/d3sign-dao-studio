@@ -4,7 +4,11 @@ import "../../styles/intro.css";
 export default function Intro() {
   return (
     <div className="intro">
-      <p>A Community of 10 Passionate Graphic Design Artists</p>
+      <span className="intro-item-1">A Community</span>
+      <span className="intro-item-2">&nbsp;of</span>
+      <span className="intro-item-3">
+        &nbsp;10 Passionate Graphic Design Artists
+      </span>
     </div>
   );
 }

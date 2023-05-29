@@ -1,7 +1,6 @@
 /* 1. carousel */
 .carousel {
   width: 100%;
-  overflow: hidden;
   display: flex;
 }
 
@@ -17,7 +16,6 @@
 }
 
 .carousel-item {
-  display: none;
   position: absolute;
   z-index: 0;
   opacity: 0;
@@ -26,6 +24,12 @@
   background-size: contain;
   border: 3px solid black;
   transition: all 0.3s ease-in-out;
+}
+
+.carousel-item-hidden {
+  position: absolute;
+  left: 40%;
+  opacity: 0;
 }
 
 .carousel-item-1 {
@@ -67,7 +71,6 @@
 
 .carousel-item-5 {
   display: visible;
-  left: 100%;
   opacity: 0.4;
   transform: translateX(-50%);
   left: 91%;
@@ -79,6 +82,7 @@
   justify-content: center;
   align-items: center;
   width: 12.5%;
+  z-index: 3;
 }
 
 .carousel-controls button {
@@ -231,18 +235,18 @@
 
 @keyframes aniRightArrow01 {
   0% {
-    transform: rotateZ(45deg) translateY(30px) translateX(-30px); /* 반대로 변경 */
+    transform: rotateZ(45deg) translateY(30px) translateX(-30px);
   }
   100% {
-    transform: rotateZ(45deg) translateY(-35px) translateX(35px); /* 반대로 변경 */
+    transform: rotateZ(45deg) translateY(-35px) translateX(35px);
   }
 }
 
 @keyframes aniRightArrow02 {
   0% {
-    transform: translateX(-45px); /* 반대로 변경 */
+    transform: translateX(-45px);
   }
   100% {
-    transform: translateX(44px); /* 반대로 변경 */
+    transform: translateX(44px);
   }
 }

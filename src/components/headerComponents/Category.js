@@ -9,7 +9,6 @@ export default function Category() {
   return (
     <nav className="category">
       <div className="category-item">
-        <box-icon name="globe" color="#ffffff"></box-icon>
         <Link
           className={`link ${
             location.pathname.startsWith("/whatson") ? "visited" : ""
@@ -20,7 +19,6 @@ export default function Category() {
         </Link>
       </div>
       <div className="category-item">
-        <box-icon name="palette" type="solid" color="#ffffff"></box-icon>
         <Link
           className={`link ${
             location.pathname.startsWith("/artsandartists") ? "visited" : ""
@@ -31,7 +29,6 @@ export default function Category() {
         </Link>
       </div>
       <div className="category-item">
-        <box-icon name="store-alt" color="#ffffff"></box-icon>
         <Link
           className={`link ${
             location.pathname.startsWith("/marketplace") ? "visited" : ""
@@ -42,7 +39,6 @@ export default function Category() {
         </Link>
       </div>
       <div className="category-item">
-        <box-icon name="conversation" color="#ffffff"></box-icon>
         <Link
           className={`link ${
             location.pathname.startsWith("/faq") ? "visited" : ""

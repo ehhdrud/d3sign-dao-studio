@@ -16,12 +16,17 @@ export default function Carousel({ imagePaths }) {
       }
 
       updateCarousel() {
-        this.carouselItems.forEach((element) => {
+        this.carouselItems.forEach((element, index) => {
           element.classList.remove("carousel-item-1");
           element.classList.remove("carousel-item-2");
           element.classList.remove("carousel-item-3");
           element.classList.remove("carousel-item-4");
           element.classList.remove("carousel-item-5");
+          element.classList.remove("carousel-item-hidden");
+
+          if (index >= 5) {
+            element.classList.add("carousel-item-hidden");
+          }
         });
 
         this.carouselItems.slice(0, 5).forEach((element, index) => {

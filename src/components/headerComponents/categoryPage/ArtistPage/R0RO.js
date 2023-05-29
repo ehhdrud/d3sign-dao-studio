@@ -13,7 +13,8 @@ export default function R0RO() {
   return (
     <div className="artist-page-container">
       <h1 className="artist-page-title">
-        <box-icon name="edit" color="#ffffff"></box-icon>R0RO's Artwork
+        <box-icon name="palette" type="solid" color="#ffffff"></box-icon>R0RO's
+        Artwork
       </h1>
       <Carousel imagePaths={imagePaths} />
     </div>

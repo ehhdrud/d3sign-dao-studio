@@ -14,7 +14,8 @@ export default function T0RI() {
   return (
     <div className="artist-page-container">
       <h1 className="artist-page-title">
-        <box-icon name="edit" color="#ffffff"></box-icon>T0RI's Artwork
+        <box-icon name="palette" type="solid" color="#ffffff"></box-icon>T0RI's
+        Artwork
       </h1>
       <Carousel imagePaths={imagePaths} />
     </div>

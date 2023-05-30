@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../../styles/category.css";
-import "boxicons";
 
 export default function Category() {
   const location = useLocation();

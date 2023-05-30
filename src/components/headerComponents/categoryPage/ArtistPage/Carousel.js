@@ -86,7 +86,6 @@ export default function Carousel({ imagePaths }) {
           <img
             className={`carousel-item carousel-item-${index + 1}`}
             src={imagePath}
-            data-index={`${index + 1}`}
             alt={`${index + 1}`}
           />
         ))}

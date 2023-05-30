@@ -44,8 +44,8 @@
   display: visible;
   z-index: 1;
   opacity: 0.5;
-  width: 270px;
-  height: 270px;
+  width: 275px;
+  height: 275px;
   left: 19%;
   transform: translateX(-50%);
 }
@@ -64,8 +64,8 @@
   display: visible;
   z-index: 1;
   opacity: 0.5;
-  width: 270px;
-  height: 270px;
+  width: 275px;
+  height: 275px;
   left: 81%;
   transform: translateX(-50%);
 }

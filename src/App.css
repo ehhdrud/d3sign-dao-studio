@@ -21,10 +21,14 @@
 .link {
   text-decoration: none;
 }
-
 @font-face {
   font-family: MoMA-Sans;
   src: url("fonts/MoMA-Sans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Jenna Monica;
+  src: url("fonts/Jenna Monica.otf") format("opentype");
 }
 
 @keyframes shake {

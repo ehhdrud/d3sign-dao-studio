@@ -7,7 +7,7 @@ export default function Intro() {
       <span className="intro-item-1">A Community</span>
       <span className="intro-item-2">&nbsp;of</span>
       <span className="intro-item-3">
-        &nbsp;10 Passionate Graphic Design Artists
+        &nbsp;10 Passinate Graghic Design Aritists
       </span>
     </div>
   );

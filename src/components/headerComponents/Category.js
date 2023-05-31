@@ -14,18 +14,6 @@ export default function Category({ isToggled }) {
     }
   }, [isToggled]);
 
-  useEffect(() => {
-    const handleClick = () => {
-      setLayoutSignal("");
-    };
-
-    window.addEventListener("click", handleClick);
-
-    return () => {
-      window.removeEventListener("click", handleClick);
-    };
-  }, []);
-
   return (
     <nav className={`category ${layoutSignal}`}>
       <div className="category-item">

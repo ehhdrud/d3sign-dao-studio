@@ -3,15 +3,15 @@ import "boxicons";
 import "boxicons/css/boxicons.min.css";
 import "../../styles/toggle.css";
 
-export default function Toggle({ onToggle }) {
+export default function Toggle({ handleToggle }) {
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
-    onToggle(isActive);
-  }, [isActive, onToggle]);
+    handleToggle(isActive);
+  }, [isActive]);
 
   const handleClick = () => {
-    setIsActive(!isActive);
+    setIsActive(true);
   };
 
   return (

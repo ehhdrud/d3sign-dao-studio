@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <nav className="header">
-      <Toggle onToggle={handleToggle} />
+      <Toggle handleToggle={handleToggle} />
       <Logo />
       <Category isToggled={isToggled} />
       <Sns />

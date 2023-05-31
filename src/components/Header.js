@@ -1,19 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Toggle from "./headerComponents/Toggle";
-import Category from "./headerComponents/Category";
 import Logo from "./headerComponents/Logo";
+import Category from "./headerComponents/Category";
 import Sns from "./headerComponents/Sns";
 import "../styles/header.css";
 
-export default function Header(props) {
+export default function Header() {
+  const [isToggled, setIsToggled] = useState(false);
+
+  const handleToggle = (isActive) => {
+    setIsToggled(isActive);
+  };
+
   return (
     <nav className="header">
-      {/* <div className="top"> */}
-      <Toggle />
+      <Toggle onToggle={handleToggle} />
       <Logo />
+      <Category isToggled={isToggled} />
       <Sns />
-      {/* </div> */}
-      <Category />
     </nav>
   );
 }

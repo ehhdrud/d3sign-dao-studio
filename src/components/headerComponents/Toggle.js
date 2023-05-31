@@ -1,29 +1,27 @@
-import React from "react";
-import Category from "./Category";
+import React, { useEffect, useState } from "react";
 import "boxicons";
+import "boxicons/css/boxicons.min.css";
 import "../../styles/toggle.css";
 
-export default function Toggle() {
-  const toggle = document.querySelector("box-icon");
-  const category = document.querySelector(".category");
+export default function Toggle({ onToggle }) {
+  const [isActive, setIsActive] = useState(false);
 
-  toggle.addEventListener("click", function () {
-    category.classList.toggle("active");
-    if (category.classList.contains("active") === true) {
-      localStorage.setItem("mobile-category-active", "true");
-    } else {
-      localStorage.setItem("mobile-category-active", "false");
-    }
-  });
+  useEffect(() => {
+    onToggle(isActive);
+  }, [isActive, onToggle]);
 
-  if (localStorage.getItem("mobile-category-active") === "true") {
-    category.classList.add("active");
-  } else {
-  }
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
 
   return (
-    <div className="toggle">
-      <box-icon name="right-arrow-circle" color="white"></box-icon>
+    <div className="toggle-container">
+      <i
+        className={`toggle bx bx-category ${isActive ? "active" : ""}`}
+        onClick={handleClick}
+      ></i>
     </div>
   );
 }
+
+<i class=""></i>;

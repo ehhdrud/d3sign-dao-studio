@@ -1,12 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../../styles/category.css";
 
-export default function Category() {
+export default function Category({ isToggled }) {
   const location = useLocation();
+  const [layoutSignal, setLayoutSignal] = useState("");
+
+  useEffect(() => {
+    if (isToggled) {
+      setLayoutSignal("rearrange");
+    } else {
+      setLayoutSignal("");
+    }
+  }, [isToggled]);
+
+  useEffect(() => {
+    const handleClick = () => {
+      setLayoutSignal("");
+    };
+
+    window.addEventListener("click", handleClick);
+
+    return () => {
+      window.removeEventListener("click", handleClick);
+    };
+  }, []);
 
   return (
-    <nav className="category">
+    <nav className={`category ${layoutSignal}`}>
       <div className="category-item">
         <Link
           className={`link ${

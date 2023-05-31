@@ -1,9 +1,16 @@
-.toggle {
+.toggle-container {
   position: relative;
 }
 
-.toggle box-icon {
+.toggle {
   position: absolute;
   top: 20px;
   left: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.toggle.active {
+  transform: rotate(180deg);
 }

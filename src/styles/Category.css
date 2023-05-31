@@ -9,6 +9,21 @@
   white-space: nowrap;
 }
 
+.category.rearrange {
+  border: 1px dashed white;
+  position: absolute;
+  top: 90px;
+  left: -33px;
+  z-index: 10;
+  background-color: black;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 250px;
+  height: 300px;
+  gap: 50px;
+}
+
 .category .category-item {
   display: flex;
   align-items: center;

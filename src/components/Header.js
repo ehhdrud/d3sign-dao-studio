@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import { ToggleContext } from "../ToggleContext";
 import Toggle from "./headerComponents/Toggle";
 import Logo from "./headerComponents/Logo";
 import Category from "./headerComponents/Category";
@@ -6,17 +7,17 @@ import Sns from "./headerComponents/Sns";
 import "../styles/header.css";
 
 export default function Header() {
-  const [isToggled, setIsToggled] = useState(false);
+  const { deleteCategoryLayout } = useContext(ToggleContext);
 
-  const handleToggle = (isActive) => {
-    setIsToggled(isActive);
+  const handleClick = () => {
+    deleteCategoryLayout();
   };
 
   return (
-    <nav className="header">
-      <Toggle handleToggle={handleToggle} />
+    <nav className="header" onClick={handleClick}>
+      <Toggle />
       <Logo />
-      <Category isToggled={isToggled} />
+      <Category />
       <Sns />
     </nav>
   );

@@ -10,7 +10,3 @@
   border-radius: 50%;
   cursor: pointer;
 }
-
-.toggle.active {
-  transform: rotate(180deg);
-}

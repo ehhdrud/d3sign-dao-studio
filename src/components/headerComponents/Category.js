@@ -1,21 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { ToggleContext } from "../../ToggleContext.js";
 import "../../styles/category.css";
 
-export default function Category({ isToggled }) {
+export default function Category() {
   const location = useLocation();
-  const [layoutSignal, setLayoutSignal] = useState("");
-
-  useEffect(() => {
-    if (isToggled) {
-      setLayoutSignal("rearrange");
-    } else {
-      setLayoutSignal("");
-    }
-  }, [isToggled]);
+  const { categoryLayoutChanged } = useContext(ToggleContext);
 
   return (
-    <nav className={`category ${layoutSignal}`}>
+    <nav className={`category ${categoryLayoutChanged ? "rearranged" : ""}`}>
       <div className="category-item">
         <Link
           className={`link ${

@@ -1,5 +1,6 @@
 .category {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 10%;
@@ -9,7 +10,7 @@
   white-space: nowrap;
 }
 
-.category.rearrange {
+.category.rearranged {
   border: 1px dashed white;
   position: absolute;
   top: 90px;

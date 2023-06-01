@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HoveredIndexProvider } from "./HoveredIndexContext.js";
 import { ToggleProvider } from "./ToggleContext.js";
 import Header from "./components/Header";
+import Sns from "./components/Sns.js";
 import WhatsOn from "./components/headerComponents/categoryPage/WhatsOn";
 import ArtAndArtists from "./components/headerComponents/categoryPage/ArtsAndArtists";
 import V1VI from "./components/headerComponents/categoryPage/ArtistPage/V1VI";
@@ -25,6 +26,7 @@ function App() {
         <ToggleProvider>
           <HoveredIndexProvider>
             <Header />
+            <Sns />
             <Routes>
               <Route path="/" element={<Body />} />
               <Route path="/whatson" element={<WhatsOn />} />

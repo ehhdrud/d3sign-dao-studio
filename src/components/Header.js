@@ -3,7 +3,6 @@ import { ToggleContext } from "../ToggleContext";
 import Toggle from "./headerComponents/Toggle";
 import Logo from "./headerComponents/Logo";
 import Category from "./headerComponents/Category";
-import Sns from "./headerComponents/Sns";
 import "../styles/header.css";
 
 export default function Header() {
@@ -18,7 +17,6 @@ export default function Header() {
       <Toggle />
       <Logo />
       <Category />
-      <Sns />
     </nav>
   );
 }

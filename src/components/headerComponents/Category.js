@@ -16,7 +16,7 @@ export default function Category() {
           }`}
           to="/whatson"
         >
-          What's on
+          <span className="category-text">What's on</span>
         </Link>
       </div>
       <div className="category-item">
@@ -26,7 +26,7 @@ export default function Category() {
           }`}
           to="/artsandartists"
         >
-          Arts and artists
+          <span className="category-text">Arts and artists</span>
         </Link>
       </div>
       <div className="category-item">
@@ -36,7 +36,7 @@ export default function Category() {
           }`}
           to="/marketplace"
         >
-          Marketplace
+          <span className="category-text">Marketplace</span>
         </Link>
       </div>
       <div className="category-item">
@@ -46,7 +46,7 @@ export default function Category() {
           }`}
           to="/faq"
         >
-          FAQ
+          <span className="category-text">FAQ</span>
         </Link>
       </div>
     </nav>

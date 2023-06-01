@@ -4,15 +4,14 @@
   align-items: center;
   width: max-content;
   text-decoration: underline;
-  margin: 1% 2%;
+  margin: 30px;
 }
 
 .logo .logo-text {
   position: relative;
-  font-size: 3rem;
+  font-size: 65px;
   vertical-align: center;
   white-space: nowrap;
-  margin-top: 3%;
 }
 
 .logo {
@@ -22,12 +21,10 @@
 .logo span::after {
   content: "";
   position: absolute;
-  top: 50%;
-  height: 76%;
-  width: 0.35rem;
-  background-color: white;
+  bottom: 4px;
+  width: 7px;
+  height: 75px;
   background-color: rgb(255, 255, 185);
-  transform: translateY(-40%);
 }
 
 .logo span::before {
@@ -35,5 +32,5 @@
 }
 
 .logo span::after {
-  right: -3px;
+  right: -5px;
 }

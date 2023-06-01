@@ -1,8 +1,9 @@
 .toggle-container {
+  visibility: hidden;
   position: absolute;
   top: 10px;
   left: 10px;
-  z-index: 10;
+  z-index: 5;
   width: 30px;
   height: 30px;
   border: 3px solid white;
@@ -12,4 +13,11 @@
 .toggle-icon {
   font-size: 30px;
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .toggle-container {
+    /* border: 1px red solid; */
+    visibility: visible;
+  }
 }

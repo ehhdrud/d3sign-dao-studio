@@ -10,8 +10,12 @@ export function ToggleProvider({ children }) {
     console.log(categoryLayoutChanged);
   };
 
-  const deleteCategoryLayout = () => {
-    setCategoryLayoutChanged(false);
+  const deleteCategoryLayout = (event) => {
+    const targetClass = event.target.className;
+    if (!targetClass.includes("toggle") && !targetClass.includes("category")) {
+      // console.log(targetClass);
+      setCategoryLayoutChanged(false);
+    }
     console.log(categoryLayoutChanged);
   };
 

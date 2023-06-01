@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ToggleContext } from "../../../../ToggleContext";
 import Carousel from "./Carousel";
 import image1 from "../../../../images/arts/PAUL0/PAUL0-00.png";
 import image2 from "../../../../images/arts/PAUL0/PAUL0-01.png";
@@ -12,8 +13,14 @@ import "../../../../styles/artistPage.css";
 const imagePaths = [image1, image2, image3, image4, image5, image6, image7];
 
 export default function PAUL0() {
+  const { deleteCategoryLayout } = useContext(ToggleContext);
+
+  const handleClick = (event) => {
+    deleteCategoryLayout(event);
+  };
+
   return (
-    <div className="artist-page-container">
+    <div className="artist-page-container" onClick={handleClick}>
       <h1 className="artist-page-title">
         <box-icon name="palette" type="solid" color="#ffffff"></box-icon>PAUL0's
         Artwork

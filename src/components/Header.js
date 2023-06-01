@@ -9,8 +9,8 @@ import "../styles/header.css";
 export default function Header() {
   const { deleteCategoryLayout } = useContext(ToggleContext);
 
-  const handleClick = () => {
-    deleteCategoryLayout();
+  const handleClick = (event) => {
+    deleteCategoryLayout(event);
   };
 
   return (

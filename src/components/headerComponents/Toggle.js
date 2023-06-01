@@ -12,8 +12,8 @@ export default function Toggle() {
   };
 
   return (
-    <div className="toggle-container" onClick={handleClick}>
-      <i className="toggle bx bx-category"></i>
+    <div className="toggle toggle-container" onClick={handleClick}>
+      <i className="toggle toggle-icon bx bx-category"></i>
     </div>
   );
 }

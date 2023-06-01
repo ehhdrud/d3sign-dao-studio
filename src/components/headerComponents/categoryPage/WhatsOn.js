@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ToggleContext } from "../../../ToggleContext";
 import "../../../styles/whatsOn.css";
 import "boxicons";
 
 export default function WhatsOn() {
+  const { deleteCategoryLayout } = useContext(ToggleContext);
+
+  const handleClick = (event) => {
+    deleteCategoryLayout(event);
+  };
+
   return (
-    <div className="whatson">
+    <div className="whatson" onClick={handleClick}>
       <div className="about">
         <div className="about-head">
           <h1>About</h1>

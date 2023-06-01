@@ -1,36 +1,23 @@
 .sns {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   position: absolute;
-  z-index: 5;
   width: max-content;
   border: 3px dotted black;
-  border-radius: 15px;
+  border-radius: 30px;
   background-color: #ffffee;
 }
 
-.sns .line-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 3px dotted black;
-}
-
-.sns .line-1 img {
-  width: 160px;
+.sns .linktree {
+  width: 120px;
   height: 40px;
-}
-
-.sns .line-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .sns a {
   display: flex;
   align-items: center;
-  margin: 0px 15px;
+  margin: 0px 10px;
 }
 
 .sns img {
@@ -56,6 +43,15 @@
 
 @media (max-width: 480px) {
   .sns {
-    bottom: 0px;
+    border: none;
+    border-radius: 0px;
+    top: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sns {
+    visibility: hidden;
   }
 }

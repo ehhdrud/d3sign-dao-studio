@@ -1,16 +1,15 @@
 .intro {
   display: flex;
   align-items: center;
-  margin-bottom: 0.5%;
+  margin-bottom: 3px;
 }
 
 .intro span {
   position: relative;
   width: max-content;
   font-family: Jenna Monica;
-  font-size: 6rem;
+  font-size: 5.5vw;
   font-weight: 500;
-  margin: 0px;
   animation: fade-in 1s ease-in-out forwards;
 }
 

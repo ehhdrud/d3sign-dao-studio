@@ -3,10 +3,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 10%;
-  width: 62%;
+  gap: 8%;
+  width: 60%;
   margin: 1% 0 1% 2%;
-  font-size: 1.8rem;
+  font-size: 32.5px;
   white-space: nowrap;
 }
 
@@ -18,7 +18,6 @@
 .category .category-item box-icon {
   width: 1.5rem;
   height: 1.5rem;
-  /* margin-right을 %로 설정하면 아이콘의 크기가 작아져서 px로 설정 ! */
   margin-right: 5px;
 }
 
@@ -39,7 +38,7 @@
 @media (max-width: 480px) {
   .category {
     visibility: hidden;
-    border: 1px dashed white;
+    border-right: 1px dashed white;
     position: absolute;
     top: -5px;
     left: -10px;
@@ -63,5 +62,17 @@
 
   .category .category-item {
     margin-left: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .category {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category {
+    font-size: 25px;
   }
 }

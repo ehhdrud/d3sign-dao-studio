@@ -9,7 +9,6 @@
 
 .artists .main-img {
   width: 20%;
-  /* height: 100%; */
   aspect-ratio: 1/1;
   animation: fade-in 3s ease-in-out forwards;
 }
@@ -45,23 +44,20 @@
   animation: slideAndBorderAnimation 1s forwards;
 }
 
-@media (max-width: 732px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .artists .main-img {
-    width: 30%;
+    width: 32%;
   }
 }
 
 @media (max-width: 480px) {
+  .artists .main-img {
+    width: 100%;
+  }
+
+  .artists .link {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px;
+  }
 }
-
-/* @media (max-width: 440px) {
-  .artists .main-img {
-    width: 50%;
-  }
-} */
-
-/* @media (max-width: 420px) {
-  .artists .main-img {
-    width: 60%;
-  }
-} */

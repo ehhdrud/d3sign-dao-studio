@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { ToggleContext } from "../../../ToggleContext";
 import "../../../styles/whatsOn.css";
 import "boxicons";
+import "boxicons/css/boxicons.min.css";
 
 export default function WhatsOn() {
   const { deleteCategoryLayout } = useContext(ToggleContext);
@@ -53,7 +54,6 @@ export default function WhatsOn() {
           </div>
           <div className="about-body-item">
             <h2>
-              {" "}
               <box-icon name="diamond" color="#ffffff"></box-icon>
               High-Quality Digital Artwork
             </h2>
@@ -163,7 +163,6 @@ export default function WhatsOn() {
               affordable price, art airdrop, community pool rewards, etc.
             </p>
           </div>
-          x
         </div>
       </div>
     </div>

@@ -7,16 +7,16 @@ export function ToggleProvider({ children }) {
 
   const toggleCategoryLayout = () => {
     setCategoryLayoutChanged(!categoryLayoutChanged);
-    console.log(categoryLayoutChanged);
   };
 
   const deleteCategoryLayout = (event) => {
     const targetClass = event.target.className;
-    if (!targetClass.includes("toggle") && !targetClass.includes("category")) {
-      // console.log(targetClass);
+    if (
+      (!targetClass.includes("toggle") && !targetClass.includes("category")) ||
+      targetClass.includes("category-text")
+    ) {
       setCategoryLayoutChanged(false);
     }
-    console.log(categoryLayoutChanged);
   };
 
   return (

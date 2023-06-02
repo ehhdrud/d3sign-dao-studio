@@ -4,28 +4,31 @@
 }
 
 .artists h1 {
-  font-size: 5rem;
+  font-size: 5vw;
 }
 
 .artists .main-img {
   width: 20%;
+  /* height: 100%; */
   aspect-ratio: 1/1;
   animation: fade-in 3s ease-in-out forwards;
 }
 
 .artists h2 {
-  margin-top: 1.2rem;
-  font-size: 2rem;
+  margin-top: 1.2vw;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
 }
 
 .artists .genre {
-  font-size: 1.6rem;
+  font-size: 1.6vw;
   font-style: italic;
   animation: fade-in 0.5s ease-in-out forwards;
 }
 
 .artists p {
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   font-family: Helvetica;
   animation: fade-in 1.5s ease-in-out forwards;
 }
@@ -41,3 +44,24 @@
 .artists .link:hover {
   animation: slideAndBorderAnimation 1s forwards;
 }
+
+@media (max-width: 732px) {
+  .artists .main-img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+}
+
+/* @media (max-width: 440px) {
+  .artists .main-img {
+    width: 50%;
+  }
+} */
+
+/* @media (max-width: 420px) {
+  .artists .main-img {
+    width: 60%;
+  }
+} */

@@ -7,15 +7,21 @@
 }
 
 .artist-page-title {
-  display: flex;
-  align-items: center;
   width: 75%;
   font-size: 3vw;
-  margin: 10px 0;
 }
 
-.artist-page-title box-icon {
-  width: 3vw;
-  height: 3vw;
-  margin-right: 15px;
+@media (min-width: 481px) and (max-width: 768px) {
+  .artist-page-title {
+    font-size: 25px;
+    margin: 50px 0 50px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .artist-page-title {
+    font-size: 25px;
+    text-align: center;
+    margin: 100px 0 50px 0;
+  }
 }

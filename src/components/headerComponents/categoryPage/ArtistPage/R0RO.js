@@ -19,10 +19,7 @@ export default function R0RO() {
 
   return (
     <div className="artist-page-container" onClick={handleClick}>
-      <h1 className="artist-page-title">
-        <box-icon name="palette" type="solid" color="#ffffff"></box-icon>R0RO's
-        Artwork
-      </h1>
+      <h1 className="artist-page-title">R0RO's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

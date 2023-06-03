@@ -19,10 +19,7 @@ export default function P0LA() {
 
   return (
     <div className="artist-page-container" onClick={handleClick}>
-      <h1 className="artist-page-title">
-        <box-icon name="palette" type="solid" color="#ffffff"></box-icon>P0LA's
-        Artwork
-      </h1>
+      <h1 className="artist-page-title">P0LA's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

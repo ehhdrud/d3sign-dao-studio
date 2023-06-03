@@ -35,6 +35,34 @@
   right: -5px;
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+  .logo {
+    margin: 20px 0px 20px 15px;
+  }
+
+  .logo .logo-text {
+    font-size: 44px;
+  }
+
+  .logo span::before,
+  .logo span::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    width: 4.4px;
+    height: 40px;
+    background-color: rgb(255, 255, 185);
+  }
+
+  .logo span::before {
+    left: -2px;
+  }
+
+  .logo span::after {
+    right: -3px;
+  }
+}
+
 @media (max-width: 480px) {
   .logo {
     margin: 20px 0px 20px 10px;

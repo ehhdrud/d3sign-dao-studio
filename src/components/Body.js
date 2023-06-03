@@ -8,9 +8,12 @@ import { useHoveredIndex } from "../HoveredIndexContext.js";
 export default function Body() {
   const { hoveredIndex } = useHoveredIndex();
 
-  const bodyClassName = `body ${hoveredIndex !== null ? "hovered" : ""}`;
+  const { categoryLayoutChanged, deleteCategoryLayout } =
+    useContext(ToggleContext);
 
-  const { deleteCategoryLayout } = useContext(ToggleContext);
+  const bodyClassName = `body ${hoveredIndex !== null ? "hovered" : ""} ${
+    categoryLayoutChanged ? "rearranged" : ""
+  }`;
 
   const handleClick = (event) => {
     deleteCategoryLayout(event);

@@ -6,14 +6,18 @@ import Category from "./headerComponents/Category";
 import "../styles/header.css";
 
 export default function Header() {
-  const { deleteCategoryLayout } = useContext(ToggleContext);
+  const { deleteCategoryLayout, categoryLayoutChanged } =
+    useContext(ToggleContext);
 
   const handleClick = (event) => {
     deleteCategoryLayout(event);
   };
 
   return (
-    <nav className="header" onClick={handleClick}>
+    <nav
+      className={`header ${categoryLayoutChanged ? "rearranged" : ""}`}
+      onClick={handleClick}
+    >
       <Toggle />
       <Logo />
       <Category />

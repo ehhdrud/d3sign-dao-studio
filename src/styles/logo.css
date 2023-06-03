@@ -90,3 +90,7 @@
     right: -3px;
   }
 }
+
+.logo.rearranged {
+  filter: blur(1.25px);
+}

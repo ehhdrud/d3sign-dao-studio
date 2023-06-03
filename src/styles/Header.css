@@ -15,3 +15,7 @@
   height: max-content;
   overflow: hidden;
 }
+
+.header.rearranged {
+  border: 2px solid transparent;
+}

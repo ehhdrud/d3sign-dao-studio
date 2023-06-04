@@ -65,3 +65,7 @@
   border-left: 10px solid #ffffd7;
   padding-left: 5%;
 }
+
+.whatson.rearranged {
+  filter: blur(1.25px);
+}

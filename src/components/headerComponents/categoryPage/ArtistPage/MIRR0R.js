@@ -12,14 +12,20 @@ import "../../../../styles/artistPage.css";
 const imagePaths = [image1, image2, image3, image4, image5, image6];
 
 export default function MIRR0R() {
-  const { deleteCategoryLayout } = useContext(ToggleContext);
+  const { deleteCategoryLayout, categoryLayoutChanged } =
+    useContext(ToggleContext);
 
   const handleClick = (event) => {
     deleteCategoryLayout(event);
   };
 
   return (
-    <div className="artist-page-container" onClick={handleClick}>
+    <div
+      className={`artist-page-container ${
+        categoryLayoutChanged ? "rearranged" : ""
+      }`}
+      onClick={handleClick}
+    >
       <h1 className="artist-page-title">MIRR0R's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>

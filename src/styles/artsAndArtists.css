@@ -61,3 +61,7 @@
     margin: 30px 30px;
   }
 }
+
+.artists.rearranged {
+  filter: blur(1.25px);
+}

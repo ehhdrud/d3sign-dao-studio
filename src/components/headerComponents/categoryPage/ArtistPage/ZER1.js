@@ -11,14 +11,20 @@ import "boxicons";
 
 const imagePaths = [image1, image2, image3, image4, image5];
 export default function ZER1() {
-  const { deleteCategoryLayout } = useContext(ToggleContext);
+  const { deleteCategoryLayout, categoryLayoutChanged } =
+    useContext(ToggleContext);
 
   const handleClick = (event) => {
     deleteCategoryLayout(event);
   };
 
   return (
-    <div className="artist-page-container" onClick={handleClick}>
+    <div
+      className={`artist-page-container ${
+        categoryLayoutChanged ? "rearranged" : ""
+      }`}
+      onClick={handleClick}
+    >
       <h1 className="artist-page-title">ZER1's Artwork</h1>
       <Carousel imagePaths={imagePaths} />
     </div>

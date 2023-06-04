@@ -5,14 +5,17 @@ import "boxicons";
 import "boxicons/css/boxicons.min.css";
 
 export default function WhatsOn() {
-  const { deleteCategoryLayout } = useContext(ToggleContext);
-
+  const { deleteCategoryLayout, categoryLayoutChanged } =
+    useContext(ToggleContext);
   const handleClick = (event) => {
     deleteCategoryLayout(event);
   };
 
   return (
-    <div className="whatson" onClick={handleClick}>
+    <div
+      className={`whatson ${categoryLayoutChanged ? "rearranged" : ""}`}
+      onClick={handleClick}
+    >
       <div className="about">
         <div className="about-head">
           <h1>About</h1>

@@ -25,3 +25,7 @@
     margin: 75px 0 50px 0;
   }
 }
+
+.artist-page-container.rearranged {
+  filter: blur(1.25px);
+}

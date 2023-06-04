@@ -15,14 +15,18 @@ import PAUL0 from "../../../images/arts/PAUL0/PAUL0-01.png";
 import R1N from "../../../images/arts/R1N/R1N-01.png";
 
 export default function ArtAndArtists() {
-  const { deleteCategoryLayout } = useContext(ToggleContext);
+  const { deleteCategoryLayout, categoryLayoutChanged } =
+    useContext(ToggleContext);
 
   const handleClick = (event) => {
     deleteCategoryLayout(event);
   };
 
   return (
-    <div className="artists" onClick={handleClick}>
+    <div
+      className={`artists ${categoryLayoutChanged ? "rearranged" : ""}`}
+      onClick={handleClick}
+    >
       <h1>Arts and artists</h1>
       <Link to={`/artsandartists/V1VI`} className="link">
         <img className="main-img" src={V1VI} alt="V1VI" />

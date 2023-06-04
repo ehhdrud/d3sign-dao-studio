@@ -47,7 +47,6 @@ export default function Carousel({ imagePaths }) {
         const triggers = Array.from(carouselControlsArray[0].childNodes).concat(
           Array.from(carouselControlsArray[1].childNodes)
         );
-        console.log(triggers);
         triggers.forEach((control) => {
           control.addEventListener("click", (e) => {
             e.preventDefault();

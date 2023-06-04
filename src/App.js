@@ -20,8 +20,12 @@ import Body from "./components/Body";
 import "./App.css";
 
 function App() {
+  const handleContextMenu = (e) => {
+    e.preventDefault();
+  };
+
   return (
-    <div className="App">
+    <div className="App" onContextMenu={handleContextMenu}>
       <BrowserRouter>
         <ToggleProvider>
           <HoveredIndexProvider>

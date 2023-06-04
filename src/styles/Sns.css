@@ -65,6 +65,10 @@
 }
 
 @media (max-width: 480px) {
+  .sns {
+    padding-bottom: 5px;
+  }
+
   .sns .linktree {
     width: 75px;
     height: 25px;
@@ -74,4 +78,12 @@
     width: 25px;
     height: 25px;
   }
+}
+
+.sns.rearranged {
+  border: 2px solid transparent;
+}
+
+.sns a.rearranged {
+  filter: blur(1.25px);
 }

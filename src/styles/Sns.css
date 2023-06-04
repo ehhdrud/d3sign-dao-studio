@@ -30,28 +30,48 @@
   animation-iteration-count: 1;
 }
 
-.sns:hover {
-  border: 3px dashed black;
-}
-
-@media (min-width: 749px) {
+@media (min-width: 1101px) {
   .sns {
     right: 15px;
     top: 15px;
   }
-}
 
-@media (max-width: 480px) {
-  .sns {
-    border: none;
-    border-radius: 0px;
-    top: 100%;
-    width: 100%;
+  .sns:hover {
+    border: 3px dashed black;
   }
 }
 
 @media (max-width: 1100px) {
   .sns {
-    visibility: hidden;
+    border: none;
+    border-radius: 0px;
+    justify-content: flex-end;
+    top: 100%;
+    width: 100%;
+    border-top: 2px dashed #666666;
+    padding-top: 30px;
+    background-color: #444444;
+  }
+
+  .sns .linktree {
+    width: 90px;
+    height: 30px;
+  }
+
+  .sns img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sns .linktree {
+    width: 75px;
+    height: 25px;
+  }
+
+  .sns img {
+    width: 25px;
+    height: 25px;
   }
 }

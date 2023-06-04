@@ -13,7 +13,7 @@ export default function Toggle() {
 
   return (
     <div className="toggle toggle-container" onClick={handleClick}>
-      <i className="toggle toggle-icon bx bx-category"></i>
+      <i className="toggle toggle-icon bx bx-menu"></i>
     </div>
   );
 }

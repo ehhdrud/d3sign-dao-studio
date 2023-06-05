@@ -1,99 +1,17 @@
-// import React, { useContext, useState } from "react";
-// import { ToggleContext } from "../../../ToggleContext";
-// import "../../../styles/marketplace.css";
-// import { Link } from "react-router-dom";
-
-// export default function Marketplace() {
-//   const { categoryLayoutChanged } = useContext(ToggleContext);
-
-//   const [hoveredGoodsState, setHoveredGoodsState] = useState(false);
-//   const handleGoodsMouseEnter = () => {
-//     setHoveredGoodsState(true);
-//   };
-//   const handleGoodsMouseLeave = () => {
-//     setHoveredGoodsState(false);
-//   };
-
-//   const [hoveredWeb3State, setHoveredWeb3State] = useState(false);
-//   const handleWeb3MouseEnter = () => {
-//     setHoveredWeb3State(true);
-//   };
-//   const handleWeb3MouseLeave = () => {
-//     setHoveredWeb3State(false);
-//   };
-
-//   return (
-//     <div className={`marketplace ${categoryLayoutChanged ? "rearranged" : ""}`}>
-//       <h1>Marketplace</h1>
-//       <div className="marketplace-category">
-//         <Link
-//           className={`marketplace-category-button goods-container ${
-//             hoveredGoodsState === true ? "hovered" : ""
-//           }`}
-//           onMouseEnter={handleGoodsMouseEnter}
-//           onMouseLeave={handleGoodsMouseLeave}
-//         >
-//           <div className="marketplace-category-button-text">Goods</div>
-//         </Link>
-//         <Link
-//           className={`marketplace-category-button web3-container ${
-//             hoveredWeb3State === true ? "hovered" : ""
-//           }`}
-//           onMouseEnter={handleWeb3MouseEnter}
-//           onMouseLeave={handleWeb3MouseLeave}
-//         >
-//           <div className="marketplace-category-button-text">Web3</div>
-//         </Link>
-//       </div>
-//       <a
-//         className="marketplace-link"
-//         href="https://www.redbubble.com/people/MechaSociety/explore?asc=u&page=1&sortOrder=recent"
-//         target="_blank"
-//         rel="noreferrer noopener"
-//       >
-//         R1N - Goods - Redbbuble
-//       </a>
-//       <a
-//         className="marketplace-link"
-//         href="
-//         https://marpple.shop/artist_r1n?page=0"
-//         target="_blank"
-//         rel="noreferrer noopener"
-//       >
-//         R1N - Goods - MappleShop
-//       </a>
-//       <a
-//         className="marketplace-link"
-//         href="https://mintsquare.io/zksync/ZkMechaSociety"
-//         target="_blank"
-//         rel="noreferrer noopener"
-//       >
-//         R1N - Web3 - Mintsquare
-//       </a>
-//       <a
-//         className="marketplace-link"
-//         href="https://oround.com/torianimeartist"
-//         target="_blank"
-//         rel="noreferrer noopener"
-//       >
-//         T0R1 - Goods - Oround
-//       </a>
-//     </div>
-//   );
-// }
-
 import React, { useContext, useState } from "react";
 import { ToggleContext } from "../../../ToggleContext";
-import "../../../styles/marketplace.css";
 import { Link } from "react-router-dom";
 import goodsImg from "../../../images/goods-img.jpg";
+import homedecorImg from "../../../images/homedecor-img.jpg";
 import web3Img from "../../../images/web3-img.jpg";
+import "../../../styles/marketplace.css";
 
 export default function Marketplace() {
   const { categoryLayoutChanged } = useContext(ToggleContext);
 
   const [hoveredState, setHoveredState] = useState({
     goods: false,
+    homedecor: false,
     web3: false,
   });
 
@@ -116,6 +34,26 @@ export default function Marketplace() {
       <h1>Marketplace</h1>
       <div className="marketplace-category">
         <Link
+          to="/marketplace/homedecor"
+          className={`marketplace-category-button homedecor-container ${
+            hoveredState.homedecor ? "hovered" : ""
+          }`}
+          onMouseEnter={() => handleMouseEnter("homedecor")}
+          onMouseLeave={() => handleMouseLeave("homedecor")}
+        >
+          <img
+            className="homedecor-img"
+            src={homedecorImg}
+            alt="homedecor-img"
+          />
+          <div className="marketplace-category-button-text homedecor-text">
+            Home
+            <br />
+            decor
+          </div>
+        </Link>
+
+        <Link
           to="/marketplace/goods"
           className={`marketplace-category-button goods-container ${
             hoveredState.goods ? "hovered" : ""
@@ -128,6 +66,7 @@ export default function Marketplace() {
             Goods
           </div>
         </Link>
+
         <Link
           to="/marketplace/web3"
           className={`marketplace-category-button web3-container ${

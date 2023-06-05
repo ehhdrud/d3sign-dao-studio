@@ -4,6 +4,7 @@ import "../../../../styles/goods.css";
 export default function Goods() {
   return (
     <div className="goods">
+      <h1>Market related to 'Goods'</h1>
       <a
         className="marketplace-link"
         href="https://www.redbubble.com/people/MechaSociety/explore?asc=u&page=1&sortOrder=recent"

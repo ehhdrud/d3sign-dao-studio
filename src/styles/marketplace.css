@@ -30,6 +30,7 @@
 }
 
 .marketplace img {
+  animation: fade-in 3s ease-in-out forwards;
   width: 100%;
 }
 

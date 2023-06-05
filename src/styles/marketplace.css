@@ -10,7 +10,7 @@
 
 .marketplace h1 {
   font-size: 5vw;
-  margin-bottom: 1%;
+  width: 75%;
 }
 
 .marketplace-category {
@@ -24,7 +24,6 @@
   position: relative;
   width: 45%;
   aspect-ratio: 3/4;
-  border: 1px solid black;
   text-decoration: none;
   overflow: hidden;
 }

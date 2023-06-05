@@ -1,0 +1,13 @@
+.homedecor {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.homedecor.rearranged {
+  filter: blur(1.25px);
+}
+
+.homedecor h1 {
+  font-size: 5vw;
+}

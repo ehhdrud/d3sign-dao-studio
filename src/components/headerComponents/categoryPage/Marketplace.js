@@ -47,9 +47,7 @@ export default function Marketplace() {
             alt="homedecor-img"
           />
           <div className="marketplace-category-button-text homedecor-text">
-            Home
-            <br />
-            decor
+            Home decor
           </div>
         </Link>
 
@@ -76,7 +74,9 @@ export default function Marketplace() {
           onMouseLeave={() => handleMouseLeave("web3")}
         >
           <img className="web3-img" src={web3Img} alt="web3-img" />
-          <div className="marketplace-category-button-text web3-text">Web3</div>
+          <div className="marketplace-category-button-text web3-text">
+            Web 3.0
+          </div>
         </Link>
       </div>
     </div>

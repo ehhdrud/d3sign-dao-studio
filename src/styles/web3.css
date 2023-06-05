@@ -1,0 +1,13 @@
+.web3 {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.web3.rearranged {
+  filter: blur(1.25px);
+}
+
+.web3 h1 {
+  font-size: 5vw;
+}

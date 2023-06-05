@@ -1,0 +1,17 @@
+.goods {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.goods.rearranged {
+  filter: blur(1.25px);
+}
+
+.goods h1 {
+  font-size: 5vw;
+}
+
+.goods a {
+  display: block;
+}

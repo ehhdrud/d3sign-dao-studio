@@ -1,5 +1,5 @@
 .marketplace {
-  width: 75%;
+  width: 90%;
   display: flex;
   flex-direction: column;
 }
@@ -10,4 +10,37 @@
 
 .marketplace h1 {
   font-size: 5vw;
+  margin-bottom: 1%;
+}
+
+.marketplace-category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 5vw;
+}
+
+.marketplace-category-button {
+  position: relative;
+  width: 45%;
+  aspect-ratio: 3/4;
+  border: 1px solid black;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.marketplace img {
+  width: 100%;
+}
+
+.marketplace-category-button-text {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  max-width: max-content;
+}
+
+.marketplace-category-button.hovered img {
+  transform: scale(1.05);
+  transition: transform 1s ease;
 }

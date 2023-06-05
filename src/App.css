@@ -104,12 +104,3 @@
     opacity: 1;
   }
 }
-
-@keyframes display-none {
-  from {
-    display: visible;
-  }
-  to {
-    display: none;
-  }
-}

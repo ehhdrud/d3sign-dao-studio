@@ -25,18 +25,20 @@
 .faq details {
   margin-left: 2vw;
   font-family: Helvetica;
-  font-size: 1.6vw;
   animation: fade-in 1.5s ease-in-out forwards;
 }
 
 .faq details summary {
   list-style-type: none;
-  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.6vw;
+  max-width: max-content;
   border-bottom: 1px solid white;
   margin-bottom: 1vw;
 }
 
 .faq details p {
+  font-size: 1.3vw;
   line-height: 2.5vw;
   margin-bottom: 3vw;
 }
@@ -51,10 +53,6 @@
 @media (max-width: 480px) {
   .faq h2 {
     margin-bottom: 5vw;
-  }
-
-  .faq details {
-    /* font-size: 2vw; */
   }
 
   .faq details summary {

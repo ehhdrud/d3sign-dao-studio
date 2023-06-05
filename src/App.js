@@ -17,6 +17,8 @@ import MIRR0R from "./components/headerComponents/categoryPage/ArtistPage/MIRR0R
 import PAUL0 from "./components/headerComponents/categoryPage/ArtistPage/PAUL0";
 import R1N from "./components/headerComponents/categoryPage/ArtistPage/R1N";
 import Marketplace from "./components/headerComponents/categoryPage/Marketplace.js";
+import Goods from "./components/headerComponents/categoryPage/MarketplacePage/Goods.js";
+import Web3 from "./components/headerComponents/categoryPage/MarketplacePage/Web3.js";
 import Faq from "./components/headerComponents/categoryPage/Faq.js";
 import Body from "./components/Body";
 import "./App.css";
@@ -48,6 +50,8 @@ function App() {
               <Route path="/artsandartists/PAUL0" element={<PAUL0 />} />
               <Route path="/artsandartists/R1N" element={<R1N />} />
               <Route path="/marketplace" element={<Marketplace />} />
+              <Route path="/marketplace/goods" element={<Goods />} />
+              <Route path="/marketplace/web3" element={<Web3 />} />
               <Route path="/faq" element={<Faq />} />
             </Routes>
           </HoveredIndexProvider>

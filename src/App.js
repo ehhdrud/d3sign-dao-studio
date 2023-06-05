@@ -16,6 +16,8 @@ import J1N from "./components/headerComponents/categoryPage/ArtistPage/J1N";
 import MIRR0R from "./components/headerComponents/categoryPage/ArtistPage/MIRR0R";
 import PAUL0 from "./components/headerComponents/categoryPage/ArtistPage/PAUL0";
 import R1N from "./components/headerComponents/categoryPage/ArtistPage/R1N";
+import Marketplace from "./components/headerComponents/categoryPage/Marketplace.js";
+import Faq from "./components/headerComponents/categoryPage/Faq.js";
 import Body from "./components/Body";
 import "./App.css";
 
@@ -45,6 +47,8 @@ function App() {
               <Route path="/artsandartists/MIRR0R" element={<MIRR0R />} />
               <Route path="/artsandartists/PAUL0" element={<PAUL0 />} />
               <Route path="/artsandartists/R1N" element={<R1N />} />
+              <Route path="/marketplace" element={<Marketplace />} />
+              <Route path="/faq" element={<Faq />} />
             </Routes>
           </HoveredIndexProvider>
         </ToggleProvider>

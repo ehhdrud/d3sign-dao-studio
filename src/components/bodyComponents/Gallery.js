@@ -87,10 +87,7 @@ export default function Gallery() {
                 alt={`${art.artist}'s artwork`}
               />
               <div className="genre-on-img">{art.genre}</div>
-            </div>
-            <div className="art-desc">
-              <span className="artist">{art.artist}</span>
-              <span className="text">&nbsp;'s Artwork</span>
+              <div className="artist-on-img">{art.artist}</div>
             </div>
           </div>
         </Link>

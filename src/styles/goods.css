@@ -12,6 +12,10 @@
   font-size: 5vw;
 }
 
+.goods h2 {
+  font-size: 2.5vw;
+}
+
 .goods a {
   display: block;
 }

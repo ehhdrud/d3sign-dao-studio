@@ -48,21 +48,12 @@
   font-weight: bold;
 }
 
-.art-card .art-desc {
-  display: flex;
-  padding: 3px 3px;
-}
-
-.art-card .artist {
-  margin-top: 0px;
-  font-size: 1vw;
-  font-family: Helvetica;
+.artist-on-img {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  font-size: 2vw;
   font-weight: bold;
-}
-
-.art-card .text {
-  font-size: 1vw;
-  font-family: Helvetica;
 }
 
 @media (max-width: 480px) {
@@ -72,6 +63,10 @@
   }
 
   .genre-on-img {
+    font-size: 5vw;
+  }
+
+  .artist-on-img {
     font-size: 5vw;
   }
 }

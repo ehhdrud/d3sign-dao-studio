@@ -7,15 +7,17 @@ export default function Web3() {
 
   return (
     <div className={`web3 ${categoryLayoutChanged ? "rearranged" : ""}`}>
-      <h1>Web3 market</h1>
+      <h1>Web 3.0 marketplace</h1>
+      <h2># NFT</h2>
       <a
         className="marketplace-link"
         href="https://mintsquare.io/zksync/ZkMechaSociety"
         target="_blank"
         rel="noreferrer noopener"
       >
-        R1N - Web3 - Mintsquare
+        Mintsquare
       </a>
+      <h2># Metaverse</h2>
     </div>
   );
 }

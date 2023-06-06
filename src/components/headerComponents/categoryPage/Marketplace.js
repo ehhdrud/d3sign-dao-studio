@@ -31,7 +31,6 @@ export default function Marketplace() {
 
   return (
     <div className={`marketplace ${categoryLayoutChanged ? "rearranged" : ""}`}>
-      <h1>Marketplace</h1>
       <div className="marketplace-category">
         <Link
           to="/marketplace/homedecor"

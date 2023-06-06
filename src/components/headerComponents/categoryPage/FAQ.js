@@ -117,7 +117,8 @@ export default function Faq() {
       </div>
       <p className="help">
         If you have a problem with your purchase, please contact Instagram DM or
-        'd3signdaostudio@gmail.com' for affiliate inquiries.
+        <span className="email"> d3signdaostudio@gmail.com</span> for affiliate
+        inquiries.
       </p>
     </div>
   );

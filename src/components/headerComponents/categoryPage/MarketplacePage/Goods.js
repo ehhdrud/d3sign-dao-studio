@@ -7,9 +7,9 @@ export default function Goods() {
 
   return (
     <div className={`goods ${categoryLayoutChanged ? "rearranged" : ""}`}>
-      <h1>Goods market</h1>
+      <h1>Goods marketplace</h1>
       <div className="goods-by-R1N">
-        <h2>R1N</h2>
+        <h2># R1N's goods</h2>
         <a
           className="marketplace-link"
           href="https://www.redbubble.com/people/MechaSociety/explore?asc=u&page=1&sortOrder=recent"
@@ -28,7 +28,7 @@ export default function Goods() {
         </a>
       </div>
       <div className="T0RI">
-        <h2>T0R1</h2>
+        <h2># T0R1's goods</h2>
         <a
           className="marketplace-link"
           href="https://oround.com/torianimeartist"

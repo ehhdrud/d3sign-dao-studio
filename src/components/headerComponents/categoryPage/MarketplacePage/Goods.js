@@ -8,36 +8,52 @@ export default function Goods() {
   return (
     <div className={`goods ${categoryLayoutChanged ? "rearranged" : ""}`}>
       <h1>Goods</h1>
-      <div className="goods-by-R1N">
-        <h2># R1N's goods</h2>
-        <a
-          className="marketplace-link"
-          href="https://www.redbubble.com/people/MechaSociety/explore?asc=u&page=1&sortOrder=recent"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Redbbuble
-        </a>
-        <a
-          className="marketplace-link"
-          href="https://marpple.shop/artist_r1n?page=0"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          MappleShop
-        </a>
-      </div>
-      <div className="T0RI">
-        <h2># T0R1's goods</h2>
-        <a
-          className="marketplace-link"
-          href="https://oround.com/torianimeartist"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Oround
-        </a>
-      </div>
+
+      <details>
+        <summary>
+          <span className="genre">Cyberpunk Art</span>
+          <span className="by">by</span>
+          <span className="artist">R1N</span>
+        </summary>
+        <div>
+          <a
+            className="marketplace-link"
+            href="https://www.redbubble.com/people/MechaSociety/explore?asc=u&page=1&sortOrder=recent"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Redbbuble
+          </a>
+        </div>
+        <div>
+          <a
+            className="marketplace-link"
+            href="https://marpple.shop/artist_r1n?page=0"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            MappleShop
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span className="genre">Anime Art</span>
+          <span className="by">by</span>
+          <span className="artist">T0R1</span>
+        </summary>
+        <div>
+          <a
+            className="marketplace-link"
+            href="https://oround.com/torianimeartist"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Oround
+          </a>
+        </div>
+      </details>
     </div>
   );
 }

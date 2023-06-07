@@ -4,6 +4,7 @@ import Toggle from "./headerComponents/Toggle";
 import Logo from "./headerComponents/Logo";
 import Category from "./headerComponents/Category";
 import "../styles/header.css";
+import SnsBox from "./headerComponents/SnsBox";
 
 export default function Header() {
   const { deleteCategoryLayout, categoryLayoutChanged } =
@@ -18,9 +19,10 @@ export default function Header() {
       className={`header ${categoryLayoutChanged ? "rearranged" : ""}`}
       onClick={handleClick}
     >
-      <Toggle />
       <Logo />
       <Category />
+      <SnsBox />
+      <Toggle />
     </nav>
   );
 }

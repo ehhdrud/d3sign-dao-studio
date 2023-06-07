@@ -72,32 +72,25 @@ export default function Carousel({ imagePaths }) {
 
     document.addEventListener("keydown", handleKeyDown);
 
-    ////////////////////////////
-
     const targetCarousel = document.querySelector(".carousel-container");
-    // 스와이프 시작 지점의 X 좌표
+
     let startX;
-    // 스와이프 종료 지점의 X 좌표
+
     let endX;
 
-    // 터치 이벤트 핸들러 등록
     targetCarousel.addEventListener("touchstart", handleTouchStart, false);
     targetCarousel.addEventListener("touchmove", handleTouchMove, false);
     targetCarousel.addEventListener("touchend", handleTouchEnd, false);
 
-    // 터치 시작 이벤트 핸들러
     function handleTouchStart(event) {
       startX = event.touches[0].clientX;
     }
 
-    // 터치 이동 이벤트 핸들러
     function handleTouchMove(event) {
       endX = event.touches[0].clientX;
     }
 
-    // 터치 종료 이벤트 핸들러
     function handleTouchEnd() {
-      // 스와이프 거리 계산
       const distance = endX - startX;
 
       if (distance > 0) {

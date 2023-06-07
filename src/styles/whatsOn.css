@@ -8,7 +8,7 @@
 
 .whatson p {
   font-family: Helvetica;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   animation: fade-in 1.5s ease-in-out forwards;
   line-height: 2.5vw;
 }
@@ -35,7 +35,7 @@
 }
 
 .about .about-head h1 ~ p {
-  font-size: 1.6vw;
+  margin-bottom: 0px;
 }
 
 .about .about-body .about-body-item {
@@ -47,6 +47,10 @@
 
 .about .about-body .about-body-item:nth-child(1) {
   margin-top: 7%;
+}
+
+.vision .vision-head h1 {
+  margin-bottom: 0px;
 }
 
 .vision {

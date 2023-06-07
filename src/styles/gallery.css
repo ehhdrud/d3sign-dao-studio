@@ -39,19 +39,20 @@
   vertical-align: middle;
 }
 
-.genre-on-img {
+.artist-on-img {
   position: absolute;
-  top: 85%;
+  top: 73%;
   left: 5%;
   font-family: Helvetica;
   font-size: 2vw;
   font-weight: bold;
 }
 
-.artist-on-img {
+.genre-on-img {
   position: absolute;
-  top: 70%;
+  top: 85%;
   left: 5%;
+  font-family: Helvetica;
   font-size: 2vw;
   font-weight: bold;
 }

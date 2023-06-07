@@ -12,10 +12,29 @@
   font-size: 5vw;
 }
 
-.goods h2 {
-  font-size: 2.5vw;
+.goods details {
+  margin-bottom: 2vw;
 }
 
-.goods a {
-  display: block;
+.goods details summary {
+  max-width: max-content;
+  font-size: 1.5vw;
+  line-height: 3vw;
+}
+
+.goods details summary .genre,
+.goods details summary .artist {
+  font-size: 2vw;
+}
+
+.goods details summary .by {
+  margin: 0 1vw;
+}
+
+.goods details div {
+  margin: 1vw 0 1vw 2vw;
+}
+
+.goods details a {
+  font-size: 1.3vw;
 }

@@ -13,5 +13,41 @@
 }
 
 .web3 h2 {
-  font-size: 2.5vw;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.web3 h2 i {
+  font-size: 2vw;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.web3 details {
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+}
+
+.web3 details div {
+  margin: 1vw 0 1vw 2.2vw;
+}
+
+.web3 details div a {
+  font-size: 1.3vw;
+}
+
+.web3 details summary {
+  max-width: max-content;
+  font-size: 1.5vw;
+  line-height: 3vw;
+}
+
+.web3 details summary .genre,
+.web3 details summary .artist {
+  font-size: 2vw;
+}
+
+.web3 details summary .by {
+  margin: 0 1vw;
 }

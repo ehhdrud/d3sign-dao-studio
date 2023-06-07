@@ -7,7 +7,7 @@ export default function Goods() {
 
   return (
     <div className={`goods ${categoryLayoutChanged ? "rearranged" : ""}`}>
-      <h1>Goods marketplace</h1>
+      <h1>Goods</h1>
       <div className="goods-by-R1N">
         <h2># R1N's goods</h2>
         <a

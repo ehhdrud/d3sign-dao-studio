@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../../../ToggleContext";
 import "../../../styles/whatsOn.css";
-import "boxicons";
 import "boxicons/css/boxicons.min.css";
 
 export default function WhatsOn() {
@@ -31,7 +30,7 @@ export default function WhatsOn() {
         <div className="about-body">
           <div className="about-body-item">
             <h2>
-              <box-icon name="world" color="#ffffff"></box-icon>
+              <i className="bx bx-world"></i>
               Globalized Art
             </h2>
             <p>
@@ -44,7 +43,7 @@ export default function WhatsOn() {
           </div>
           <div className="about-body-item">
             <h2>
-              <box-icon name="group" type="solid" color="#ffffff"></box-icon>
+              <i class="bx bxs-group"></i>
               DAO Governance and Customized Art
             </h2>
             <p>
@@ -57,7 +56,7 @@ export default function WhatsOn() {
           </div>
           <div className="about-body-item">
             <h2>
-              <box-icon name="diamond" color="#ffffff"></box-icon>
+              <i class="bx bx-diamond"></i>
               High-Quality Digital Artwork
             </h2>
             <p>
@@ -69,7 +68,7 @@ export default function WhatsOn() {
           </div>
           <div className="about-body-item">
             <h2>
-              <box-icon name="layer" color="#ffffff"></box-icon>
+              <i class="bx bx-layer"></i>
               Versatile Offerings and Solutions
             </h2>
             <p>
@@ -82,7 +81,7 @@ export default function WhatsOn() {
           </div>
           <div className="about-body-item">
             <h2>
-              <box-icon name="chat" color="#ffffff"></box-icon>
+              <i class="bx bx-chat"></i>
               Community and Belonging
             </h2>
             <p>
@@ -94,7 +93,7 @@ export default function WhatsOn() {
           </div>
           <div className="about-body-item">
             <h2>
-              <box-icon name="network-chart" color="#ffffff"></box-icon>
+              <i class="bx bx-network-chart"></i>
               Global Governance Structure
             </h2>
             <p>
@@ -114,7 +113,7 @@ export default function WhatsOn() {
         <div className="vision-body">
           <div className="vision-body-item">
             <h2>
-              <box-icon name="compass" color="#ffffff"></box-icon>Accessibility
+              <i class="bx bx-compass"></i>Accessibility
             </h2>
             <p>
               Allows you around the world to experience contemporary and pop art
@@ -123,7 +122,7 @@ export default function WhatsOn() {
           </div>
           <div className="vision-body-item">
             <h2>
-              <box-icon name="alarm" color="#ffffff"></box-icon>Convenience
+              <i class="bx bx-alarm-off"></i>Convenience
             </h2>
             <p>
               With 24/7 availability, you can explore and appreciate the art at
@@ -133,7 +132,7 @@ export default function WhatsOn() {
           </div>
           <div className="vision-body-item">
             <h2>
-              <box-icon name="bulb" type="solid" color="#ffffff"></box-icon>
+              <i class="bx bxs-bulb"></i>
               Inspiration
             </h2>
             <p>
@@ -144,7 +143,7 @@ export default function WhatsOn() {
           </div>
           <div className="vision-body-item">
             <h2>
-              <box-icon name="book" color="#ffffff"></box-icon>
+              <i class="bx bx-book"></i>
               Education
             </h2>
             <p>
@@ -157,7 +156,7 @@ export default function WhatsOn() {
           </div>
           <div className="vision-body-item">
             <h2>
-              <box-icon name="gift" color="#ffffff"></box-icon>
+              <i class="bx bx-gift"></i>
               Community rewards
             </h2>
             <p>

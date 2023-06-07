@@ -7,7 +7,7 @@ export default function Web3() {
 
   return (
     <div className={`web3 ${categoryLayoutChanged ? "rearranged" : ""}`}>
-      <h1>Web 3.0 marketplace</h1>
+      <h1>Web 3.0</h1>
       <h2># NFT</h2>
       <a
         className="marketplace-link"

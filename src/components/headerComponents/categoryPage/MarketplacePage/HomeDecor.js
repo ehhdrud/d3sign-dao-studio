@@ -7,7 +7,7 @@ export default function HomeDecor() {
 
   return (
     <div className={`homedecor ${categoryLayoutChanged ? "rearranged" : ""}`}>
-      <h1>Home decor marketplace</h1>
+      <h1>Home decor</h1>
     </div>
   );
 }

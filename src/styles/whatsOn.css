@@ -21,9 +21,7 @@
   animation: fade-in 0.5s ease-in-out forwards;
 }
 
-.whatson box-icon {
-  width: 3vw;
-  height: 5vw;
+.whatson .bx {
   margin-right: 1%;
 }
 

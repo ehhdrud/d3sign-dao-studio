@@ -13,11 +13,6 @@
   border: 2px solid transparent;
 }
 
-.sns .linktree {
-  width: 75px;
-  height: 25px;
-}
-
 .sns a {
   display: flex;
   align-items: center;
@@ -25,6 +20,10 @@
   border: 1px solid transparent;
   border-radius: 5px;
   background-color: #ffffee;
+}
+
+.sns a:first-child {
+  background-color: #ccffcc;
 }
 
 .sns a:last-child {
@@ -36,8 +35,8 @@
 }
 
 .sns img {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 
 .sns img:hover {

@@ -7,6 +7,10 @@
   margin: 30px;
 }
 
+.logo.rearranged {
+  filter: blur(1.25px);
+}
+
 .logo .logo-text {
   position: relative;
   font-size: 65px;
@@ -76,8 +80,7 @@
   .logo span::after {
     content: "";
     position: absolute;
-    bottom: 2px;
-    width: 3.25px;
+    width: 3px;
     height: 29px;
     background-color: rgb(255, 255, 185);
   }
@@ -89,8 +92,4 @@
   .logo span::after {
     right: -3px;
   }
-}
-
-.logo.rearranged {
-  filter: blur(1.25px);
 }

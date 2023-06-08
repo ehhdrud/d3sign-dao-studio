@@ -31,7 +31,7 @@ export default function WhatsOn() {
           <div className="about-body-item">
             <h2>
               <i className="bx bx-world"></i>
-              Globalized Art
+              <span>Globalized Art</span>
             </h2>
             <p>
               At D3sign DAO Studio, we aim to transcend geographical barriers by
@@ -44,7 +44,7 @@ export default function WhatsOn() {
           <div className="about-body-item">
             <h2>
               <i class="bx bxs-group"></i>
-              DAO Governance and Customized Art
+              <span>DAO Governance and Customized Art</span>
             </h2>
             <p>
               Our platform operates through DAO governance, empowering our
@@ -57,7 +57,7 @@ export default function WhatsOn() {
           <div className="about-body-item">
             <h2>
               <i class="bx bx-diamond"></i>
-              High-Quality Digital Artwork
+              <span>High-Quality Digital Artwork</span>
             </h2>
             <p>
               D3sign DAO Studio is committed to delivering exceptional digital
@@ -69,7 +69,7 @@ export default function WhatsOn() {
           <div className="about-body-item">
             <h2>
               <i class="bx bx-layer"></i>
-              Versatile Offerings and Solutions
+              <span>Versatile Offerings and Solutions</span>
             </h2>
             <p>
               We offer a diverse range of design art configurations, ensuring
@@ -82,7 +82,7 @@ export default function WhatsOn() {
           <div className="about-body-item">
             <h2>
               <i class="bx bx-chat"></i>
-              Community and Belonging
+              <span>Community and Belonging</span>
             </h2>
             <p>
               Our centralized community platform fosters a sense of belonging
@@ -94,7 +94,7 @@ export default function WhatsOn() {
           <div className="about-body-item">
             <h2>
               <i class="bx bx-network-chart"></i>
-              Global Governance Structure
+              <span>Global Governance Structure</span>
             </h2>
             <p>
               D3sign DAO Studio's governance structure is designed to include
@@ -113,7 +113,8 @@ export default function WhatsOn() {
         <div className="vision-body">
           <div className="vision-body-item">
             <h2>
-              <i class="bx bx-compass"></i>Accessibility
+              <i class="bx bx-compass"></i>
+              <span>Accessibility</span>
             </h2>
             <p>
               Allows you around the world to experience contemporary and pop art
@@ -122,7 +123,8 @@ export default function WhatsOn() {
           </div>
           <div className="vision-body-item">
             <h2>
-              <i class="bx bx-alarm-off"></i>Convenience
+              <i class="bx bx-alarm-off"></i>
+              <span>Convenience</span>
             </h2>
             <p>
               With 24/7 availability, you can explore and appreciate the art at
@@ -133,7 +135,7 @@ export default function WhatsOn() {
           <div className="vision-body-item">
             <h2>
               <i class="bx bxs-bulb"></i>
-              Inspiration
+              <span>Inspiration</span>
             </h2>
             <p>
               By showing a variety of artistic expressions, D3sign DAO Studio
@@ -144,7 +146,7 @@ export default function WhatsOn() {
           <div className="vision-body-item">
             <h2>
               <i class="bx bx-book"></i>
-              Education
+              <span>Education</span>
             </h2>
             <p>
               Our art community serves as a valuable educational resource that
@@ -157,7 +159,7 @@ export default function WhatsOn() {
           <div className="vision-body-item">
             <h2>
               <i class="bx bx-gift"></i>
-              Community rewards
+              <span>Community rewards</span>
             </h2>
             <p>
               We are offering financial rewards to each other's art community

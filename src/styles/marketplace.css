@@ -63,7 +63,7 @@
   .marketplace-category {
     flex-direction: column;
     gap: 3%;
-    width: 75%;
+    width: 100%;
     font-size: 8vw;
   }
 
@@ -75,5 +75,12 @@
   .marketplace-category-button-text {
     top: 5%;
     left: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .marketplace-category-button.hovered img {
+    transform: none;
+    transition: none;
   }
 }

@@ -28,6 +28,12 @@ export default function CHR1S() {
       onClick={handleClick}
     >
       <h1 className="artist-page-title">CHR1S's Artwork</h1>
+      <p className="description">
+        CHR1S's artwork dissects and reassembles visual components to produce
+        arresting, three-dimensional compositions, drawing inspiration from
+        early cubists. CHR1S presents a novel viewpoint on reality which
+        promotes reflection through disjointed patterns and abstract shapes.
+      </p>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

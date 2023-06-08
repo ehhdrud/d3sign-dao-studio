@@ -25,6 +25,12 @@ export default function ZER1() {
       onClick={handleClick}
     >
       <h1 className="artist-page-title">ZER1's Artwork</h1>
+      <p className="description">
+        Pixel art by ZER1 is a wistful ode to the digital era, exhibiting
+        elaborate creations made from the little pixel. ZER1's work is humorous
+        and smart, fusing contemporary methods with a nostalgic style, and
+        appealing to a broad spectrum of consumers.
+      </p>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

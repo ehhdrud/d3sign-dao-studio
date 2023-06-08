@@ -28,6 +28,13 @@ export default function PAUL0() {
       onClick={handleClick}
     >
       <h1 className="artist-page-title">PAUL0's Artwork</h1>
+      <p className="description">
+        Through vivid colors and strong brushstrokes, Paul's expressionist
+        artwork delves deeply into the human psyche, revealing raw emotions and
+        untold stories. Paul's art challenges viewers to examine their own
+        perceptions and experiences using a style that is both seductive and
+        intriguing.
+      </p>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

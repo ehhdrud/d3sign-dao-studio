@@ -26,6 +26,12 @@ export default function R0RO() {
       onClick={handleClick}
     >
       <h1 className="artist-page-title">R0RO's Artwork</h1>
+      <p className="description">
+        The intricate detail and fine craftsmanship are celebrated in R0RO's
+        pattern fabric artwork. R0RO develops captivating textile-based
+        compositions that are both aesthetically appealing and rich in cultural
+        meaning by deftly weaving together various materials.
+      </p>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

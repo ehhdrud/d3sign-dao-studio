@@ -80,6 +80,7 @@
   .logo span::after {
     content: "";
     position: absolute;
+    bottom: 3px;
     width: 3px;
     height: 29px;
     background-color: rgb(255, 255, 185);

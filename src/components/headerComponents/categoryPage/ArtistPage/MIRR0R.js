@@ -27,6 +27,12 @@ export default function MIRR0R() {
       onClick={handleClick}
     >
       <h1 className="artist-page-title">MIRR0R's Artwork</h1>
+      <p className="description">
+        Watercolor paintings by MIRR0R are serene and graceful, with delicate
+        colors blending and dancing over the surface. MIRR0R captures the
+        transient beauty of nature and the complexities of human emotion by
+        expertly managing the fluidity of the medium.
+      </p>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

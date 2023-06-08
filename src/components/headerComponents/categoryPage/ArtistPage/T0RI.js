@@ -27,6 +27,12 @@ export default function T0RI() {
       onClick={handleClick}
     >
       <h1 className="artist-page-title">T0RI's Artwork</h1>
+      <p className="description">
+        With simple and alluring artwork, T0RI brings the world of anime to
+        life. T0RI's artwork, which draws inspiration from Japanese animation
+        and manga, has vibrant storyline and dynamic characters that are
+        appealing to both art lovers and anime fans.
+      </p>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

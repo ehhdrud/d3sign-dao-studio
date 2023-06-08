@@ -1,25 +1,29 @@
 .artist-page-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
 }
 
 .artist-page-title {
   width: 35%;
+  min-width: max-content;
   white-space: nowrap;
   text-align: center;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   padding: 5px;
   font-size: 4vw;
+  margin-bottom: 25px;
+}
+
+.artist-page-container .description {
+  display: none;
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
   .artist-page-title {
     font-size: 25px;
-    margin: 50px 0 50px 0;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
   }
@@ -30,10 +34,17 @@
     width: 60%;
     font-size: 25px;
     text-align: center;
-    margin: 75px 0 50px 0;
     padding: 5px;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
+  }
+
+  .artist-page-container .description {
+    display: block;
+    width: 75%;
+    margin: 50px 50px 50px 75px;
+    font-size: 14px;
+    line-height: 16.8px;
   }
 }
 

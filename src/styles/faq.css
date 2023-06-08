@@ -55,11 +55,38 @@
 }
 
 @media (max-width: 480px) {
+  .faq {
+    width: 90%;
+  }
+
+  .faq h1 {
+    font-size: 40px;
+  }
+
   .faq h2 {
+    font-size: 18px;
+    line-height: 21.6px;
     margin-bottom: 5vw;
   }
 
   .faq details summary {
+    font-size: 14px;
+    line-height: 16.8px;
     margin-bottom: 3vw;
+  }
+
+  .faq details p {
+    font-size: 12px;
+    line-height: 14.4px;
+    margin-bottom: 3vw;
+    margin-left: 2.3vw;
+  }
+
+  .faq .help {
+    margin-top: 5vw;
+    font-family: Helvetica;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
   }
 }

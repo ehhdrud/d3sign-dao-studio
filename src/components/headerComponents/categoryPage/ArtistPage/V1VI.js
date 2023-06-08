@@ -27,6 +27,12 @@ export default function V1VI() {
       onClick={handleClick}
     >
       <h1 className="artist-page-title">V1VI's Artwork</h1>
+      <p className="description">
+        The collage art of V1VI transports visitors to a realm of fantastical
+        beauty with its visual symphony of forms, hues, and textures. V1VI
+        painstakingly fuses antique and modern elements to produce
+        thought-provoking works that push the limits of conventional art genres.
+      </p>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

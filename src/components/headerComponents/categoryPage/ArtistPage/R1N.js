@@ -26,6 +26,12 @@ export default function R1N() {
       onClick={handleClick}
     >
       <h1 className="artist-page-title">R1N's Artwork</h1>
+      <p className="description">
+        A visionary artist who brings life to future cities and mecca girls.
+        Their fascinating work mixes the beauty of science fiction with complex
+        mechanical and robotic elements. Experience the art of R1N's endless
+        possibilities and imaginative creations.
+      </p>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

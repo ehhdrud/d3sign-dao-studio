@@ -47,7 +47,7 @@ export default function ArtAndArtists() {
         <div className="artist-card">
           <h2 className="name">P0LA</h2>
           <p className="genre">"Pop Art"</p>
-          <p>
+          <p className="description">
             The vivid pop art works of P0LA capture the spirit of popular
             culture with a fresh perspective. P0LA examines topics of
             consumerism and mass media via vibrant colors and recognizable
@@ -60,7 +60,7 @@ export default function ArtAndArtists() {
         <div className="artist-card">
           <h2 className="name">R0RO</h2>
           <p className="genre">"Pattern Fabric Art"</p>
-          <p>
+          <p className="description">
             The intricate detail and fine craftsmanship are celebrated in R0RO's
             pattern fabric artwork. R0RO develops captivating textile-based
             compositions that are both aesthetically appealing and rich in
@@ -73,7 +73,7 @@ export default function ArtAndArtists() {
         <div className="artist-card">
           <h2 className="name">T0RI</h2>
           <p className="genre">"Anime Art"</p>
-          <p>
+          <p className="description">
             With simple and alluring artwork, T0RI brings the world of anime to
             life. T0RI's artwork, which draws inspiration from Japanese
             animation and manga, has vibrant storyline and dynamic characters
@@ -86,7 +86,7 @@ export default function ArtAndArtists() {
         <div className="artist-card">
           <h2 className="name">CHR1S</h2>
           <p className="genre">"Cubism"</p>
-          <p>
+          <p className="description">
             CHR1S's artwork dissects and reassembles visual components to
             produce arresting, three-dimensional compositions, drawing
             inspiration from early cubists. CHR1S presents a novel viewpoint on
@@ -100,7 +100,7 @@ export default function ArtAndArtists() {
         <div className="artist-card">
           <h2 className="name">ZER1</h2>
           <p className="genre">"Pixel Art"</p>
-          <p>
+          <p className="description">
             Pixel art by ZER1 is a wistful ode to the digital era, exhibiting
             elaborate creations made from the little pixel. ZER1's work is
             humorous and smart, fusing contemporary methods with a nostalgic
@@ -113,7 +113,7 @@ export default function ArtAndArtists() {
         <div className="artist-card">
           <h2 className="name">J1N</h2>
           <p className="genre">"Abstractism"</p>
-          <p>
+          <p className="description">
             Abstract paintings by J1N explore emotion and motion via vivid
             colors, organic forms, and unplanned brushstrokes. J1N's art enables
             viewers to go on a special, sensual trip by overcoming the
@@ -126,7 +126,7 @@ export default function ArtAndArtists() {
         <div className="artist-card">
           <h2 className="name">MIRR0R</h2>
           <p className="genre">"Watercolor"</p>
-          <p>
+          <p className="description">
             Watercolor paintings by MIRR0R are serene and graceful, with
             delicate colors blending and dancing over the surface. MIRR0R
             captures the transient beauty of nature and the complexities of
@@ -139,7 +139,7 @@ export default function ArtAndArtists() {
         <div className="artist-card">
           <h2 className="name">PAUL0</h2>
           <p className="genre">"Expressionism"</p>
-          <p>
+          <p className="description">
             Through vivid colors and strong brushstrokes, Paul's expressionist
             artwork delves deeply into the human psyche, revealing raw emotions
             and untold stories. Paul's art challenges viewers to examine their
@@ -153,7 +153,7 @@ export default function ArtAndArtists() {
         <div className="artist-card">
           <h2 className="name">R1N</h2>
           <p className="genre">"Cyberpunk Art"</p>
-          <p>
+          <p className="description">
             A visionary artist who brings life to future cities and mecca girls.
             Their fascinating work mixes the beauty of science fiction with
             complex mechanical and robotic elements. Experience the art of R1N's

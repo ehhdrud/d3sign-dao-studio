@@ -2,10 +2,6 @@
   width: 75%;
 }
 
-.whatson * {
-  border: 1px solid red;
-}
-
 .whatson.rearranged {
   filter: blur(1.25px);
 }

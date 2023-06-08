@@ -27,6 +27,12 @@ export default function J1N() {
       onClick={handleClick}
     >
       <h1 className="artist-page-title">J1N's Artwork</h1>
+      <p className="description">
+        Abstract paintings by J1N explore emotion and motion via vivid colors,
+        organic forms, and unplanned brushstrokes. J1N's art enables viewers to
+        go on a special, sensual trip by overcoming the limitations of
+        conventional representation.
+      </p>
       <Carousel imagePaths={imagePaths} />
     </div>
   );

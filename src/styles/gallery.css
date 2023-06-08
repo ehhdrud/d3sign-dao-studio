@@ -70,4 +70,14 @@
   .artist-on-img {
     font-size: 5vw;
   }
+
+  .art-card.hovered .art-img {
+    transform: none;
+    transition: none;
+  }
+
+  .art-card.hovered {
+    box-shadow: none;
+    border: 1px solid #444;
+  }
 }

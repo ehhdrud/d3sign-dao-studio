@@ -17,7 +17,7 @@ export default function Web3() {
 
         <div className="list">
           <div className="list-title">
-            <span className="genre">&nbsp;Cyberpunk Art</span>
+            <span className="genre">Cyberpunk Art</span>
             <span className="by">by</span>
             <span className="artist">R1N</span>
           </div>

@@ -26,7 +26,6 @@ export default function Goods() {
         <ul>
           <li className="marketplace-li">
             <i class="bx bx-link-external"></i>
-            <span className="marketplace-name">Redbbuble:</span>
             <a
               className="marketplace-link"
               href="https://www.redbubble.com/people/MechaSociety/explore?asc=u&page=1&sortOrder=recent"
@@ -38,7 +37,6 @@ export default function Goods() {
           </li>
           <li className="marketplace-li">
             <i class="bx bx-link-external"></i>
-            <span className="marketplace-name">MappleShop:</span>
             <a
               className="marketplace-link"
               href="https://marpple.shop/artist_r1n?page=0"
@@ -60,7 +58,6 @@ export default function Goods() {
         <ul>
           <li className="marketplace-li">
             <i class="bx bx-link-external"></i>
-            <span className="marketplace-name">Oround:</span>
             <a
               className="marketplace-link"
               href="https://oround.com/torianimeartist"

@@ -38,12 +38,12 @@
 @media (max-width: 480px) {
   .category {
     visibility: hidden;
-    border-right: 3px solid white;
+    border-right: 1px solid #666666;
     position: fixed;
     top: -5px;
     left: -10px;
     z-index: 999;
-    background-color: black;
+    background-color: #222222;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;

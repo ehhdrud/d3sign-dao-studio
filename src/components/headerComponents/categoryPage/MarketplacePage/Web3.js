@@ -32,7 +32,6 @@ export default function Web3() {
           <ul>
             <li className="marketplace-li">
               <i class="bx bx-link-external"></i>
-              <span className="marketplace-name">Mintsquare:</span>
               <a
                 className="marketplace-link"
                 href="https://mintsquare.io/zksync/ZkMechaSociety"

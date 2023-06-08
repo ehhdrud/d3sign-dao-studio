@@ -9,12 +9,12 @@
 }
 
 .goods h1 {
-  font-size: 5vw;
-  margin-bottom: 4vw;
+  font-size: 80px;
 }
 
 .goods .list {
-  margin: 3vw 0 1vw 3vw;
+  margin: 50px;
+  margin-right: 0;
   border-left: 1px dashed #ffffd7;
 }
 
@@ -23,17 +23,17 @@
 }
 
 .goods .genre {
-  font-size: 2vw;
+  font-size: 44px;
   border-top: 1px dashed #ffffd7;
   padding-left: 0.5vw;
 }
 
 .goods .artist {
-  font-size: 2vw;
+  font-size: 44px;
 }
 
 .goods .by {
-  font-size: 2vw;
+  font-size: 44px;
   margin: 0 1vw;
   color: #bbbbbb;
 }
@@ -49,30 +49,70 @@
 }
 
 .goods .marketplace-li i {
-  padding-top: 2px;
-  font-size: 1vw;
-}
-
-.goods .marketplace-li .marketplace-name {
-  font-size: 1.3vw;
-  margin: 0 0.75vw 0 0.5vw;
+  margin-top: 5px;
+  font-size: 16px;
 }
 
 .goods a {
-  font-size: 1.3vw;
+  font-size: 18px;
+  line-height: 36px;
+  margin-left: 5px;
 }
 
-@media (max-width: 480px) {
-  .goods {
-    width: 90%;
-  }
+@media (min-width: 481px) and (max-width: 768px) {
   .goods h1 {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 25px;
   }
 
   .goods .list {
-    margin-bottom: 25px;
+    margin: 40px;
+    margin-right: 0;
+    border-left: 1px dotted #ffffd7;
+  }
+
+  .goods .genre {
+    border-top: 1px dotted #ffffd7;
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+
+  .goods .artist {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+
+  .goods .by {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+
+  .goods .marketplace-li i {
+    font-size: 14px;
+    line-height: 16.8px;
+    margin-left: 5px;
+    margin-top: 4px;
+  }
+
+  .goods a {
+    font-size: 16px;
+    line-height: 32px;
+    margin-left: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .goods {
+    width: 80%;
+  }
+
+  .goods h1 {
+    font-size: 40px;
+  }
+
+  .goods .list {
+    margin: 25px;
+    margin-right: 0;
     border-left: 1px dotted #ffffd7;
   }
 
@@ -93,17 +133,15 @@
   }
 
   .goods .marketplace-li i {
-    font-size: 14px;
-    line-height: 16.8px;
-  }
-
-  .goods .marketplace-li .marketplace-name {
-    font-size: 14px;
-    line-height: 16.8px;
+    font-size: 12px;
+    line-height: 14.4px;
+    margin-left: 5px;
+    margin-top: 3px;
   }
 
   .goods a {
     font-size: 14px;
-    line-height: 16.8px;
+    line-height: 28px;
+    margin-left: 3px;
   }
 }

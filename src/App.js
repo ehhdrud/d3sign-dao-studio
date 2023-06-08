@@ -37,24 +37,69 @@ function App() {
             <Header />
             <Sns />
             <Routes>
-              <Route path="/" element={<Body />} />
-              <Route path="/whatson" element={<WhatsOn />} />
-              <Route path="/artsandartists" element={<ArtAndArtists />} />
-              <Route path="/artsandartists/V1VI" element={<V1VI />} />
-              <Route path="/artsandartists/P0LA" element={<P0LA />} />
-              <Route path="/artsandartists/R0RO" element={<R0RO />} />
-              <Route path="/artsandartists/T0RI" element={<T0RI />} />
-              <Route path="/artsandartists/CHR1S" element={<CHR1S />} />
-              <Route path="/artsandartists/ZER1" element={<ZER1 />} />
-              <Route path="/artsandartists/J1N" element={<J1N />} />
-              <Route path="/artsandartists/MIRR0R" element={<MIRR0R />} />
-              <Route path="/artsandartists/PAUL0" element={<PAUL0 />} />
-              <Route path="/artsandartists/R1N" element={<R1N />} />
-              <Route path="/marketplace" element={<Marketplace />} />
-              <Route path="/marketplace/goods" element={<Goods />} />
-              <Route path="/marketplace/homedecor" element={<HomeDecor />} />
-              <Route path="/marketplace/web3" element={<Web3 />} />
-              <Route path="/faq" element={<Faq />} />
+              <Route path="/d3sign-dao-studio" element={<Body />} />
+              <Route path="/d3sign-dao-studio/whatson" element={<WhatsOn />} />
+              <Route
+                path="/d3sign-dao-studio/artsandartists"
+                element={<ArtAndArtists />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/V1VI"
+                element={<V1VI />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/P0LA"
+                element={<P0LA />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/R0RO"
+                element={<R0RO />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/T0RI"
+                element={<T0RI />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/CHR1S"
+                element={<CHR1S />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/ZER1"
+                element={<ZER1 />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/J1N"
+                element={<J1N />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/MIRR0R"
+                element={<MIRR0R />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/PAUL0"
+                element={<PAUL0 />}
+              />
+              <Route
+                path="/d3sign-dao-studio/artsandartists/R1N"
+                element={<R1N />}
+              />
+              <Route
+                path="/d3sign-dao-studio/marketplace"
+                element={<Marketplace />}
+              />
+              <Route
+                path="/d3sign-dao-studio/marketplace/goods"
+                element={<Goods />}
+              />
+              <Route
+                path="/d3sign-dao-studio/marketplace/homedecor"
+                element={<HomeDecor />}
+              />
+              <Route
+                path="/d3sign-dao-studio/marketplace/web3"
+                element={<Web3 />}
+              />
+              <Route path="/d3sign-dao-studio/faq" element={<Faq />} />
             </Routes>
           </HoveredIndexProvider>
         </ToggleProvider>

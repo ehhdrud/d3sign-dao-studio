@@ -33,7 +33,7 @@ export default function Marketplace() {
     <div className={`marketplace ${categoryLayoutChanged ? "rearranged" : ""}`}>
       <div className="marketplace-category">
         <Link
-          to="/marketplace/homedecor"
+          to="/d3sign-dao-studio/marketplace/homedecor"
           className={`marketplace-category-button homedecor-container ${
             hoveredState.homedecor ? "hovered" : ""
           }`}
@@ -51,7 +51,7 @@ export default function Marketplace() {
         </Link>
 
         <Link
-          to="/marketplace/goods"
+          to="/d3sign-dao-studio/marketplace/goods"
           className={`marketplace-category-button goods-container ${
             hoveredState.goods ? "hovered" : ""
           }`}
@@ -65,7 +65,7 @@ export default function Marketplace() {
         </Link>
 
         <Link
-          to="/marketplace/web3"
+          to="/d3sign-dao-studio/marketplace/web3"
           className={`marketplace-category-button web3-container ${
             hoveredState.web3 ? "hovered" : ""
           }`}

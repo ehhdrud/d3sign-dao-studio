@@ -73,7 +73,7 @@ export default function Gallery() {
         <Link
           className="link"
           key={index}
-          to={`/artsandartists/${art.artist}`}
+          to={`/d3sign-dao-studio/artsandartists/${art.artist}`}
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}
         >

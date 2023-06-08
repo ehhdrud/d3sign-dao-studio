@@ -9,7 +9,7 @@ export default function Logo() {
   return (
     <Link
       className={`logo ${categoryLayoutChanged ? "rearranged" : ""}`}
-      to="/"
+      to="/d3sign-dao-studio"
     >
       {/* <img src={logo} alt="logo" /> */}
       <span className="logo-text">D3sign&nbsp;&nbsp;DAO&nbsp;&nbsp;Studio</span>

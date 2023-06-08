@@ -14,7 +14,7 @@ export default function Category() {
           className={`link ${
             location.pathname.startsWith("/whatson") ? "visited" : ""
           }`}
-          to="/whatson"
+          to="/d3sign-dao-studio/whatson"
         >
           <span className="category-text">What's on</span>
         </Link>
@@ -24,7 +24,7 @@ export default function Category() {
           className={`link ${
             location.pathname.startsWith("/artsandartists") ? "visited" : ""
           }`}
-          to="/artsandartists"
+          to="/d3sign-dao-studio/artsandartists"
         >
           <span className="category-text">Arts and artists</span>
         </Link>
@@ -34,7 +34,7 @@ export default function Category() {
           className={`link ${
             location.pathname.startsWith("/marketplace") ? "visited" : ""
           }`}
-          to="/marketplace"
+          to="/d3sign-dao-studio/marketplace"
         >
           <span className="category-text">Marketplace</span>
         </Link>
@@ -44,7 +44,7 @@ export default function Category() {
           className={`link ${
             location.pathname.startsWith("/faq") ? "visited" : ""
           }`}
-          to="/faq"
+          to="/d3sign-dao-studio/faq"
         >
           <span className="category-text">FAQ</span>
         </Link>

@@ -28,7 +28,7 @@ export default function ArtAndArtists() {
       onClick={handleClick}
     >
       <h1>Arts and artists</h1>
-      <Link to={`/artsandartists/V1VI`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/V1VI`} className="link">
         <img className="main-img" src={V1VI} alt="V1VI" />
         <div className="artist-card">
           <h2 className="name">V1VI</h2>
@@ -42,7 +42,7 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/P0LA`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/P0LA`} className="link">
         <img className="main-img" src={P0LA} alt="P0LA" />
         <div className="artist-card">
           <h2 className="name">P0LA</h2>
@@ -55,7 +55,7 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/R0RO`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/R0RO`} className="link">
         <img className="main-img" src={R0RO} alt="R0RO" />
         <div className="artist-card">
           <h2 className="name">R0RO</h2>
@@ -68,7 +68,7 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/T0RI`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/T0RI`} className="link">
         <img className="main-img" src={T0RI} alt="T0RI" />
         <div className="artist-card">
           <h2 className="name">T0RI</h2>
@@ -81,7 +81,7 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/CHR1S`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/CHR1S`} className="link">
         <img className="main-img" src={CHR1S} alt="CHR1S" />
         <div className="artist-card">
           <h2 className="name">CHR1S</h2>
@@ -95,7 +95,7 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/ZER1`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/ZER1`} className="link">
         <img className="main-img" src={ZER1} alt="ZER1" />
         <div className="artist-card">
           <h2 className="name">ZER1</h2>
@@ -108,7 +108,7 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/J1N`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/J1N`} className="link">
         <img className="main-img" src={J1N} alt="J1N" />
         <div className="artist-card">
           <h2 className="name">J1N</h2>
@@ -121,7 +121,7 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/MIRR0R`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/MIRR0R`} className="link">
         <img className="main-img" src={MIRR0R} alt="MIRR0R" />
         <div className="artist-card">
           <h2 className="name">MIRR0R</h2>
@@ -134,7 +134,7 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/PAUL0`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/PAUL0`} className="link">
         <img className="main-img" src={PAUL0} alt="PAUL0" />
         <div className="artist-card">
           <h2 className="name">PAUL0</h2>
@@ -148,7 +148,7 @@ export default function ArtAndArtists() {
           </p>
         </div>
       </Link>
-      <Link to={`/artsandartists/R1N`} className="link">
+      <Link to={`/d3sign-dao-studio/artsandartists/R1N`} className="link">
         <img className="main-img" src={R1N} alt="R1N" />
         <div className="artist-card">
           <h2 className="name">R1N</h2>

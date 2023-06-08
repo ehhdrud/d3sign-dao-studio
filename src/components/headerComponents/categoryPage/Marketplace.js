@@ -7,7 +7,12 @@ import web3Img from "../../../images/web3-img.jpg";
 import "../../../styles/marketplace.css";
 
 export default function Marketplace() {
-  const { categoryLayoutChanged } = useContext(ToggleContext);
+  const { deleteCategoryLayout, categoryLayoutChanged } =
+    useContext(ToggleContext);
+
+  const handleClick = (event) => {
+    deleteCategoryLayout(event);
+  };
 
   const [hoveredState, setHoveredState] = useState({
     goods: false,
@@ -30,7 +35,10 @@ export default function Marketplace() {
   };
 
   return (
-    <div className={`marketplace ${categoryLayoutChanged ? "rearranged" : ""}`}>
+    <div
+      className={`marketplace ${categoryLayoutChanged ? "rearranged" : ""}`}
+      onClick={handleClick}
+    >
       <div className="marketplace-category">
         <Link
           to="/d3sign-dao-studio/marketplace/homedecor"

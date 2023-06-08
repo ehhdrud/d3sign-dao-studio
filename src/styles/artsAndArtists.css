@@ -24,6 +24,10 @@
   align-items: center;
 }
 
+.artists .dash {
+  display: none;
+}
+
 .artists .genre {
   font-size: 1.6vw;
   font-style: italic;
@@ -66,14 +70,26 @@
     font-size: 40px;
   }
 
+  .artists .artist-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+  }
   .artists h2 {
-    font-size: 24px;
-    margin: 10px;
+    display: inline;
+    font-size: 18px;
+    margin: 3px 10px;
+  }
+
+  .artists .dash {
+    display: inline;
   }
 
   .artists .genre {
-    font-size: 24px;
-    margin: 10px;
+    display: inline;
+    font-size: 18px;
+    margin: 3px 10px;
   }
 
   .artists .description {

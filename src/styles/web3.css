@@ -50,9 +50,9 @@
 }
 
 .web3 .by {
-  font-size: 1.3vw;
+  font-size: 2vw;
   margin: 0 1vw;
-  padding-top: 0.8vw;
+  color: #bbbbbb;
 }
 
 .web3 ul {
@@ -79,9 +79,58 @@
   font-size: 1.3vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+  .web3 {
+    width: 90%;
+  }
+
+  .web3 h1 {
+    font-size: 40px;
+  }
+
+  .web3 h2 {
+    font-size: 25px;
+  }
+
   .web3 h2 i {
-    padding-top: 1px;
-    border: 1px dashed white;
+    font-size: 12.5px;
+    border: 1px solid white;
+  }
+
+  .web3 .list {
+    margin-top: 25px;
+    margin-left: 25px;
+    border-left: 1px dotted #ffffd7;
+  }
+
+  .web3 .genre {
+    font-size: 22px;
+    line-height: 26.4px;
+    border-top: 1px dotted #ffffd7;
+  }
+
+  .web3 .artist {
+    font-size: 22px;
+    line-height: 26.4px;
+  }
+
+  .web3 .by {
+    font-size: 22px;
+    line-height: 26.4px;
+  }
+
+  .web3 .marketplace-li i {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+
+  .web3 .marketplace-li .marketplace-name {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+
+  .web3 a {
+    font-size: 14px;
+    line-height: 16.8px;
   }
 }

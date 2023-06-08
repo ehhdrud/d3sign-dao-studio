@@ -3,10 +3,18 @@ import { ToggleContext } from "../../../ToggleContext";
 import "../../../styles/faq.css";
 
 export default function Faq() {
-  const { categoryLayoutChanged } = useContext(ToggleContext);
+  const { deleteCategoryLayout, categoryLayoutChanged } =
+    useContext(ToggleContext);
+
+  const handleClick = (event) => {
+    deleteCategoryLayout(event);
+  };
 
   return (
-    <div className={`faq ${categoryLayoutChanged ? "rearranged" : ""}`}>
+    <div
+      className={`faq ${categoryLayoutChanged ? "rearranged" : ""}`}
+      onClick={handleClick}
+    >
       <h1>FAQ</h1>
 
       <div className="details-container">

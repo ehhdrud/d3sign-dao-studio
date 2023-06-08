@@ -34,13 +34,14 @@
   max-width: max-content;
   text-decoration: underline;
   margin-bottom: 1vw;
+  margin-left: 2vw;
 }
 
 .faq details p {
   font-size: 1.2vw;
   line-height: 2.5vw;
   margin-bottom: 3vw;
-  margin-left: 2.3vw;
+  margin-left: 4.5vw;
 }
 
 .faq .help {
@@ -66,27 +67,20 @@
   .faq h2 {
     font-size: 18px;
     line-height: 21.6px;
-    margin-bottom: 5vw;
   }
 
   .faq details summary {
     font-size: 14px;
     line-height: 16.8px;
-    margin-bottom: 3vw;
   }
 
   .faq details p {
     font-size: 12px;
     line-height: 14.4px;
-    margin-bottom: 3vw;
-    margin-left: 2.3vw;
+    margin-left: 30px;
   }
 
   .faq .help {
-    margin-top: 5vw;
-    font-family: Helvetica;
     font-size: 10px;
-    line-height: 12px;
-    text-align: center;
   }
 }

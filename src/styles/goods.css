@@ -33,9 +33,9 @@
 }
 
 .goods .by {
-  font-size: 1.3vw;
+  font-size: 2vw;
   margin: 0 1vw;
-  padding-top: 0.8vw;
+  color: #bbbbbb;
 }
 
 .goods ul {
@@ -60,4 +60,50 @@
 
 .goods a {
   font-size: 1.3vw;
+}
+
+@media (max-width: 480px) {
+  .goods {
+    width: 90%;
+  }
+  .goods h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+
+  .goods .list {
+    margin-bottom: 25px;
+    border-left: 1px dotted #ffffd7;
+  }
+
+  .goods .genre {
+    border-top: 1px dotted #ffffd7;
+    font-size: 22px;
+    line-height: 26.4px;
+  }
+
+  .goods .artist {
+    font-size: 22px;
+    line-height: 26.4px;
+  }
+
+  .goods .by {
+    font-size: 22px;
+    line-height: 26.4px;
+  }
+
+  .goods .marketplace-li i {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+
+  .goods .marketplace-li .marketplace-name {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+
+  .goods a {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
 }

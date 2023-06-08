@@ -32,6 +32,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={V1VI} alt="V1VI" />
         <div className="artist-card">
           <h2 className="name">V1VI</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Collage Art"</p>
           <p className="description">
             The collage art of V1VI transports visitors to a realm of
@@ -46,6 +47,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={P0LA} alt="P0LA" />
         <div className="artist-card">
           <h2 className="name">P0LA</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Pop Art"</p>
           <p className="description">
             The vivid pop art works of P0LA capture the spirit of popular
@@ -59,6 +61,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={R0RO} alt="R0RO" />
         <div className="artist-card">
           <h2 className="name">R0RO</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Pattern Fabric Art"</p>
           <p className="description">
             The intricate detail and fine craftsmanship are celebrated in R0RO's
@@ -72,6 +75,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={T0RI} alt="T0RI" />
         <div className="artist-card">
           <h2 className="name">T0RI</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Anime Art"</p>
           <p className="description">
             With simple and alluring artwork, T0RI brings the world of anime to
@@ -85,6 +89,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={CHR1S} alt="CHR1S" />
         <div className="artist-card">
           <h2 className="name">CHR1S</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Cubism"</p>
           <p className="description">
             CHR1S's artwork dissects and reassembles visual components to
@@ -99,6 +104,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={ZER1} alt="ZER1" />
         <div className="artist-card">
           <h2 className="name">ZER1</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Pixel Art"</p>
           <p className="description">
             Pixel art by ZER1 is a wistful ode to the digital era, exhibiting
@@ -112,6 +118,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={J1N} alt="J1N" />
         <div className="artist-card">
           <h2 className="name">J1N</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Abstractism"</p>
           <p className="description">
             Abstract paintings by J1N explore emotion and motion via vivid
@@ -125,6 +132,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={MIRR0R} alt="MIRR0R" />
         <div className="artist-card">
           <h2 className="name">MIRR0R</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Watercolor"</p>
           <p className="description">
             Watercolor paintings by MIRR0R are serene and graceful, with
@@ -138,6 +146,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={PAUL0} alt="PAUL0" />
         <div className="artist-card">
           <h2 className="name">PAUL0</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Expressionism"</p>
           <p className="description">
             Through vivid colors and strong brushstrokes, Paul's expressionist
@@ -152,6 +161,7 @@ export default function ArtAndArtists() {
         <img className="main-img" src={R1N} alt="R1N" />
         <div className="artist-card">
           <h2 className="name">R1N</h2>
+          <span className="dash"> - </span>
           <p className="genre">"Cyberpunk Art"</p>
           <p className="description">
             A visionary artist who brings life to future cities and mecca girls.

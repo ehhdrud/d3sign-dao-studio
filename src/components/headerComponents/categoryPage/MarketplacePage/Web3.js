@@ -4,10 +4,18 @@ import "boxicons/css/boxicons.min.css";
 import "../../../../styles/web3.css";
 
 export default function Web3() {
-  const { categoryLayoutChanged } = useContext(ToggleContext);
+  const { deleteCategoryLayout, categoryLayoutChanged } =
+    useContext(ToggleContext);
+
+  const handleClick = (event) => {
+    deleteCategoryLayout(event);
+  };
 
   return (
-    <div className={`web3 ${categoryLayoutChanged ? "rearranged" : ""}`}>
+    <div
+      className={`web3 ${categoryLayoutChanged ? "rearranged" : ""}`}
+      onClick={handleClick}
+    >
       <h1>Web 3.0</h1>
 
       <div className="web3-event">
@@ -31,7 +39,7 @@ export default function Web3() {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                mintsquare.io/zksync/ZkMechaSociety
+                mintsquare.io/ZkMechaSociety
               </a>
             </li>
           </ul>

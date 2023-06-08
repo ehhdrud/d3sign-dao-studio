@@ -10,31 +10,54 @@
 
 .goods h1 {
   font-size: 5vw;
+  margin-bottom: 4vw;
 }
 
-.goods details {
-  margin-bottom: 2vw;
+.goods .list {
+  margin: 3vw 0 1vw 3vw;
+  border-left: 1px dashed #ffffd7;
 }
 
-.goods details summary {
-  max-width: max-content;
-  font-size: 1.5vw;
-  line-height: 3vw;
+.goods .list-title {
+  display: flex;
 }
 
-.goods details summary .genre,
-.goods details summary .artist {
+.goods .genre {
+  font-size: 2vw;
+  border-top: 1px dashed #ffffd7;
+  padding-left: 0.5vw;
+}
+
+.goods .artist {
   font-size: 2vw;
 }
 
-.goods details summary .by {
+.goods .by {
+  font-size: 1.3vw;
   margin: 0 1vw;
+  padding-top: 0.8vw;
 }
 
-.goods details div {
-  margin: 1vw 0 1vw 2vw;
+.goods ul {
+  padding-left: 3vw;
+  margin-bottom: 0px;
 }
 
-.goods details a {
+.goods .marketplace-li {
+  display: flex;
+  align-items: center;
+}
+
+.goods .marketplace-li i {
+  padding-top: 2px;
+  font-size: 1vw;
+}
+
+.goods .marketplace-li .marketplace-name {
+  font-size: 1.3vw;
+  margin: 0 0.75vw 0 0.5vw;
+}
+
+.goods a {
   font-size: 1.3vw;
 }

@@ -1,14 +1,15 @@
 .intro {
   display: flex;
   align-items: center;
-  margin: 10px 0 3px 0px;
+  margin: 10px 0 2px 0;
 }
 
 .intro span {
   position: relative;
   width: max-content;
-  font-family: Collenis;
-  font-size: 3.75vw;
+  font-family: GT-Super-Display-regular-Trial, Georgia, "Times New Roman", Times,
+    serif;
+  font-size: 3.7vw;
   animation: fade-in 1s ease-in-out forwards;
 }
 

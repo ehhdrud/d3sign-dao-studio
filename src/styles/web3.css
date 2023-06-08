@@ -10,44 +10,78 @@
 
 .web3 h1 {
   font-size: 5vw;
+  margin-bottom: 4vw;
+}
+
+.web3 .web3-event {
+  margin-bottom: 4vw;
 }
 
 .web3 h2 {
-  font-size: 3vw;
   display: flex;
   align-items: center;
+  margin-bottom: 2vw;
+  font-size: 3vw;
 }
 
 .web3 h2 i {
   font-size: 2vw;
-  border: 3px solid white;
+  margin-top: 0.3vw;
+  border: 1px dashed white;
   border-radius: 50%;
 }
 
-.web3 details {
-  margin-left: 2vw;
-  margin-bottom: 2vw;
+.web3 .list {
+  margin: 3vw 0 1vw 3vw;
+  border-left: 1px dashed #ffffd7;
 }
 
-.web3 details div {
-  margin: 1vw 0 1vw 2.2vw;
+.web3 .list-title {
+  display: flex;
 }
 
-.web3 details div a {
-  font-size: 1.3vw;
+.web3 .genre {
+  font-size: 2vw;
+  border-top: 1px dashed #ffffd7;
+  padding-left: 0.5vw;
 }
-
-.web3 details summary {
-  max-width: max-content;
-  font-size: 1.5vw;
-  line-height: 3vw;
-}
-
-.web3 details summary .genre,
-.web3 details summary .artist {
+.web3 .artist {
   font-size: 2vw;
 }
 
-.web3 details summary .by {
+.web3 .by {
+  font-size: 1.3vw;
   margin: 0 1vw;
+  padding-top: 0.8vw;
+}
+
+.web3 ul {
+  padding-left: 3vw;
+  margin-bottom: 0px;
+}
+
+.web3 .marketplace-li {
+  display: flex;
+  align-items: center;
+}
+
+.web3 .marketplace-li i {
+  padding-top: 2px;
+  font-size: 1vw;
+}
+
+.web3 .marketplace-li .marketplace-name {
+  font-size: 1.3vw;
+  margin: 0 0.75vw 0 0.5vw;
+}
+
+.web3 a {
+  font-size: 1.3vw;
+}
+
+@media (max-width: 768px) {
+  .web3 h2 i {
+    padding-top: 1px;
+    border: 1px dashed white;
+  }
 }

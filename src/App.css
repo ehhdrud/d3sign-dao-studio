@@ -30,8 +30,18 @@
 }
 
 @font-face {
-  font-family: Collenis;
-  src: url("fonts/Collenis.otf") format("opentype");
+  font-family: GT-Super-Display-Light-Trial;
+  src: url("fonts/GT-Super-Display-Light-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: GT-Super-Display-Regular-Trial;
+  src: url("fonts/GT-Super-Display-Regular-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: GT-Super-Display-Medium-Trial;
+  src: url("fonts/GT-Super-Display-Medium-Trial.otf") format("opentype");
 }
 
 /* 키프레임 관련 코드 */

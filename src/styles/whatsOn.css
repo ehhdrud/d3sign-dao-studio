@@ -9,19 +9,18 @@
 .whatson p {
   font-size: 1.4vw;
   animation: fade-in 1.5s ease-in-out forwards;
-  line-height: 2.5vw;
+  line-height: 2.1vw;
 }
 
 .whatson h2 {
-  display: flex;
-  align-items: center;
+  display: inline;
   margin-top: 2vw;
   font-size: 2.5vw;
   animation: fade-in 0.5s ease-in-out forwards;
 }
 
 .whatson h2 i {
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 .whatson .bx {
@@ -50,6 +49,10 @@
 
 .about .about-body .about-body-item:nth-child(1) {
   margin-top: 7%;
+}
+
+.about .about-body .about-body-item p {
+  margin-bottom: 0px;
 }
 
 .vision .vision-head h1 {
@@ -91,13 +94,13 @@
 
   .whatson h2 {
     font-size: 20px;
-    margin: 0;
+    margin: 0px;
     margin-bottom: 25px;
   }
 
   .whatson h2 i {
-    font-size: 18px;
-    padding-top: 1px;
+    font-size: 16px;
+    max-height: max-content;
   }
 
   .whatson p {

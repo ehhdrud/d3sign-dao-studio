@@ -19,7 +19,6 @@
 .faq h2 {
   font-size: 2.5vw;
   animation: fade-in 0.5s ease-in-out forwards;
-  font-family: GT-Super-Display-Light-Trial;
   margin-bottom: 2vw;
 }
 
@@ -73,22 +72,24 @@
   }
 
   .faq h2 {
-    font-size: 18px;
-    line-height: 21.6px;
+    font-size: 20px;
+    line-height: 26.4px;
     margin-bottom: 28px;
   }
 
   .faq details summary {
     font-size: 14px;
-    line-height: 28px;
-    margin: 10px 0 10px 15px;
+    line-height: 16.8px;
+    margin: 15px 0 15px 0px;
   }
 
   .faq details p {
     font-size: 12px;
     line-height: 14.4px;
-    margin-left: 16.5px;
-    padding-left: 20px;
+    /* margin-left: 16.5px;
+    padding-left: 20px; */
+    margin-left: 4px;
+    padding-left: 10px;
     border-left: 2px solid #bbbbbb;
   }
 

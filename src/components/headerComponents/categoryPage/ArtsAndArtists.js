@@ -35,7 +35,6 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">V1VI</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Collage Art"</p>
             <p className="description">
               The collage art of V1VI transports visitors to a realm of
@@ -55,7 +54,6 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">P0LA</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Pop Art"</p>
             <p className="description">
               The vivid pop art works of P0LA capture the spirit of popular
@@ -73,7 +71,6 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">R0RO</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Pattern Fabric Art"</p>
             <p className="description">
               The intricate detail and fine craftsmanship are celebrated in
@@ -93,7 +90,6 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">T0RI</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Anime Art"</p>
             <p className="description">
               With simple and alluring artwork, T0RI brings the world of anime
@@ -111,7 +107,6 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">CHR1S</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Cubism"</p>
             <p className="description">
               CHR1S's artwork dissects and reassembles visual components to
@@ -130,7 +125,6 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">ZER1</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Pixel Art"</p>
             <p className="description">
               Pixel art by ZER1 is a wistful ode to the digital era, exhibiting
@@ -148,7 +142,6 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">J1N</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Abstractism"</p>
             <p className="description">
               Abstract paintings by J1N explore emotion and motion via vivid
@@ -166,7 +159,6 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">MIRR0R</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Watercolor"</p>
             <p className="description">
               Watercolor paintings by MIRR0R are serene and graceful, with
@@ -185,7 +177,6 @@ export default function ArtAndArtists() {
 
           <div className="artist-card">
             <h2 className="name">PAUL0</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Expressionism"</p>
             <p className="description">
               Through vivid colors and strong brushstrokes, Paul's expressionist
@@ -205,7 +196,6 @@ export default function ArtAndArtists() {
 
           <div className="artist-card">
             <h2 className="name">R1N</h2>
-            <span className="s"> 's </span>
             <p className="genre">"Cyberpunk Art"</p>
             <p className="description">
               A visionary artist who brings life to future cities and mecca

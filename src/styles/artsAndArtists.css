@@ -40,10 +40,6 @@
   align-items: center;
 }
 
-.artists .s {
-  display: none;
-}
-
 .artists .genre {
   font-size: 2vw;
   font-style: italic;
@@ -114,26 +110,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    gap: 10px;
+    margin: 2.5px 0;
   }
   .artists h2 {
     display: inline;
-    font-family: Helvetica;
     font-weight: 400;
     font-size: 16px;
     margin: 0px;
-  }
-
-  .artists .s {
-    display: inline;
-    margin-right: 5px;
+    padding: 0 3px;
+    border: 1px solid white;
+    border-radius: 10px;
   }
 
   .artists .genre {
+    font-family: Moma-sans;
     display: inline;
     font-size: 16px;
     font-style: normal;
     margin: 0px;
+    padding: 0 3px;
+    border: 1px solid white;
+    border-radius: 10px;
   }
 
   .artists .description {

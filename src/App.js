@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className="App" onContextMenu={handleContextMenu}>
+    <div className="App">
       <BrowserRouter>
         <ToggleProvider>
           <HoveredIndexProvider>

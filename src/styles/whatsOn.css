@@ -7,7 +7,6 @@
 }
 
 .whatson p {
-  font-family: Helvetica;
   font-size: 1.4vw;
   animation: fade-in 1.5s ease-in-out forwards;
   line-height: 2.5vw;

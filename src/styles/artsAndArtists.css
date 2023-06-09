@@ -11,15 +11,31 @@
   font-size: 5vw;
 }
 
+.artists .container {
+  width: 100%;
+  display: flex;
+}
+
+.artists .img-container {
+  width: 30%;
+}
+
+.artists .artist-card {
+  width: 70%;
+}
+
 .artists .main-img {
-  width: 20%;
+  display: block;
+  width: 100%;
   aspect-ratio: 1/1;
-  animation: fade-in 3s ease-in-out forwards;
+}
+
+.artists .artist-card {
+  margin-left: 25px;
 }
 
 .artists h2 {
-  margin-top: 1.2vw;
-  font-size: 2vw;
+  font-size: 2.5vw;
   display: flex;
   align-items: center;
 }
@@ -29,14 +45,13 @@
 }
 
 .artists .genre {
-  font-size: 1.6vw;
+  font-size: 2vw;
   font-style: italic;
   animation: fade-in 0.5s ease-in-out forwards;
 }
 
 .artists p {
-  font-size: 1.2vw;
-  font-family: Helvetica;
+  font-size: 1.4vw;
   animation: fade-in 1.5s ease-in-out forwards;
 }
 
@@ -53,8 +68,12 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .artists .main-img {
-    width: 32%;
+  .artists .img-container {
+    width: 45%;
+  }
+
+  .artists .artist-card {
+    width: 55%;
   }
 }
 
@@ -67,50 +86,57 @@
     font-size: 40px;
   }
 
-  .artists .artist-card {
+  .artists .container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: rgb(40, 40, 40);
+  }
+
+  .artists .container .img-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0 0 30px 30px;
-    background-color: rgb(30, 30, 30);
+    max-width: max-content;
+  }
+
+  .artists .container .img-container img {
+    width: 95%;
+    margin-top: 8px;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+  }
+  .artists .artist-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
   }
   .artists h2 {
     display: inline;
     font-size: 16px;
-    margin: 3px 10px;
+    margin: 0px;
   }
 
   .artists .dash {
     display: inline;
+    margin: 3px 5px;
   }
 
   .artists .genre {
     display: inline;
     font-size: 16px;
-    margin: 3px 10px;
+    margin: 0px;
   }
 
   .artists .description {
     display: none;
   }
 
-  .artists .img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 30px 30px 0 0;
-    background-color: rgb(30, 30, 30);
-  }
-  .artists .main-img {
-    width: 96%;
-    border-radius: 30px 30px 15px 15px;
-  }
-
   .artists .link {
-    display: flex;
-    flex-direction: column;
     margin: 30px 30px;
   }
 

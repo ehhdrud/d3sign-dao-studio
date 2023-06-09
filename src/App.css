@@ -3,6 +3,10 @@
   color: white;
 }
 
+p {
+  font-family: Helvetica;
+}
+
 .App {
   display: flex;
   flex-direction: column;

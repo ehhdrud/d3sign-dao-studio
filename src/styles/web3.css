@@ -9,181 +9,61 @@
 }
 
 .web3 h1 {
-  font-size: 80px;
+  font-size: 5vw;
 }
 
-/* 시작 */
-.web3 .web3-event {
-  margin-bottom: 40px;
-}
-
-.web3 h2 {
+.web3 .marketplace-title {
   display: flex;
-  align-items: center;
-  font-size: 60px;
+  align-items: flex-end;
+  font-size: 2.5vw;
+  margin: 3vw 0 1vw 0;
 }
 
-.web3 h2 i {
-  font-size: 40px;
-  border: 1px dashed white;
-  border-radius: 50%;
-}
-/* 끝 */
-
-.web3 .list {
-  margin: 50px;
-  margin-right: 0;
-  border-left: 1px dashed #ffffd7;
-}
-
-.web3 .list-title {
-  display: flex;
-}
-
-.web3 .genre {
-  font-size: 44px;
-  border-top: 1px dashed #ffffd7;
-  padding-left: 0.5vw;
-}
-
-.web3 .artist {
-  font-size: 44px;
-}
-
-.web3 .by {
-  font-size: 44px;
+.web3 .marketplace-title .by {
   margin: 0 1vw;
-  color: #bbbbbb;
+  font-size: 2vw;
 }
 
-.web3 ul {
-  padding-left: 3vw;
-  margin-bottom: 0px;
-}
-
-.web3 .marketplace-li {
+.web3 .marketplace-items {
   display: flex;
+  flex-direction: column;
+}
+
+.web3 .marketplace-item {
+  width: 70%;
+  height: auto;
+  background-color: #333333;
+  border: 3px solid #333333;
+  border-radius: 30px;
+  margin: 10px 0;
+}
+
+.web3 .marketplace-item .marketplace-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
 }
 
-.web3 .marketplace-li i {
-  margin-top: 5px;
-  font-size: 16px;
+.web3 .marketplace-item .marketplace-link .marketplace-img {
+  width: 10%;
+  height: auto;
+  border: 3px solid #333333;
+  border-radius: 30px;
 }
 
-.web3 a {
-  font-size: 18px;
-  line-height: 36px;
-  margin-left: 5px;
+.web3 .marketplace-item .marketplace-link .marketplace-name {
+  position: relative;
+  left: -5%;
+  width: max-content;
+  margin: 0 auto;
+  font-size: 2vw;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
-  .web3 h1 {
-    font-size: 60px;
-  }
-
-  .web3 .web3-event {
-    margin-bottom: 30px;
-  }
-
-  .web3 h2 {
-    display: flex;
-    align-items: center;
-    font-size: 45px;
-  }
-
-  .web3 h2 i {
-    font-size: 22.5px;
-    border: 1px dashed white;
-    border-radius: 50%;
-  }
-
-  .web3 .list {
-    margin: 33px;
-    margin-right: 0;
-    border-left: 1px dotted #ffffd7;
-  }
-
-  .web3 .genre {
-    border-top: 1px dotted #ffffd7;
-    font-size: 28px;
-    line-height: 33.6px;
-  }
-
-  .web3 .artist {
-    font-size: 28px;
-    line-height: 33.6px;
-  }
-
-  .web3 .by {
-    font-size: 28px;
-    line-height: 33.6px;
-  }
-
-  .web3 .marketplace-li i {
-    font-size: 14px;
-    line-height: 16.8px;
-    margin-left: 5px;
-    margin-top: 4px;
-  }
-
-  .web3 a {
-    font-size: 16px;
-    line-height: 32px;
-    margin-left: 4px;
-  }
-}
-
-@media (max-width: 480px) {
-  .web3 {
-    width: 80%;
-  }
-
-  .web3 h1 {
-    font-size: 40px;
-  }
-
-  .web3 h2 {
-    font-size: 25px;
-  }
-
-  .web3 h2 i {
-    font-size: 12.5px;
-    border: 1px solid white;
-  }
-
-  .web3 .list {
-    margin: 18px;
-    margin-right: 0;
-    border-left: 1px dotted #ffffd7;
-  }
-
-  .web3 .genre {
-    border-top: 1px dotted #ffffd7;
-    font-size: 22px;
-    line-height: 26.4px;
-  }
-
-  .web3 .artist {
-    font-size: 22px;
-    line-height: 26.4px;
-  }
-
-  .web3 .by {
-    font-size: 22px;
-    line-height: 26.4px;
-  }
-
-  .web3 .marketplace-li i {
-    font-size: 12px;
-    line-height: 14.4px;
-    margin-left: 5px;
-    margin-top: 3px;
-  }
-
-  .web3 a {
-    font-size: 14px;
-    line-height: 28px;
-    margin-left: 3px;
-  }
+.web3 .marketplace-item:hover {
+  animation: shake 0.3s;
+  animation-iteration-count: 1;
 }

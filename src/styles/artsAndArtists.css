@@ -40,7 +40,7 @@
   align-items: center;
 }
 
-.artists .dash {
+.artists .s {
   display: none;
 }
 
@@ -92,6 +92,7 @@
     border-radius: 30px;
     overflow: hidden;
     background-color: rgb(40, 40, 40);
+    animation: fade-in 2s ease-in-out forwards;
   }
 
   .artists .container .img-container {
@@ -117,18 +118,21 @@
   }
   .artists h2 {
     display: inline;
+    font-family: Helvetica;
+    font-weight: 400;
     font-size: 16px;
     margin: 0px;
   }
 
-  .artists .dash {
+  .artists .s {
     display: inline;
-    margin: 3px 5px;
+    margin-right: 5px;
   }
 
   .artists .genre {
     display: inline;
     font-size: 16px;
+    font-style: normal;
     margin: 0px;
   }
 

@@ -5,6 +5,11 @@
   align-items: center;
   overflow: hidden;
   width: 80%;
+  border: 1px red solid;
+}
+
+.carousel * {
+  border: 1px red solid;
 }
 
 .carousel-container {
@@ -26,6 +31,7 @@
   background-size: contain;
   border: 3px solid black;
   transition: all 0.3s ease-in-out;
+  pointer-events: none;
 }
 
 .carousel-item-hidden {

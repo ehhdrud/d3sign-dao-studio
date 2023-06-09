@@ -103,17 +103,22 @@
 
   .whatson p {
     font-size: 14px;
-    line-height: 16.8px;
-    margin: 0;
+    line-height: 26px;
   }
 
   .about .about-body .about-body-item {
     border-left: 5px solid #ffffd7;
-    margin: 50px 0;
+    margin: 75px 0;
+  }
+
+  .about .about-head h1 ~ p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .vision .vision-body .vision-body-item {
     border-left: 5px solid #ffffd7;
-    margin: 50px 0;
+    margin: 75px 0;
   }
 }

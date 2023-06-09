@@ -59,9 +59,6 @@
 }
 
 @media (max-width: 480px) {
-}
-
-@media (max-width: 480px) {
   .artists {
     width: 90%;
   }
@@ -74,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0 0 30px 30px;
     background-color: rgb(30, 30, 30);
   }
   .artists h2 {
@@ -96,8 +94,18 @@
     display: none;
   }
 
-  .artists .main-img {
+  .artists .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 30px 30px 0 0;
+    background-color: rgb(30, 30, 30);
+  }
+  .artists .main-img {
+    width: 96%;
+    border-radius: 30px 30px 15px 15px;
   }
 
   .artists .link {

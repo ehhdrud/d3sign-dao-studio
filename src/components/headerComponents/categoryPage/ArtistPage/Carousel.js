@@ -73,9 +73,7 @@ export default function Carousel({ imagePaths }) {
     document.addEventListener("keydown", handleKeyDown);
 
     const targetCarousel = document.querySelector(".carousel-container");
-
     let startX;
-
     let endX;
 
     targetCarousel.addEventListener("touchstart", handleTouchStart, false);
@@ -93,11 +91,11 @@ export default function Carousel({ imagePaths }) {
     function handleTouchEnd() {
       const distance = endX - startX;
 
-      if (distance > 0) {
+      if (distance > 50) {
         newSetCarousel.setCurrentState({
           className: "carousel-controls-previous",
         });
-      } else if (distance < 0) {
+      } else if (distance < 50) {
         newSetCarousel.setCurrentState({ className: "carousel-controls-next" });
       }
     }

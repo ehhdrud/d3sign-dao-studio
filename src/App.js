@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HoveredIndexProvider } from "./HoveredIndexContext.js";
 import { ToggleProvider } from "./ToggleContext.js";
 import Header from "./components/Header";
-import Sns from "./components/Sns.js";
+import Footer from "./components/Footer.js";
 import WhatsOn from "./components/headerComponents/categoryPage/WhatsOn";
 import ArtAndArtists from "./components/headerComponents/categoryPage/ArtsAndArtists";
 import V1VI from "./components/headerComponents/categoryPage/ArtistPage/V1VI";
@@ -25,9 +25,9 @@ import Body from "./components/Body";
 import "./App.css";
 
 function App() {
-  const handleContextMenu = (e) => {
-    e.preventDefault();
-  };
+  // const handleContextMenu = (e) => {
+  //   e.preventDefault();
+  // };
 
   return (
     // <div className="App" onContextMenu={handleContextMenu}>
@@ -36,7 +36,7 @@ function App() {
         <ToggleProvider>
           <HoveredIndexProvider>
             <Header />
-            <Sns />
+
             <Routes>
               <Route path="/d3sign-dao-studio" element={<Body />} />
               <Route path="/d3sign-dao-studio/whatson" element={<WhatsOn />} />
@@ -102,6 +102,7 @@ function App() {
               />
               <Route path="/d3sign-dao-studio/faq" element={<Faq />} />
             </Routes>
+            <Footer />
           </HoveredIndexProvider>
         </ToggleProvider>
       </BrowserRouter>

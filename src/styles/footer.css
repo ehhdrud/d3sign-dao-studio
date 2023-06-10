@@ -1,0 +1,75 @@
+.footer * {
+  border: 1px solid red;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  min-height: 100px;
+}
+
+.footer .container {
+  margin-right: 10px;
+}
+.footer p {
+  margin: 0px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.footer .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0px;
+  color: #888888;
+}
+
+.footer .via {
+  text-decoration: underline;
+}
+.footer .contact {
+  margin-bottom: 15px;
+}
+
+.footer .contact .contact-text {
+  margin-bottom: 8px;
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  .footer {
+    width: 87.5%;
+  }
+
+  .footer .title {
+    font-size: 14px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 95%;
+  }
+
+  .footer .title {
+    font-size: 10px;
+  }
+
+  .footer p {
+    font-size: 8px;
+  }
+
+  .footer .text-sub {
+    margin-top: 8px;
+  }
+
+  .footer .email {
+    margin-top: 3px;
+  }
+}

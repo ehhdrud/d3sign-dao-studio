@@ -43,9 +43,7 @@ export default function WhatsOn() {
           </div>
           <div className="about-body-item">
             <h2>
-              <span>
-                <i class="bx bxs-group"></i>DAO Governance and Customized Art
-              </span>
+              <i class="bx bxs-group"></i>DAO Governance and Customized Art
             </h2>
             <p>
               Our platform operates through DAO governance, empowering our

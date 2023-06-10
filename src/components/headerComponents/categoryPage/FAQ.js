@@ -18,7 +18,7 @@ export default function Faq() {
       <h1>FAQ</h1>
 
       <div className="details-container">
-        <h2>D3sign DAO Studio information</h2>
+        <h2>Information</h2>
 
         <details>
           <summary>How is the artist of D3sign DAO Studio shaped?</summary>

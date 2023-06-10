@@ -1,5 +1,5 @@
 .footer * {
-  border: 1px solid red;
+  /* border: 1px  solid red; */
 }
 
 .footer {
@@ -12,30 +12,28 @@
 }
 
 .footer .container {
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 .footer p {
   margin: 0px;
   font-size: 14px;
-  color: #666666;
+  color: #555555;
 }
 
 .footer .title {
   font-size: 16px;
   font-weight: bold;
-  margin: 8px 0px;
-  color: #888888;
+  /* margin-bottom: 3px; */
+  color: #555555;
 }
 
 .footer .via {
   text-decoration: underline;
 }
 .footer .contact {
-  margin-bottom: 15px;
 }
 
 .footer .contact .contact-text {
-  margin-bottom: 8px;
 }
 
 @media (min-width: 769px) and (max-width: 1100px) {
@@ -66,10 +64,10 @@
   }
 
   .footer .text-sub {
-    margin-top: 8px;
+    /* margin-top: 8px; */
   }
 
   .footer .email {
-    margin-top: 3px;
+    /* margin-top: 3px; */
   }
 }

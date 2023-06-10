@@ -12,7 +12,7 @@ export default function Sns() {
 
   return (
     <div className={`sns ${categoryLayoutChanged ? "rearranged" : ""}`}>
-      <p className="sns-text">Sns</p>
+      {/* <p className="sns-text">Sns</p> */}
       <div className="sns-a-container">
         <a
           className={`${categoryLayoutChanged ? "rearranged" : ""}`}

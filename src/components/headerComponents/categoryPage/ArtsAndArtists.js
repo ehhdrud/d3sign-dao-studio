@@ -35,7 +35,7 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">V1VI</h2>
-            <p className="genre">"Collage Art"</p>
+            <p className="genre">Collage Art</p>
             <p className="description">
               The collage art of V1VI transports visitors to a realm of
               fantastical beauty with its visual symphony of forms, hues, and
@@ -54,7 +54,7 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">P0LA</h2>
-            <p className="genre">"Pop Art"</p>
+            <p className="genre">Pop Art</p>
             <p className="description">
               The vivid pop art works of P0LA capture the spirit of popular
               culture with a fresh perspective. P0LA examines topics of
@@ -71,7 +71,7 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">R0RO</h2>
-            <p className="genre">"Pattern Fabric Art"</p>
+            <p className="genre">Pattern Fabric Art</p>
             <p className="description">
               The intricate detail and fine craftsmanship are celebrated in
               R0RO's pattern fabric artwork. R0RO develops captivating
@@ -90,7 +90,7 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">T0RI</h2>
-            <p className="genre">"Anime Art"</p>
+            <p className="genre">Anime Art</p>
             <p className="description">
               With simple and alluring artwork, T0RI brings the world of anime
               to life. T0RI's artwork, which draws inspiration from Japanese
@@ -107,7 +107,7 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">CHR1S</h2>
-            <p className="genre">"Cubism"</p>
+            <p className="genre">Cubism</p>
             <p className="description">
               CHR1S's artwork dissects and reassembles visual components to
               produce arresting, three-dimensional compositions, drawing
@@ -125,7 +125,7 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">ZER1</h2>
-            <p className="genre">"Pixel Art"</p>
+            <p className="genre">Pixel Art</p>
             <p className="description">
               Pixel art by ZER1 is a wistful ode to the digital era, exhibiting
               elaborate creations made from the little pixel. ZER1's work is
@@ -142,7 +142,7 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">J1N</h2>
-            <p className="genre">"Abstractism"</p>
+            <p className="genre">Abstractism</p>
             <p className="description">
               Abstract paintings by J1N explore emotion and motion via vivid
               colors, organic forms, and unplanned brushstrokes. J1N's art
@@ -159,7 +159,7 @@ export default function ArtAndArtists() {
           </div>
           <div className="artist-card">
             <h2 className="name">MIRR0R</h2>
-            <p className="genre">"Watercolor"</p>
+            <p className="genre">Watercolor</p>
             <p className="description">
               Watercolor paintings by MIRR0R are serene and graceful, with
               delicate colors blending and dancing over the surface. MIRR0R
@@ -177,7 +177,7 @@ export default function ArtAndArtists() {
 
           <div className="artist-card">
             <h2 className="name">PAUL0</h2>
-            <p className="genre">"Expressionism"</p>
+            <p className="genre">Expressionism</p>
             <p className="description">
               Through vivid colors and strong brushstrokes, Paul's expressionist
               artwork delves deeply into the human psyche, revealing raw
@@ -196,7 +196,7 @@ export default function ArtAndArtists() {
 
           <div className="artist-card">
             <h2 className="name">R1N</h2>
-            <p className="genre">"Cyberpunk Art"</p>
+            <p className="genre">Cyberpunk Art</p>
             <p className="description">
               A visionary artist who brings life to future cities and mecca
               girls. Their fascinating work mixes the beauty of science fiction

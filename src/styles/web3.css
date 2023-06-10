@@ -67,3 +67,25 @@
   animation: shake 0.3s;
   animation-iteration-count: 1;
 }
+
+@media (max-width: 480px) {
+  .web3 h1 {
+    font-size: 40px;
+  }
+
+  .web3 .marketplace-item {
+    width: 100%;
+  }
+
+  .web3 .marketplace-title {
+    font-size: 18px;
+  }
+
+  .web3 .marketplace-title .by {
+    font-size: 14px;
+  }
+
+  .web3 .marketplace-item .marketplace-link .marketplace-name {
+    font-size: 14px;
+  }
+}

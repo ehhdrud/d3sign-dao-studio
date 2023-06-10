@@ -24,26 +24,25 @@
 
 .faq details {
   animation: fade-in 1.5s ease-in-out forwards;
+  cursor: pointer;
 }
 
 .faq details summary {
   font-family: Helvetica;
-  list-style-type: disc;
-  cursor: pointer;
+
   font-size: 1.6vw;
   line-height: 1.92vw;
   max-width: max-content;
-  text-decoration: underline;
   margin-bottom: 1vw;
-  margin-left: 2vw;
+  margin-left: 0.2vw;
 }
 
 .faq details p {
   font-family: Helvetica;
   font-size: 1.2vw;
-  line-height: 2.5vw;
+  line-height: 1.34vw;
   margin-bottom: 3vw;
-  margin-left: 4.5vw;
+  margin-left: 2vw;
   color: #bbbbbb;
 }
 

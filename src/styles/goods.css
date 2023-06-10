@@ -28,8 +28,6 @@
 .goods .marketplace-items {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .goods .marketplace-item {
@@ -52,8 +50,6 @@
 }
 
 .goods .marketplace-item .marketplace-link .marketplace-img {
-  /* position: relative; */
-  /* opacity: 1; */
   width: 10%;
   height: auto;
   border: 3px solid #333333;

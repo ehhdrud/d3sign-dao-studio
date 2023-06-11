@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/d3sign-dao-studio/static/css/main.2922a14b.css",
-    "main.js": "/d3sign-dao-studio/static/js/main.867f01ba.js",
+    "main.css": "/d3sign-dao-studio/static/css/main.48a1d373.css",
+    "main.js": "/d3sign-dao-studio/static/js/main.030ebb20.js",
     "static/js/787.1ec73f89.chunk.js": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js",
     "static/media/homedecor-img.jpg": "/d3sign-dao-studio/static/media/homedecor-img.5140cd01e77311178ca4.jpg",
     "static/media/PAUL0-00.png": "/d3sign-dao-studio/static/media/PAUL0-00.667ee0eef137d9476dff.png",
@@ -70,6 +70,7 @@
     "static/media/boxicons.woff2": "/d3sign-dao-studio/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "static/media/ZER1-04.png": "/d3sign-dao-studio/static/media/ZER1-04.d8be0ab944ef6b17213b.png",
     "static/media/ZER1-02.png": "/d3sign-dao-studio/static/media/ZER1-02.dcf1d030402bd9efa333.png",
+    "static/media/logo.jpg": "/d3sign-dao-studio/static/media/logo.fe7758295683c39d6490.jpg",
     "static/media/GT-Super-Display-Regular-Trial.otf": "/d3sign-dao-studio/static/media/GT-Super-Display-Regular-Trial.9f3f04cce242ce2cc94c.otf",
     "static/media/GT-Super-Display-Medium-Trial.otf": "/d3sign-dao-studio/static/media/GT-Super-Display-Medium-Trial.5c825ba7a7fe0584a27a.otf",
     "static/media/GT-Super-Display-Light-Trial.otf": "/d3sign-dao-studio/static/media/GT-Super-Display-Light-Trial.10116b96e7e2f55139c4.otf",
@@ -84,12 +85,12 @@
     "static/media/twitter.svg": "/d3sign-dao-studio/static/media/twitter.fc1418e6f02856ae17738fae0c175a0b.svg",
     "static/media/linktree.svg": "/d3sign-dao-studio/static/media/linktree.45106e60fb24f0b26808e66942e1aca6.svg",
     "static/media/medium.svg": "/d3sign-dao-studio/static/media/medium.54d840470f9831e0f150d9fddf1dcd9b.svg",
-    "main.2922a14b.css.map": "/d3sign-dao-studio/static/css/main.2922a14b.css.map",
-    "main.867f01ba.js.map": "/d3sign-dao-studio/static/js/main.867f01ba.js.map",
+    "main.48a1d373.css.map": "/d3sign-dao-studio/static/css/main.48a1d373.css.map",
+    "main.030ebb20.js.map": "/d3sign-dao-studio/static/js/main.030ebb20.js.map",
     "787.1ec73f89.chunk.js.map": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2922a14b.css",
-    "static/js/main.867f01ba.js"
+    "static/css/main.48a1d373.css",
+    "static/js/main.030ebb20.js"
   ]
 }

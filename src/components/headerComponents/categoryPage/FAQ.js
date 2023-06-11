@@ -123,12 +123,6 @@ export default function Faq() {
           <p>We are preparing for an online-based digital art exhibition.</p>
         </details>
       </div>
-      <p className="help">
-        If you have a problem with your purchase, please contact Instagram DM
-        or&nbsp;
-        <span className="email">d3signdaostudio@gmail.com</span> for affiliate
-        inquiries.
-      </p>
     </div>
   );
 }

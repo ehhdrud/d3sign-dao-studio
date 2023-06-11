@@ -1,5 +1,10 @@
 .sns {
   display: flex;
+  margin-right: 30px;
+}
+
+.sns.rearranged {
+  filter: blur(1.25px);
 }
 
 .sns a {
@@ -10,10 +15,6 @@
   border-radius: 10px;
   background-color: #555555;
   margin: 5px;
-}
-
-.sns a.rearranged {
-  filter: blur(1.25px);
 }
 
 .sns img {
@@ -38,6 +39,10 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .sns {
+    margin-right: 0px;
+  }
+
   .sns a {
     margin-right: 10px;
     border-radius: 5px;
@@ -51,19 +56,18 @@
 
 @media (max-width: 480px) {
   .sns {
-    width: 80%;
+    width: 75%;
     margin: 10px 0;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   .sns a {
     order: 1;
-    margin-right: 30px;
-    border-radius: 3px;
+    border-radius: 5px;
   }
 
   .sns img {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
 
   .sns a:hover {

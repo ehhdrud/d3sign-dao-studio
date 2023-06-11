@@ -1,9 +1,8 @@
-.footer * {
-  /* border: 1px solid red; */
+.footer.rearranged {
+  filter: blur(1.25px);
 }
 
 .footer {
-  /* border: 1px solid red; */
   width: 100%;
   position: relative;
   display: flex;
@@ -15,7 +14,8 @@
 .footer .logo-and-text {
   display: flex;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 30px;
+  margin: 30px;
 }
 
 .footer .logo {
@@ -43,6 +43,11 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .footer .logo-and-text {
+    gap: 10px;
+    margin: 0;
+  }
+
   .footer .logo {
     width: 35px;
     height: 35px;
@@ -59,8 +64,9 @@
   }
 
   .footer .logo-and-text {
-    width: 80%;
+    width: 75%;
     gap: 10px;
+    margin: 0;
   }
 
   .footer .logo {

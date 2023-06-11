@@ -45,16 +45,6 @@
   color: #bbbbbb;
 }
 
-.faq .help {
-  margin-top: 5vw;
-  font-size: 1vw;
-  text-align: center;
-}
-
-.faq .help .email {
-  text-decoration: underline;
-}
-
 @media (max-width: 480px) {
   .faq {
     width: 90%;
@@ -87,9 +77,5 @@
     margin-left: 9px;
     padding-left: 10px;
     border-left: 2px solid #bbbbbb;
-  }
-
-  .faq .help {
-    font-size: 10px;
   }
 }

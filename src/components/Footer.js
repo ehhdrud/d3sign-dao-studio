@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../ToggleContext";
-import Sns from "./Sns";
+import Sns from "./footerComponents/Sns";
 import "../styles/footer.css";
 import logo from "../images/logo.jpg";
 
@@ -22,7 +22,7 @@ export default function Footer() {
         <p className="text">
           © 2023 D3sign DAO Studio. All rights reserved.
           <br />
-          Contact us: d3signdaostudio@gmail.com
+          Contact us: Instagram or d3signdaostudio@gmail.com
         </p>
       </div>
       <Sns />

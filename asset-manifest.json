@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/d3sign-dao-studio/static/css/main.34a1e61b.css",
+    "main.css": "/d3sign-dao-studio/static/css/main.95969836.css",
     "main.js": "/d3sign-dao-studio/static/js/main.243e307e.js",
     "static/js/787.1ec73f89.chunk.js": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js",
     "static/media/homedecor-img.jpg": "/d3sign-dao-studio/static/media/homedecor-img.5140cd01e77311178ca4.jpg",
@@ -85,12 +85,12 @@
     "static/media/twitter.svg": "/d3sign-dao-studio/static/media/twitter.fc1418e6f02856ae17738fae0c175a0b.svg",
     "static/media/linktree.svg": "/d3sign-dao-studio/static/media/linktree.45106e60fb24f0b26808e66942e1aca6.svg",
     "static/media/medium.svg": "/d3sign-dao-studio/static/media/medium.54d840470f9831e0f150d9fddf1dcd9b.svg",
-    "main.34a1e61b.css.map": "/d3sign-dao-studio/static/css/main.34a1e61b.css.map",
+    "main.95969836.css.map": "/d3sign-dao-studio/static/css/main.95969836.css.map",
     "main.243e307e.js.map": "/d3sign-dao-studio/static/js/main.243e307e.js.map",
     "787.1ec73f89.chunk.js.map": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34a1e61b.css",
+    "static/css/main.95969836.css",
     "static/js/main.243e307e.js"
   ]
 }

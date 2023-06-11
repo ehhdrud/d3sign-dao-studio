@@ -1,73 +1,70 @@
 .footer * {
-  /* border: 1px  solid red; */
+  /* border: 1px solid red; */
 }
 
 .footer {
+  /* border: 1px solid red; */
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  width: 80%;
-  min-height: 100px;
+  align-items: center;
+  min-height: 50px;
 }
 
-.footer .container {
-  /* margin-right: 10px; */
+.footer .logo-and-text {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
 }
-.footer p {
+
+.footer .logo {
+  opacity: 0.5;
+  width: 45px;
+  height: 45px;
+  margin: 0;
+}
+
+.footer .text {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  font-family: Helvetica;
   margin: 0px;
-  font-size: 14px;
-  color: #555555;
-}
-
-.footer .title {
-  font-size: 16px;
+  font-size: 1vw;
   font-weight: bold;
-  /* margin-bottom: 3px; */
   color: #555555;
-}
-
-.footer .via {
-  text-decoration: underline;
-}
-.footer .contact {
-}
-
-.footer .contact .contact-text {
 }
 
 @media (min-width: 769px) and (max-width: 1100px) {
-  .footer {
-    width: 87.5%;
-  }
-
-  .footer .title {
-    font-size: 14px;
-  }
-
-  .footer p {
-    font-size: 12px;
+  .footer .text {
+    font-size: 10px;
   }
 }
 
-@media (max-width: 768px) {
-  .footer {
-    width: 95%;
-  }
-
-  .footer .title {
-    font-size: 10px;
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer .logo {
+    width: 35px;
+    height: 35px;
   }
 
   .footer p {
     font-size: 8px;
   }
+}
 
-  .footer .text-sub {
-    /* margin-top: 8px; */
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
   }
 
-  .footer .email {
-    /* margin-top: 3px; */
+  .footer .logo-and-text {
+    width: 80%;
+    gap: 10px;
+  }
+
+  .footer .logo {
+    width: 30px;
+    height: 30px;
   }
 }

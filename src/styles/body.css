@@ -1,11 +1,18 @@
 .body {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  overflow: hidden;
+  min-height: calc(100vh - 192px - 105px);
 }
 
-.body.rearranged {
-  filter: blur(1.25px);
+@media (min-width: 481px) and (max-width: 768px) {
+  .body {
+    min-height: calc(100vh - 134px - 80px);
+  }
+}
+
+@media (max-width: 480px) {
+  .body {
+    min-height: calc(100vh - 80px - 122px);
+  }
 }

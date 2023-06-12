@@ -1,17 +1,17 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../../ToggleContext";
-import Gallery from "./mainPage/Gallery";
-import Intro from "./mainPage/Intro";
-import "../../styles/main.css";
+import Gallery from "./defaultPage/Gallery";
+import Intro from "./defaultPage/Intro";
+import "../../styles/default.css";
 import { useHoveredIndex } from "../../HoveredIndexContext.js";
 
-export default function Main() {
+export default function Default() {
   const { hoveredIndex } = useHoveredIndex();
 
   const { categoryLayoutChanged, deleteCategoryLayout } =
     useContext(ToggleContext);
 
-  const mainClassName = `main ${hoveredIndex !== null ? "hovered" : ""} ${
+  const defaultClassName = `default ${hoveredIndex !== null ? "hovered" : ""} ${
     categoryLayoutChanged ? "rearranged" : ""
   }`;
 
@@ -20,7 +20,7 @@ export default function Main() {
   };
 
   return (
-    <div className={mainClassName} onClick={handleClick}>
+    <div className={defaultClassName} onClick={handleClick}>
       <Intro />
       <Gallery />
     </div>

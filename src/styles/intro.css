@@ -7,9 +7,9 @@
 .intro span {
   position: relative;
   width: max-content;
-  font-family: GT-Super-Display-regular-Trial, Georgia, "Times New Roman", Times,
+  font-family: GT-Super-Display-Medium-Trial, Georgia, "Times New Roman", Times,
     serif;
-  font-size: 3.7vw;
+  font-size: 3.9vw;
   animation: fade-in 1s ease-in-out forwards;
 }
 

@@ -3,6 +3,7 @@ import { ToggleContext } from "../../../ToggleContext";
 import { Link } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
 import "../../../styles/artsAndArtists.css";
+
 import V1VI from "../../../images/arts/V1VI/V1VI-01.png";
 import P0LA from "../../../images/arts/P0LA/P0LA-01.png";
 import R0RO from "../../../images/arts/R0RO/R0RO-01.png";
@@ -21,22 +22,22 @@ export default function ArtAndArtists() {
     deleteCategoryLayout(event);
   };
 
+  const imageFiles = [
+    V1VI,
+    P0LA,
+    R0RO,
+    T0RI,
+    CHR1S,
+    ZER1,
+    J1N,
+    MIRR0R,
+    PAUL0,
+    R1N,
+  ];
+
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
   useEffect(() => {
-    const imageFiles = [
-      V1VI,
-      P0LA,
-      R0RO,
-      T0RI,
-      CHR1S,
-      ZER1,
-      J1N,
-      MIRR0R,
-      PAUL0,
-      R1N,
-    ];
-
     const imagePromises = imageFiles.map((file) => {
       return new Promise((resolve) => {
         const img = new Image();

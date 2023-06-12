@@ -25,7 +25,7 @@ export default function Footer() {
           Contact us: Instagram or d3signdaostudio@gmail.com
         </p>
       </div>
-      <Sns />
+      <Sns className="sns-component" />
     </div>
   );
 }

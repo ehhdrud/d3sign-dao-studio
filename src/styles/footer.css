@@ -62,10 +62,15 @@
     flex-direction: column;
   }
 
+  .footer .sns-component {
+    order: 1;
+  }
+
   .footer .logo-and-text {
+    order: 2;
     width: 75%;
     gap: 10px;
-    margin: 15px 0;
+    margin: 0 0 10px 0;
   }
 
   .footer .logo {

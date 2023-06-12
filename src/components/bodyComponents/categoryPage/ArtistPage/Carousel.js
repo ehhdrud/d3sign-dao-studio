@@ -37,7 +37,7 @@ export default function Carousel({ imagePaths }) {
       setCurrentState(direction) {
         if (direction.className === "carousel-controls-previous") {
           this.carouselItems.unshift(this.carouselItems.pop());
-        } else {
+        } else if (direction.className === "carousel-controls-next") {
           this.carouselItems.push(this.carouselItems.shift());
         }
         this.updateCarousel();
@@ -95,8 +95,12 @@ export default function Carousel({ imagePaths }) {
         newSetCarousel.setCurrentState({
           className: "carousel-controls-previous",
         });
-      } else if (distance < 50) {
+        startX = NaN;
+        endX = NaN;
+      } else if (distance < -50) {
         newSetCarousel.setCurrentState({ className: "carousel-controls-next" });
+        startX = NaN;
+        endX = NaN;
       }
     }
   }, []);

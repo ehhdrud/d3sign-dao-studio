@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  min-height: calc(100vh - 192px - 105px);
+  min-height: calc(100vh - 192px - 107px);
 }
 
 @media (min-width: 481px) and (max-width: 768px) {

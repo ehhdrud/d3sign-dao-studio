@@ -63,6 +63,14 @@
   animation: slideAndBorderAnimation 1s forwards;
 }
 
+.loading {
+  width: 100%;
+  height: calc(100vh - 193px - 106px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 481px) and (max-width: 768px) {
   .artists .img-container {
     width: 45%;
@@ -70,6 +78,10 @@
 
   .artists .artist-card {
     width: 55%;
+  }
+
+  .loading {
+    min-height: calc(100vh - 134px - 80px);
   }
 }
 
@@ -146,5 +158,9 @@
 
   .artists .link:hover {
     animation: none;
+  }
+
+  .loading {
+    min-height: calc(100vh - 80px - 122px);
   }
 }

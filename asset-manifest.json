@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/d3sign-dao-studio/static/css/main.18522e12.css",
-    "main.js": "/d3sign-dao-studio/static/js/main.b3ad278c.js",
+    "main.css": "/d3sign-dao-studio/static/css/main.3bb4df49.css",
+    "main.js": "/d3sign-dao-studio/static/js/main.88d7a4ce.js",
     "static/js/787.1ec73f89.chunk.js": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js",
-    "static/media/homedecor-img.jpg": "/d3sign-dao-studio/static/media/homedecor-img.5140cd01e77311178ca4.jpg",
     "static/media/PAUL0-00.png": "/d3sign-dao-studio/static/media/PAUL0-00.667ee0eef137d9476dff.png",
     "static/media/V1VI-03.png": "/d3sign-dao-studio/static/media/V1VI-03.24f003b44bf0a1900abd.png",
     "static/media/V1VI-00.png": "/d3sign-dao-studio/static/media/V1VI-00.1f22282b28a51b8ce66a.png",
@@ -48,7 +47,6 @@
     "static/media/P0LA-01.png": "/d3sign-dao-studio/static/media/P0LA-01.fd7d381bbcf538578dad.png",
     "static/media/P0LA-02.png": "/d3sign-dao-studio/static/media/P0LA-02.b4abae957e0e0795c760.png",
     "static/media/V1VI-05.png": "/d3sign-dao-studio/static/media/V1VI-05.51c1d62dd6f803419947.png",
-    "static/media/web3-img.jpg": "/d3sign-dao-studio/static/media/web3-img.9b427817d7bb3da03696.jpg",
     "static/media/T0RI-02.png": "/d3sign-dao-studio/static/media/T0RI-02.2ef2761b2f45048a6d4f.png",
     "static/media/T0RI-05.png": "/d3sign-dao-studio/static/media/T0RI-05.2a139311b3f5402bfc22.png",
     "static/media/MIRR0R-00.png": "/d3sign-dao-studio/static/media/MIRR0R-00.d51835716afa9fd3eeb6.png",
@@ -59,17 +57,19 @@
     "static/media/J1N-04.png": "/d3sign-dao-studio/static/media/J1N-04.8f6657e183451e536eea.png",
     "static/media/J1N-01.png": "/d3sign-dao-studio/static/media/J1N-01.d36467c0feff52970edf.png",
     "static/media/MIRR0R-01.png": "/d3sign-dao-studio/static/media/MIRR0R-01.2f54eb2df5738e18b9d9.png",
-    "static/media/goods-img.jpg": "/d3sign-dao-studio/static/media/goods-img.72d435f77b093db6a407.jpg",
     "static/media/boxicons.eot": "/d3sign-dao-studio/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
     "static/media/boxicons.woff": "/d3sign-dao-studio/static/media/boxicons.d12afc36557395143e4b.woff",
     "static/media/boxicons.ttf": "/d3sign-dao-studio/static/media/boxicons.db9ddb1898dbd76badca.ttf",
     "static/media/ZER1-01.png": "/d3sign-dao-studio/static/media/ZER1-01.5aace07f3cbe236b353b.png",
     "static/media/ZER1-00.png": "/d3sign-dao-studio/static/media/ZER1-00.55dbb6bc385ebde57058.png",
+    "static/media/homedecor-img.jpg": "/d3sign-dao-studio/static/media/homedecor-img.dd9cdde883b04a4b0ad3.jpg",
     "static/media/MoMA-Sans.ttf": "/d3sign-dao-studio/static/media/MoMA-Sans.b5778eebd229abfc94b0.ttf",
     "static/media/ZER1-03.png": "/d3sign-dao-studio/static/media/ZER1-03.b50ed138518e2f61e61e.png",
     "static/media/boxicons.woff2": "/d3sign-dao-studio/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "static/media/ZER1-04.png": "/d3sign-dao-studio/static/media/ZER1-04.d8be0ab944ef6b17213b.png",
     "static/media/ZER1-02.png": "/d3sign-dao-studio/static/media/ZER1-02.dcf1d030402bd9efa333.png",
+    "static/media/goods-img.jpg": "/d3sign-dao-studio/static/media/goods-img.e15d0f69c58dfa0da876.jpg",
+    "static/media/web3-img.jpg": "/d3sign-dao-studio/static/media/web3-img.2dc85a45648a0c9aa8bd.jpg",
     "static/media/logo.jpg": "/d3sign-dao-studio/static/media/logo.fe7758295683c39d6490.jpg",
     "static/media/GT-Super-Display-Regular-Trial.otf": "/d3sign-dao-studio/static/media/GT-Super-Display-Regular-Trial.9f3f04cce242ce2cc94c.otf",
     "static/media/GT-Super-Display-Medium-Trial.otf": "/d3sign-dao-studio/static/media/GT-Super-Display-Medium-Trial.5c825ba7a7fe0584a27a.otf",
@@ -85,12 +85,12 @@
     "static/media/twitter.svg": "/d3sign-dao-studio/static/media/twitter.fc1418e6f02856ae17738fae0c175a0b.svg",
     "static/media/linktree.svg": "/d3sign-dao-studio/static/media/linktree.45106e60fb24f0b26808e66942e1aca6.svg",
     "static/media/medium.svg": "/d3sign-dao-studio/static/media/medium.54d840470f9831e0f150d9fddf1dcd9b.svg",
-    "main.18522e12.css.map": "/d3sign-dao-studio/static/css/main.18522e12.css.map",
-    "main.b3ad278c.js.map": "/d3sign-dao-studio/static/js/main.b3ad278c.js.map",
+    "main.3bb4df49.css.map": "/d3sign-dao-studio/static/css/main.3bb4df49.css.map",
+    "main.88d7a4ce.js.map": "/d3sign-dao-studio/static/js/main.88d7a4ce.js.map",
     "787.1ec73f89.chunk.js.map": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18522e12.css",
-    "static/js/main.b3ad278c.js"
+    "static/css/main.3bb4df49.css",
+    "static/js/main.88d7a4ce.js"
   ]
 }

@@ -1,22 +1,26 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import "../../../../styles/carousel.css";
 
 export default function Carousel({ imagePaths }) {
+  const carouselRef = useRef(null);
+  const carouselItemsRef = useRef([]);
+  const carouselControlsRef = useRef([]);
+
+  const carouselContainerRef = useRef(null);
+
   useEffect(() => {
-    const carouselContainer = document.querySelector(".carousel");
-    const carouselItems = document.querySelectorAll(".carousel-item");
-    const carouselControlsContainer =
-      document.querySelectorAll(".carousel-controls");
-    const carouselControlsArray = [...carouselControlsContainer];
+    const carouselRefCurrent = carouselRef.current;
+    const carouselItemsRefCurrentArray = carouselItemsRef.current;
+    const carouselControlsRefCurrentArray = carouselControlsRef.current;
 
     class SetCarousel {
       constructor(container, items) {
-        this.carouselContainer = container;
-        this.carouselItems = [...items];
+        this.carouselRefCurrent = container;
+        this.carouselItemsRefCurrentArray = [...items];
       }
 
       updateCarousel() {
-        this.carouselItems.forEach((element, index) => {
+        this.carouselItemsRefCurrentArray.forEach((element, index) => {
           element.classList.remove("carousel-item-1");
           element.classList.remove("carousel-item-2");
           element.classList.remove("carousel-item-3");
@@ -29,24 +33,30 @@ export default function Carousel({ imagePaths }) {
           }
         });
 
-        this.carouselItems.slice(0, 5).forEach((element, index) => {
-          element.classList.add(`carousel-item-${index + 1}`);
-        });
+        this.carouselItemsRefCurrentArray
+          .slice(0, 5)
+          .forEach((element, index) => {
+            element.classList.add(`carousel-item-${index + 1}`);
+          });
       }
 
       setCurrentState(direction) {
         if (direction.className === "carousel-controls-previous") {
-          this.carouselItems.unshift(this.carouselItems.pop());
+          this.carouselItemsRefCurrentArray.unshift(
+            this.carouselItemsRefCurrentArray.pop()
+          );
         } else if (direction.className === "carousel-controls-next") {
-          this.carouselItems.push(this.carouselItems.shift());
+          this.carouselItemsRefCurrentArray.push(
+            this.carouselItemsRefCurrentArray.shift()
+          );
         }
         this.updateCarousel();
       }
 
       useControls() {
-        const triggers = Array.from(carouselControlsArray[0].childNodes).concat(
-          Array.from(carouselControlsArray[1].childNodes)
-        );
+        const triggers = Array.from(
+          carouselControlsRefCurrentArray[0].childNodes
+        ).concat(Array.from(carouselControlsRefCurrentArray[1].childNodes));
         triggers.forEach((control) => {
           control.addEventListener("click", (e) => {
             e.preventDefault();
@@ -56,7 +66,10 @@ export default function Carousel({ imagePaths }) {
       }
     }
 
-    const newSetCarousel = new SetCarousel(carouselContainer, carouselItems);
+    const newSetCarousel = new SetCarousel(
+      carouselRefCurrent,
+      carouselItemsRefCurrentArray
+    );
 
     newSetCarousel.useControls();
 
@@ -72,13 +85,25 @@ export default function Carousel({ imagePaths }) {
 
     document.addEventListener("keydown", handleKeyDown);
 
-    const targetCarousel = document.querySelector(".carousel-container");
+    const carouselContainerRefCurrent = carouselContainerRef.current;
     let startX;
     let endX;
 
-    targetCarousel.addEventListener("touchstart", handleTouchStart, false);
-    targetCarousel.addEventListener("touchmove", handleTouchMove, false);
-    targetCarousel.addEventListener("touchend", handleTouchEnd, false);
+    carouselContainerRefCurrent.addEventListener(
+      "touchstart",
+      handleTouchStart,
+      false
+    );
+    carouselContainerRefCurrent.addEventListener(
+      "touchmove",
+      handleTouchMove,
+      false
+    );
+    carouselContainerRefCurrent.addEventListener(
+      "touchend",
+      handleTouchEnd,
+      false
+    );
 
     function handleTouchStart(event) {
       startX = event.touches[0].clientX;
@@ -104,15 +129,19 @@ export default function Carousel({ imagePaths }) {
   }, []);
 
   return (
-    <div className="carousel">
-      <div className="carousel-controls">
+    <div ref={carouselRef} className="carousel">
+      <div
+        ref={(element) => carouselControlsRef.current.push(element)}
+        className="carousel-controls"
+      >
         <button className="carousel-controls-previous">
           <div className="left-arrow"></div>
         </button>
       </div>
-      <div className="carousel-container">
+      <div ref={carouselContainerRef} className="carousel-container">
         {imagePaths.map((imagePath, index) => (
           <img
+            ref={(element) => (carouselItemsRef.current[index] = element)}
             className={`carousel-item carousel-item-${index + 1}`}
             src={imagePath}
             alt={`${index + 1}`}
@@ -120,7 +149,10 @@ export default function Carousel({ imagePaths }) {
           />
         ))}
       </div>
-      <div className="carousel-controls">
+      <div
+        ref={(element) => carouselControlsRef.current.push(element)}
+        className="carousel-controls"
+      >
         <button className="carousel-controls-next">
           <div className="right-arrow"></div>
         </button>

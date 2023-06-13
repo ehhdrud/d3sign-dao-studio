@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { ToggleContext } from "../../ToggleContext";
 import { Link } from "react-router-dom";
-import { useHoveredIndex } from "../../HoveredIndexContext.js";
 import { ClipLoader } from "react-spinners";
 import "../../styles/default.css";
 
@@ -83,22 +82,8 @@ const arts = [
 ];
 
 export default function Default() {
-  const { hoveredIndex, setHoveredIndex } = useHoveredIndex();
-
-  const handleMouseEnter = (index) => {
-    setHoveredIndex(index);
-  };
-
-  const handleMouseLeave = () => {
-    setHoveredIndex(null);
-  };
-
   const { categoryLayoutChanged, deleteCategoryLayout } =
     useContext(ToggleContext);
-
-  const defaultClassName = `default ${hoveredIndex !== null ? "hovered" : ""} ${
-    categoryLayoutChanged ? "rearranged" : ""
-  }`;
 
   const handleClick = (event) => {
     deleteCategoryLayout(event);
@@ -119,7 +104,10 @@ export default function Default() {
   }, []);
 
   return (
-    <div className={defaultClassName} onClick={handleClick}>
+    <div
+      className={`default ${categoryLayoutChanged ? "rearranged" : ""}`}
+      onClick={handleClick}
+    >
       {imagesLoaded ? (
         <>
           <div className="intro">
@@ -135,14 +123,8 @@ export default function Default() {
                 className="link"
                 key={index}
                 to={`/d3sign-dao-studio/artsandartists/${art.artist}`}
-                onMouseEnter={() => handleMouseEnter(index)}
-                onMouseLeave={handleMouseLeave}
               >
-                <div
-                  className={`art-card ${
-                    hoveredIndex === index ? "hovered" : ""
-                  }`}
-                >
+                <div className="art-card">
                   <div className="art-img-container">
                     <img
                       className="art-img"

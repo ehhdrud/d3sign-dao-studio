@@ -14,6 +14,20 @@ import J1N from "../../../images/arts/J1N/J1N-01.png";
 import MIRR0R from "../../../images/arts/MIRR0R/MIRR0R-01.png";
 import PAUL0 from "../../../images/arts/PAUL0/PAUL0-01.png";
 import R1N from "../../../images/arts/R1N/R1N-01.png";
+
+const imageFiles = [
+  V1VI,
+  P0LA,
+  R0RO,
+  T0RI,
+  CHR1S,
+  ZER1,
+  J1N,
+  MIRR0R,
+  PAUL0,
+  R1N,
+];
+
 export default function ArtAndArtists() {
   const { deleteCategoryLayout, categoryLayoutChanged } =
     useContext(ToggleContext);
@@ -21,19 +35,6 @@ export default function ArtAndArtists() {
   const handleClick = (event) => {
     deleteCategoryLayout(event);
   };
-
-  const imageFiles = [
-    V1VI,
-    P0LA,
-    R0RO,
-    T0RI,
-    CHR1S,
-    ZER1,
-    J1N,
-    MIRR0R,
-    PAUL0,
-    R1N,
-  ];
 
   const [imagesLoaded, setImagesLoaded] = useState(false);
 

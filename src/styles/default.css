@@ -58,13 +58,13 @@
   z-index: 1;
 }
 
-.art-card.hovered {
+.art-card:hover {
   border: 1px solid #666;
   box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
   z-index: 2;
 }
 
-.art-card.hovered .art-img {
+.art-card:hover .art-img {
   transform: scale(1.05);
   transition: transform 1s ease;
 }
@@ -114,12 +114,12 @@
     font-size: 5vw;
   }
 
-  .art-card.hovered .art-img {
+  .art-card:hover .art-img {
     transform: none;
     transition: none;
   }
 
-  .art-card.hovered {
+  .art-card:hover {
     box-shadow: none;
     border: 1px solid #444;
   }

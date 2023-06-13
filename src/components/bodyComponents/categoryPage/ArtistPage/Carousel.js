@@ -95,13 +95,11 @@ export default function Carousel({ imagePaths }) {
         newSetCarousel.setCurrentState({
           className: "carousel-controls-previous",
         });
-        startX = NaN;
-        endX = NaN;
       } else if (distance < -50) {
         newSetCarousel.setCurrentState({ className: "carousel-controls-next" });
-        startX = NaN;
-        endX = NaN;
       }
+      startX = NaN;
+      endX = NaN;
     }
   }, []);
 

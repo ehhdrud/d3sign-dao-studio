@@ -54,7 +54,7 @@
   text-shadow: 5px 5px 5px black;
 }
 
-.marketplace-category-button.hovered img {
+.marketplace-category-button:hover img {
   transform: scale(1.05);
   transition: transform 1s ease;
 }
@@ -79,7 +79,7 @@
 }
 
 @media (max-width: 480px) {
-  .marketplace-category-button.hovered img {
+  .marketplace-category-button:hover img {
     transform: none;
     transition: none;
   }

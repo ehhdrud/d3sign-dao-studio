@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { HoveredIndexProvider } from "./HoveredIndexContext.js";
 import { ToggleProvider } from "./ToggleContext.js";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -17,11 +16,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <ToggleProvider>
-          <HoveredIndexProvider>
-            <Header />
-            <Body />
-            <Footer />
-          </HoveredIndexProvider>
+          <Header />
+          <Body />
+          <Footer />
         </ToggleProvider>
       </BrowserRouter>
     </div>

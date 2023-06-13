@@ -8,7 +8,7 @@ import image4 from "../../../../images/arts/PAUL0/PAUL0-03.png";
 import image5 from "../../../../images/arts/PAUL0/PAUL0-04.png";
 import image6 from "../../../../images/arts/PAUL0/PAUL0-05.png";
 import image7 from "../../../../images/arts/PAUL0/PAUL0-06.png";
-import "../../../../styles/artistPage.css";
+import "../../../../styles/artsAndArtistsPage.css";
 
 const imagePaths = [image1, image2, image3, image4, image5, image6, image7];
 

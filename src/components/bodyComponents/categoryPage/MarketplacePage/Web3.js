@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../../../../ToggleContext";
 import "boxicons/css/boxicons.min.css";
-import "../../../../styles/web3.css";
+import "../../../../styles/marketplacePage.css";
 
 import R1N from "../../../../images/arts/R1N/R1N-00.png";
 
@@ -26,12 +26,15 @@ export default function Web3() {
 
   return (
     <div
-      className={`web3 ${categoryLayoutChanged ? "rearranged" : ""}`}
+      className={`marketplace-page ${
+        categoryLayoutChanged ? "rearranged" : ""
+      }`}
       onClick={handleClick}
     >
       <h1>NFT</h1>
       <div className="marketplace-title">
-        <span className="genre">Cyberpunk Art</span>
+        <i class="bx bx-store"></i>
+        <span className="genre">&nbsp;Cyberpunk Art</span>
         <span className="by">by</span>
         <span className="artist">R1N</span>
       </div>

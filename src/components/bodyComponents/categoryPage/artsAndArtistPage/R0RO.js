@@ -6,7 +6,7 @@ import image2 from "../../../../images/arts/R0RO/R0RO-01.png";
 import image3 from "../../../../images/arts/R0RO/R0RO-02.png";
 import image4 from "../../../../images/arts/R0RO/R0RO-03.png";
 import image5 from "../../../../images/arts/R0RO/R0RO-04.png";
-import "../../../../styles/artistPage.css";
+import "../../../../styles/artsAndArtistsPage.css";
 
 const imagePaths = [image1, image2, image3, image4, image5];
 

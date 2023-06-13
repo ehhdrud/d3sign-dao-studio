@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../../../../ToggleContext";
-import "../../../../styles/goods.css";
+import "../../../../styles/marketplacePage.css";
 
 import T0RI from "../../../../images/arts/T0RI/T0RI-00.png";
 import R1N from "../../../../images/arts/R1N/R1N-00.png";
@@ -26,13 +26,36 @@ export default function Goods() {
 
   return (
     <div
-      className={`goods ${categoryLayoutChanged ? "rearranged" : ""}`}
+      className={`marketplace-page ${
+        categoryLayoutChanged ? "rearranged" : ""
+      }`}
       onClick={handleClick}
     >
       <h1>Goods</h1>
 
       <div className="marketplace-title">
-        <span className="genre">Cyberpunk Art</span>
+        <i class="bx bx-store"></i>
+        <span className="genre">&nbsp;Anime Art</span>
+        <span className="by">by</span>
+        <span className="artist">T0RI</span>
+      </div>
+      <div className="marketplace-items">
+        <div className="marketplace-item">
+          <a
+            className="marketplace-link"
+            href="https://oround.com/torianimeartist"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img className="marketplace-img" src={T0RI} alt="T0RI" />
+            <p className="marketplace-name">Oround</p>
+          </a>
+        </div>
+      </div>
+
+      <div className="marketplace-title">
+        <i class="bx bx-store"></i>
+        <span className="genre">&nbsp;Cyberpunk Art</span>
         <span className="by">by</span>
         <span className="artist">R1N</span>
       </div>
@@ -58,25 +81,6 @@ export default function Goods() {
           >
             <img className="marketplace-img" src={R1N} alt="R1N" />
             <p className="marketplace-name">Marpple Shop</p>
-          </a>
-        </div>
-      </div>
-
-      <div className="marketplace-title">
-        <span className="genre">Anime Art</span>
-        <span className="by">by</span>
-        <span className="artist">T0RI</span>
-      </div>
-      <div className="marketplace-items">
-        <div className="marketplace-item">
-          <a
-            className="marketplace-link"
-            href="https://oround.com/torianimeartist"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img className="marketplace-img" src={T0RI} alt="T0RI" />
-            <p className="marketplace-name">Oround</p>
           </a>
         </div>
       </div>

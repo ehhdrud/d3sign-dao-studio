@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../../../../ToggleContext";
-import "../../../../styles/homedecor.css";
+import "../../../../styles/marketplacePage.css";
 
 export default function HomeDecor() {
   const { deleteCategoryLayout, categoryLayoutChanged } =
@@ -12,10 +12,13 @@ export default function HomeDecor() {
 
   return (
     <div
-      className={`homedecor ${categoryLayoutChanged ? "rearranged" : ""}`}
+      className={`marketplace-page ${
+        categoryLayoutChanged ? "rearranged" : ""
+      }`}
       onClick={handleClick}
     >
       <h1>Home decor</h1>
+      <p className="comingSoon">COMING SOON</p>
     </div>
   );
 }

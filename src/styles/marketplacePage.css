@@ -1,0 +1,111 @@
+.marketplace-page {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.marketplace-page.rearranged {
+  filter: blur(1.25px);
+}
+
+.marketplace-page h1 {
+  font-size: 5vw;
+}
+
+.marketplace-page .marketplace-title {
+  display: flex;
+  align-items: flex-end;
+  font-size: 2.2vw;
+  font-weight: bold;
+  margin-bottom: 0.5vw;
+}
+
+.marketplace-page .marketplace-title .by {
+  margin: 0 1vw;
+  font-size: 1.8vw;
+}
+
+.marketplace-page .marketplace-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.marketplace-page .marketplace-item {
+  width: 100%;
+  height: auto;
+  background-color: #333333;
+  border: 3px solid #333333;
+  border-radius: 50px;
+  margin: 10px 0;
+}
+
+.marketplace-page .marketplace-item:last-child {
+  margin-bottom: 30px;
+}
+
+.marketplace-page .marketplace-item .marketplace-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.marketplace-page .marketplace-item .marketplace-link .marketplace-img {
+  width: 5%;
+  height: auto;
+  border: 3px solid #333333;
+  border-radius: 50%;
+}
+
+.marketplace-page .marketplace-item .marketplace-link .marketplace-name {
+  position: relative;
+  left: -5%;
+  width: max-content;
+  margin: 0 auto;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.marketplace-page .marketplace-item:hover {
+  animation: shake 0.3s;
+  animation-iteration-count: 1;
+}
+
+@media (max-width: 480px) {
+  .marketplace-page h1 {
+    font-size: 40px;
+  }
+
+  .marketplace-page .marketplace-item {
+    width: 100%;
+  }
+
+  .marketplace-page .marketplace-title {
+    font-size: 18px;
+  }
+
+  .marketplace-page .marketplace-title .by {
+    font-size: 14px;
+  }
+
+  .marketplace-page .marketplace-item .marketplace-link .marketplace-img {
+    width: 10%;
+  }
+
+  .marketplace-page .marketplace-item .marketplace-link .marketplace-name {
+    font-size: 14px;
+  }
+}
+
+.comingSoon {
+  color: #222222;
+  font-size: 10vw;
+  font-weight: bold;
+  text-align: center;
+  animation: fade-in 1.5s ease-in-out forwards;
+}

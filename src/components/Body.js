@@ -5,20 +5,20 @@ import "../styles/body.css";
 
 import WhatsOn from "./bodyComponents/categoryPage/WhatsOn";
 import ArtAndArtists from "./bodyComponents/categoryPage/ArtsAndArtists";
-import V1VI from "./bodyComponents/categoryPage/ArtistPage/V1VI";
-import P0LA from "./bodyComponents/categoryPage/ArtistPage/P0LA";
-import R0RO from "./bodyComponents/categoryPage/ArtistPage/R0RO";
-import T0RI from "./bodyComponents/categoryPage/ArtistPage/T0RI";
-import CHR1S from "./bodyComponents/categoryPage/ArtistPage/CHR1S";
-import ZER1 from "./bodyComponents/categoryPage/ArtistPage/ZER1";
-import J1N from "./bodyComponents/categoryPage/ArtistPage/J1N";
-import MIRR0R from "./bodyComponents/categoryPage/ArtistPage/MIRR0R";
-import PAUL0 from "./bodyComponents/categoryPage/ArtistPage/PAUL0";
-import R1N from "./bodyComponents/categoryPage/ArtistPage/R1N";
+import V1VI from "./bodyComponents/categoryPage/artsAndArtistPage/V1VI";
+import P0LA from "./bodyComponents/categoryPage/artsAndArtistPage/P0LA";
+import R0RO from "./bodyComponents/categoryPage/artsAndArtistPage/R0RO";
+import T0RI from "./bodyComponents/categoryPage/artsAndArtistPage/T0RI";
+import CHR1S from "./bodyComponents/categoryPage/artsAndArtistPage/CHR1S";
+import ZER1 from "./bodyComponents/categoryPage/artsAndArtistPage/ZER1";
+import J1N from "./bodyComponents/categoryPage/artsAndArtistPage/J1N";
+import MIRR0R from "./bodyComponents/categoryPage/artsAndArtistPage/MIRR0R";
+import PAUL0 from "./bodyComponents/categoryPage/artsAndArtistPage/PAUL0";
+import R1N from "./bodyComponents/categoryPage/artsAndArtistPage/R1N";
 import Marketplace from "./bodyComponents/categoryPage/Marketplace.js";
-import Goods from "./bodyComponents/categoryPage/MarketplacePage/Goods.js";
-import HomeDecor from "./bodyComponents/categoryPage/MarketplacePage/HomeDecor.js";
-import Web3 from "./bodyComponents/categoryPage/MarketplacePage/Web3.js";
+import Goods from "./bodyComponents/categoryPage/marketplacePage/Goods.js";
+import HomeDecor from "./bodyComponents/categoryPage/marketplacePage/HomeDecor.js";
+import Web3 from "./bodyComponents/categoryPage/marketplacePage/Web3.js";
 import Faq from "./bodyComponents/categoryPage/Faq.js";
 
 export default function Body() {

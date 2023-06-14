@@ -99,7 +99,7 @@
 @media (min-width: 480px) and (max-width: 1023px) {
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .gallery-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);

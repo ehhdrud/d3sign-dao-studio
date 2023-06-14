@@ -57,7 +57,7 @@
 
   .category .transparent-space {
     display: block;
-    width: 40%;
+    width: 45%;
     height: 100vh;
     background-color: transparent;
   }
@@ -72,8 +72,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 60%;
-    height: 100vh;
+    width: 55%;
+    height: calc(100vh+200px);
     margin: 0;
     font-size: 25px;
   }

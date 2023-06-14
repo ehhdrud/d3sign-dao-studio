@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { ToggleContext } from "../../ToggleContext";
 import { Link } from "react-router-dom";
-import { ClipLoader } from "react-spinners";
+import { GridLoader } from "react-spinners";
 import "./styles/default.css";
 
 import V1VI from "../../images/arts/V1VI/V1VI-00.png";
@@ -131,7 +131,7 @@ export default function Default() {
         </>
       ) : (
         <div className="loading">
-          <ClipLoader color={"white"} size={50} />
+          <GridLoader color={"#ffffd7"} size={5} />
         </div>
       )}
     </div>

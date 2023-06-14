@@ -74,7 +74,24 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
+  .marketplace-category {
+    flex-direction: column;
+    gap: 3%;
+    width: 100%;
+    font-size: 8vw;
+  }
+
+  .marketplace-category-button {
+    width: 100%;
+    aspect-ratio: 3/4;
+  }
+
+  .marketplace-category-button-text {
+    top: 5%;
+    left: 5%;
+  }
+
   .marketplace-category-button:hover img {
     transform: none;
     transition: none;

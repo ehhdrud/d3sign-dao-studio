@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { ClipLoader } from "react-spinners";
+import { GridLoader } from "react-spinners";
 import "./styles/carousel.css";
 
 export default function Carousel({ imagePaths }) {
@@ -177,7 +177,7 @@ export default function Carousel({ imagePaths }) {
         </>
       ) : (
         <div className="loading">
-          <ClipLoader color={"white"} size={50} />
+          <GridLoader color={"#ffffd7"} size={5} />
         </div>
       )}
       <div

@@ -95,6 +95,10 @@
   }
 }
 @media (min-width: 480px) and (max-width: 540px) {
+  .footer {
+    margin: 60px 0 0 0;
+  }
+
   .footer .text,
   .footer .text a {
     font-size: 12px;
@@ -103,11 +107,11 @@
 
 @media (max-width: 480px) {
   .footer {
-    margin: 60px 0 10px 0;
+    margin: 60px 0 0 0;
   }
 
   .footer .text,
   .footer .text a {
-    font-size: 8px;
+    font-size: 10px;
   }
 }

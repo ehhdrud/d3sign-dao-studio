@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { ToggleContext } from "../../../ToggleContext";
 import { Link } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
-import "../../../styles/marketplace.css";
+import "./styles/marketplace.css";
 
 import goodsImg from "../../../images/goods-img.jpg";
 import homedecorImg from "../../../images/homedecor-img.jpg";

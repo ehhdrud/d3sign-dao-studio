@@ -4,9 +4,9 @@ import discordIcon from "../../images/discord.svg";
 import twitterIcon from "../../images/twitter.svg";
 import instagramIcon from "../../images/instagram.svg";
 import mediumIcon from "../../images/medium.svg";
-import "../../styles/snsbox.css";
+import "./styles/sns-top.css";
 
-export default function SnsBox() {
+export default function SnsTop() {
   return (
     <div className="snsbox">
       <div className="linktree-container">

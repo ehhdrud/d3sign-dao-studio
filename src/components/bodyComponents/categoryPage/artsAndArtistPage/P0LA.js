@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../../../../ToggleContext";
-import Carousel from "./Carousel";
+import Carousel from "./artsAndArtistPageElements/Carousel";
 import image1 from "../../../../images/arts/P0LA/P0LA-00.png";
 import image2 from "../../../../images/arts/P0LA/P0LA-01.png";
 import image3 from "../../../../images/arts/P0LA/P0LA-02.png";
 import image4 from "../../../../images/arts/P0LA/P0LA-03.png";
 import image5 from "../../../../images/arts/P0LA/P0LA-04.png";
-import "../../../../styles/artsAndArtistsPage.css";
+import "./styles/artsAndArtistsPage.css";
 
 const imagePaths = [image1, image2, image3, image4, image5];
 

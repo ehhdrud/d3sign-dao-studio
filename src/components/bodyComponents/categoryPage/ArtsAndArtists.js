@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { ToggleContext } from "../../../ToggleContext";
 import { Link } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
-import "../../../styles/artsAndArtists.css";
+import "./styles/artsAndArtists.css";
 
 import V1VI from "../../../images/arts/V1VI/V1VI-01.png";
 import P0LA from "../../../images/arts/P0LA/P0LA-01.png";

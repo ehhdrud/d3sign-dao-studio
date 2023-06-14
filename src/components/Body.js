@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Routes, Route } from "react-router-dom";
 import { ToggleContext } from "../ToggleContext.js";
 import Default from "./bodyComponents/Default";
-import "../styles/body.css";
+import "./styles/body.css";
 
 import WhatsOn from "./bodyComponents/categoryPage/WhatsOn";
 import ArtAndArtists from "./bodyComponents/categoryPage/ArtsAndArtists";

@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../ToggleContext";
-import Sns from "./footerComponents/Sns";
-import "../styles/footer.css";
+import "./styles/footer.css";
 import logo from "../images/logo.jpg";
+import SnsBottom from "./footerComponents/SnsBottom";
 
 export default function Footer() {
   const { categoryLayoutChanged } = useContext(ToggleContext);
@@ -17,7 +17,7 @@ export default function Footer() {
           Contact us: Instagram or d3signdaostudio@gmail.com
         </p>
       </div>
-      <Sns className="sns-component" />
+      <SnsBottom className="sns-component" />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../../../ToggleContext";
-import "../../../styles/faq.css";
+import "./styles/faq.css";
 
 export default function Faq() {
   const { categoryLayoutChanged } = useContext(ToggleContext);

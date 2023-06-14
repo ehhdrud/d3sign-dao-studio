@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../../../ToggleContext";
-import "../../../styles/whatsOn.css";
+import "./styles/whatsOn.css";
 import "boxicons/css/boxicons.min.css";
 
 export default function WhatsOn() {

@@ -3,8 +3,8 @@ import { ToggleContext } from "../ToggleContext";
 import Toggle from "./headerComponents/Toggle";
 import Logo from "./headerComponents/Logo";
 import Category from "./headerComponents/Category";
-import "../styles/header.css";
-import SnsBox from "./headerComponents/SnsBox";
+import "./styles/header.css";
+import SnsTop from "./headerComponents/SnsTop";
 
 export default function Header() {
   const { categoryLayoutChanged } = useContext(ToggleContext);
@@ -13,7 +13,7 @@ export default function Header() {
     <nav className={`header ${categoryLayoutChanged ? "rearranged" : ""}`}>
       <Logo />
       <Category />
-      <SnsBox />
+      <SnsTop />
       <Toggle />
     </nav>
   );

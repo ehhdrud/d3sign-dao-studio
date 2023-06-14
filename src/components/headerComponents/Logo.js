@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 // import logo from "../../images/logo.jpg";
-import "../../styles/logo.css";
+import "./styles/logo.css";
 import { ToggleContext } from "../../ToggleContext";
 
 export default function Logo() {

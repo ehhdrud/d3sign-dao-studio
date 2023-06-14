@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ToggleContext } from "../../ToggleContext.js";
-import "../../styles/category.css";
+import "./styles/category.css";
 
 export default function Category() {
   const location = useLocation();

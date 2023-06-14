@@ -5,9 +5,9 @@ import discordIcon from "../../images/discord.svg";
 import twitterIcon from "../../images/twitter.svg";
 import instagramIcon from "../../images/instagram.svg";
 import mediumIcon from "../../images/medium.svg";
-import "../../styles/sns.css";
+import "./styles/sns-bottom.css";
 
-export default function Sns() {
+export default function SnsBottom() {
   const { categoryLayoutChanged } = useContext(ToggleContext);
 
   return (

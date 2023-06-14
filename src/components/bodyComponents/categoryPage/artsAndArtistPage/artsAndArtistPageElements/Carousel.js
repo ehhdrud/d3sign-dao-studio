@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { ClipLoader } from "react-spinners";
-import "../../../../styles/carousel.css";
+import "./styles/carousel.css";
 
 export default function Carousel({ imagePaths }) {
   const carouselRef = useRef(null);

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ToggleContext } from "../../../../ToggleContext";
 import "boxicons/css/boxicons.min.css";
-import "../../../../styles/marketplacePage.css";
+import "./styles/marketplacePage.css";
 
 import R1N from "../../../../images/arts/R1N/R1N-00.png";
 

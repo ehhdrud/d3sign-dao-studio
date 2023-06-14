@@ -55,7 +55,7 @@
   transition: transform 1s ease;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 1023px) {
   .marketplace-category {
     flex-direction: column;
     gap: 3%;
@@ -74,7 +74,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .marketplace-category-button:hover img {
     transform: none;
     transition: none;

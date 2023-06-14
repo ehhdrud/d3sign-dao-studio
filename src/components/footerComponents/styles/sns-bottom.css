@@ -1,6 +1,6 @@
 .sns {
   display: flex;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .sns a {
@@ -8,14 +8,20 @@
   justify-content: center;
   align-items: center;
   border: 1px solid transparent;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: #555555;
-  margin: 5px;
+  margin: 10px;
 }
 
 .sns img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+}
+
+.sns a:first-child img {
+  width: 28px;
+  height: 28px;
+  margin: 3.5px;
 }
 
 .sns a:hover {
@@ -23,29 +29,65 @@
   animation-iteration-count: 1;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .sns a {
+    margin: 7.5px;
+  }
+
+  .sns img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sns a:first-child img {
+    width: 25px;
+    height: 25px;
+    margin: 2.5px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
   .sns {
-    margin-right: 0px;
+    margin-right: 5px;
   }
 
   .sns a {
-    margin-right: 10px;
+    margin: 5px;
   }
 
   .sns img {
     width: 25px;
     height: 25px;
   }
+
+  .sns a:first-child img {
+    width: 22px;
+    height: 22px;
+    margin: 1.5px;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 539px) {
   .sns {
-    width: 75%;
-    margin: 10px 0 5px 0;
+    width: 85%;
+    margin: 0;
     justify-content: space-between;
   }
+
   .sns a {
     order: 1;
+    margin: 0;
+  }
+
+  .sns img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .sns a:first-child img {
+    width: 22px;
+    height: 22px;
+    margin: 1.5px;
   }
 
   .sns a:hover {

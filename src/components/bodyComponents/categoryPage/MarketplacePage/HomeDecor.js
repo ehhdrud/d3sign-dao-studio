@@ -22,9 +22,9 @@ export default function HomeDecor() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1>Home decor</h1>
+      <h1 className="homedecor-title">Home decor</h1>
 
-      <p className="prepare">The products are being prepared.</p>
+      <p className="homedecor-text">The products are being prepared.</p>
     </div>
   );
 }

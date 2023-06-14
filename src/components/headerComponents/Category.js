@@ -5,11 +5,11 @@ import "./styles/category.css";
 
 export default function Category() {
   const location = useLocation();
-  const { toggleCategoryLayout, categoryLayoutChanged } =
+  const { deleteCategoryLayout, categoryLayoutChanged } =
     useContext(ToggleContext);
 
   const handleClick = (event) => {
-    toggleCategoryLayout(event);
+    deleteCategoryLayout(event);
   };
 
   return (

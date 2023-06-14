@@ -32,11 +32,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 .marketplace-page .marketplace-item {
-  width: 100%;
+  width: 99%;
   height: auto;
   background-color: #333333;
   border: 3px solid #333333;
@@ -53,8 +52,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
   text-decoration: none;
 }
 
@@ -79,16 +76,15 @@
   animation-iteration-count: 1;
 }
 
-.prepare {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.homedecor-title {
+  margin-bottom: 0px;
+}
+
+.homedecor-text {
   color: #333333;
   font-size: 4vw;
   font-weight: bold;
-  animation: fade-in 1.5s ease-in-out forwards;
-  margin: 0px;
-  white-space: nowrap;
+  animation: fade-in 0.5s ease-in-out forwards;
 }
 
 @media (max-width: 540px) {
@@ -97,11 +93,17 @@
   }
 
   .marketplace-page .marketplace-item {
-    width: 100%;
+    width: 97%;
   }
 
   .marketplace-page .marketplace-title {
     font-size: 18px;
+  }
+
+  .marketplace-page .marketplace-title .genre {
+    font-size: 8px;
+    border: 1px solid white;
+    padding: 0 5px;
   }
 
   .marketplace-page .marketplace-item .marketplace-link .marketplace-img {

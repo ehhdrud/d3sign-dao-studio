@@ -27,10 +27,8 @@ export default function Web3() {
     >
       <h1>NFT</h1>
       <div className="marketplace-title">
-        <i class="bx bx-store"></i>
-        <span className="genre">&nbsp;Cyberpunk Art</span>
-        <span className="by">by</span>
         <span className="artist">R1N</span>
+        <span className="genre">Cyberpunk Art</span>
       </div>
 
       <div className="marketplace-items">

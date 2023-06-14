@@ -1,7 +1,6 @@
 .toggle-container {
   visibility: hidden;
   position: absolute;
-  top: 22px;
   z-index: 999;
   width: 30px;
   height: 30px;
@@ -15,6 +14,7 @@
 @media (min-height: 480px) and (max-width: 540px) {
   .toggle-container {
     visibility: visible;
+    top: 22px;
     right: 15px;
   }
 
@@ -23,9 +23,10 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 480px) {
   .toggle-container {
     visibility: visible;
+    top: 19px;
     right: 5px;
   }
 

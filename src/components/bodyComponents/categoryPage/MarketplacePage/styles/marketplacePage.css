@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 75%;
+  min-height: calc(100vh - 200px - 151px);
 }
 
 .marketplace-page h1 {
@@ -10,15 +11,21 @@
 
 .marketplace-page .marketplace-title {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   font-size: 2.2vw;
   font-weight: bold;
   margin-bottom: 0.5vw;
+  border-radius: 10px;
+  padding: 0 10px;
+  width: max-content;
 }
 
-.marketplace-page .marketplace-title .by {
-  margin: 0 1vw;
-  font-size: 1.8vw;
+.marketplace-page .marketplace-title .genre {
+  font-size: 1.3vw;
+  margin-left: 1vw;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 0 5px;
 }
 
 .marketplace-page .marketplace-items {
@@ -72,16 +79,16 @@
   animation-iteration-count: 1;
 }
 
-.comingSoon {
-  color: #222222;
-  font-size: 5vw;
+.prepare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+  font-size: 4vw;
   font-weight: bold;
   animation: fade-in 1.5s ease-in-out forwards;
   margin: 0px;
   white-space: nowrap;
-}
-
-@media (min-width: 480px) and (max-width: 1023px) {
 }
 
 @media (max-width: 540px) {
@@ -95,10 +102,6 @@
 
   .marketplace-page .marketplace-title {
     font-size: 18px;
-  }
-
-  .marketplace-page .marketplace-title .by {
-    font-size: 14px;
   }
 
   .marketplace-page .marketplace-item .marketplace-link .marketplace-img {

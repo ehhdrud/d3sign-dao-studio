@@ -28,10 +28,8 @@ export default function Goods() {
       <h1>Goods</h1>
 
       <div className="marketplace-title">
-        <i class="bx bx-store"></i>
-        <span className="genre">&nbsp;Anime Art</span>
-        <span className="by">by</span>
         <span className="artist">T0RI</span>
+        <span className="genre">Anime Art</span>
       </div>
       <div className="marketplace-items">
         <div className="marketplace-item">
@@ -48,10 +46,8 @@ export default function Goods() {
       </div>
 
       <div className="marketplace-title">
-        <i class="bx bx-store"></i>
-        <span className="genre">&nbsp;Cyberpunk Art</span>
-        <span className="by">by</span>
         <span className="artist">R1N</span>
+        <span className="genre">Cyberpunk Art</span>
       </div>
       <div className="marketplace-items">
         <div className="marketplace-item">

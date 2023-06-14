@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import { ToggleContext } from "../../../ToggleContext";
 import { Link } from "react-router-dom";
-import { GridLoader } from "react-spinners";
+import { SyncLoader } from "react-spinners";
 import "./styles/artsAndArtists.css";
 
 import V1VI from "../../../images/arts/V1VI/V1VI-01.png";
@@ -241,7 +241,7 @@ export default function ArtAndArtists() {
         </>
       ) : (
         <div className="loading">
-          <GridLoader color={"#ffffd7"} size={5} />
+          <SyncLoader color={"#36d7b7"} size={7} />
         </div>
       )}
     </div>

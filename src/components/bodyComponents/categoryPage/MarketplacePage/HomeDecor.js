@@ -23,7 +23,8 @@ export default function HomeDecor() {
       }`}
     >
       <h1>Home decor</h1>
-      <p className="comingSoon">COMING SOON</p>
+
+      <p className="prepare">The products are being prepared.</p>
     </div>
   );
 }

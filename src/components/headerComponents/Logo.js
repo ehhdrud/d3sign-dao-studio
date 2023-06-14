@@ -12,7 +12,7 @@ export default function Logo() {
       to="/d3sign-dao-studio"
     >
       {/* <img src={logo} alt="logo" /> */}
-      <span className="logo-text">D3sign&nbsp;&nbsp;DAO&nbsp;&nbsp;Studio</span>
+      <span className="logo-text">D3sign DAO Studio</span>
     </Link>
   );
 }

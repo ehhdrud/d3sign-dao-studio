@@ -1,8 +1,7 @@
 .toggle-container {
   visibility: hidden;
   position: absolute;
-  right: 5px;
-  top: 27px;
+  top: 22px;
   z-index: 999;
   width: 30px;
   height: 30px;
@@ -10,12 +9,27 @@
 }
 
 .toggle-icon {
-  font-size: 30px;
   cursor: pointer;
 }
 
-@media (max-width: 479px) {
+@media (min-height: 480px) and (max-width: 540px) {
   .toggle-container {
     visibility: visible;
+    right: 15px;
+  }
+
+  .toggle-icon {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .toggle-container {
+    visibility: visible;
+    right: 5px;
+  }
+
+  .toggle-icon {
+    font-size: 33px;
   }
 }

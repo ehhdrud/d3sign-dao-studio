@@ -16,9 +16,9 @@
 .intro span {
   position: relative;
   width: max-content;
-  font-family: GT-Super-Display-Medium-Trial, Georgia, "Times New Roman", Times,
-    serif;
-  font-size: 3.9vw;
+  font-family: Invisible-ExtraBold;
+  font-size: 3.5vw;
+  color: #ffffff;
 }
 
 .intro .intro-item-1 {
@@ -99,7 +99,7 @@
 @media (min-width: 480px) and (max-width: 1023px) {
 }
 
-@media (max-width: 479px) {
+@media (max-width: 480px) {
   .gallery-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);

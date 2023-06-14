@@ -46,7 +46,7 @@
   }
 }
 
-@media (min-width: 540px) and (max-width: 767px) {
+@media (min-width: 540px) and (max-width: 768px) {
   .sns {
     margin-right: 5px;
   }
@@ -67,7 +67,7 @@
   }
 }
 
-@media (max-width: 539px) {
+@media (max-width: 540px) {
   .sns {
     width: 85%;
     margin: 0;

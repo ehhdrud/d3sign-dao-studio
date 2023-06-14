@@ -8,8 +8,10 @@
 }
 
 .logo .logo-text {
+  font-family: Invisible-ExtraBold;
+  font-weight: bold;
   position: relative;
-  font-size: 65px;
+  font-size: 80px;
   vertical-align: center;
   white-space: nowrap;
 }
@@ -17,77 +19,33 @@
 .logo {
   color: rgb(255, 255, 185);
 }
-.logo span::before,
-.logo span::after {
-  content: "";
-  position: absolute;
-  bottom: 4px;
-  width: 6.5px;
-  height: 58px;
-  background-color: rgb(255, 255, 185);
-}
 
-.logo span::before {
-  left: -3px;
-}
-
-.logo span::after {
-  right: -5px;
-}
-
-@media (min-width: 480px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .logo {
-    margin: 20px 0px 20px 15px;
+    margin: 20px 0px 20px 20px;
   }
 
   .logo .logo-text {
-    font-size: 44px;
-  }
-
-  .logo span::before,
-  .logo span::after {
-    content: "";
-    position: absolute;
-    bottom: 2px;
-    width: 4.4px;
-    height: 40px;
-    background-color: rgb(255, 255, 185);
-  }
-
-  .logo span::before {
-    left: -2px;
-  }
-
-  .logo span::after {
-    right: -3px;
+    font-size: 50px;
   }
 }
 
-@media (max-width: 479px) {
+@media (min-width: 480px) and (max-width: 768px) {
+  .logo {
+    margin: 20px 0px 20px 15px;
+  }
+  .logo .logo-text {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 480px) {
   .logo {
     margin: 20px 0px 20px 10px;
   }
 
   .logo .logo-text {
-    font-size: 32.5px;
-  }
-
-  .logo span::before,
-  .logo span::after {
-    content: "";
-    position: absolute;
-    bottom: 2.75px;
-    width: 3px;
-    height: 29px;
-    background-color: rgb(255, 255, 185);
-  }
-
-  .logo span::before {
-    left: -2px;
-  }
-
-  .logo span::after {
-    right: -3px;
+    font-size: 33px;
   }
 
   .logo.rearranged {

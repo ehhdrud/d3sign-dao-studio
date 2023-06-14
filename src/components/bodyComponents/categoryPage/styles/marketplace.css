@@ -74,7 +74,7 @@
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 480px) {
   .marketplace-category-button:hover img {
     transform: none;
     transition: none;

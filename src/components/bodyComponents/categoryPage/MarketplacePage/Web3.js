@@ -17,19 +17,13 @@ import R1N from "../../../../images/arts/R1N/R1N-00.png";
 // import R1N from "../../../../images/arts/R1N/R1N-00.png";
 
 export default function Web3() {
-  const { deleteCategoryLayout, categoryLayoutChanged } =
-    useContext(ToggleContext);
-
-  const handleClick = (event) => {
-    deleteCategoryLayout(event);
-  };
+  const { categoryLayoutChanged } = useContext(ToggleContext);
 
   return (
     <div
       className={`marketplace-page ${
         categoryLayoutChanged ? "rearranged" : ""
       }`}
-      onClick={handleClick}
     >
       <h1>NFT</h1>
       <div className="marketplace-title">

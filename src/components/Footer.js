@@ -5,18 +5,10 @@ import "../styles/footer.css";
 import logo from "../images/logo.jpg";
 
 export default function Footer() {
-  const { deleteCategoryLayout, categoryLayoutChanged } =
-    useContext(ToggleContext);
-
-  const handleClick = (event) => {
-    deleteCategoryLayout(event);
-  };
+  const { categoryLayoutChanged } = useContext(ToggleContext);
 
   return (
-    <div
-      className={`footer ${categoryLayoutChanged ? "rearranged" : ""}`}
-      onClick={handleClick}
-    >
+    <div className={`footer ${categoryLayoutChanged ? "rearranged" : ""}`}>
       <div className="logo-and-text">
         <img className="logo" src={logo} alt="logo" />
         <p className="text">

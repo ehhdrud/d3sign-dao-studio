@@ -7,18 +7,10 @@ import "../styles/header.css";
 import SnsBox from "./headerComponents/SnsBox";
 
 export default function Header() {
-  const { deleteCategoryLayout, categoryLayoutChanged } =
-    useContext(ToggleContext);
-
-  const handleClick = (event) => {
-    deleteCategoryLayout(event);
-  };
+  const { categoryLayoutChanged } = useContext(ToggleContext);
 
   return (
-    <nav
-      className={`header ${categoryLayoutChanged ? "rearranged" : ""}`}
-      onClick={handleClick}
-    >
+    <nav className={`header ${categoryLayoutChanged ? "rearranged" : ""}`}>
       <Logo />
       <Category />
       <SnsBox />

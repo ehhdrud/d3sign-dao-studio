@@ -82,12 +82,7 @@ const arts = [
 ];
 
 export default function Default() {
-  const { categoryLayoutChanged, deleteCategoryLayout } =
-    useContext(ToggleContext);
-
-  const handleClick = (event) => {
-    deleteCategoryLayout(event);
-  };
+  const { categoryLayoutChanged } = useContext(ToggleContext);
 
   const [imagesLoaded, setImagesLoaded] = useState(false);
   useEffect(() => {
@@ -104,10 +99,7 @@ export default function Default() {
   }, []);
 
   return (
-    <div
-      className={`default ${categoryLayoutChanged ? "rearranged" : ""}`}
-      onClick={handleClick}
-    >
+    <div className={`default ${categoryLayoutChanged ? "rearranged" : ""}`}>
       {imagesLoaded ? (
         <>
           <div className="intro">

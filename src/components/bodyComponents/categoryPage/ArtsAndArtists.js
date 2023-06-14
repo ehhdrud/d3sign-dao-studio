@@ -29,12 +29,7 @@ const imageFiles = [
 ];
 
 export default function ArtAndArtists() {
-  const { deleteCategoryLayout, categoryLayoutChanged } =
-    useContext(ToggleContext);
-
-  const handleClick = (event) => {
-    deleteCategoryLayout(event);
-  };
+  const { categoryLayoutChanged } = useContext(ToggleContext);
 
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
@@ -53,10 +48,7 @@ export default function ArtAndArtists() {
   }, []);
 
   return (
-    <div
-      className={`artists ${categoryLayoutChanged ? "rearranged" : ""}`}
-      onClick={handleClick}
-    >
+    <div className={`artists ${categoryLayoutChanged ? "rearranged" : ""}`}>
       {imagesLoaded ? (
         <>
           <h1>Arts and artists</h1>

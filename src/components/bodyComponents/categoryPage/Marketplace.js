@@ -11,12 +11,7 @@ import web3Img from "../../../images/web3-img.jpg";
 const imageFiles = [homedecorImg, goodsImg, web3Img];
 
 export default function Marketplace() {
-  const { deleteCategoryLayout, categoryLayoutChanged } =
-    useContext(ToggleContext);
-
-  const handleClick = (event) => {
-    deleteCategoryLayout(event);
-  };
+  const { categoryLayoutChanged } = useContext(ToggleContext);
 
   const [imagesLoaded, setImagesLoaded] = useState(false);
   useEffect(() => {
@@ -33,10 +28,7 @@ export default function Marketplace() {
   }, []);
 
   return (
-    <div
-      className={`marketplace ${categoryLayoutChanged ? "rearranged" : ""}`}
-      onClick={handleClick}
-    >
+    <div className={`marketplace ${categoryLayoutChanged ? "rearranged" : ""}`}>
       {imagesLoaded ? (
         <>
           <div className="marketplace-category">

@@ -12,19 +12,13 @@ import "../../../../styles/artsAndArtistsPage.css";
 const imagePaths = [image1, image2, image3, image4, image5, image6];
 
 export default function V1VI() {
-  const { deleteCategoryLayout, categoryLayoutChanged } =
-    useContext(ToggleContext);
-
-  const handleClick = (event) => {
-    deleteCategoryLayout(event);
-  };
+  const { categoryLayoutChanged } = useContext(ToggleContext);
 
   return (
     <div
       className={`artist-page-container ${
         categoryLayoutChanged ? "rearranged" : ""
       }`}
-      onClick={handleClick}
     >
       <h1 className="artist-page-title">V1VI's Artwork</h1>
       <p className="description">

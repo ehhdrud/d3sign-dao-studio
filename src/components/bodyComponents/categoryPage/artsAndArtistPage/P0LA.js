@@ -11,19 +11,13 @@ import "../../../../styles/artsAndArtistsPage.css";
 const imagePaths = [image1, image2, image3, image4, image5];
 
 export default function P0LA() {
-  const { deleteCategoryLayout, categoryLayoutChanged } =
-    useContext(ToggleContext);
-
-  const handleClick = (event) => {
-    deleteCategoryLayout(event);
-  };
+  const { categoryLayoutChanged } = useContext(ToggleContext);
 
   return (
     <div
       className={`artist-page-container ${
         categoryLayoutChanged ? "rearranged" : ""
       }`}
-      onClick={handleClick}
     >
       <h1 className="artist-page-title">P0LA's Artwork</h1>
       <p className="description">

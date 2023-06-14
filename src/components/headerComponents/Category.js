@@ -5,18 +5,15 @@ import "../../styles/category.css";
 
 export default function Category() {
   const location = useLocation();
-  const { deleteCategoryLayout, categoryLayoutChanged } =
+  const { toggleCategoryLayout, categoryLayoutChanged } =
     useContext(ToggleContext);
 
   const handleClick = (event) => {
-    deleteCategoryLayout(event);
+    toggleCategoryLayout(event);
   };
 
   return (
-    <nav
-      className={`category ${categoryLayoutChanged ? "rearranged" : ""}`}
-      onClick={handleClick}
-    >
+    <nav className={`category ${categoryLayoutChanged ? "rearranged" : ""}`}>
       <div className="category-items">
         <div className="category-item">
           <Link
@@ -67,7 +64,7 @@ export default function Category() {
           </Link>
         </div>
       </div>
-      <div className="transparent-space"></div>
+      <div className="transparent-space" onClick={handleClick}></div>
     </nav>
   );
 }

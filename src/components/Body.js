@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Routes, Route } from "react-router-dom";
+import { ToggleContext } from "../ToggleContext.js";
 import Default from "./bodyComponents/Default";
 import "../styles/body.css";
 
@@ -22,6 +23,15 @@ import Web3 from "./bodyComponents/categoryPage/marketplacePage/Web3.js";
 import Faq from "./bodyComponents/categoryPage/Faq.js";
 
 export default function Body() {
+  const { deleteCategoryLayout } = useContext(ToggleContext);
+
+  const handleHistory = () => {
+    deleteCategoryLayout();
+  };
+
+  window.addEventListener("popstate", handleHistory);
+  window.addEventListener("pushstate", handleHistory);
+
   return (
     <div className="body">
       <Routes>

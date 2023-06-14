@@ -9,14 +9,8 @@ export function ToggleProvider({ children }) {
     setCategoryLayoutChanged(!categoryLayoutChanged);
   };
 
-  const deleteCategoryLayout = (event) => {
-    const targetClass = event.target.className;
-    if (
-      (!targetClass.includes("toggle") && !targetClass.includes("category")) ||
-      targetClass.includes("category-text")
-    ) {
-      setCategoryLayoutChanged(false);
-    }
+  const deleteCategoryLayout = () => {
+    setCategoryLayoutChanged(false);
   };
 
   return (

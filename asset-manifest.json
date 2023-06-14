@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/d3sign-dao-studio/static/css/main.3cc6a88c.css",
-    "main.js": "/d3sign-dao-studio/static/js/main.2dbf1211.js",
+    "main.css": "/d3sign-dao-studio/static/css/main.fef54b24.css",
+    "main.js": "/d3sign-dao-studio/static/js/main.0a9e0172.js",
     "static/js/787.1ec73f89.chunk.js": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js",
     "static/media/PAUL0-00.png": "/d3sign-dao-studio/static/media/PAUL0-00.667ee0eef137d9476dff.png",
     "static/media/V1VI-03.png": "/d3sign-dao-studio/static/media/V1VI-03.24f003b44bf0a1900abd.png",
@@ -70,10 +70,8 @@
     "static/media/ZER1-02.png": "/d3sign-dao-studio/static/media/ZER1-02.dcf1d030402bd9efa333.png",
     "static/media/goods-img.jpg": "/d3sign-dao-studio/static/media/goods-img.e15d0f69c58dfa0da876.jpg",
     "static/media/web3-img.jpg": "/d3sign-dao-studio/static/media/web3-img.2dc85a45648a0c9aa8bd.jpg",
+    "static/media/Invisible-ExtraBold.otf": "/d3sign-dao-studio/static/media/Invisible-ExtraBold.1bd7f63419ad0a8ce5fe.otf",
     "static/media/logo.jpg": "/d3sign-dao-studio/static/media/logo.fe7758295683c39d6490.jpg",
-    "static/media/GT-Super-Display-Regular-Trial.otf": "/d3sign-dao-studio/static/media/GT-Super-Display-Regular-Trial.9f3f04cce242ce2cc94c.otf",
-    "static/media/GT-Super-Display-Medium-Trial.otf": "/d3sign-dao-studio/static/media/GT-Super-Display-Medium-Trial.5c825ba7a7fe0584a27a.otf",
-    "static/media/GT-Super-Display-Light-Trial.otf": "/d3sign-dao-studio/static/media/GT-Super-Display-Light-Trial.10116b96e7e2f55139c4.otf",
     "static/media/linktree-with-text.svg": "/d3sign-dao-studio/static/media/linktree-with-text.2659567e103f847866120f866b2201d9.svg",
     "static/media/slick.svg": "/d3sign-dao-studio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/d3sign-dao-studio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -85,12 +83,12 @@
     "static/media/twitter.svg": "/d3sign-dao-studio/static/media/twitter.fc1418e6f02856ae17738fae0c175a0b.svg",
     "static/media/linktree.svg": "/d3sign-dao-studio/static/media/linktree.45106e60fb24f0b26808e66942e1aca6.svg",
     "static/media/medium.svg": "/d3sign-dao-studio/static/media/medium.54d840470f9831e0f150d9fddf1dcd9b.svg",
-    "main.3cc6a88c.css.map": "/d3sign-dao-studio/static/css/main.3cc6a88c.css.map",
-    "main.2dbf1211.js.map": "/d3sign-dao-studio/static/js/main.2dbf1211.js.map",
+    "main.fef54b24.css.map": "/d3sign-dao-studio/static/css/main.fef54b24.css.map",
+    "main.0a9e0172.js.map": "/d3sign-dao-studio/static/js/main.0a9e0172.js.map",
     "787.1ec73f89.chunk.js.map": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cc6a88c.css",
-    "static/js/main.2dbf1211.js"
+    "static/css/main.fef54b24.css",
+    "static/js/main.0a9e0172.js"
   ]
 }

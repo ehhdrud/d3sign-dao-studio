@@ -23,6 +23,7 @@ export default function Category() {
                 : ""
             }`}
             to="/d3sign-dao-studio/whatson"
+            onClick={handleClick}
           >
             <span className="category-text">What's on</span>
           </Link>
@@ -35,6 +36,7 @@ export default function Category() {
                 : ""
             }`}
             to="/d3sign-dao-studio/artsandartists"
+            onClick={handleClick}
           >
             <span className="category-text">Arts and artists</span>
           </Link>
@@ -47,6 +49,7 @@ export default function Category() {
                 : ""
             }`}
             to="/d3sign-dao-studio/marketplace"
+            onClick={handleClick}
           >
             <span className="category-text">Marketplace</span>
           </Link>
@@ -59,6 +62,7 @@ export default function Category() {
                 : ""
             }`}
             to="/d3sign-dao-studio/faq"
+            onClick={handleClick}
           >
             <span className="category-text">FAQ</span>
           </Link>

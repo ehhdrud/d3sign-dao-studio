@@ -45,8 +45,8 @@
     font-size: 14px;
     line-height: 16.8px;
   }
-}
 
-.artist-page-container.rearranged {
-  filter: blur(1.25px);
+  .artist-page-container.rearranged {
+    filter: blur(1.25px);
+  }
 }

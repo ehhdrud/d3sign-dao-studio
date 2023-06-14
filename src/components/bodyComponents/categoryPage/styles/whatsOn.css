@@ -2,10 +2,6 @@
   width: 75%;
 }
 
-.whatson.rearranged {
-  filter: blur(1.25px);
-}
-
 .whatson p {
   font-size: 1.4vw;
   animation: fade-in 1.5s ease-in-out forwards;
@@ -128,5 +124,9 @@
 
   .vision .vision-body .vision-body-item p {
     margin-top: 25px;
+  }
+
+  .whatson.rearranged {
+    filter: blur(1.25px);
   }
 }

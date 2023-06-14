@@ -6,10 +6,6 @@
   min-height: 50px;
 }
 
-.footer.rearranged {
-  filter: blur(1.25px);
-}
-
 .footer .logo-and-text {
   display: flex;
   justify-content: flex-start;
@@ -80,5 +76,9 @@
 
   .footer .text {
     font-size: 8px;
+  }
+
+  .footer.rearranged {
+    filter: blur(1.25px);
   }
 }

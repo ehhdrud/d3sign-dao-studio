@@ -3,10 +3,6 @@
   color: white;
 }
 
-.artists.rearranged {
-  filter: blur(1.25px);
-}
-
 .artists h1 {
   font-size: 5vw;
 }
@@ -162,5 +158,9 @@
 
   .loading {
     min-height: calc(100vh - 80px - 122px);
+  }
+
+  .artists.rearranged {
+    filter: blur(1.25px);
   }
 }

@@ -4,10 +4,6 @@
   width: 75%;
 }
 
-.marketplace-page.rearranged {
-  filter: blur(1.25px);
-}
-
 .marketplace-page h1 {
   font-size: 5vw;
 }
@@ -99,6 +95,10 @@
 
   .marketplace-page .marketplace-item .marketplace-link .marketplace-name {
     font-size: 14px;
+  }
+
+  .marketplace-page.rearranged {
+    filter: blur(1.25px);
   }
 }
 

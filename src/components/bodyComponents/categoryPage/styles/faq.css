@@ -4,10 +4,6 @@
   flex-direction: column;
 }
 
-.faq.rearranged {
-  filter: blur(1.25px);
-}
-
 .faq h1 {
   font-size: 5vw;
 }
@@ -77,5 +73,9 @@
     margin-left: 9px;
     padding-left: 10px;
     border-left: 2px solid #bbbbbb;
+  }
+
+  .faq.rearranged {
+    filter: blur(1.25px);
   }
 }

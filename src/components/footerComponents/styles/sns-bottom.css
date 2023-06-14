@@ -3,10 +3,6 @@
   margin-right: 30px;
 }
 
-.sns.rearranged {
-  filter: blur(1.25px);
-}
-
 .sns a {
   display: flex;
   justify-content: center;
@@ -54,5 +50,9 @@
 
   .sns a:hover {
     animation: none;
+  }
+
+  .sns.rearranged {
+    filter: blur(1.25px);
   }
 }

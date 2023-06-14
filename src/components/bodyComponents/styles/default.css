@@ -6,10 +6,6 @@
   overflow: hidden;
 }
 
-.default.rearranged {
-  filter: blur(1.25px);
-}
-
 /* Intro */
 .intro {
   display: flex;
@@ -122,5 +118,9 @@
   .art-card:hover {
     box-shadow: none;
     border: 1px solid #444;
+  }
+
+  .default.rearranged {
+    filter: blur(1.25px);
   }
 }

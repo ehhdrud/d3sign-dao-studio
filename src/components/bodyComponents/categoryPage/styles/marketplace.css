@@ -5,10 +5,6 @@
   align-items: center;
 }
 
-.marketplace.rearranged {
-  filter: blur(1.25px);
-}
-
 .marketplace h1 {
   font-size: 5vw;
   width: 75%;
@@ -82,5 +78,9 @@
   .marketplace-category-button:hover img {
     transform: none;
     transition: none;
+  }
+
+  .marketplace.rearranged {
+    filter: blur(1.25px);
   }
 }

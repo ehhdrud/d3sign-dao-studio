@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/d3sign-dao-studio/static/css/main.9dc9281e.css",
-    "main.js": "/d3sign-dao-studio/static/js/main.3babee5d.js",
+    "main.css": "/d3sign-dao-studio/static/css/main.33d68348.css",
+    "main.js": "/d3sign-dao-studio/static/js/main.75c50de7.js",
     "static/js/787.1ec73f89.chunk.js": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js",
     "static/media/PAUL0-00.png": "/d3sign-dao-studio/static/media/PAUL0-00.667ee0eef137d9476dff.png",
     "static/media/V1VI-03.png": "/d3sign-dao-studio/static/media/V1VI-03.24f003b44bf0a1900abd.png",
+    "static/media/Kablammo.ttf": "/d3sign-dao-studio/static/media/Kablammo.82570a17a32c5ec97a1d.ttf",
     "static/media/V1VI-00.png": "/d3sign-dao-studio/static/media/V1VI-00.1f22282b28a51b8ce66a.png",
     "static/media/CHR1S-02.png": "/d3sign-dao-studio/static/media/CHR1S-02.29c74d908174c9df808c.png",
     "static/media/PAUL0-01.png": "/d3sign-dao-studio/static/media/PAUL0-01.64ee1d7fb43684ce0b0e.png",
@@ -58,16 +59,13 @@
     "static/media/J1N-04.png": "/d3sign-dao-studio/static/media/J1N-04.8f6657e183451e536eea.png",
     "static/media/J1N-01.png": "/d3sign-dao-studio/static/media/J1N-01.d36467c0feff52970edf.png",
     "static/media/MIRR0R-01.png": "/d3sign-dao-studio/static/media/MIRR0R-01.2f54eb2df5738e18b9d9.png",
-    "static/media/FiraSansExtraCondensed-ExtraBold.ttf": "/d3sign-dao-studio/static/media/FiraSansExtraCondensed-ExtraBold.848f8a4b565922995023.ttf",
-    "static/media/FiraSansExtraCondensed-SemiBold.ttf": "/d3sign-dao-studio/static/media/FiraSansExtraCondensed-SemiBold.8d5d5caf275632d6567e.ttf",
-    "static/media/FiraSansExtraCondensed-Medium.ttf": "/d3sign-dao-studio/static/media/FiraSansExtraCondensed-Medium.95fdb184f3bc8f73ed4c.ttf",
-    "static/media/FiraSansExtraCondensed-Regular.ttf": "/d3sign-dao-studio/static/media/FiraSansExtraCondensed-Regular.636c38c92ba0e37b8508.ttf",
     "static/media/boxicons.eot": "/d3sign-dao-studio/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
     "static/media/Montserrat.ttf": "/d3sign-dao-studio/static/media/Montserrat.3faa3eef13649db02044.ttf",
     "static/media/boxicons.woff": "/d3sign-dao-studio/static/media/boxicons.d12afc36557395143e4b.woff",
     "static/media/boxicons.ttf": "/d3sign-dao-studio/static/media/boxicons.db9ddb1898dbd76badca.ttf",
     "static/media/ZER1-01.png": "/d3sign-dao-studio/static/media/ZER1-01.5aace07f3cbe236b353b.png",
     "static/media/Roboto-Bold.ttf": "/d3sign-dao-studio/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/RobotoCondensed-Light.ttf": "/d3sign-dao-studio/static/media/RobotoCondensed-Light.315e30bd24f609c6f8d1.ttf",
     "static/media/ZER1-00.png": "/d3sign-dao-studio/static/media/ZER1-00.55dbb6bc385ebde57058.png",
     "static/media/goods-img.jpg": "/d3sign-dao-studio/static/media/goods-img.17c44523f7c010eeeb20.jpg",
     "static/media/homedecor-img.jpg": "/d3sign-dao-studio/static/media/homedecor-img.dd9cdde883b04a4b0ad3.jpg",
@@ -88,12 +86,12 @@
     "static/media/twitter.svg": "/d3sign-dao-studio/static/media/twitter.fc1418e6f02856ae17738fae0c175a0b.svg",
     "static/media/linktree.svg": "/d3sign-dao-studio/static/media/linktree.45106e60fb24f0b26808e66942e1aca6.svg",
     "static/media/medium.svg": "/d3sign-dao-studio/static/media/medium.54d840470f9831e0f150d9fddf1dcd9b.svg",
-    "main.9dc9281e.css.map": "/d3sign-dao-studio/static/css/main.9dc9281e.css.map",
-    "main.3babee5d.js.map": "/d3sign-dao-studio/static/js/main.3babee5d.js.map",
+    "main.33d68348.css.map": "/d3sign-dao-studio/static/css/main.33d68348.css.map",
+    "main.75c50de7.js.map": "/d3sign-dao-studio/static/js/main.75c50de7.js.map",
     "787.1ec73f89.chunk.js.map": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dc9281e.css",
-    "static/js/main.3babee5d.js"
+    "static/css/main.33d68348.css",
+    "static/js/main.75c50de7.js"
   ]
 }

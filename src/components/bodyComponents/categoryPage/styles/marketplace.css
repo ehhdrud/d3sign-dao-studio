@@ -1,13 +1,5 @@
 .marketplace {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.marketplace h1 {
-  font-size: 5vw;
-  width: 75%;
+  margin: auto 0;
 }
 
 .marketplace-category {
@@ -20,7 +12,7 @@
 
 .marketplace-category-button {
   position: relative;
-  width: 45%;
+  width: 33.3%;
   aspect-ratio: 3/4;
   text-decoration: none;
   overflow: hidden;
@@ -58,12 +50,9 @@
   transition: transform 1s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .marketplace-category {
     flex-direction: column;
-    gap: 3%;
-    width: 100%;
-    font-size: 12vw;
   }
 
   .marketplace-category-button {
@@ -83,5 +72,29 @@
 
   .marketplace.rearranged {
     filter: blur(1.25px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+  .marketplace-category {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767.9px) {
+  .marketplace-category {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 479.9px) {
+  .marketplace-category {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 10vw;
   }
 }

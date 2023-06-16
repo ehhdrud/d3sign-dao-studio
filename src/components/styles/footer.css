@@ -28,6 +28,7 @@
   font-weight: 500;
   font-size: 16px;
   color: #555555;
+  white-space: nowrap;
 }
 
 .footer .text a {
@@ -35,7 +36,7 @@
   text-decoration: underline;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023.9px) {
   .footer .logo-and-text {
     gap: 20px;
   }
@@ -47,35 +48,48 @@
 
   .footer .text,
   .footer .text a {
-    font-size: 14px;
+    font-size: 12.5px;
   }
 }
 
-@media (min-width: 540px) and (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 767.9px) {
+  .footer {
+    flex-direction: column;
+    margin: 60px 0 0 0;
+  }
+
+  .footer.rearranged {
+    filter: blur(1.25px);
+  }
+
   .footer .logo-and-text {
-    gap: 10px;
-    margin-left: 5px;
+    order: 2;
+    width: 85%;
+    gap: 15px;
+    margin: 10px 0 0 0px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .footer .logo {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
 
   .footer .text,
   .footer .text a {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 479.9px) {
   .footer {
     flex-direction: column;
-    margin: 60px 0 10px 0;
+    margin: 60px 0 0 0;
   }
 
-  .footer .sns-component {
-    order: 1;
+  .footer.rearranged {
+    filter: blur(1.25px);
   }
 
   .footer .logo-and-text {
@@ -88,26 +102,6 @@
   .footer .logo {
     width: 30px;
     height: 30px;
-  }
-
-  .footer.rearranged {
-    filter: blur(1.25px);
-  }
-}
-@media (min-width: 480px) and (max-width: 540px) {
-  .footer {
-    margin: 60px 0 0 0;
-  }
-
-  .footer .text,
-  .footer .text a {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  .footer {
-    margin: 60px 0 0 0;
   }
 
   .footer .text,

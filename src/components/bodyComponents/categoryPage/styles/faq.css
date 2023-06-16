@@ -39,10 +39,7 @@
   color: #bbbbbb;
 }
 
-@media (min-width: 540px) and (max-width: 1023px) {
-}
-
-@media (max-width: 540px) {
+@media (max-width: 479.9px) {
   .faq {
     width: 90%;
   }

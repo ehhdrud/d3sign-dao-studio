@@ -59,10 +59,7 @@
   margin-bottom: 0px;
 }
 
-@media (min-width: 540px) and (max-width: 1023px) {
-}
-
-@media (max-width: 540px) {
+@media (max-width: 479.9px) {
   .whatson {
     width: 90%;
   }

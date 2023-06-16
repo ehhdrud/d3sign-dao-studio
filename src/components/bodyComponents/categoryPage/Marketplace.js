@@ -36,7 +36,10 @@ export default function Marketplace() {
               to="/d3sign-dao-studio/marketplace/web3"
               className="marketplace-category-button web3-container"
             >
-              <img className="web3-img" src={imageFiles[2]} alt="web3-img" />
+              <div className="img-container">
+                <img className="web3-img" src={imageFiles[2]} alt="web3-img" />
+              </div>
+
               <div className="marketplace-category-button-text web3-text">
                 Web 3.0
               </div>
@@ -46,7 +49,13 @@ export default function Marketplace() {
               to="/d3sign-dao-studio/marketplace/goods"
               className="marketplace-category-button goods-container"
             >
-              <img className="goods-img" src={imageFiles[1]} alt="goods-img" />
+              <div className="img-container">
+                <img
+                  className="goods-img"
+                  src={imageFiles[1]}
+                  alt="goods-img"
+                />
+              </div>
               <div className="marketplace-category-button-text goods-text">
                 Goods
               </div>
@@ -56,11 +65,13 @@ export default function Marketplace() {
               to="/d3sign-dao-studio/marketplace/homedecor"
               className="marketplace-category-button homedecor-container"
             >
-              <img
-                className="homedecor-img"
-                src={imageFiles[0]}
-                alt="homedecor-img"
-              />
+              <div className="img-container">
+                <img
+                  className="homedecor-img"
+                  src={imageFiles[0]}
+                  alt="homedecor-img"
+                />
+              </div>
               <div className="marketplace-category-button-text homedecor-text">
                 Home decor
               </div>

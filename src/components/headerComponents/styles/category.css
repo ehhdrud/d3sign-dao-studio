@@ -9,8 +9,8 @@
   align-items: center;
   gap: 12.5%;
   width: 60%;
-  margin: 10px 0 5px 45px;
-  font-size: 37.5px;
+  margin: 5px 0 5px 45px;
+  font-size: 35px;
   white-space: nowrap;
 }
 .category .category-item {
@@ -38,17 +38,17 @@
 
 @media (min-width: 768px) and (max-width: 1023.9px) {
   .category .category-items {
-    gap: 10%;
-    font-size: 30px;
-    margin: 10px 0 5px 30px;
+    gap: 8%;
+    font-size: 23px;
+    margin-left: 30px;
   }
 }
 
 @media (min-width: 480px) and (max-width: 767.9px) {
   .category .category-items {
     gap: 7%;
-    font-size: 19px;
-    margin: 10px 0 5px 25px;
+    font-size: 20px;
+    margin-left: 25px;
   }
 }
 
@@ -68,6 +68,7 @@
 
   .category.rearranged {
     visibility: visible;
+    animation: fade-in 0.5s linear forwards;
   }
 
   .category .category-items {
@@ -76,9 +77,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 30px;
+    gap: 20px;
     width: 60%;
-    height: calc(100vh+250px);
+    height: 130vh;
     margin: 0;
     font-size: 22.5px;
   }

@@ -69,10 +69,6 @@
     margin: 1.5px;
   }
 
-  .sns a:hover {
-    animation: none;
-  }
-
   .sns.rearranged {
     filter: blur(1.25px);
   }
@@ -99,10 +95,6 @@
     width: 22px;
     height: 22px;
     margin: 1.5px;
-  }
-
-  .sns a:hover {
-    animation: none;
   }
 
   .sns.rearranged {

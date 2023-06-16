@@ -11,27 +11,21 @@
   text-align: center;
   font-family: Montserrat;
   font-weight: 700;
-  font-size: 4vw;
-  margin: 5% 0px 2.5% 0;
+  font-size: 75px;
+  margin: 40px 0 0 0;
   padding: 0 3%;
   border-radius: 100px;
 }
 
 .artist-page-container .description {
   display: none;
+  margin-top: 40px;
 }
 
-@media (min-width: 540px) and (max-width: 1023px) {
-  .artist-page-title {
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 540px) {
+@media (max-width: 1023.9px) {
   .artist-page-title {
     font-size: 35px;
     text-align: center;
-    margin: 40px 0;
   }
 
   .artist-page-container .description {
@@ -39,11 +33,40 @@
     width: 90%;
     text-align: center;
     margin-bottom: 40px;
-    font-size: 14px;
     line-height: 16.8px;
   }
 
   .artist-page-container.rearranged {
     filter: blur(1.25px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+  .artist-page-title {
+    font-size: 52.5px;
+  }
+
+  .artist-page-container .description {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767.9px) {
+  .artist-page-title {
+    font-size: 45px;
+  }
+
+  .artist-page-container .description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 479.9px) {
+  .artist-page-title {
+    font-size: 37.5px;
+  }
+
+  .artist-page-container .description {
+    font-size: 14px;
   }
 }

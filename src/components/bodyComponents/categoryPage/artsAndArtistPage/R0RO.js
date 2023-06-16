@@ -19,7 +19,7 @@ export default function R0RO() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">R0RO's Artwork</h1>
+      <h1 className="artist-page-title">R0RO 's Artwork</h1>
       <p className="description">
         The intricate detail and fine craftsmanship are celebrated in R0RO's
         pattern fabric artwork. R0RO develops captivating textile-based

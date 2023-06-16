@@ -9,13 +9,15 @@
   min-width: max-content;
   white-space: nowrap;
   text-align: center;
-  font-family: Invisible-ExtraBold;
+  font-family: Montserrat;
+  font-weight: 700;
   font-size: 4vw;
-  margin: 40px 0px 20px 0;
+  margin: 5% 0px 2.5% 0;
+  padding: 0 3%;
+  border-radius: 100px;
 }
 
 .artist-page-container .description {
-  font-family: Helvetica;
   display: none;
 }
 
@@ -29,12 +31,14 @@
   .artist-page-title {
     font-size: 35px;
     text-align: center;
+    margin: 40px 0;
   }
 
   .artist-page-container .description {
     display: block;
     width: 90%;
-    margin: 20px 25px 40px 50px;
+    text-align: center;
+    margin-bottom: 40px;
     font-size: 14px;
     line-height: 16.8px;
   }

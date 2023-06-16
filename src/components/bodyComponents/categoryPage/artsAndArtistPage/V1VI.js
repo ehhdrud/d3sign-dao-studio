@@ -20,7 +20,7 @@ export default function V1VI() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">V1VI's Artwork</h1>
+      <h1 className="artist-page-title">V1VI 's Artwork</h1>
       <p className="description">
         The collage art of V1VI transports visitors to a realm of fantastical
         beauty with its visual symphony of forms, hues, and textures. V1VI

@@ -1,31 +1,42 @@
 * {
-  font-family: MoMA-Sans;
+  font-family: Montserrat;
   color: white;
-}
-
-p {
-  font-family: Helvetica;
 }
 
 body {
   background-color: black;
 }
 
+h1,
+h2,
+.category .link .category-text {
+  font-family: Roboto-Bold;
+  font-weight: 700;
+}
+
 .link {
   text-decoration: none;
 }
 
-/* 반응형 관련 코드 */
-
 /* 폰트 관련 코드 */
 @font-face {
-  font-family: MoMA-Sans;
-  src: url("fonts/MoMA-Sans.ttf") format("truetype");
+  font-family: Roboto-Bold;
+  src: url("fonts/Roboto-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Invisible-ExtraBold;
-  src: url("fonts/Invisible-ExtraBold.otf") format("opentype");
+  font-family: RobotoCondensed-Light;
+  src: url("fonts/RobotoCondensed-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("fonts/Montserrat.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("fonts/Inter.ttf") format("truetype");
 }
 
 /* 키프레임 관련 코드 */

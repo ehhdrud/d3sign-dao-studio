@@ -10,14 +10,14 @@
 .intro {
   display: flex;
   align-items: center;
-  margin: 10px 0 2px 0;
+  margin: 3px 0 3px 0;
 }
 
 .intro span {
   position: relative;
   width: max-content;
-  font-family: Invisible-ExtraBold;
-  font-size: 3.5vw;
+  font-family: RobotoCondensed-Light;
+  font-size: 4.2vw;
   color: #ffffff;
 }
 
@@ -80,9 +80,7 @@
   position: absolute;
   top: 73%;
   left: 5%;
-  font-family: Helvetica;
   font-size: 2vw;
-  font-weight: bold;
   text-shadow: 5px 5px 10px black;
 }
 
@@ -90,16 +88,11 @@
   position: absolute;
   top: 85%;
   left: 5%;
-  font-family: Helvetica;
   font-size: 2vw;
-  font-weight: bold;
   text-shadow: 5px 5px 10px black;
 }
 
-@media (min-width: 540px) and (max-width: 1023px) {
-}
-
-@media (max-width: 540px) {
+@media (max-width: 768px) {
   .gallery-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);

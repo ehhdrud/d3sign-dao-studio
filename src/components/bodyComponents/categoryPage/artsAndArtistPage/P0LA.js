@@ -19,7 +19,7 @@ export default function P0LA() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">P0LA's Artwork</h1>
+      <h1 className="artist-page-title">P0LA 's Artwork</h1>
       <p className="description">
         The vivid pop art works of P0LA capture the spirit of popular culture
         with a fresh perspective. P0LA examines topics of consumerism and mass

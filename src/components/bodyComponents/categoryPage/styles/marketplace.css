@@ -35,19 +35,22 @@
   position: absolute;
   top: 5%;
   max-width: max-content;
+  font-family: Roboto-bold;
 }
 
 .homedecor-text {
-  left: 5%;
-  text-shadow: 5px 5px 15px black;
+  left: 7.5%;
+  text-shadow: 5px 5px 20px black;
 }
+
 .goods-text {
-  left: 30%;
-  text-shadow: 5px 5px 5px black;
+  left: 27.5%;
+  text-shadow: 5px 5px 3px black;
 }
+
 .web3-text {
-  left: 20%;
-  text-shadow: 5px 5px 5px black;
+  left: 22%;
+  text-shadow: 5px 5px 8px black;
 }
 
 .marketplace-category-button:hover img {
@@ -55,31 +58,12 @@
   transition: transform 1s ease;
 }
 
-@media (min-width: 540px) and (max-width: 1023px) {
+@media (max-width: 768px) {
   .marketplace-category {
     flex-direction: column;
     gap: 3%;
     width: 100%;
-    font-size: 8vw;
-  }
-
-  .marketplace-category-button {
-    width: 100%;
-    aspect-ratio: 3/4;
-  }
-
-  .marketplace-category-button-text {
-    top: 5%;
-    left: 5%;
-  }
-}
-
-@media (max-width: 540px) {
-  .marketplace-category {
-    flex-direction: column;
-    gap: 3%;
-    width: 100%;
-    font-size: 8vw;
+    font-size: 12vw;
   }
 
   .marketplace-category-button {

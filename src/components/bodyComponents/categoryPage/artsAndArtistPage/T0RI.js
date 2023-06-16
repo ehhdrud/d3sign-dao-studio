@@ -20,7 +20,7 @@ export default function T0RI() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">T0RI's Artwork</h1>
+      <h1 className="artist-page-title">T0RI 's Artwork</h1>
       <p className="description">
         With simple and alluring artwork, T0RI brings the world of anime to
         life. T0RI's artwork, which draws inspiration from Japanese animation

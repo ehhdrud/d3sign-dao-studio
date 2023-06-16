@@ -5,6 +5,9 @@
   min-height: calc(100vh - 200px - 151px);
 }
 
+.marketplace-page * {
+  /* border: 1px red solid; */
+}
 .marketplace-page h1 {
   font-size: 5vw;
 }
@@ -16,7 +19,6 @@
   font-weight: bold;
   margin-bottom: 0.5vw;
   border-radius: 10px;
-  padding: 0 10px;
   width: max-content;
 }
 
@@ -76,13 +78,14 @@
   animation-iteration-count: 1;
 }
 
-.homedecor-title {
+.marketplace-page .homedecor-title {
   margin-bottom: 0px;
 }
 
-.homedecor-text {
+.marketplace-page .homedecor-prepare {
+  margin: 0px;
   color: #333333;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: bold;
   animation: fade-in 0.5s ease-in-out forwards;
 }

@@ -104,8 +104,8 @@ export default function Default() {
         <>
           <div className="intro">
             <span className="intro-item-1">A Community of</span>
-            <span className="intro-item-2">&nbsp;10 Passinate</span>
-            <span className="intro-item-3">&nbsp;Graghic Design Artists .</span>
+            <span className="intro-item-2">&nbsp;10 Passionate</span>
+            <span className="intro-item-3">&nbsp;Graphic Design Artists .</span>
           </div>
           <div className="gallery-container">
             {arts.map((art, index) => (

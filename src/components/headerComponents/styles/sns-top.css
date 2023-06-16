@@ -1,4 +1,4 @@
-.snsbox {
+.snstop {
   position: absolute;
   right: 1%;
   display: flex;
@@ -10,7 +10,7 @@
   background-color: #ffffd7;
 }
 
-.snsbox .linktree-container {
+.snstop .linktree-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -19,34 +19,34 @@
   border-right: 2px solid black;
 }
 
-.snsbox .another-container {
+.snstop .another-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 20px;
 }
 
-.snsbox .another-container .discord {
+.snstop .another-container .discord {
   margin-left: 20px;
 }
 
-.snsbox .linktree {
+.snstop .linktree {
   width: 135px;
   height: 45px;
 }
 
-.snsbox img {
+.snstop img {
   width: 45px;
   height: 45px;
 }
 
-.snsbox img:hover {
+.snstop img:hover {
   animation: shake 0.3s;
   animation-iteration-count: 1;
 }
 
-@media (max-width: 1260px) {
-  .snsbox {
+@media (max-width: 1300px) {
+  .snstop {
     display: none;
   }
 }

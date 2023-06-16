@@ -21,7 +21,7 @@ export default function CHR1S() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">CHR1S's Artwork</h1>
+      <h1 className="artist-page-title">CHR1S 's Artwork</h1>
       <p className="description">
         CHR1S's artwork dissects and reassembles visual components to produce
         arresting, three-dimensional compositions, drawing inspiration from

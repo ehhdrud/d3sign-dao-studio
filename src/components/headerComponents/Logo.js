@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-// import logo from "../../images/logo.jpg";
-import "./styles/logo.css";
 import { ToggleContext } from "../../ToggleContext";
+import "./styles/logo.css";
+// import logo from "../../images/logo.jpg";
 
 export default function Logo() {
   const { categoryLayoutChanged } = useContext(ToggleContext);
   return (
     <Link
-      className={`logo ${categoryLayoutChanged ? "rearranged" : ""}`}
+      className={`logo link ${categoryLayoutChanged ? "rearranged" : ""}`}
       to="/d3sign-dao-studio"
     >
       {/* <img src={logo} alt="logo" /> */}

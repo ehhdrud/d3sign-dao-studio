@@ -8,7 +8,7 @@ import "./styles/sns-top.css";
 
 export default function SnsTop() {
   return (
-    <div className="snsbox">
+    <div className="snstop">
       <div className="linktree-container">
         <a
           href="https://linktr.ee/d3signdaostudio"

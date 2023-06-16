@@ -20,7 +20,7 @@ export default function MIRR0R() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">MIRR0R's Artwork</h1>
+      <h1 className="artist-page-title">MIRR0R 's Artwork</h1>
       <p className="description">
         Watercolor paintings by MIRR0R are serene and graceful, with delicate
         colors blending and dancing over the surface. MIRR0R captures the

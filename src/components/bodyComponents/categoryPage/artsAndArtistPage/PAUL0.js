@@ -21,7 +21,7 @@ export default function PAUL0() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">PAUL0's Artwork</h1>
+      <h1 className="artist-page-title">PAUL0 's Artwork</h1>
       <p className="description">
         Through vivid colors and strong brushstrokes, Paul's expressionist
         artwork delves deeply into the human psyche, revealing raw emotions and

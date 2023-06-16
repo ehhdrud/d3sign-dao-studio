@@ -24,7 +24,7 @@ export default function HomeDecor() {
     >
       <h1 className="homedecor-title">Home decor</h1>
 
-      <p className="homedecor-text">The products are being prepared.</p>
+      <p className="homedecor-prepare">These products are being prepared.</p>
     </div>
   );
 }

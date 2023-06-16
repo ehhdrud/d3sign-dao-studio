@@ -24,9 +24,9 @@
 
 .footer .text,
 .footer .text a {
-  font-family: Helvetica;
+  font-family: Inter;
+  font-weight: 500;
   font-size: 16px;
-  font-weight: bold;
   color: #555555;
 }
 
@@ -64,7 +64,7 @@
 
   .footer .text,
   .footer .text a {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 

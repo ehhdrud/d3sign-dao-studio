@@ -1,7 +1,7 @@
 .marketplace-page {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 70%;
   min-height: calc(100vh - 200px - 151px);
 }
 

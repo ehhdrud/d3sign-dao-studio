@@ -11,7 +11,7 @@ export default function SnsBottom() {
   const { categoryLayoutChanged } = useContext(ToggleContext);
 
   return (
-    <div className={`sns ${categoryLayoutChanged ? "rearranged" : ""}`}>
+    <div className={`sns-bottom ${categoryLayoutChanged ? "rearranged" : ""}`}>
       <a
         className={`${categoryLayoutChanged ? "rearranged" : ""}`}
         href="https://linktr.ee/d3signdaostudio"

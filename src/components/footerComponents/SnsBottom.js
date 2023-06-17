@@ -21,24 +21,24 @@ export default function SnsBottom() {
         <img className="linktree" src={linktreeIcon} alt="linktree" />
       </a>
       <a href="https://discord.com/" target="_blank" rel="noreferrer noopener">
-        <img src={discordIcon} alt="Discord" />
+        <img src={discordIcon} alt="discord" />
       </a>
       <a
         href="https://twitter.com/D3signDao"
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img src={twitterIcon} alt="Twitter" />
+        <img src={twitterIcon} alt="twitter" />
       </a>
       <a
         href="https://www.instagram.com/d3sign_dao/"
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img src={instagramIcon} alt="Instagram" />
+        <img src={instagramIcon} alt="instagram" />
       </a>
       <a href="https://medium.com/" target="_blank" rel="noreferrer noopener">
-        <img src={mediumIcon} alt="Medium" />
+        <img src={mediumIcon} alt="medium" />
       </a>
     </div>
   );

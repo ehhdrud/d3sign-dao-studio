@@ -169,7 +169,7 @@ export default function Carousel({ imagePaths }) {
                 ref={(element) => (carouselItemsRef.current[index] = element)}
                 className={`carousel-item carousel-item-${index + 1}`}
                 src={imagePath}
-                alt={`${index + 1}`}
+                alt={`artwork-${index + 1}`}
                 key={index}
               />
             ))}

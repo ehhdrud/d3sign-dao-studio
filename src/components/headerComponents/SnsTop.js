@@ -15,7 +15,7 @@ export default function SnsTop() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <img className="linktree" src={linktreeTextIcon} alt="Linktree" />
+          <img className="linktree" src={linktreeTextIcon} alt="linktree" />
         </a>
       </div>
       <div className="another-container">
@@ -24,24 +24,24 @@ export default function SnsTop() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <img className="discord" src={discordIcon} alt="Discord" />
+          <img className="discord" src={discordIcon} alt="discord" />
         </a>
         <a
           href="https://twitter.com/D3signDao"
           target="_blank"
           rel="noreferrer noopener"
         >
-          <img className="twitter" src={twitterIcon} alt="Twitter" />
+          <img className="twitter" src={twitterIcon} alt="twitter" />
         </a>
         <a
           href="https://www.instagram.com/d3sign_dao/"
           target="_blank"
           rel="noreferrer noopener"
         >
-          <img className="instagram" src={instagramIcon} alt="Instagram" />
+          <img className="instagram" src={instagramIcon} alt="instagram" />
         </a>
         <a href="https://medium.com/" target="_blank" rel="noreferrer noopener">
-          <img className="medium" src={mediumIcon} alt="Medium" />
+          <img className="medium" src={mediumIcon} alt="medium" />
         </a>
       </div>
     </div>

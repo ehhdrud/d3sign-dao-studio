@@ -7,13 +7,12 @@ import Footer from "./components/Footer.js";
 import "./App.css";
 
 function App() {
-  // const handleContextMenu = (e) => {
-  //   e.preventDefault();
-  // };
+  const handleContextMenu = (e) => {
+    e.preventDefault();
+  };
 
   return (
-    // <div className="App" onContextMenu={handleContextMenu}>
-    <div className="App">
+    <div className="App" onContextMenu={handleContextMenu}>
       <BrowserRouter>
         <ToggleProvider>
           <Header />

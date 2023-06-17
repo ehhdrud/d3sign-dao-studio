@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/d3sign-dao-studio/static/css/main.5ec537ad.css",
-    "main.js": "/d3sign-dao-studio/static/js/main.f85faede.js",
+    "main.js": "/d3sign-dao-studio/static/js/main.6c8f3915.js",
     "static/js/787.1ec73f89.chunk.js": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js",
     "static/media/PAUL0-00.png": "/d3sign-dao-studio/static/media/PAUL0-00.667ee0eef137d9476dff.png",
     "static/media/V1VI-03.png": "/d3sign-dao-studio/static/media/V1VI-03.24f003b44bf0a1900abd.png",
@@ -80,17 +80,17 @@
     "static/media/slick.ttf": "/d3sign-dao-studio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/instagram.svg": "/d3sign-dao-studio/static/media/instagram.1ae173b0cb8103732f62a0165142e30d.svg",
     "static/media/slick.woff": "/d3sign-dao-studio/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/d3sign-dao-studio/index.html",
     "static/media/discord.svg": "/d3sign-dao-studio/static/media/discord.d24f6933db2552b1e16956f339434398.svg",
+    "index.html": "/d3sign-dao-studio/index.html",
     "static/media/twitter.svg": "/d3sign-dao-studio/static/media/twitter.fc1418e6f02856ae17738fae0c175a0b.svg",
     "static/media/linktree.svg": "/d3sign-dao-studio/static/media/linktree.45106e60fb24f0b26808e66942e1aca6.svg",
     "static/media/medium.svg": "/d3sign-dao-studio/static/media/medium.54d840470f9831e0f150d9fddf1dcd9b.svg",
     "main.5ec537ad.css.map": "/d3sign-dao-studio/static/css/main.5ec537ad.css.map",
-    "main.f85faede.js.map": "/d3sign-dao-studio/static/js/main.f85faede.js.map",
+    "main.6c8f3915.js.map": "/d3sign-dao-studio/static/js/main.6c8f3915.js.map",
     "787.1ec73f89.chunk.js.map": "/d3sign-dao-studio/static/js/787.1ec73f89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ec537ad.css",
-    "static/js/main.f85faede.js"
+    "static/js/main.6c8f3915.js"
   ]
 }

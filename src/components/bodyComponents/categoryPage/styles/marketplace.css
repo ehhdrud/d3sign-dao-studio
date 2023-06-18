@@ -57,7 +57,7 @@
   transition: transform 1s ease;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023.9px) {
   .marketplace-category {
     flex-direction: column;
   }
@@ -74,10 +74,6 @@
   .marketplace-category-button:hover img {
     transform: none;
     transition: none;
-  }
-
-  .marketplace.rearranged {
-    filter: blur(1.25px);
   }
 }
 
@@ -102,5 +98,9 @@
     width: 100%;
     margin: 0 auto;
     font-size: 10vw;
+  }
+
+  .marketplace.rearranged {
+    filter: blur(1.25px);
   }
 }

@@ -35,10 +35,6 @@
     margin-bottom: 40px;
     line-height: 16.8px;
   }
-
-  .artist-page-container.rearranged {
-    filter: blur(1.25px);
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1023.9px) {
@@ -52,7 +48,11 @@
 }
 
 @media (min-width: 480px) and (max-width: 767.9px) {
-  .artist-page-title {
+  .artist-page-container.rearranged {
+    filter: blur(1.25px);
+  }
+
+  .artist-page-container .artist-page-title {
     font-size: 45px;
   }
 

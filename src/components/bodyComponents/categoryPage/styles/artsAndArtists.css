@@ -142,10 +142,6 @@
   .artists .link:hover {
     animation: none;
   }
-
-  .artists.rearranged {
-    filter: blur(1.25px);
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -175,5 +171,9 @@
 
   .artists {
     width: 90%;
+  }
+
+  .artists.rearranged {
+    filter: blur(1.25px);
   }
 }

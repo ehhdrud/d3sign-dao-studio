@@ -14,12 +14,13 @@ export default function Marketplace() {
   const { categoryLayoutChanged } = useContext(ToggleContext);
 
   const [imagesLoaded, setImagesLoaded] = useState(false);
+
   useEffect(() => {
     const imagePromises = imageFiles.map((file) => {
       return new Promise((resolve) => {
         const img = new Image();
-        img.onload = () => resolve();
         img.src = file;
+        img.onload = () => resolve();
       });
     });
     Promise.all(imagePromises).then(() => {

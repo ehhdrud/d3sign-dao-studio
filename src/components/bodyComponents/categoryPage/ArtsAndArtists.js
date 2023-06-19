@@ -37,8 +37,8 @@ export default function ArtAndArtists() {
     const imagePromises = imageFiles.map((file) => {
       return new Promise((resolve) => {
         const img = new Image();
-        img.onload = () => resolve();
         img.src = file;
+        img.onload = () => resolve();
       });
     });
 

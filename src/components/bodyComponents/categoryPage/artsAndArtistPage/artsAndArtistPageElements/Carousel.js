@@ -15,8 +15,8 @@ export default function Carousel({ imagePaths }) {
     const imagePromises = imagePaths.map((file) => {
       return new Promise((resolve) => {
         const img = new Image();
-        img.onload = () => resolve();
         img.src = file;
+        img.onload = () => resolve();
       });
     });
     Promise.all(imagePromises).then(() => {

@@ -39,7 +39,11 @@ export default function Web3() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="marketplace-img" src={R1N} alt="R1N" />
+            <img
+              className="marketplace-img"
+              src={R1N}
+              alt="Cyberfunk Art by R1N"
+            />
             <p className="marketplace-name">Mintsquare</p>
           </a>
         </div>

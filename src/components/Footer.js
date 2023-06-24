@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <div className={`footer ${categoryLayoutChanged ? "rearranged" : ""}`}>
       <div className="logo-and-text">
-        <img className="logo" src={logo} alt="logo" />
+        <img className="logo" src={logo} alt="D3sign DAO Studio" />
         <p className="text">
           © 2023 D3sign DAO Studio. All rights reserved.
           <br />

@@ -39,7 +39,11 @@ export default function Goods() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="marketplace-img" src={T0RI} alt="T0RI" />
+            <img
+              className="marketplace-img"
+              src={T0RI}
+              alt="Anime Art by T0RI"
+            />
             <p className="marketplace-name">Oround</p>
           </a>
         </div>
@@ -57,7 +61,11 @@ export default function Goods() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="marketplace-img" src={R1N} alt="R1N" />
+            <img
+              className="marketplace-img"
+              src={R1N}
+              alt="Cyberfunk Art by R1N"
+            />
             <p className="marketplace-name">Redbubble</p>
           </a>
         </div>
@@ -69,7 +77,11 @@ export default function Goods() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="marketplace-img" src={R1N} alt="R1N" />
+            <img
+              className="marketplace-img"
+              src={R1N}
+              alt="Cyberfunk Art by R1N"
+            />
             <p className="marketplace-name">Marpple Shop</p>
           </a>
         </div>

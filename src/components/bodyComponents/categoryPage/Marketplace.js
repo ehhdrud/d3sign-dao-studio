@@ -38,7 +38,7 @@ export default function Marketplace() {
               className="marketplace-category-button web3-container"
             >
               <div className="img-container">
-                <img className="web3-img" src={imageFiles[2]} alt="web3-img" />
+                <img className="web3-img" src={imageFiles[2]} alt="web3" />
               </div>
 
               <div className="marketplace-category-button-text web3-text">
@@ -51,11 +51,7 @@ export default function Marketplace() {
               className="marketplace-category-button goods-container"
             >
               <div className="img-container">
-                <img
-                  className="goods-img"
-                  src={imageFiles[1]}
-                  alt="goods-img"
-                />
+                <img className="goods-img" src={imageFiles[1]} alt="goods" />
               </div>
               <div className="marketplace-category-button-text goods-text">
                 Goods
@@ -70,7 +66,7 @@ export default function Marketplace() {
                 <img
                   className="homedecor-img"
                   src={imageFiles[0]}
-                  alt="homedecor-img"
+                  alt="homedecor"
                 />
               </div>
               <div className="marketplace-category-button-text homedecor-text">

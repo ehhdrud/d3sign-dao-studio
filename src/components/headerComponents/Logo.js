@@ -11,7 +11,7 @@ export default function Logo() {
       className={`logo link ${categoryLayoutChanged ? "rearranged" : ""}`}
       to="/d3sign-dao-studio"
     >
-      {/* <img src={logo} alt="logo" /> */}
+      {/* <img src={logo} alt="D3sign DAO Studio" /> */}
       <span className="logo-text">D3sign DAO Studio</span>
     </Link>
   );

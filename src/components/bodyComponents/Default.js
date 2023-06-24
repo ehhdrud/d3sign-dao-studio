@@ -119,7 +119,7 @@ export default function Default() {
                     <img
                       className="art-img"
                       src={art.path}
-                      alt={`${art.artist}'s artwork`}
+                      alt={`${art.artist} 's artwork`}
                     />
                     <div className="genre-on-img">{art.genre}</div>
                     <div className="artist-on-img">{art.artist}</div>

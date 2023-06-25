@@ -20,7 +20,7 @@ export default function J1N() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">J1N 's Artwork</h1>
+      <h1 className="artist-page-title">J1N</h1>
       <p className="description">
         Abstract paintings by J1N explore emotion and motion via vivid colors,
         organic forms, and unplanned brushstrokes. J1N's art enables viewers to

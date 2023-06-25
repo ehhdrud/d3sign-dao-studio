@@ -12,7 +12,6 @@
   align-items: center;
   position: relative;
   width: 100%;
-  height: 47.5vw;
   margin: 0px auto;
   animation: fade-in 1.5s ease-in-out forwards;
 }
@@ -21,8 +20,8 @@
   position: absolute;
   z-index: 0;
   opacity: 0;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-size: contain;
   border: 3px solid black;
   transition: all 0.3s ease-in-out;
@@ -56,8 +55,8 @@
   left: 50%;
   z-index: 2;
   opacity: 1;
-  width: 45vw;
-  height: 45vw;
+  width: 40vw;
+  height: 40vw;
   transform: translateX(-50%);
 }
 
@@ -108,7 +107,7 @@
   height: 50px;
   transition: 0.5s;
   overflow: hidden;
-  border: 1px dashed transparent;
+  border: 2px dashed transparent;
   border-radius: 30%;
 }
 
@@ -184,7 +183,7 @@
   cursor: pointer;
   transition: 0.5s;
   overflow: hidden;
-  border: 1px dashed transparent;
+  border: 2px dashed transparent;
   border-radius: 30%;
 }
 
@@ -251,7 +250,7 @@
 
 @media (min-width: 1024px) {
   .carousel-container {
-    height: 47.5vw;
+    height: 42vw;
   }
 }
 
@@ -300,7 +299,7 @@
   }
 
   .carousel-container {
-    height: 80vw;
+    height: 85vw;
   }
 
   .carousel-item-1 {

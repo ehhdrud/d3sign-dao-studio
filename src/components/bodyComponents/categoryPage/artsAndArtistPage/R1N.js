@@ -19,7 +19,7 @@ export default function R1N() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">R1N 's Artwork</h1>
+      <h1 className="artist-page-title">R1N</h1>
       <p className="description">
         A visionary artist who brings life to future cities and mecca girls.
         Their fascinating work mixes the beauty of science fiction with complex

@@ -18,7 +18,7 @@ export default function ZER1() {
         categoryLayoutChanged ? "rearranged" : ""
       }`}
     >
-      <h1 className="artist-page-title">ZER1 's Artwork</h1>
+      <h1 className="artist-page-title">ZER1</h1>
       <p className="description">
         Pixel art by ZER1 is a wistful ode to the digital era, exhibiting
         elaborate creations made from the little pixel. ZER1's work is humorous

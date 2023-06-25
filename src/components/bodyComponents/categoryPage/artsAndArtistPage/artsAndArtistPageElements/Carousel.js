@@ -6,7 +6,6 @@ export default function Carousel({ imagePaths }) {
   const carouselRef = useRef(null);
   const carouselItemsRef = useRef([]);
   const carouselControlsRef = useRef([]);
-
   const carouselContainerRef = useRef(null);
 
   const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -105,48 +104,62 @@ export default function Carousel({ imagePaths }) {
 
       document.addEventListener("keydown", handleKeyDown);
 
-      const carouselContainerRefCurrent = carouselContainerRef.current;
       let startX;
+      let startY;
       let endX;
+      let endY;
 
-      carouselContainerRefCurrent.addEventListener(
+      carouselRefCurrent.addEventListener(
         "touchstart",
         handleTouchStart,
         false
       );
-      carouselContainerRefCurrent.addEventListener(
-        "touchmove",
-        handleTouchMove,
-        false
-      );
-      carouselContainerRefCurrent.addEventListener(
-        "touchend",
-        handleTouchEnd,
-        false
-      );
+      carouselRefCurrent.addEventListener("touchmove", handleTouchMove, false);
+      carouselRefCurrent.addEventListener("touchend", handleTouchEnd, false);
 
       function handleTouchStart(event) {
         startX = event.touches[0].clientX;
+        startY = event.touches[0].clientY;
+
+        if (event.touches.length >= 2) {
+          startX = NaN;
+          startY = NaN;
+        }
       }
 
       function handleTouchMove(event) {
         endX = event.touches[0].clientX;
+        endY = event.touches[0].clientY;
+
+        const distanceX = endX - startX;
+        const distanceY = endY - startY;
+
+        if (Math.abs(distanceX) > Math.abs(distanceY)) {
+          event.preventDefault();
+        }
       }
 
       function handleTouchEnd() {
-        const distance = endX - startX;
+        const distanceX = endX - startX;
+        const distanceY = endY - startY;
 
-        if (distance > 50) {
+        if (Math.abs(distanceX) > Math.abs(distanceY) && distanceX > 50) {
           newSetCarousel.setCurrentState({
             className: "carousel-controls-previous",
           });
-        } else if (distance < -50) {
+        } else if (
+          Math.abs(distanceX) > Math.abs(distanceY) &&
+          distanceX < -50
+        ) {
           newSetCarousel.setCurrentState({
             className: "carousel-controls-next",
           });
         }
+
         startX = NaN;
+        startY = NaN;
         endX = NaN;
+        endY = NaN;
       }
     }
   }, [imagesLoaded]);

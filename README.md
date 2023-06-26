@@ -1,4 +1,4 @@
-# D3sign Dao Studio
+# D3sign DAO Studio
 
 ### ⭐ VISION
 

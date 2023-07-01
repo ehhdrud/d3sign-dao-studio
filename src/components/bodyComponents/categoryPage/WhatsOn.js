@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ToggleContext } from "../../../ToggleContext";
+import { ToggleContext } from "../../../store/ToggleContext";
 import "./styles/whatsOn.css";
 import "boxicons/css/boxicons.min.css";
 

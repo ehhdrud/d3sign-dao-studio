@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ToggleContext } from "../../../../ToggleContext";
+import { ToggleContext } from "../../../../store/ToggleContext";
 import "./styles/marketplacePage.css";
 
 // import V1VI from "../../../../images/arts/V1VI/V1VI-00.png";

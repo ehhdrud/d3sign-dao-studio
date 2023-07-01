@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ToggleContext } from "../../ToggleContext.js";
+import { ToggleContext } from "../../store/ToggleContext.js";
 import "./styles/category.css";
 
 export default function Category() {

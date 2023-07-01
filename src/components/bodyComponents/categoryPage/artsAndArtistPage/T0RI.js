@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ToggleContext } from "../../../../ToggleContext";
+import { ToggleContext } from "../../../../store/ToggleContext";
 import Carousel from "./artsAndArtistPageElements/Carousel";
 import image1 from "../../../../images/arts/T0RI/T0RI-00.png";
 import image2 from "../../../../images/arts/T0RI/T0RI-01.png";

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ToggleContext } from "../ToggleContext";
+import { ToggleContext } from "../store/ToggleContext";
 import Toggle from "./headerComponents/Toggle";
 import Logo from "./headerComponents/Logo";
 import Category from "./headerComponents/Category";

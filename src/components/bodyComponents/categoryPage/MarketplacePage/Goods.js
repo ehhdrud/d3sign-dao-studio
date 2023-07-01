@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ToggleContext } from "../../../../ToggleContext";
+import { ToggleContext } from "../../../../store/ToggleContext";
 import "./styles/marketplacePage.css";
 
 import T0RI from "../../../../images/arts/T0RI/T0RI-00.png";

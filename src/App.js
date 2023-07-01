@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { ToggleProvider } from "./ToggleContext.js";
+import { ToggleProvider } from "./store/ToggleContext.js";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer.js";
@@ -13,13 +13,13 @@ function App() {
 
   return (
     <div className="App" onContextMenu={handleContextMenu}>
-      <BrowserRouter>
-        <ToggleProvider>
+      <ToggleProvider>
+        <BrowserRouter>
           <Header />
           <Body />
           <Footer />
-        </ToggleProvider>
-      </BrowserRouter>
+        </BrowserRouter>
+      </ToggleProvider>
     </div>
   );
 }

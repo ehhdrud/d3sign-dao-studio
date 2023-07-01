@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import { ToggleContext } from "../../ToggleContext";
+import { ToggleContext } from "../../store/ToggleContext";
 import { Link } from "react-router-dom";
 import { SyncLoader } from "react-spinners";
 import "./styles/default.css";

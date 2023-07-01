@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ToggleContext } from "../ToggleContext";
+import { ToggleContext } from "../store/ToggleContext";
 import "./styles/footer.css";
 import logo from "../images/logo.jpg";
 import SnsBottom from "./footerComponents/SnsBottom";

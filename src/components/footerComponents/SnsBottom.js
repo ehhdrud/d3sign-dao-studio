@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ToggleContext } from "../../ToggleContext";
+import { ToggleContext } from "../../store/ToggleContext";
 import linktreeIcon from "../../images/linktree.svg";
 import discordIcon from "../../images/discord.svg";
 import twitterIcon from "../../images/twitter.svg";

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { ToggleContext } from "../../ToggleContext";
+import { ToggleContext } from "../../store/ToggleContext";
 import "./styles/logo.css";
 // import logo from "../../images/logo.jpg";
 

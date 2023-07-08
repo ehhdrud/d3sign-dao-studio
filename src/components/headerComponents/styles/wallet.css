@@ -1,0 +1,48 @@
+.wallet {
+  position: absolute;
+  top: 22.5px;
+  right: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.wallet-button {
+  width: 450px;
+  height: 82.5px;
+  border: none;
+  border-radius: 0px 0px 15px 50px;
+  background-color: #ffff88;
+}
+
+.wallet-button:active {
+  background-color: #ffffd7;
+}
+
+.wallet-button-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 5px 0px 15px;
+}
+
+.wallet-button .network-and-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet-button p {
+  color: black;
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 5px 5px 5px 0;
+}
+
+@media (max-width: 1300px) {
+  .wallet {
+    display: none;
+  }
+}

@@ -5,6 +5,7 @@ import Logo from "./headerComponents/Logo";
 import Category from "./headerComponents/Category";
 import "./styles/header.css";
 import SnsTop from "./headerComponents/SnsTop";
+import Wallet from "./headerComponents/Wallet";
 
 export default function Header() {
   const { categoryLayoutChanged } = useContext(ToggleContext);
@@ -15,6 +16,7 @@ export default function Header() {
       <Category />
       <SnsTop />
       <Toggle />
+      <Wallet />
     </nav>
   );
 }

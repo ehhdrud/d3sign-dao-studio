@@ -7,6 +7,8 @@ import "./styles/header.css";
 import SnsTop from "./headerComponents/SnsTop";
 import Wallet from "./headerComponents/Wallet";
 
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
 export default function Header() {
   const { categoryLayoutChanged } = useContext(ToggleContext);
 
@@ -16,7 +18,7 @@ export default function Header() {
       <Category />
       <SnsTop />
       <Toggle />
-      <Wallet />
+      {!isMobile && <Wallet />}
     </nav>
   );
 }

@@ -29,8 +29,6 @@ export default function Wallet() {
         setNetworkName("");
         console.log("Error connecting...");
       }
-    } else {
-      alert("METAMASK is uninstalled");
     }
   }
 
@@ -51,12 +49,15 @@ export default function Wallet() {
         getBalance(walletAddress);
       }
     }
+
     connectWallet();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  window.ethereum.on("accountsChanged", requestAccount);
-  window.ethereum.on("networkChanged", requestAccount);
+  if (window.ethereum) {
+    window.ethereum.on("accountsChanged", requestAccount);
+    window.ethereum.on("networkChanged", requestAccount);
+  }
 
   function shortenAddress(address) {
     const shortenedAddress = address.slice(0, 6) + "..." + address.slice(-4);

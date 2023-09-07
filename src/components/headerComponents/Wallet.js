@@ -6,15 +6,15 @@ import './styles/wallet.css';
 export default function Wallet() {
     const [walletAddress, setWalletAddress] = useState('');
     const [shortenedAddress, setShortenedAddress] = useState('');
-
     const [networkName, setNetworkName] = useState('');
-    // const [balance, setBalance] = useState('');
+    const [balanceString, setBalanceString] = useState('');
+    const [modalState, setModalState] = useState('');
 
     // ethers 라이브러리의 Provider를 설정하여 Ethereum 블록체인에 접근할 수 있도록 함
     const provider = new ethers.BrowserProvider(window.ethereum);
 
     // 계정과 현재 네트워크를 가져오는 비동기 함수
-    const requestAccountAndNetwork = async () => {
+    const getAccountAndNetwork = async () => {
         // window.ethereum이 존재한다면,
         if (window.ethereum) {
             try {
@@ -44,16 +44,34 @@ export default function Wallet() {
                 // 에러가 뜨면 계정, 네트워크 이름 초기화
                 setWalletAddress('');
                 setNetworkName('');
-                console.log("Error at 'requestAccountAndNetwork'!!!:", error);
+                console.log("Error at 'getAccountAndNetwork'!!!:", error);
             }
         }
+    };
+
+    const createETHString = (amount) => {
+        return amount + 'ETH';
+    };
+
+    const createMATICString = (amount) => {
+        return amount + 'MATIC';
     };
 
     // // 보유자산 정보를 가져오는 함수
     const getBalance = async (address) => {
         try {
             const balance = await provider.getBalance(address);
-            console.log('Balance!!!:', ethers.formatEther(balance));
+
+            if (networkName === 'Ethereum Mainnet') {
+                const ethString = createETHString(ethers.formatEther(balance));
+                setBalanceString(ethString);
+            } else if (networkName === 'Polygon Mainnet') {
+                const maticString = createMATICString(ethers.formatEther(balance));
+                setBalanceString(maticString);
+            } else {
+                setBalanceString('Unregistered balance');
+            }
+            // console.log('Balance!!!:', ethers.formatEther(balance));
         } catch (error) {
             console.log("Error at 'getBalance' !!!:", error);
         }
@@ -64,9 +82,14 @@ export default function Wallet() {
         // 만약 window.ethereum이 존재한다면
         if (typeof window.ethereum !== 'undefined') {
             // 계정, 네트워크 정보를 가져오는 함수를 실행
-            await requestAccountAndNetwork();
+            await getAccountAndNetwork();
         }
     };
+
+    if (window.ethereum) {
+        window.ethereum.on('accountsChanged', connectWallet);
+        window.ethereum.on('networkChanged', connectWallet);
+    }
 
     // 마운트 시 실행되는 함수 정의
     useEffect(() => {
@@ -76,24 +99,39 @@ export default function Wallet() {
     // walletAddress의 상태가 변경되면 실행되는 함수 정의
     useEffect(() => {
         getBalance(walletAddress);
-    }, [walletAddress]);
-
-    if (window.ethereum) {
-        window.ethereum.on('accountsChanged', connectWallet);
-        window.ethereum.on('networkChanged', connectWallet);
-    }
+    }, [walletAddress, networkName]);
 
     return (
-        <div className="wallet">
-            <button className="wallet-button" onClick={requestAccountAndNetwork}>
-                <div className="wallet-button-items">
-                    <MetamaskLogo />
-                    {walletAddress && <p>{networkName}</p>}
-                    <p>
-                        {walletAddress ? shortenedAddress : 'Connect your wallet using MetaMask !'}
-                    </p>
+        <>
+            <div className="wallet">
+                <button className="wallet-button" onClick={() => setModalState(true)}>
+                    <div className="wallet-button-items">
+                        <MetamaskLogo />
+                        {walletAddress && <p>{networkName}</p>}
+                        <p>
+                            {walletAddress
+                                ? shortenedAddress
+                                : 'Connect your wallet using MetaMask !'}
+                        </p>
+                    </div>
+                </button>
+            </div>
+            {networkName && modalState && (
+                <div className="modal">
+                    <div className="overlay" onClick={() => setModalState(false)} />
+                    <div className="modal-container">
+                        <h2>{networkName}</h2>
+                        <div className="modal-item">
+                            <p className="modal-item-key">Your address: </p>
+                            <p className="modal-item-value">{shortenedAddress}</p>
+                        </div>
+                        <div className="modal-item">
+                            <p className="modal-item-key">Your balance: </p>
+                            <p className="modal-item-value">{balanceString}</p>
+                        </div>
+                    </div>
                 </div>
-            </button>
-        </div>
+            )}
+        </>
     );
 }

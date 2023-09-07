@@ -1,84 +1,99 @@
-import React, { useState, useEffect } from "react";
-import { ethers } from "ethers";
-import MetamaskLogo from "./walletComponents/Metamask.js";
-import "./styles/wallet.css";
+import React, { useState, useEffect } from 'react';
+import { ethers } from 'ethers';
+import MetamaskLogo from './walletComponents/Metamask.js';
+import './styles/wallet.css';
 
 export default function Wallet() {
-  const [walletAddress, setWalletAddress] = useState("");
-  const [networkName, setNetworkName] = useState("");
+    const [walletAddress, setWalletAddress] = useState('');
+    const [shortenedAddress, setShortenedAddress] = useState('');
 
-  async function requestAccount() {
-    if (window.ethereum) {
-      try {
-        const accounts = await window.ethereum.request({
-          method: "eth_requestAccounts",
-        });
-        setWalletAddress(accounts[0]);
-        console.log("Wallet Address: ", walletAddress);
+    const [networkName, setNetworkName] = useState('');
+    // const [balance, setBalance] = useState('');
 
-        const networkId = window.ethereum.networkVersion;
-        const networkNames = {
-          1: "Ethereum Mainnet",
-          137: "Polygon Mainnet",
-        };
-        const name = networkNames[networkId] || "Unregistered network";
-        setNetworkName(name);
-        console.log("Current network name: ", name);
-      } catch (error) {
-        setWalletAddress("");
-        setNetworkName("");
-        console.log("Error connecting...");
-      }
-    }
-  }
+    // ethers 라이브러리의 Provider를 설정하여 Ethereum 블록체인에 접근할 수 있도록 함
+    const provider = new ethers.BrowserProvider(window.ethereum);
 
-  useEffect(() => {
-    async function connectWallet() {
-      if (typeof window.ethereum !== "undefined") {
-        await requestAccount();
+    // 계정과 현재 네트워크를 가져오는 비동기 함수
+    const requestAccountAndNetwork = async () => {
+        // window.ethereum이 존재한다면,
+        if (window.ethereum) {
+            try {
+                // Ethereum Provider API에서 eth_requestAccounts를 통해 계정 정보를 반환받음
+                const accounts = await window.ethereum.request({
+                    method: 'eth_requestAccounts',
+                });
+                console.log('accounts:', accounts);
+                // 현재 로그인된 계정(index=0)을 상태에 저장
+                setWalletAddress(accounts[0]);
+                console.log('Wallet Address!!!: ', walletAddress);
 
-        const provider = new ethers.BrowserProvider(window.ethereum);
-        const getBalance = async (walletAddress) => {
-          try {
-            const balance = await provider.getBalance(walletAddress);
-            console.log("Balance:", ethers.formatEther(balance));
-          } catch (error) {
-            console.log("Error:", error);
-          }
-        };
+                const addressShortcut = accounts[0].slice(0, 6) + '...' + accounts[0].slice(-4);
+                setShortenedAddress(addressShortcut);
+                // 현재 연결된 Ethereum 네트워크의 식별자를 가져와서 networkId 변수에 저장
+                const networkId = window.ethereum.networkVersion;
+                // 홈페이지에서 사용할 네트워크 이름을 식별자 별로 저장
+                const networkNames = {
+                    1: 'Ethereum Mainnet',
+                    137: 'Polygon Mainnet',
+                };
+                // 해당 network를 사용 중이라면 해당 네트워크의 이름을 띄움
+                const name = networkNames[networkId] || 'Unregistered network';
+                setNetworkName(name);
+                console.log('Current network name!!!: ', name);
+            } catch (error) {
+                // 에러가 뜨면 계정, 네트워크 이름 초기화
+                setWalletAddress('');
+                setNetworkName('');
+                console.log("Error at 'requestAccountAndNetwork'!!!:", error);
+            }
+        }
+    };
+
+    // // 보유자산 정보를 가져오는 함수
+    const getBalance = async (address) => {
+        try {
+            const balance = await provider.getBalance(address);
+            console.log('Balance!!!:', ethers.formatEther(balance));
+        } catch (error) {
+            console.log("Error at 'getBalance' !!!:", error);
+        }
+    };
+
+    // 지갑을 연결하는 함수
+    const connectWallet = async () => {
+        // 만약 window.ethereum이 존재한다면
+        if (typeof window.ethereum !== 'undefined') {
+            // 계정, 네트워크 정보를 가져오는 함수를 실행
+            await requestAccountAndNetwork();
+        }
+    };
+
+    // 마운트 시 실행되는 함수 정의
+    useEffect(() => {
+        connectWallet();
+    }, []);
+
+    // walletAddress의 상태가 변경되면 실행되는 함수 정의
+    useEffect(() => {
         getBalance(walletAddress);
-      }
+    }, [walletAddress]);
+
+    if (window.ethereum) {
+        window.ethereum.on('accountsChanged', connectWallet);
+        window.ethereum.on('networkChanged', connectWallet);
     }
 
-    connectWallet();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  if (window.ethereum) {
-    window.ethereum.on("accountsChanged", requestAccount);
-    window.ethereum.on("networkChanged", requestAccount);
-  }
-
-  function shortenAddress(address) {
-    const shortenedAddress = address.slice(0, 6) + "..." + address.slice(-4);
-    return shortenedAddress;
-  }
-
-  const shortenedAddress = shortenAddress(walletAddress);
-
-  return (
-    <div className="wallet">
-      <button className="wallet-button" onClick={requestAccount}>
-        <div className="wallet-button-items">
-          <MetamaskLogo />
-          {walletAddress && <p>{networkName}</p>}
-          <p>
-            {walletAddress
-              ? shortenedAddress
-              : "Connect your wallet using MetaMask !"}
-          </p>
+    return (
+        <div className="wallet">
+            <button className="wallet-button" onClick={requestAccountAndNetwork}>
+                <div className="wallet-button-items">
+                    <MetamaskLogo />
+                    {walletAddress && <p>{networkName}</p>}
+                    <p>
+                        {walletAddress ? shortenedAddress : 'Connect your wallet using MetaMask !'}
+                    </p>
+                </div>
+            </button>
         </div>
-      </button>
-    </div>
-  );
+    );
 }

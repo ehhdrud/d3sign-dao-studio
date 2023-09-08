@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import MetamaskLogo from './walletComponents/Metamask.js';
+import ethereumLogo from '../../images/ethereum-logo.svg';
+import polygonLogo from '../../images/polygon-logo.svg';
 import './styles/wallet.css';
 
 export default function Wallet() {
@@ -120,7 +122,27 @@ export default function Wallet() {
                 <div className="modal">
                     <div className="overlay" onClick={() => setModalState(false)} />
                     <div className="modal-container">
-                        <h2>{networkName}</h2>
+                        <div className="modal-title">
+                            {networkName === 'Ethereum Mainnet' && (
+                                <div className="logo-container">
+                                    <img
+                                        className="logo-image"
+                                        src={ethereumLogo}
+                                        alt="ethereum logo"
+                                    />
+                                </div>
+                            )}
+                            {networkName === 'Polygon Mainnet' && (
+                                <div className="logo-container">
+                                    <img
+                                        className="logo-image"
+                                        src={polygonLogo}
+                                        alt="polygon logo"
+                                    />
+                                </div>
+                            )}
+                            <h2>{networkName}</h2>
+                        </div>
                         <div className="modal-item">
                             <p className="modal-item-key">Your address: </p>
                             <p className="modal-item-value">{shortenedAddress}</p>

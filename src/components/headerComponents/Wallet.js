@@ -24,10 +24,10 @@ export default function Wallet() {
                 const accounts = await window.ethereum.request({
                     method: 'eth_requestAccounts',
                 });
-                console.log('accounts:', accounts);
+                console.log('Accounts:', accounts);
                 // 현재 로그인된 계정(index=0)을 상태에 저장
                 setWalletAddress(accounts[0]);
-                console.log('Wallet Address!!!: ', walletAddress);
+                console.log('Wallet Address: ', walletAddress);
 
                 const addressShortcut = accounts[0].slice(0, 6) + '...' + accounts[0].slice(-4);
                 setShortenedAddress(addressShortcut);
@@ -41,12 +41,12 @@ export default function Wallet() {
                 // 해당 network를 사용 중이라면 해당 네트워크의 이름을 띄움
                 const name = networkNames[networkId] || 'Unregistered network';
                 setNetworkName(name);
-                console.log('Current network name!!!: ', name);
+                console.log('Current network name: ', name);
             } catch (error) {
                 // 에러가 뜨면 계정, 네트워크 이름 초기화
                 setWalletAddress('');
                 setNetworkName('');
-                console.log("Error at 'getAccountAndNetwork'!!!:", error);
+                console.error("Error at 'getAccountAndNetwork':", error);
             }
         }
     };
@@ -73,9 +73,8 @@ export default function Wallet() {
             } else {
                 setBalanceString('Unregistered balance');
             }
-            // console.log('Balance!!!:', ethers.formatEther(balance));
         } catch (error) {
-            console.log("Error at 'getBalance' !!!:", error);
+            console.error("Error at 'getBalance':", error);
         }
     };
 

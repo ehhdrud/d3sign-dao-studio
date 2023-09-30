@@ -1,0 +1,120 @@
+.marketplace-page {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  min-height: calc(100vh - 200px - 151px);
+}
+
+.marketplace-page h1 {
+  font-size: 5vw;
+}
+
+.marketplace-page .marketplace-title {
+  display: flex;
+  align-items: center;
+  font-size: 2.2vw;
+  font-weight: bold;
+  margin-bottom: 0.5vw;
+  border-radius: 10px;
+  width: max-content;
+}
+
+.marketplace-page .marketplace-title .genre {
+  font-size: 1.3vw;
+  margin-left: 1vw;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 0 5px;
+}
+
+.marketplace-page .marketplace-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marketplace-page .marketplace-item {
+  width: 99%;
+  height: auto;
+  background-color: #333333;
+  border: 3px solid #333333;
+  border-radius: 50px;
+  margin: 10px 0;
+}
+
+.marketplace-page .marketplace-item:last-child {
+  margin-bottom: 30px;
+}
+
+.marketplace-page .marketplace-item .marketplace-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.marketplace-page .marketplace-item .marketplace-link .marketplace-img {
+  width: 5%;
+  height: auto;
+  border: 3px solid #333333;
+  border-radius: 50%;
+}
+
+.marketplace-page .marketplace-item .marketplace-link .marketplace-name {
+  position: relative;
+  left: -5%;
+  width: max-content;
+  margin: 0 auto;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.marketplace-page .marketplace-item:hover {
+  animation: shake 0.3s;
+  animation-iteration-count: 1;
+}
+
+.marketplace-page .homedecor-title {
+  margin-bottom: 0px;
+}
+
+.marketplace-page .homedecor-prepare {
+  margin: 0px;
+  color: #333333;
+  font-size: 3vw;
+  font-weight: bold;
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+@media (max-width: 479.9px) {
+  .marketplace-page h1 {
+    font-size: 40px;
+  }
+
+  .marketplace-page .marketplace-item {
+    width: 97%;
+  }
+
+  .marketplace-page .marketplace-title {
+    font-size: 18px;
+  }
+
+  .marketplace-page .marketplace-title .genre {
+    font-size: 8px;
+    border: 1px solid white;
+    padding: 0 5px;
+  }
+
+  .marketplace-page .marketplace-item .marketplace-link .marketplace-img {
+    width: 10%;
+  }
+
+  .marketplace-page .marketplace-item .marketplace-link .marketplace-name {
+    font-size: 14px;
+  }
+
+  .marketplace-page.rearranged {
+    filter: blur(1.25px);
+  }
+}

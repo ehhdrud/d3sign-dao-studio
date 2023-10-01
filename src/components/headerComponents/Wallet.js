@@ -46,7 +46,10 @@ export default function Wallet() {
                 // 에러가 뜨면 계정, 네트워크 이름 초기화
                 setWalletAddress('');
                 setNetworkName('');
-                console.error("Error at 'getAccountAndNetwork':", error);
+                console.log(
+                    "Error at 'getAccountAndNetwork' - 메타마스크 네트워크 연결이 필요합니다. "
+                );
+                console.error(error);
             }
         }
     };
@@ -74,7 +77,8 @@ export default function Wallet() {
                 setBalanceString('Unregistered balance');
             }
         } catch (error) {
-            console.error("Error at 'getBalance':", error);
+            console.log("Error at 'getBalance' - 메타마스크 네트워크 연결이 필요합니다.");
+            console.error(error);
         }
     };
 

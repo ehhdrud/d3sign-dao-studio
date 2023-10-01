@@ -31,48 +31,40 @@ export default function Marketplace() {
     return (
         <div className={`marketplace ${categoryLayoutChanged ? 'rearranged' : ''}`}>
             {imagesLoaded ? (
-                <>
-                    <div className="marketplace-category">
-                        <Link
-                            to="/marketplace/web3"
-                            className="marketplace-category-button web3-container"
-                        >
-                            <div className="img-container">
-                                <img className="web3-img" src={imageFiles[2]} alt="web3" />
-                            </div>
+                <div className="marketplace-category">
+                    <Link
+                        to="/marketplace/web3"
+                        className="marketplace-category-button web3-container"
+                    >
+                        <div className="img-container">
+                            <img className="web3-img" src={imageFiles[2]} alt="web3" />
+                        </div>
 
-                            <div className="marketplace-category-button-text web3-text">
-                                Web 3.0
-                            </div>
-                        </Link>
+                        <div className="marketplace-category-button-text web3-text">Web 3.0</div>
+                    </Link>
 
-                        <Link
-                            to="/marketplace/goods"
-                            className="marketplace-category-button goods-container"
-                        >
-                            <div className="img-container">
-                                <img className="goods-img" src={imageFiles[1]} alt="goods" />
-                            </div>
-                            <div className="marketplace-category-button-text goods-text">Goods</div>
-                        </Link>
+                    <Link
+                        to="/marketplace/goods"
+                        className="marketplace-category-button goods-container"
+                    >
+                        <div className="img-container">
+                            <img className="goods-img" src={imageFiles[1]} alt="goods" />
+                        </div>
+                        <div className="marketplace-category-button-text goods-text">Goods</div>
+                    </Link>
 
-                        <Link
-                            to="/marketplace/homedecor"
-                            className="marketplace-category-button homedecor-container"
-                        >
-                            <div className="img-container">
-                                <img
-                                    className="homedecor-img"
-                                    src={imageFiles[0]}
-                                    alt="homedecor"
-                                />
-                            </div>
-                            <div className="marketplace-category-button-text homedecor-text">
-                                Home decor
-                            </div>
-                        </Link>
-                    </div>
-                </>
+                    <Link
+                        to="/marketplace/homedecor"
+                        className="marketplace-category-button homedecor-container"
+                    >
+                        <div className="img-container">
+                            <img className="homedecor-img" src={imageFiles[0]} alt="homedecor" />
+                        </div>
+                        <div className="marketplace-category-button-text homedecor-text">
+                            Home decor
+                        </div>
+                    </Link>
+                </div>
             ) : (
                 <div className="loading">
                     <SyncLoader color={'#36d7b7'} size={7} />

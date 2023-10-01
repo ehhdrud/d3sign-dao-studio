@@ -103,7 +103,7 @@ export default function Wallet() {
     }, [walletAddress, networkName]);
 
     return (
-        <>
+        <div>
             <div className="wallet">
                 <button className="wallet-button" onClick={() => setModalState(true)}>
                     <div className="wallet-button-items">
@@ -153,6 +153,6 @@ export default function Wallet() {
                     </div>
                 </div>
             )}
-        </>
+        </div>
     );
 }

@@ -39,7 +39,7 @@ export default function ArtAndArtists() {
     return (
         <div className={`artists ${categoryLayoutChanged ? 'rearranged' : ''}`}>
             {imagesLoaded ? (
-                <>
+                <div>
                     <h1>Arts and artists</h1>
                     <Link to={`/artsandartists/V1VI`} className="link">
                         <div className="container">
@@ -221,7 +221,7 @@ export default function ArtAndArtists() {
                             </div>
                         </div>
                     </Link>
-                </>
+                </div>
             ) : (
                 <div className="loading">
                     <SyncLoader color={'#36d7b7'} size={7} />

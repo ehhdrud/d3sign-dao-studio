@@ -1,5 +1,8 @@
 # D3sign DAO Studio
-> AI 툴을 활용한 WEB2/WEB3 사업인 'D3sign DAO Studio'의 소개 페이지
+
+## 기본 기능
+- AI 툴을 활용한 WEB2/WEB3 사업인 'D3sign DAO Studio'의 소개 페이지
+- 메타마스크 연결 시 사용자의 Network/Address/Balance 확인 가능 (모바일 환경에서는 비활성화)
 
 ## 기술 스택
 - IDE: VSCode
@@ -8,22 +11,7 @@
 - Language : JavaScript
 - State: Context API
 
-### ⭐ VISION
-
-Accessibility:
-Allows you around the world to experience contemporary and pop art collections without geographical limitations.
-
-Convenience:
-With 24/7 availability, you can explore and appreciate the art at their own pace and convenience, making it easier to fit into their busy schedules.
-
-Inspiration:  
-By showing a variety of artistic expressions, D3sign DAO Studio can inspire you to be creative and explore new ideas, skills, or styles in our artistic pursuits.
-
-Education:
-Our art community serves as a valuable educational resource that provides insight into various art styles, techniques, and creative processes of various artists. This allows you to broaden their knowledge of art and promotes a deeper understanding and appreciation of these art forms.
-
-Community rewards:
-We are offering financial rewards to each other's art community activists. For example, buying D3sign DAO Studio's art at an affordable price, art airdrop, community pool rewards, etc.
+## 사업 소개
 
 ### ⭐ ABOUT
 
@@ -46,6 +34,23 @@ Our centralized community platform fosters a sense of belonging among consumers,
 
 Global Governance Structure:
 D3sign DAO Studio's governance structure is designed to include individuals from various backgrounds, without the need for corporate authorization. This approach enables us to operate in the global market, promoting diversity and inclusivity in the art world.
+
+### ⭐ VISION
+
+Accessibility:
+Allows you around the world to experience contemporary and pop art collections without geographical limitations.
+
+Convenience:
+With 24/7 availability, you can explore and appreciate the art at their own pace and convenience, making it easier to fit into their busy schedules.
+
+Inspiration:  
+By showing a variety of artistic expressions, D3sign DAO Studio can inspire you to be creative and explore new ideas, skills, or styles in our artistic pursuits.
+
+Education:
+Our art community serves as a valuable educational resource that provides insight into various art styles, techniques, and creative processes of various artists. This allows you to broaden their knowledge of art and promotes a deeper understanding and appreciation of these art forms.
+
+Community rewards:
+We are offering financial rewards to each other's art community activists. For example, buying D3sign DAO Studio's art at an affordable price, art airdrop, community pool rewards, etc.
 
 ### ⭐ ARTIST
 

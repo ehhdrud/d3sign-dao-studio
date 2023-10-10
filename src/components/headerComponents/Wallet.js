@@ -62,7 +62,7 @@ export default function Wallet() {
         return amount + 'MATIC';
     };
 
-    // // 보유자산 정보를 가져오는 함수
+    // 보유자산 정보를 가져오는 함수
     const getBalance = async (address) => {
         try {
             const balance = await provider.getBalance(address);
@@ -85,25 +85,25 @@ export default function Wallet() {
     // 지갑을 연결하는 함수
     const connectWallet = async () => {
         // 만약 window.ethereum이 존재한다면
-        if (typeof window.ethereum !== 'undefined') {
+        if (window.ethereum) {
             // 계정, 네트워크 정보를 가져오는 함수를 실행
             await getAccountAndNetwork();
+
+            window.ethereum.on('accountsChanged', connectWallet);
+            window.ethereum.on('networkChanged', connectWallet);
         }
     };
-
-    if (window.ethereum) {
-        window.ethereum.on('accountsChanged', connectWallet);
-        window.ethereum.on('networkChanged', connectWallet);
-    }
 
     // 마운트 시 실행되는 함수 정의
     useEffect(() => {
         connectWallet();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     // walletAddress의 상태가 변경되면 실행되는 함수 정의
     useEffect(() => {
         getBalance(walletAddress);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [walletAddress, networkName]);
 
     return (

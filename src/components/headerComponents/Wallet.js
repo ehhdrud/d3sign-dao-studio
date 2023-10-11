@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
-import MetamaskLogo from './walletComponents/Metamask.js';
+import MetaFoxLogo from './walletComponents/MetaFoxLogo.js';
 import ethereumLogo from '../../images/ethereum-logo.svg';
 import polygonLogo from '../../images/polygon-logo.svg';
 import './styles/wallet.css';
@@ -111,7 +111,7 @@ export default function Wallet() {
             <div className="wallet">
                 <button className="wallet-button" onClick={() => setModalState(true)}>
                     <div className="wallet-button-items">
-                        <MetamaskLogo />
+                        <MetaFoxLogo />
                         {walletAddress && <p>{networkName}</p>}
                         <p>
                             {walletAddress

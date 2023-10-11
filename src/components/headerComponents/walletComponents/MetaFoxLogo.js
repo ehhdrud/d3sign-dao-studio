@@ -2,34 +2,35 @@ import { useEffect, useRef } from 'react';
 import MetaFox from '@metamask/logo';
 
 const MetaFoxLogo = () => {
-    const metaFox = useRef(null);
-    const metaFoxOn = useRef(false);
     const metaFoxRef = useRef(null);
+    const isMetaFoxOn = useRef(false);
 
     useEffect(() => {
-        if (window.document !== null && window.document !== undefined && !metaFoxOn.current) {
-            metaFox.current = MetaFox({
+        let metaFoxRefCurrent = metaFoxRef.current;
+
+        if (window.document && !isMetaFoxOn.current) {
+            const metaFoxInstance = MetaFox({
                 pxNotRatio: true,
                 width: 42.5,
                 height: 42.5,
                 followMouse: true,
             });
 
-            const divMetaFox = metaFoxRef.current;
+            const divMetaFox = metaFoxRefCurrent;
 
             if (divMetaFox) {
-                divMetaFox.appendChild(metaFox.current.container);
+                divMetaFox.appendChild(metaFoxInstance.container);
             }
 
-            metaFoxOn.current = true;
+            isMetaFoxOn.current = true;
         }
 
         return () => {
-            delete metaFox.current;
+            metaFoxRefCurrent = null;
         };
     }, []);
 
-    return <div ref={metaFoxRef} className="metafox" />;
+    return <div ref={metaFoxRef} />;
 };
 
 export default MetaFoxLogo;

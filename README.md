@@ -1,7 +1,7 @@
-# D3sign DAO Studio
+# D3sign DAO Studio 소개 사이트
 
 ## 기본 기능
-- AI 툴을 활용한 WEB2/WEB3 사업인 'D3sign DAO Studio'의 소개 페이지
+- Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign DAO Studio의 소개 사이트
 - 메타마스크 연결 시 사용자의 Network/Address/Balance 확인 가능 (모바일 환경에서는 비활성화)
 
 ## 기술 스택

@@ -123,6 +123,13 @@ export default function Carousel({ imagePaths }) {
             function handleTouchMove(event) {
                 endX = event.touches[0].clientX;
                 endY = event.touches[0].clientY;
+
+                const distanceX = endX - startX;
+                const distanceY = endY - startY;
+
+                if (Math.abs(distanceX) > Math.abs(distanceY)) {
+                    event.preventDefault();
+                }
             }
 
             function handleTouchEnd() {

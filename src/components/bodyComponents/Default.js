@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom';
 import { SyncLoader } from 'react-spinners';
 import './styles/default.css';
 
-import V1VI from '../../images/arts/V1VI/V1VI-00.png';
-import P0LA from '../../images/arts/P0LA/P0LA-00.png';
-import R0RO from '../../images/arts/R0RO/R0RO-00.png';
-import T0RI from '../../images/arts/T0RI/T0RI-00.png';
-import CHR1S from '../../images/arts/CHR1S/CHR1S-00.png';
-import ZER1 from '../../images/arts/ZER1/ZER1-00.png';
-import J1N from '../../images/arts/J1N/J1N-00.png';
-import MIRR0R from '../../images/arts/MIRR0R/MIRR0R-00.png';
-import PAUL0 from '../../images/arts/PAUL0/PAUL0-00.png';
-import R1N from '../../images/arts/R1N/R1N-00.png';
+import V1VI from '../../images/arts/V1VI/V1VI-00.webp';
+import P0LA from '../../images/arts/P0LA/P0LA-00.webp';
+import R0RO from '../../images/arts/R0RO/R0RO-00.webp';
+import T0RI from '../../images/arts/T0RI/T0RI-00.webp';
+import CHR1S from '../../images/arts/CHR1S/CHR1S-00.webp';
+import ZER1 from '../../images/arts/ZER1/ZER1-00.webp';
+import J1N from '../../images/arts/J1N/J1N-00.webp';
+import MIRR0R from '../../images/arts/MIRR0R/MIRR0R-00.webp';
+import PAUL0 from '../../images/arts/PAUL0/PAUL0-00.webp';
+import R1N from '../../images/arts/R1N/R1N-00.webp';
 
 const imageFiles = [V1VI, P0LA, R0RO, T0RI, CHR1S, ZER1, J1N, MIRR0R, PAUL0, R1N];
 
@@ -98,7 +98,11 @@ export default function Default() {
                     </div>
                     <div className="gallery-container">
                         {arts.map((art, index) => (
-                            <Link className="link" key={index} to={`/artsandartists/${art.artist}`}>
+                            <Link
+                                className="link"
+                                key={`artist-${index}`}
+                                to={`/artsandartists/${art.artist}`}
+                            >
                                 <div className="art-card">
                                     <div className="art-img-container">
                                         <img

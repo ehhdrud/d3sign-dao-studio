@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom';
 import { SyncLoader } from 'react-spinners';
 import './styles/artsAndArtists.css';
 
-import V1VI from '../../../images/arts/V1VI/V1VI-01.png';
-import P0LA from '../../../images/arts/P0LA/P0LA-01.png';
-import R0RO from '../../../images/arts/R0RO/R0RO-01.png';
-import T0RI from '../../../images/arts/T0RI/T0RI-01.png';
-import CHR1S from '../../../images/arts/CHR1S/CHR1S-01.png';
-import ZER1 from '../../../images/arts/ZER1/ZER1-01.png';
-import J1N from '../../../images/arts/J1N/J1N-01.png';
-import MIRR0R from '../../../images/arts/MIRR0R/MIRR0R-01.png';
-import PAUL0 from '../../../images/arts/PAUL0/PAUL0-01.png';
-import R1N from '../../../images/arts/R1N/R1N-01.png';
+import V1VI from '../../../images/arts/V1VI/V1VI-01.webp';
+import P0LA from '../../../images/arts/P0LA/P0LA-01.webp';
+import R0RO from '../../../images/arts/R0RO/R0RO-01.webp';
+import T0RI from '../../../images/arts/T0RI/T0RI-01.webp';
+import CHR1S from '../../../images/arts/CHR1S/CHR1S-01.webp';
+import ZER1 from '../../../images/arts/ZER1/ZER1-01.webp';
+import J1N from '../../../images/arts/J1N/J1N-01.webp';
+import MIRR0R from '../../../images/arts/MIRR0R/MIRR0R-01.webp';
+import PAUL0 from '../../../images/arts/PAUL0/PAUL0-01.webp';
+import R1N from '../../../images/arts/R1N/R1N-01.webp';
 
 const imageFiles = [V1VI, P0LA, R0RO, T0RI, CHR1S, ZER1, J1N, MIRR0R, PAUL0, R1N];
 

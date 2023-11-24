@@ -173,7 +173,7 @@ export default function Carousel({ imagePaths }) {
                                 className={`carousel-item carousel-item-${index + 1}`}
                                 src={imagePath}
                                 alt={`artwork-${index + 1}`}
-                                key={index}
+                                key={`artwork-${index}`}
                             />
                         ))}
                     </div>

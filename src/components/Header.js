@@ -16,7 +16,7 @@ export default function Header() {
             <Category />
             <SnsTop />
             <CategoryToggleBtn />
-            <Wallet />
+            {typeof window.ethereum !== 'undefined' && <Wallet />}
         </nav>
     );
 }

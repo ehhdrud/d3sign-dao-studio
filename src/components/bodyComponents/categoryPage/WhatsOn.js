@@ -2,6 +2,7 @@ import React, { useEffect, useContext, useRef } from 'react';
 import { ToggleContext } from '../../../store/ToggleContext';
 import './styles/whatsOn.css';
 import 'boxicons/css/boxicons.min.css';
+import { MetasPageWhatsOn } from '../../../metadatas/metadatas';
 
 export default function WhatsOn() {
     const { categoryLayoutChanged } = useContext(ToggleContext);
@@ -28,6 +29,7 @@ export default function WhatsOn() {
     }, []);
     return (
         <div className={`whatson ${categoryLayoutChanged ? 'rearranged' : ''}`}>
+            <MetasPageWhatsOn></MetasPageWhatsOn>
             <div className="about">
                 <div className="about-head">
                     <h1 className="about-head-title">About</h1>

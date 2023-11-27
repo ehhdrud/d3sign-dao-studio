@@ -5,10 +5,8 @@ export const MetasPageDefault = () => {
         <Helmet>
             <title>D3sign DAO Studio</title>
             <meta property="og:site_name" content="D3sign DAO Studio" />
-            <meta property="og:title" content="D3sign DAO Studio Default" />
-            <meta property="og:url" content="https://d3sign-dao-studio.vercel.app/" />
             <meta
-                property="og:description"
+                name="keyword"
                 content="Collage Art, Pop Art, Pattern Fabric Art, Anime Art, Cubism, Pixel Art, Abstractism, Watercolor, Expressionism, Cyberpunk Ark, Web 3, Web 3.0, Ethereum, Blockchain"
             />
         </Helmet>
@@ -20,10 +18,8 @@ export const MetasPageWhatsOn = () => {
         <Helmet>
             <title>D3sign DAO Studio - What's On</title>
             <meta property="og:site_name" content="D3sign DAO Studio" />
-            <meta property="og:title" content="D3sign DAO Studio Whats On" />
-            <meta property="og:url" content="https://d3sign-dao-studio.vercel.app/whatson" />
             <meta
-                property="og:description"
+                name="keyword"
                 content="Collage Art, Pop Art, Pattern Fabric Art, Anime Art, Cubism, Pixel Art, Abstractism, Watercolor, Expressionism, Cyberpunk Ark, Web 3, Web 3.0, Ethereum, Blockchain"
             />
         </Helmet>
@@ -35,10 +31,8 @@ export const MetasPageArtsAndArtists = () => {
         <Helmet>
             <title>D3sign DAO Studio - Arts And Artists</title>
             <meta property="og:site_name" content="D3sign DAO Studio" />
-            <meta property="og:title" content="D3sign DAO Studio Arts And Artists" />
-            <meta property="og:url" content="https://d3sign-dao-studio.vercel.app/artsandartists" />
             <meta
-                property="og:description"
+                name="keyword"
                 content="Collage Art, Pop Art, Pattern Fabric Art, Anime Art, Cubism, Pixel Art, Abstractism, Watercolor, Expressionism, Cyberpunk Ark, Web 3, Web 3.0, Ethereum, Blockchain"
             />
         </Helmet>
@@ -50,10 +44,8 @@ export const MetasPageMarketplace = () => {
         <Helmet>
             <title>D3sign DAO Studio - Marketplace</title>
             <meta property="og:site_name" content="D3sign DAO Studio" />
-            <meta property="og:title" content="D3sign DAO Studio Marketplace" />
-            <meta property="og:url" content="https://d3sign-dao-studio.vercel.app/marketplace" />
             <meta
-                property="og:description"
+                name="keyword"
                 content="Collage Art, Pop Art, Pattern Fabric Art, Anime Art, Cubism, Pixel Art, Abstractism, Watercolor, Expressionism, Cyberpunk Ark, Web 3, Web 3.0, Ethereum, Blockchain"
             />
         </Helmet>
@@ -65,10 +57,8 @@ export const MetasPageFAQ = () => {
         <Helmet>
             <title>D3sign DAO Studio - FAQ</title>
             <meta property="og:site_name" content="D3sign DAO Studio" />
-            <meta property="og:title" content="D3sign DAO Studio FAQ" />
-            <meta property="og:url" content="https://d3sign-dao-studio.vercel.app/faq" />
             <meta
-                property="og:description"
+                name="keyword"
                 content="Collage Art, Pop Art, Pattern Fabric Art, Anime Art, Cubism, Pixel Art, Abstractism, Watercolor, Expressionism, Cyberpunk Ark, Web 3, Web 3.0, Ethereum, Blockchain"
             />
         </Helmet>

@@ -3,6 +3,7 @@ import { ToggleContext } from '../../store/ToggleContext';
 import { Link } from 'react-router-dom';
 import { SyncLoader } from 'react-spinners';
 import './styles/default.css';
+import { MetasPageDefault } from '../../metadatas/metadatas';
 
 import V1VI from '../../images/arts/V1VI/V1VI-00.webp';
 import P0LA from '../../images/arts/P0LA/P0LA-00.webp';
@@ -89,6 +90,7 @@ export default function Default() {
 
     return (
         <div className={`default ${categoryLayoutChanged ? 'rearranged' : ''}`}>
+            <MetasPageDefault></MetasPageDefault>
             {imagesLoaded ? (
                 <>
                     <div className="intro">

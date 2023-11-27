@@ -1,5 +1,4 @@
 {
-    "homepage": ".",
     "name": "d3sign-dao-studio",
     "version": "0.1.0",
     "private": true,
@@ -34,6 +33,12 @@
         "predeploy": "npm run build",
         "deploy": "cp build/index.html build/404.html && gh-pages -d build",
         "postbuild": "react-snap"
+    },
+    "reactSnap": {
+        "puppeteerArgs": [
+            "--no-sandbox",
+            "--disable-setuid-sandbox"
+        ]
     },
     "eslintConfig": {
         "extends": [

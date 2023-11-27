@@ -3,6 +3,7 @@ import { ToggleContext } from '../../../store/ToggleContext';
 import { Link } from 'react-router-dom';
 import { SyncLoader } from 'react-spinners';
 import './styles/artsAndArtists.css';
+import { MetasPageArtsAndArtists } from '../../../metadatas/metadatas';
 
 import V1VI from '../../../images/arts/V1VI/V1VI-01.webp';
 import P0LA from '../../../images/arts/P0LA/P0LA-01.webp';
@@ -38,6 +39,7 @@ export default function ArtAndArtists() {
 
     return (
         <div className={`artists ${categoryLayoutChanged ? 'rearranged' : ''}`}>
+            <MetasPageArtsAndArtists></MetasPageArtsAndArtists>
             {imagesLoaded ? (
                 <div>
                     <h1>Arts and artists</h1>

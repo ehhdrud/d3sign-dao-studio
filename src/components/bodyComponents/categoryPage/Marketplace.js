@@ -3,6 +3,7 @@ import { ToggleContext } from '../../../store/ToggleContext';
 import { Link } from 'react-router-dom';
 import { SyncLoader } from 'react-spinners';
 import './styles/marketplace.css';
+import { MetasPageMarketplace } from '../../../metadatas/metadatas';
 
 import goodsImg from '../../../images/goods-img.jpg';
 import homedecorImg from '../../../images/homedecor-img.jpg';
@@ -30,6 +31,7 @@ export default function Marketplace() {
 
     return (
         <div className={`marketplace ${categoryLayoutChanged ? 'rearranged' : ''}`}>
+            <MetasPageMarketplace></MetasPageMarketplace>
             {imagesLoaded ? (
                 <div className="marketplace-category">
                     <Link

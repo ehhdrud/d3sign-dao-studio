@@ -20,7 +20,7 @@ export default function Footer() {
                         target="_blank"
                         rel="noreferrer noopener"
                     >
-                        Instagram
+                        <span className="footer-link">Instagram</span>
                     </a>{' '}
                     or{' '}
                     <a
@@ -28,7 +28,7 @@ export default function Footer() {
                         target="_blank"
                         rel="noreferrer noopener"
                     >
-                        d3signdaostudio@gmail.com
+                        <span className="footer-link">d3signdaostudio@gmail.com</span>
                     </a>
                 </p>
             </div>

@@ -2,8 +2,6 @@
 
 Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign DAO Studio의 소개 사이트
 
-사용자의 메타마스크 계정을 조회하여 현재 연결된 네트워크의 주소와 자산 확인 가능
-
 ## 🚩 DEPLOY
 
 [d3sign-dao-studio.vercel.app](https://d3sign-dao-studio.vercel.app/)
@@ -21,7 +19,7 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 
 -   여려 AI 아티스트와 예술 작품 소개
 -   Media Query를 이용한 반응형 웹사이트
--   사용자의 메타마스크 계정을 조회하여 현재 연결된 네트워크의 주소와 자산을 확인 가능
+-   사용자의 메타마스크 계정을 조회하여 현재 연결된 네트워크의 주소와 자산 확인 가능
 
 ## 🚩 SCREENSHOTS
 

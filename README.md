@@ -1,85 +1,100 @@
 # D3sign DAO Studio 소개 사이트
 
-## 기본 기능
-- Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign DAO Studio의 소개 사이트
-- 메타마스크 연결 시 사용자의 Network/Address/Balance 확인 가능 (모바일 환경에서는 비활성화)
+Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign DAO Studio의 소개 사이트
 
-## 기술 스택
-- IDE: VSCode
-- 개발 환경: CRA
-- Library : React
-- Language : JavaScript
-- State: Context API
+사용자의 메타마스크 계정을 조회하여 현재 연결된 네트워크의 주소와 자산 확인 가능
 
-## 사업 소개
+## 🚩 DEPLOY
 
-### ⭐ ABOUT
+[D3sign DAO Studio](https://d3sign-dao-studio.vercel.app/)
 
-D3sign DAO Studio is a forward-thinking digital art platform that brings together a global community of artists, showcasing their unique digital artwork to the world. We are dedicated to creating a decentralized and inclusive environment where artists and art enthusiasts alike can connect, collaborate, and grow together.
+## 🚩 STACKS
+<div>
+  <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=black">
+  <img src="https://img.shields.io/badge/ethers-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=black">
+  <img src="https://img.shields.io/badge/vercel-222222?style=for-the-badge&logo=vercel&logoColor=white">
+</div>
 
-Globalized Art:
-At D3sign DAO Studio, we aim to transcend geographical barriers by exhibiting the remarkable work of our artists on a global scale. Our digital platform allows us to share diverse artistic expressions with audiences worldwide, fostering a greater appreciation for the richness of art from various cultures.
+## 🚩 FUNCTIONS
 
-DAO Governance and Customized Art:
-Our platform operates through DAO governance, empowering our community to actively participate in decision-making processes. This approach enables us to provide personalized and customized digital art that caters to the unique needs and preferences of our customers.
+-   여려 AI 아티스트와 예술 작품 소개
+-   Media Query를 이용한 반응형 웹사이트
+-   사용자의 메타마스크 계정을 조회하여 현재 연결된 네트워크의 주소와 자산을 확인 가능
 
-High-Quality Digital Artwork:
-D3sign DAO Studio is committed to delivering exceptional digital art that meets the highest standards of quality. Our artists work tirelessly to create visually stunning and thought-provoking pieces that captivate and inspire audiences.
+## 🚩 SCREENSHOT
 
-Versatile Offerings and Solutions:
-We offer a diverse range of design art configurations, ensuring that our customers can find the perfect solution to meet their needs. By providing an array of artistic styles and formats, D3sign DAO Studio can cater to a wide variety of preferences and requirements.
+> GIF를 실행시키면 페이지의 움직임을 확인할 수 있습니다.
 
-Community and Belonging:
-Our centralized community platform fosters a sense of belonging among consumers, as they engage with our artists and their work. By creating a welcoming space for dialogue and interaction, we nurture a thriving and interconnected art community.
+### 🔸 Main Page -  desktop
 
-Global Governance Structure:
-D3sign DAO Studio's governance structure is designed to include individuals from various backgrounds, without the need for corporate authorization. This approach enables us to operate in the global market, promoting diversity and inclusivity in the art world.
+![1메인페이지](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/bdfe2986-d00c-4ce4-bb84-680249eebee6)
 
-### ⭐ VISION
+---
 
-Accessibility:
-Allows you around the world to experience contemporary and pop art collections without geographical limitations.
+### 🔸 Main Page - mobile
 
-Convenience:
-With 24/7 availability, you can explore and appreciate the art at their own pace and convenience, making it easier to fit into their busy schedules.
+![1메인페이지M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/23d5078a-a00f-4ac0-856a-37e066f5bc10)
 
-Inspiration:  
-By showing a variety of artistic expressions, D3sign DAO Studio can inspire you to be creative and explore new ideas, skills, or styles in our artistic pursuits.
+---
 
-Education:
-Our art community serves as a valuable educational resource that provides insight into various art styles, techniques, and creative processes of various artists. This allows you to broaden their knowledge of art and promotes a deeper understanding and appreciation of these art forms.
+### 🔸 What's On - desktop
 
-Community rewards:
-We are offering financial rewards to each other's art community activists. For example, buying D3sign DAO Studio's art at an affordable price, art airdrop, community pool rewards, etc.
+![2왓츠온](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/99026ae8-1886-43d7-9f50-32f80a9539e8)
 
-### ⭐ ARTIST
+---
 
-V1VI – Collage Art:
-The collage art of V1VI transports visitors to a realm of fantastical beauty with its visual symphony of forms, hues, and textures. V1VI painstakingly fuses antique and modern elements to produce thought-provoking works that push the limits of conventional art genres.
+### 🔸 What's On - mobile
 
-P0LA - Pop Art:
-The vivid pop art works of P0LA capture the spirit of popular culture with a fresh perspective. P0LA examines topics of consumerism and mass media via vibrant colors and recognizable iconography, turning the ordinary into spectacular.
+![2왓츠온M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/dace0921-663d-437b-80d4-50b20d731181)
 
-R0RO – Pattern Fabric Art:
-The intricate detail and fine craftsmanship are celebrated in R0RO's pattern fabric artwork. R0RO develops captivating textile-based compositions that are both aesthetically appealing and rich in cultural meaning by deftly weaving together various materials.
+---
 
-T0RI – Anime Art:
-With simple and alluring artwork, T0RI brings the world of anime to life. T0RI's artwork, which draws inspiration from Japanese animation and manga, has vibrant storyline and dynamic characters that are appealing to both art lovers and anime fans.
+### 🔸 Arts and Artists - desktop
 
-CHR1S - Cubism:
-CHR1S's artwork dissects and reassembles visual components to produce arresting, three-dimensional compositions, drawing inspiration from early cubists. CHR1S presents a novel viewpoint on reality which promotes reflection through disjointed patterns and abstract shapes.
+#### 🔹 Artists
+![3아트앤아티스트](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/d1f59043-1c60-4808-82b1-b4f339918225)
 
-ZER1 - Pixel Art:
-Pixel art by ZER1 is a wistful ode to the digital era, exhibiting elaborate creations made from the little pixel. ZER1's work is humorous and smart, fusing contemporary methods with a nostalgic style, and appealing to a broad spectrum of consumers.
+#### 🔹 Arts
+![3아트앤아티스트2](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/6d5b1f47-b8c5-46b5-b553-a569bb128353)
 
-J1N - Abstractism:
-Abstract paintings by J1N explore emotion and motion via vivid colors, organic forms, and unplanned brushstrokes. J1N's art enables viewers to go on a special, sensual trip by overcoming the limitations of conventional representation.
+---
 
-MIRR0R - Watercolor:
-Watercolor paintings by MIRR0R are serene and graceful, with delicate colors blending and dancing over the surface. MIRR0R captures the transient beauty of nature and the complexities of human emotion by expertly managing the fluidity of the medium.
+### 🔸 Arts and Artists - mobile
 
-PAUL0 - Expressionism:
-Through vivid colors and strong brushstrokes, Paul's expressionist artwork delves deeply into the human psyche, revealing raw emotions and untold stories. Paul's art challenges viewers to examine their own perceptions and experiences using a style that is both seductive and intriguing.
+#### 🔹 Artists
+![3아트앤아티스트M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/f2e4128c-982a-4b4b-a0dc-7ab614bfb7da)
 
-R1N - Cyberpunk Art:
-A visionary artist who brings life to future cities and mecca girls. Their fascinating work mixes the beauty of science fiction with complex mechanical and robotic elements. Experience the art of R1N's endless possibilities and imaginative creations.
+#### 🔹 Arts
+![3아트앤아티스트M2](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/fa4c242c-a0e0-4641-9fa1-d01ca397a7d2)
+
+---
+
+### 🔸 메타마스크 정보에 접근
+
+<br/>
+
+> #### ⚠ 주의사항
+> 인터넷 지갑에 접근하기 위해 메타마스크 로그인이 필요합니다.<br/>
+> 메타마스크가 설치되지 않은 환경, 모바일 환경에서는 메타마스크를 사용할 수 없기 때문에 해당 기능이 존재하지 않습니다.
+
+<br/>
+
+**🔹 메타마스크 로그인 전**
+
+![4메타마스크로그인전](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/02932a1f-fa1c-4024-ab26-968349ffcd18)
+
+**🔹 메타마스크 로그인 후**
+
+![4메타마스크로그인후](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/d48fa0e1-da75-41f5-9018-150128f99d8c)
+
+**🔹 현재 Network의 Address/Balance 정보에 접근**
+
+![4메타마스크로그인후접근](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/efc480cb-d7c5-4eae-a50a-21a8cc1288d7)
+ 
+
+
+
+
+

@@ -6,7 +6,7 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 
 ## 🚩 DEPLOY
 
-[D3sign DAO Studio](https://d3sign-dao-studio.vercel.app/)
+[d3sign-dao-studio.vercel.app](https://d3sign-dao-studio.vercel.app/)
 
 ## 🚩 STACKS
 <div>
@@ -23,35 +23,35 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 -   Media Query를 이용한 반응형 웹사이트
 -   사용자의 메타마스크 계정을 조회하여 현재 연결된 네트워크의 주소와 자산을 확인 가능
 
-## 🚩 SCREENSHOT
+## 🚩 SCREENSHOTS
 
 > GIF를 실행시키면 페이지의 움직임을 확인할 수 있습니다.
 
-### 🔸 Main Page -  desktop
+### 🔸 Main Page -  Desktop
 
 ![1메인페이지](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/bdfe2986-d00c-4ce4-bb84-680249eebee6)
 
 ---
 
-### 🔸 Main Page - mobile
+### 🔸 Main Page - Mobile
 
 ![1메인페이지M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/23d5078a-a00f-4ac0-856a-37e066f5bc10)
 
 ---
 
-### 🔸 What's On - desktop
+### 🔸 What's On - Desktop
 
 ![2왓츠온](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/99026ae8-1886-43d7-9f50-32f80a9539e8)
 
 ---
 
-### 🔸 What's On - mobile
+### 🔸 What's On - Mobile
 
 ![2왓츠온M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/dace0921-663d-437b-80d4-50b20d731181)
 
 ---
 
-### 🔸 Arts and Artists - desktop
+### 🔸 Arts and Artists - Desktop
 
 #### 🔹 Artists
 ![3아트앤아티스트](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/d1f59043-1c60-4808-82b1-b4f339918225)
@@ -61,7 +61,7 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 
 ---
 
-### 🔸 Arts and Artists - mobile
+### 🔸 Arts and Artists - Mobile
 
 #### 🔹 Artists
 ![3아트앤아티스트M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/f2e4128c-982a-4b4b-a0dc-7ab614bfb7da)

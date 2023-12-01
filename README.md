@@ -5,7 +5,7 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 ## 🚩 LINK
 
 - 배포 사이트: [d3sign-dao-studio.vercel.app](https://d3sign-dao-studio.vercel.app/)
-- 시연 영상: [https://youtu.be/RP8KbxE99Rw](https://youtu.be/RP8KbxE99Rw)
+- 시연 영상: [youtu.be/RP8KbxE99Rw](https://youtu.be/RP8KbxE99Rw)
 
 ## 🚩 STACKS
 <div>

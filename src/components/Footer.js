@@ -14,15 +14,15 @@ export default function Footer() {
                 <p className="text">
                     © 2023 D3sign DAO Studio. All rights reserved.
                     <br />
-                    Contact us:{' '}
+                    Contact us:&nbsp;&nbsp;
                     <a
                         href="https://www.instagram.com/d3sign_dao_studio"
                         target="_blank"
                         rel="noreferrer noopener"
                     >
                         <span className="footer-link">Instagram</span>
-                    </a>{' '}
-                    or{' '}
+                    </a>
+                    &nbsp;&nbsp;or&nbsp;
                     <a
                         href="mailto:d3signdaostudio@gmail.com?subject=문의사항"
                         target="_blank"

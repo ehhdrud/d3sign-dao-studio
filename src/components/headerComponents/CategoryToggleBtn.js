@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ToggleContext } from '../../store/ToggleContext.js';
-import 'boxicons/css/boxicons.min.css';
+import { BiMenu } from 'react-icons/bi';
 import './styles/toggle.css';
 
 export default function CategoryToggleBtn() {
@@ -12,7 +12,7 @@ export default function CategoryToggleBtn() {
 
     return (
         <div className="toggle toggle-container" onClick={handleClick}>
-            <i className="toggle toggle-icon bx bx-menu"></i>
+            <BiMenu className="toggle-icon" />
         </div>
     );
 }

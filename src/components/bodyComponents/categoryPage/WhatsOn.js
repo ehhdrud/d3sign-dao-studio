@@ -1,7 +1,19 @@
 import React, { useEffect, useContext, useRef } from 'react';
 import { ToggleContext } from '../../../store/ToggleContext';
 import './styles/whatsOn.css';
-import 'boxicons/css/boxicons.min.css';
+import {
+    BiWorld,
+    BiGroup,
+    BiDiamond,
+    BiLayer,
+    BiChat,
+    BiNetworkChart,
+    BiCompass,
+    BiAlarmOff,
+    BiBulb,
+    BiBook,
+    BiGift,
+} from 'react-icons/bi';
 import { MetasPageWhatsOn } from '../../../metadatas/metadatas';
 
 export default function WhatsOn() {
@@ -48,7 +60,7 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[0] = el)}
                     >
                         <h2 className="about-body-title">
-                            <i className="bx bx-world"></i>
+                            <BiWorld className="icon" />
                             Globalized Art
                         </h2>
                         <p className="about-body-text">
@@ -64,7 +76,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[1] = el)}
                     >
                         <h2 className="about-body-title">
-                            <i className="bx bxs-group"></i>DAO Governance and Customized Art
+                            <BiGroup className="icon" />
+                            DAO Governance and Customized Art
                         </h2>
                         <p className="about-body-text">
                             Our platform operates through DAO governance, empowering our community
@@ -78,7 +91,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[2] = el)}
                     >
                         <h2 className="about-body-title">
-                            <i className="bx bx-diamond"></i>High-Quality Digital Artwork
+                            <BiDiamond className="icon" />
+                            High-Quality Digital Artwork
                         </h2>
                         <p className="about-body-text">
                             D3sign DAO Studio is committed to delivering exceptional digital art
@@ -92,7 +106,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[3] = el)}
                     >
                         <h2 className="about-body-title">
-                            <i className="bx bx-layer"></i>Versatile Offerings and Solutions
+                            <BiLayer className="icon" />
+                            Versatile Offerings and Solutions
                         </h2>
                         <p className="about-body-text">
                             We offer a diverse range of design art configurations, ensuring that our
@@ -106,7 +121,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[4] = el)}
                     >
                         <h2 className="about-body-title">
-                            <i className="bx bx-chat"></i>Community and Belonging
+                            <BiChat className="icon" />
+                            Community and Belonging
                         </h2>
                         <p className="about-head-text">
                             Our centralized community platform fosters a sense of belonging among
@@ -120,7 +136,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[5] = el)}
                     >
                         <h2 className="about-body-title">
-                            <i className="bx bx-network-chart"></i>Global Governance Structure
+                            <BiNetworkChart className="icon" />
+                            Global Governance Structure
                         </h2>
                         <p className="about-body-text">
                             D3sign DAO Studio's governance structure is designed to include
@@ -141,7 +158,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[6] = el)}
                     >
                         <h2 className="vision-body-title">
-                            <i className="bx bx-compass"></i>Accessibility
+                            <BiCompass className="icon" />
+                            Accessibility
                         </h2>
                         <p className="vision-body-text">
                             Allows you around the world to experience contemporary and pop art
@@ -153,7 +171,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[7] = el)}
                     >
                         <h2 className="vision-body-title">
-                            <i className="bx bx-alarm-off"></i>Convenience
+                            <BiAlarmOff className="icon" />
+                            Convenience
                         </h2>
                         <p className="vision-body-text">
                             With 24/7 availability, you can explore and appreciate the art at their
@@ -166,7 +185,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[8] = el)}
                     >
                         <h2 className="vision-body-title">
-                            <i className="bx bxs-bulb"></i>Inspiration
+                            <BiBulb className="icon" />
+                            Inspiration
                         </h2>
                         <p className="vision-body-text">
                             By showing a variety of artistic expressions, D3sign DAO Studio can
@@ -179,7 +199,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[9] = el)}
                     >
                         <h2 className="vision-body-title">
-                            <i className="bx bx-book"></i>Education
+                            <BiBook className="icon" />
+                            Education
                         </h2>
                         <p className="vision-body-text">
                             Our art community serves as a valuable educational resource that
@@ -194,7 +215,8 @@ export default function WhatsOn() {
                         ref={(el) => (bodyItemsRef.current[10] = el)}
                     >
                         <h2 className="vision-body-title">
-                            <i className="bx bx-gift"></i>Community rewards
+                            <BiGift className="icon" />
+                            Community rewards
                         </h2>
                         <p className="vision-body-text">
                             We are offering financial rewards to each other's art community

@@ -18,7 +18,7 @@ import R1N from '../../../images/arts/R1N/R1N-01.webp';
 
 const imageFiles = [V1VI, P0LA, R0RO, T0RI, CHR1S, ZER1, J1N, MIRR0R, PAUL0, R1N];
 
-export default function ArtAndArtists() {
+function ArtAndArtists() {
     const { categoryLayoutChanged } = useContext(ToggleContext);
 
     const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -232,3 +232,5 @@ export default function ArtAndArtists() {
         </div>
     );
 }
+
+export default React.memo(ArtAndArtists);

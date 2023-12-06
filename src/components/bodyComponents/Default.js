@@ -71,7 +71,7 @@ const arts = [
     },
 ];
 
-export default function Default() {
+function Default() {
     const { categoryLayoutChanged } = useContext(ToggleContext);
 
     const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -128,3 +128,5 @@ export default function Default() {
         </div>
     );
 }
+
+export default React.memo(Default);

@@ -11,7 +11,7 @@ import web3Img from '../../../images/web3-img.jpg';
 
 const imageFiles = [homedecorImg, goodsImg, web3Img];
 
-export default function Marketplace() {
+function Marketplace() {
     const { categoryLayoutChanged } = useContext(ToggleContext);
 
     const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -79,3 +79,5 @@ export default function Marketplace() {
         </div>
     );
 }
+
+export default React.memo(Marketplace);

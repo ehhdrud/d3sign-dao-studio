@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { SyncLoader } from 'react-spinners';
 import './styles/carousel.css';
 
-export default function Carousel({ imagePaths }) {
+function Carousel({ imagePaths }) {
     const carouselRef = useRef(null);
     const carouselItemsRef = useRef([]);
     const carouselControlsRef = useRef([]);
@@ -194,3 +194,5 @@ export default function Carousel({ imagePaths }) {
         </div>
     );
 }
+
+export default React.memo(Carousel);

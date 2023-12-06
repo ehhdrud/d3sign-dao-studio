@@ -4,15 +4,13 @@ import { ToggleContext } from '../store/ToggleContext.js';
 import { SyncLoader } from 'react-spinners';
 import './styles/body.css';
 
-import Default from './bodyComponents/Default';
-import WhatsOn from './bodyComponents/categoryPage/WhatsOn';
-import Faq from './bodyComponents/categoryPage/Faq.js';
-
+const Default = lazy(() => import('./bodyComponents/Default'));
+const WhatsOn = lazy(() => import('./bodyComponents/categoryPage/WhatsOn'));
+const Faq = lazy(() => import('./bodyComponents/categoryPage/Faq.js'));
 const Marketplace = lazy(() => import('./bodyComponents/categoryPage/Marketplace.js'));
 const Web3 = lazy(() => import('./bodyComponents/categoryPage/marketplacePage/Web3.js'));
 const Goods = lazy(() => import('./bodyComponents/categoryPage/marketplacePage/Goods.js'));
 const HomeDecor = lazy(() => import('./bodyComponents/categoryPage/marketplacePage/HomeDecor.js'));
-
 const ArtAndArtists = lazy(() => import('./bodyComponents/categoryPage/ArtsAndArtists'));
 const V1VI = lazy(() => import('./bodyComponents/categoryPage/artsAndArtistPage/V1VI'));
 const P0LA = lazy(() => import('./bodyComponents/categoryPage/artsAndArtistPage/P0LA'));

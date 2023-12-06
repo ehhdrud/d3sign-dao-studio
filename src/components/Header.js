@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { lazy, useContext } from 'react';
 import { ToggleContext } from '../store/ToggleContext';
 import CategoryToggleBtn from './headerComponents/CategoryToggleBtn';
 import Logo from './headerComponents/Logo';

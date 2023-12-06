@@ -1,114 +1,118 @@
 * {
-  font-family: Montserrat;
-  color: white;
+    font-family: Montserrat;
+    color: white;
 }
 
 .App {
-  user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
 }
 
 body {
-  background-color: black;
+    background-color: black;
 }
 
 h1,
 h2,
 .category .link .category-text {
-  font-family: Roboto-Bold;
-  font-weight: 700;
+    font-family: Roboto-Bold;
+    font-weight: 700;
 }
 
 .link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* 폰트 관련 코드 */
 @font-face {
-  font-family: Roboto-Bold;
-  src: url("fonts/Roboto-Bold.ttf") format("truetype");
+    font-family: Roboto-Bold;
+    font-display: swap;
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: RobotoCondensed-Light;
-  src: url("fonts/RobotoCondensed-Light.ttf") format("truetype");
+    font-family: RobotoCondensed-Light;
+    font-display: swap;
+    src: url('fonts/RobotoCondensed-Light.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: Montserrat;
-  src: url("fonts/Montserrat.ttf") format("truetype");
+    font-family: Montserrat;
+    font-display: swap;
+    src: url('fonts/Montserrat.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: Inter;
-  src: url("fonts/Inter.ttf") format("truetype");
+    font-family: Inter;
+    font-display: swap;
+    src: url('fonts/Inter.ttf') format('truetype');
 }
 
 /* 키프레임 관련 코드 */
 @keyframes shake {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-3px);
-  }
-  75% {
-    transform: translateX(3px);
-  }
-  100% {
-    transform: translateX(0);
-  }
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-3px);
+    }
+    75% {
+        transform: translateX(3px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 @keyframes slideAndBorderAnimation {
-  0% {
-    transform: translateX(0);
-    border: 1px dotted rgba(128, 128, 128, 0);
-    border-right: none;
-  }
-  100% {
-    transform: translateX(1%);
-    border: 1px dotted rgba(128, 128, 128, 0.5);
-    border-right: none;
-    box-shadow: 0px 0px 50px 1px rgb(0, 0, 0);
-  }
+    0% {
+        transform: translateX(0);
+        border: 1px dotted rgba(128, 128, 128, 0);
+        border-right: none;
+    }
+    100% {
+        transform: translateX(1%);
+        border: 1px dotted rgba(128, 128, 128, 0.5);
+        border-right: none;
+        box-shadow: 0px 0px 50px 1px rgb(0, 0, 0);
+    }
 }
 
 @keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fade-in-2 {
-  0% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
 
-  33% {
-    opacity: 0;
-  }
+    33% {
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-  }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes fade-in-3 {
-  0% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
 
-  66% {
-    opacity: 0;
-  }
+    66% {
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-  }
+    100% {
+        opacity: 1;
+    }
 }

@@ -1,179 +1,173 @@
 .artists {
-  width: 75%;
-  color: white;
+    width: 75%;
+    color: white;
 }
 
 .artists h1 {
-  font-size: 5vw;
+    font-size: 5vw;
 }
 
 .artists .container {
-  width: 100%;
-  display: flex;
+    width: 100%;
+    display: flex;
 }
 
 .artists .img-container {
-  position: relative;
-  width: 30%;
-  height: 0;
-  padding-bottom: 30%;
+    position: relative;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
 }
 
 .artists .main-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 
 .artists .artist-card {
-  width: 70%;
-  margin: 1% 0;
-  margin-left: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 12%;
+    width: 70%;
+    margin: 1% 0;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12%;
 }
 
 .artists .artist-card * {
-  margin: 0px;
+    margin: 0px;
 }
 
 .artists h2 {
-  font-size: 2.5vw;
-  display: flex;
-  align-items: center;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: center;
 }
 
 .artists .genre {
-  font-size: 2vw;
-  font-style: italic;
-  animation: fade-in 0.5s ease-in-out forwards;
+    font-size: 2vw;
+    font-style: italic;
+    animation: fade-in 0.5s ease-in-out forwards;
 }
 
 .artists p {
-  font-size: 1.4vw;
-  animation: fade-in 1.5s ease-in-out forwards;
+    font-size: 1.4vw;
+    animation: fade-in 1.5s ease-in-out forwards;
 }
 
 .artists .link {
-  display: flex;
-  border-top: 1px solid rgba(128, 128, 128, 0);
-  border-left: 2px solid rgba(128, 128, 128, 0);
-  border-bottom: 1px solid rgba(128, 128, 128, 0);
+    display: flex;
+    border-top: 1px solid rgba(128, 128, 128, 0);
+    border-left: 2px solid rgba(128, 128, 128, 0);
+    border-bottom: 1px solid rgba(128, 128, 128, 0);
 }
 
 .artists .link:hover {
-  animation: slideAndBorderAnimation 1s forwards;
+    animation: slideAndBorderAnimation 1s forwards;
 }
 
 @media (max-width: 1023.9px) {
-  .artists h1 {
-    text-align: center;
-  }
+    .artists h1 {
+        text-align: center;
+    }
 
-  .artists .container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
-    overflow: hidden;
-    background-color: rgb(40, 40, 40);
-    animation: fade-in 2s ease-in-out forwards;
-  }
+    .artists .container {
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        overflow: hidden;
+        background-color: rgb(40, 40, 40);
+        animation: fade-in 2s ease-in-out forwards;
+    }
 
-  .artists .container .img-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%;
-  }
+    .artists .container .img-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+    }
 
-  .artists .container .main-img {
-    width: 98%;
-    margin-top: 2px;
-    border-radius: 30px 30px 10px 10px;
-  }
+    .artists .artist-card {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 2.5px 0;
+    }
+    .artists h2 {
+        display: inline;
+        font-weight: 700;
+        font-size: 16px;
+        margin: 0px;
+        padding: 0 5px;
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+    }
 
-  .artists .artist-card {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 2.5px 0;
-  }
-  .artists h2 {
-    display: inline;
-    font-weight: 700;
-    font-size: 16px;
-    margin: 0px;
-    padding: 0 5px;
-    border: 3px solid black;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-  }
+    .artists .genre {
+        display: inline;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        font-style: normal;
+        margin: 0px;
+        padding: 0 5px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: black;
+    }
 
-  .artists .genre {
-    display: inline;
-    font-family: Montserrat;
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
-    margin: 0px;
-    padding: 0 5px;
-    border: 1px solid white;
-    border-radius: 10px;
-    background-color: black;
-  }
+    .artists .description {
+        display: none;
+    }
 
-  .artists .description {
-    display: none;
-  }
+    .artists .link {
+        margin: 30px 30px;
+    }
 
-  .artists .link {
-    margin: 30px 30px;
-  }
-
-  .artists .link:hover {
-    animation: none;
-  }
+    .artists .link:hover {
+        animation: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .artists h1 {
-    font-size: 52.5px;
-  }
+    .artists h1 {
+        font-size: 52.5px;
+    }
 
-  .artists {
-    width: 60%;
-  }
+    .artists {
+        width: 60%;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 767.9px) {
-  .artists h1 {
-    font-size: 45px;
-  }
+    .artists h1 {
+        font-size: 45px;
+    }
 
-  .artists {
-    width: 75%;
-  }
+    .artists {
+        width: 75%;
+    }
 }
 
 @media (max-width: 480px) {
-  .artists h1 {
-    font-size: 37.5px;
-  }
+    .artists h1 {
+        font-size: 37.5px;
+    }
 
-  .artists {
-    width: 90%;
-  }
+    .artists {
+        width: 90%;
+    }
 
-  .artists.rearranged {
-    filter: blur(1.25px);
-  }
+    .artists.rearranged {
+        filter: blur(1.25px);
+    }
 }

@@ -6,10 +6,6 @@ import './styles/body.css';
 
 import Default from './bodyComponents/Default';
 import WhatsOn from './bodyComponents/categoryPage/WhatsOn';
-// import Marketplace from './bodyComponents/categoryPage/Marketplace.js';
-// import Goods from './bodyComponents/categoryPage/marketplacePage/Goods.js';
-// import HomeDecor from './bodyComponents/categoryPage/marketplacePage/HomeDecor.js';
-// import Web3 from './bodyComponents/categoryPage/marketplacePage/Web3.js';
 import Faq from './bodyComponents/categoryPage/Faq.js';
 
 const Marketplace = lazy(() => import('./bodyComponents/categoryPage/Marketplace.js'));

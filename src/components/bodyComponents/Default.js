@@ -115,8 +115,8 @@ function Default() {
                             <div className="art-img-container">
                                 <img
                                     className="art-img"
-                                    srcSet={`${art.path[1]} 480w, ${art.path[0]} 1000w,`}
-                                    src={art.path[1]}
+                                    srcSet={`${art.path[1]} 640w, ${art.path[0]} 1000w`}
+                                    src={art.path[0]}
                                     alt={`${art.artist}'s artwork`}
                                 />
                                 <div className="genre-on-img">{art.genre}</div>

@@ -27,7 +27,7 @@
     font-family: Inter;
     font-weight: 500;
     font-size: 16px;
-    color: #555555;
+    color: #888888;
     white-space: nowrap;
 }
 
@@ -35,7 +35,7 @@
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
-    color: #555555;
+    color: #888888;
 }
 
 @media (min-width: 768px) and (max-width: 1023.9px) {

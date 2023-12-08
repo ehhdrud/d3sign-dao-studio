@@ -4,7 +4,6 @@ import CategoryToggleBtn from './headerComponents/CategoryToggleBtn';
 import Logo from './headerComponents/Logo';
 import Category from './headerComponents/Category';
 import SnsTop from './headerComponents/SnsTop';
-import { SyncLoader } from 'react-spinners';
 import './styles/header.css';
 
 const Wallet = lazy(() => import('./headerComponents/Wallet'));
@@ -19,14 +18,8 @@ export default function Header() {
             <SnsTop />
             <CategoryToggleBtn />
             {typeof window.ethereum !== 'undefined' && (
-                <Suspense
-                    fallback={
-                        <div className="loading">
-                            <SyncLoader color={'#36d7b7'} size={7} />
-                        </div>
-                    }
-                >
-                    <Wallet />{' '}
+                <Suspense fallback="">
+                    <Wallet />
                 </Suspense>
             )}
         </nav>

@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useContext } from 'react';
 import { ToggleContext } from '../../store/ToggleContext';
 import { Link } from 'react-router-dom';
-import { SyncLoader } from 'react-spinners';
 import './styles/default.css';
 import { MetasPageDefault } from '../../metadatas/metadatas';
 
@@ -96,58 +95,37 @@ const arts = [
 function Default() {
     const { categoryLayoutChanged } = useContext(ToggleContext);
 
-    const [imagesLoaded, setImagesLoaded] = useState(false);
-    useEffect(() => {
-        const imagePromises = imageFiles.map((file) => {
-            return new Promise((resolve) => {
-                const img = new Image();
-                img.src = file;
-                img.onload = () => resolve();
-            });
-        });
-        Promise.all(imagePromises).then(() => {
-            setImagesLoaded(true);
-        });
-    }, []);
-
     return (
         <div className={`default ${categoryLayoutChanged ? 'rearranged' : ''}`}>
             <MetasPageDefault></MetasPageDefault>
-            {imagesLoaded ? (
-                <>
-                    <div className="intro">
-                        <span className="intro-item-1">A Community of</span>
-                        <span className="intro-item-2">&nbsp;10 Passionate</span>
-                        <span className="intro-item-3">&nbsp;Graphic Design Artists .</span>
-                    </div>
-                    <div className="gallery-container">
-                        {arts.map((art, index) => (
-                            <Link
-                                className="link"
-                                key={`artist-${index}`}
-                                to={`/artsandartists/${art.artist}`}
-                            >
-                                <div className="art-card">
-                                    <div className="art-img-container">
-                                        <img
-                                            className="art-img"
-                                            srcSet={`${art.path[1]} 300w, ${art.path[0]} 1000w`}
-                                            src={art.path[0]}
-                                            alt={`${art.artist} 's artwork`}
-                                        />
-                                        <div className="genre-on-img">{art.genre}</div>
-                                        <div className="artist-on-img">{art.artist}</div>
-                                    </div>
-                                </div>
-                            </Link>
-                        ))}
-                    </div>
-                </>
-            ) : (
-                <div className="loading">
-                    <SyncLoader color={'#36d7b7'} size={7} />
-                </div>
-            )}
+
+            <div className="intro">
+                <span className="intro-item-1">A Community of</span>
+                <span className="intro-item-2">&nbsp;10 Passionate</span>
+                <span className="intro-item-3">&nbsp;Graphic Design Artists .</span>
+            </div>
+            <div className="gallery-container">
+                {arts.map((art, index) => (
+                    <Link
+                        className="link"
+                        key={`artist-${index}`}
+                        to={`/artsandartists/${art.artist}`}
+                    >
+                        <div className="art-card">
+                            <div className="art-img-container">
+                                <img
+                                    className="art-img"
+                                    srcSet={`${art.path[1]} 480w, ${art.path[0]} 1000w`}
+                                    src={art.path[0]}
+                                    alt={`${art.artist} 's artwork`}
+                                />
+                                <div className="genre-on-img">{art.genre}</div>
+                                <div className="artist-on-img">{art.artist}</div>
+                            </div>
+                        </div>
+                    </Link>
+                ))}
+            </div>
         </div>
     );
 }

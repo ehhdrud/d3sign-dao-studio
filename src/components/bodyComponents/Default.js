@@ -115,7 +115,7 @@ function Default() {
                             <div className="art-img-container">
                                 <img
                                     className="art-img"
-                                    srcSet={`${art.path[1]} 640w, ${art.path[1]} 1000w`}
+                                    srcSet={`${art.path[1]} 640w, ${art.path[0]} 1000w`}
                                     src={art.path[0]}
                                     alt={`${art.artist}'s artwork`}
                                 />

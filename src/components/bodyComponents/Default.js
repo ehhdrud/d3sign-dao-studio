@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { ToggleContext } from '../../store/ToggleContext';
 import { Link } from 'react-router-dom';
 import './styles/default.css';
@@ -93,7 +93,22 @@ const arts = [
 ];
 
 function Default() {
+    const [style, setStyle] = useState(null);
     const { categoryLayoutChanged } = useContext(ToggleContext);
+
+    const handleMouseMove = (e, index) => {
+        let x = e.nativeEvent.offsetX;
+        let y = e.nativeEvent.offsetY;
+        console.log(x, y);
+        let rotateX = (40 / -255) * x + 20;
+        let rotateY = (40 / -255) * y + 20;
+        setStyle({ index: index, rotateX: rotateX, rotateY: rotateY });
+    };
+
+    const handleMouseOut = () => {
+        console.log('mouseout!');
+        setStyle(null);
+    };
 
     return (
         <div className={`default ${categoryLayoutChanged ? 'rearranged' : ''}`}>
@@ -107,11 +122,34 @@ function Default() {
             <div className="gallery-container">
                 {arts.map((art, index) => (
                     <Link
-                        className="link"
+                        className="art-link"
                         key={`artist-${index}`}
                         to={`/artsandartists/${art.artist}`}
                     >
-                        <div className="art-card">
+                        <div
+                            className="art-card"
+                            onMouseMove={(e) => handleMouseMove(e, index)}
+                            onMouseOut={handleMouseOut}
+                            style={
+                                style && style.index === index
+                                    ? {
+                                          transform: `perspective(400px) rotateY(${style.rotateX}deg) rotateX(${style.rotateY}deg)`,
+                                      }
+                                    : {}
+                            }
+                        >
+                            <div
+                                className="art-overlay"
+                                style={
+                                    style && style.index === index
+                                        ? {
+                                              backgroundPosition: `${
+                                                  style.rotateX + style.rotateY
+                                              }%`,
+                                          }
+                                        : {}
+                                }
+                            />
                             <div className="art-img-container">
                                 <img
                                     className="art-img"

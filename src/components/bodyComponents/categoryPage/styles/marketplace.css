@@ -1,5 +1,6 @@
 .marketplace {
     margin: auto 0;
+    animation: fade-in 1.5s ease-in-out forwards;
 }
 
 .marketplace-category {

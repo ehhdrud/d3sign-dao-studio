@@ -127,10 +127,6 @@
         margin-bottom: 6px;
     }
 
-    .overlay {
-        animation: fade-in-2 3.5s ease-in-out forwards;
-    }
-
     .art-card {
         border-radius: 15px;
     }

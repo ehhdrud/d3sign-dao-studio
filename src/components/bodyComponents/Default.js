@@ -149,7 +149,7 @@ function Default() {
                                           }
                                         : {}
                                 }
-                            />
+                            ></div>
                             <div className="art-img-container">
                                 <img
                                     className="art-img"

@@ -51,20 +51,20 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 
 ### 🔸 Arts and Artists - Desktop
 
-#### 🔹 Artists
+#### ◽ Artists
 ![3아트앤아티스트](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/c244ebd8-8943-426f-b83b-2c8bcae6d77e)
 
-#### 🔹 Arts
+#### ◽ Arts
 ![3아트앤아티스트2](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/0c14046c-ff4b-41eb-b9d4-141367a9bff4)
 
 ---
 
 ### 🔸 Arts and Artists - Mobile
 
-#### 🔹 Artists
+#### ◽ Artists
 ![3아트앤아티스트M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/2512defa-e47a-46c8-817d-b8950f5c6b83)
 
-#### 🔹 Arts
+#### ◽ Arts
 ![3아트앤아티스트M2](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/ec08a87d-b7c0-4cbb-bb62-20b491bbbbed)
 
 ---
@@ -79,15 +79,15 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 
 <br/>
 
-**🔹 메타마스크 로그인 전**
+**◽ 메타마스크 로그인 전**
 
 ![4메타마스크로그인전](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/02932a1f-fa1c-4024-ab26-968349ffcd18)
 
-**🔹 메타마스크 로그인 후**
+**◽ 메타마스크 로그인 후**
 
 ![4메타마스크로그인후](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/d48fa0e1-da75-41f5-9018-150128f99d8c)
 
-**🔹 현재 Network의 Address/Balance 정보에 접근**
+**◽ 현재 Network의 Address/Balance 정보에 접근**
 
 ![4메타마스크로그인후접근](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/b5515135-95a7-47f5-b540-87b7acad4611)
 

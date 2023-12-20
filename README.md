@@ -5,8 +5,7 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 ## 🚩 LINK
 
 - 배포 사이트: [d3sign-dao-studio.vercel.app](https://d3sign-dao-studio.vercel.app/)
-- 시연 영상: [youtu.be/RP8KbxE99Rw](https://youtu.be/RP8KbxE99Rw)
-
+- 시연 영상: [youtu.be/RP8KbxE99Rw](https://youtu.be/OpwizAblHl8)
 ## 🚩 STACKS
 <div>
   <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
@@ -28,45 +27,45 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 
 ### 🔸 Main Page -  Desktop
 
-![1메인페이지](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/bdfe2986-d00c-4ce4-bb84-680249eebee6)
+![1메인페이지](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/e4d4323b-20dc-4e34-aa2c-73a4f6918d15)
 
 ---
 
 ### 🔸 Main Page - Mobile
 
-![1메인페이지M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/23d5078a-a00f-4ac0-856a-37e066f5bc10)
+![1메인페이지M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/e9e6412f-cd40-4306-aecf-d59a9c045992)
 
 ---
 
 ### 🔸 What's On - Desktop
 
-![2왓츠온](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/99026ae8-1886-43d7-9f50-32f80a9539e8)
+![2왓츠온](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/1caf0e2f-eaa7-48cb-8078-c49d9936044a)
 
 ---
 
 ### 🔸 What's On - Mobile
 
-![2왓츠온M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/dace0921-663d-437b-80d4-50b20d731181)
+![2왓츠온M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/8006213c-82a9-4cba-a0c3-2208f7174b65)
 
 ---
 
 ### 🔸 Arts and Artists - Desktop
 
 #### 🔹 Artists
-![3아트앤아티스트](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/d1f59043-1c60-4808-82b1-b4f339918225)
+![3아트앤아티스트](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/c244ebd8-8943-426f-b83b-2c8bcae6d77e)
 
 #### 🔹 Arts
-![3아트앤아티스트2](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/6d5b1f47-b8c5-46b5-b553-a569bb128353)
+![3아트앤아티스트2](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/0c14046c-ff4b-41eb-b9d4-141367a9bff4)
 
 ---
 
 ### 🔸 Arts and Artists - Mobile
 
 #### 🔹 Artists
-![3아트앤아티스트M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/f2e4128c-982a-4b4b-a0dc-7ab614bfb7da)
+![3아트앤아티스트M](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/2512defa-e47a-46c8-817d-b8950f5c6b83)
 
 #### 🔹 Arts
-![3아트앤아티스트M2](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/fa4c242c-a0e0-4641-9fa1-d01ca397a7d2)
+![3아트앤아티스트M2](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/ec08a87d-b7c0-4cbb-bb62-20b491bbbbed)
 
 ---
 
@@ -90,16 +89,20 @@ Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign 
 
 **🔹 현재 Network의 Address/Balance 정보에 접근**
 
-![4메타마스크로그인후접근](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/efc480cb-d7c5-4eae-a50a-21a8cc1288d7)
+![4메타마스크로그인후접근](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/b5515135-95a7-47f5-b540-87b7acad4611)
 
 ---
 
 ### 🔸 렌더링 성능 개선
 
-WebP 포맷, Lazy Loading을 통해 이미지 파일에 대한 최적화를 진행하였고, 5155ms -> 1150ms로 초기 렌더링 속도를 개선
+WebP 포맷, Lazy Loading을 통해 렌더링 최적화를 진행하였고, 그 결과 퍼포먼스 탭의 로딩 속도를 5155ms -> 1150ms로 개선.
+
+이 외에도 성능 측정 사이트인 PageSpeed Insight의 여러 권장 사항을 따라 코드를 수정하여 PageSpeed Insight에서 데스크탑 기준 100점의 퍼포먼스 점수를 확인.
 
 ![이미지최적화전_배포환경](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/d0179d0c-f113-4471-b4f0-6a8552634954)
 ![이미지최적화후_1단계_배포환경](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/82645b07-f6c4-4199-b933-949839b31e31)
+
+![렌더링최적화최종](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/93914e41-c2b3-41e3-9247-00933fed8aab)
 
 
 

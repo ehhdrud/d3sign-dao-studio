@@ -100,7 +100,7 @@ WebP 포맷, Lazy Loading을 통해 렌더링 최적화를 진행하였고, 그 
 ![이미지최적화전](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/d9832235-7707-4258-b07e-042e3ad830c2)
 ![이미지최적화후](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/1f0b8495-baf5-4bd4-88c6-78d597ca1996)
 
-이 외 react-helmet, react-snap을 사용하여 SEO를 개선하고 권장 사항을 따라 Time Blocking 요인들을 줄이는 작업을 통해 PageSpeed Insight의 페이지 성능 점수를 데스크탑 기준 50~60점대에서 95~100점대로 개선
+이 외 react-helmet, react-snap을 사용하여 SEO를 개선하고 권장 사항을 따라 Time Blocking 요인들을 줄이는 작업을 통해 PageSpeed Insight의 페이지 성능 점수를 데스크탑 기준 50\~60점대에서 95\~100점대로 개선
 
 ![PSI_렌더링최적화후](https://github.com/ehhdrud/d3sign-dao-studio/assets/106059716/7a4b6c96-3ce6-4815-86c3-58d2daef8de1)
 

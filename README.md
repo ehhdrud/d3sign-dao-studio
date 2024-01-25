@@ -2,6 +2,8 @@
 
 Web2와 Web3에서 AI tool를 활용한 그림을 판매하는 사업인 D3sign DAO Studio의 소개 사이트
 
+( 2023.05 - 2023.07 )
+
 ## 🚩 LINK
 
 - 배포 사이트: [d3sign-dao-studio.vercel.app](https://d3sign-dao-studio.vercel.app/)
